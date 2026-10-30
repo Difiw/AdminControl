@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "admin_control",
+	"version": "${version}",
+	"name": "Admin Control",
+	"description": "Система админ-контроля и модерации игроков для Fabric 1.20.1. Работает в одиночной игре, LAN и на выделенном сервере.",
+	"authors": ["AdminControl"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.admincontrol.AdminControlMod"
+		],
+		"client": [
+			"ru.admincontrol.client.AdminControlClient"
+		]
+	},
+	"mixins": [
+		"admin_control.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"conflicts": {
+		"emi": "*",
+		"roughlyenoughitems": "*",
+		"jei": "*"
+	},
+	"icon": "assets/admin_control/icon.png"
+}

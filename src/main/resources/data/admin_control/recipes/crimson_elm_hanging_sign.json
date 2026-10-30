@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","pattern":["C C","PPP","PPP"],"key":{"C":{"item":"minecraft:chain"},"P":{"item":"admin_control:stripped_crimson_elm_log"}},"result":{"item":"admin_control:crimson_elm_hanging_sign","count":6}}

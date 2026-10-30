@@ -1,0 +1,13 @@
+{
+  "type": "admin_control:cw_story",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "admin_control:lumira_grove",
+      "lakes": false,
+      "features": false,
+      "layers": [{ "height": 1, "block": "minecraft:air" }],
+      "structure_overrides": []
+    }
+  }
+}

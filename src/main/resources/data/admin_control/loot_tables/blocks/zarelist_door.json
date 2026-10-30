@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1.0,"bonus_rolls":0.0,"entries":[{"type":"minecraft:item","name":"admin_control:zarelist_door"}],"conditions":[{"condition":"minecraft:survives_explosion"},{"condition":"minecraft:block_state_property","block":"admin_control:zarelist_door","properties":{"half":"lower"}}]}]}

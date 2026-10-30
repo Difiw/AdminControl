@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:twilight_iron_ore",
+		"admin_control:echolite_ore"
+	]
+}

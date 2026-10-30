@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumirite_shovel",
+		"admin_control:zaremed_shovel",
+		"admin_control:twilight_iron_shovel",
+		"admin_control:starsilver_shovel"
+	]
+}

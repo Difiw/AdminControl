@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","pattern":["II","IS"," S"],"key":{"I":{"item":"admin_control:zaremed_ingot"},"S":{"item":"minecraft:stick"}},"result":{"item":"admin_control:zaremed_axe","count":1}}

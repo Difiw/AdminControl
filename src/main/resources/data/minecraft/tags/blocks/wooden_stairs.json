@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_stairs",
+		"admin_control:zarelist_stairs",
+		"admin_control:twilight_cedar_stairs",
+		"admin_control:star_birch_stairs",
+		"admin_control:crimson_elm_stairs",
+		"admin_control:moon_ash_stairs",
+		"admin_control:malachite_sequoia_stairs"
+	]
+}

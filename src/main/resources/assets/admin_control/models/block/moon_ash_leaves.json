@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/cube","textures":{"particle":"admin_control:block/moon_ash_leaves","down":"admin_control:block/moon_ash_leaves_bottom","up":"admin_control:block/moon_ash_leaves_top","north":"admin_control:block/moon_ash_leaves","south":"admin_control:block/moon_ash_leaves","east":"admin_control:block/moon_ash_leaves","west":"admin_control:block/moon_ash_leaves"}}

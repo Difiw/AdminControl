@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gold_nugget"
+		},
+		"title": {
+			"text": "Смерть в нищете"
+		},
+		"description": {
+			"text": "Сыграйте в казино больше 20 раз и потратьте там больше World coin, чем выиграли."
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
+	},
+	"criteria": {
+		"broke": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

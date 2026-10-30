@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_slab",
+		"admin_control:zarelist_slab",
+		"admin_control:twilight_cedar_slab",
+		"admin_control:star_birch_slab",
+		"admin_control:crimson_elm_slab",
+		"admin_control:moon_ash_slab",
+		"admin_control:malachite_sequoia_slab"
+	]
+}

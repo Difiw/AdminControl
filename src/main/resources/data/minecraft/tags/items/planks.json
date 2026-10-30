@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_planks",
+		"admin_control:zarelist_planks",
+		"admin_control:twilight_cedar_planks",
+		"admin_control:star_birch_planks",
+		"admin_control:crimson_elm_planks",
+		"admin_control:moon_ash_planks",
+		"admin_control:malachite_sequoia_planks"
+	]
+}

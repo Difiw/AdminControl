@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","pattern":["CCC","PTP","PPP"],"key":{"C":{"item":"minecraft:cobblestone"},"P":{"tag":"minecraft:planks"},"T":{"item":"minecraft:crafting_table"}},"result":{"item":"admin_control:rune_workbench","count":1}}

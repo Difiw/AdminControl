@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_sapling",
+		"admin_control:zarelist_sapling",
+		"admin_control:twilight_cedar_sapling",
+		"admin_control:star_birch_sapling",
+		"admin_control:crimson_elm_sapling",
+		"admin_control:moon_ash_sapling",
+		"admin_control:malachite_sequoia_sapling"
+	]
+}

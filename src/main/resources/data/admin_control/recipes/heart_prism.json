@@ -1,0 +1,1 @@
+{"type":"admin_control:rune_shaped","category":"misc","pattern":[" H ","S S"],"key":{"H":{"item":"admin_control:heart_crystal"},"S":{"item":"admin_control:starsilver_ingot"}},"result":{"item":"admin_control:heart_prism","count":1}}

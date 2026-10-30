@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumirite_pickaxe",
+		"admin_control:zaremed_pickaxe",
+		"admin_control:twilight_iron_pickaxe",
+		"admin_control:starsilver_pickaxe"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": {
+			"text": "Удачник"
+		},
+		"description": {
+			"text": "Выиграйте в казино хотя бы один раз (выплата больше ставки)."
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
+	},
+	"criteria": {
+		"win": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

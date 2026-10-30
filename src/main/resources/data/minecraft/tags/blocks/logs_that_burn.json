@@ -1,0 +1,33 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_log",
+		"admin_control:stripped_lumira_willow_log",
+		"admin_control:lumira_willow_wood",
+		"admin_control:stripped_lumira_willow_wood",
+		"admin_control:zarelist_log",
+		"admin_control:stripped_zarelist_log",
+		"admin_control:zarelist_wood",
+		"admin_control:stripped_zarelist_wood",
+		"admin_control:twilight_cedar_log",
+		"admin_control:stripped_twilight_cedar_log",
+		"admin_control:twilight_cedar_wood",
+		"admin_control:stripped_twilight_cedar_wood",
+		"admin_control:star_birch_log",
+		"admin_control:stripped_star_birch_log",
+		"admin_control:star_birch_wood",
+		"admin_control:stripped_star_birch_wood",
+		"admin_control:crimson_elm_log",
+		"admin_control:stripped_crimson_elm_log",
+		"admin_control:crimson_elm_wood",
+		"admin_control:stripped_crimson_elm_wood",
+		"admin_control:moon_ash_log",
+		"admin_control:stripped_moon_ash_log",
+		"admin_control:moon_ash_wood",
+		"admin_control:stripped_moon_ash_wood",
+		"admin_control:malachite_sequoia_log",
+		"admin_control:stripped_malachite_sequoia_log",
+		"admin_control:malachite_sequoia_wood",
+		"admin_control:stripped_malachite_sequoia_wood"
+	]
+}

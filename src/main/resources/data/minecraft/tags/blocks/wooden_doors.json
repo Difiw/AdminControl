@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_door",
+		"admin_control:zarelist_door",
+		"admin_control:twilight_cedar_door",
+		"admin_control:star_birch_door",
+		"admin_control:crimson_elm_door",
+		"admin_control:moon_ash_door",
+		"admin_control:malachite_sequoia_door"
+	]
+}

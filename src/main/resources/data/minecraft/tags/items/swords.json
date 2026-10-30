@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumirite_sword",
+		"admin_control:zaremed_sword",
+		"admin_control:twilight_iron_sword",
+		"admin_control:starsilver_sword"
+	]
+}

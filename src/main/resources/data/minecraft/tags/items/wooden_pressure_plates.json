@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_pressure_plate",
+		"admin_control:zarelist_pressure_plate",
+		"admin_control:twilight_cedar_pressure_plate",
+		"admin_control:star_birch_pressure_plate",
+		"admin_control:crimson_elm_pressure_plate",
+		"admin_control:moon_ash_pressure_plate",
+		"admin_control:malachite_sequoia_pressure_plate"
+	]
+}

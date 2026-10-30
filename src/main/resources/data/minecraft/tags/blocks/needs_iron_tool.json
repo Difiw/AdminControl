@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumirite_ore",
+		"admin_control:dew_quartz_ore",
+		"admin_control:jarolite_ore",
+		"admin_control:lumirite_block",
+		"admin_control:zaremed_block",
+		"admin_control:twilight_iron_block",
+		"admin_control:starsilver_block"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_rocket"
+		},
+		"title": {
+			"text": "Любитель развлечений"
+		},
+		"description": {
+			"text": "Победите хотя бы в одном мероприятии."
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+	},
+	"criteria": {
+		"win": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumirite_hoe",
+		"admin_control:zaremed_hoe",
+		"admin_control:twilight_iron_hoe",
+		"admin_control:starsilver_hoe"
+	]
+}

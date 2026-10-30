@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_chestplate"
+		},
+		"title": {
+			"text": "Качок"
+		},
+		"description": {
+			"text": "Успешно завершите тренировку и получите приз."
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+	},
+	"criteria": {
+		"prize": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

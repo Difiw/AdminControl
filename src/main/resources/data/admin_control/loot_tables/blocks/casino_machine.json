@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "admin_control:casino_machine",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{"source": "Spins", "target": "BlockEntityTag.Spins", "op": "replace"},
+								{"source": "Broken", "target": "BlockEntityTag.Broken", "op": "replace"},
+								{"source": "Need", "target": "BlockEntityTag.Need", "op": "replace"},
+								{"source": "Done", "target": "BlockEntityTag.Done", "op": "replace"}
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "admin_control:casino_machine",
+							"properties": {"half": "lower"}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{"condition": "minecraft:survives_explosion"}
+			]
+		}
+	]
+}

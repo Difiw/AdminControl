@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","pattern":["I","S","S"],"key":{"I":{"item":"admin_control:starsilver_ingot"},"S":{"item":"minecraft:stick"}},"result":{"item":"admin_control:starsilver_shovel","count":1}}

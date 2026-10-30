@@ -1,0 +1,7 @@
+width=150
+height=42
+length=150
+palette=55
+nonair=46420
+blockdata=945000
+file=5670

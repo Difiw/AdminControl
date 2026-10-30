@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:casino_machine",
+		"admin_control:spark_coal_ore",
+		"admin_control:lumirite_ore",
+		"admin_control:zaremed_ore",
+		"admin_control:twilight_iron_ore",
+		"admin_control:starsilver_ore",
+		"admin_control:dew_quartz_ore",
+		"admin_control:echolite_ore",
+		"admin_control:heart_crystal_ore",
+		"admin_control:jarolite_ore",
+		"admin_control:lumirite_block",
+		"admin_control:zaremed_block",
+		"admin_control:twilight_iron_block",
+		"admin_control:starsilver_block",
+		"admin_control:rune_anvil"
+		,"admin_control:albion_stone"
+		,"admin_control:albion_cobblestone"
+	]
+}

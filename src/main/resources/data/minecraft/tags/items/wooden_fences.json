@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_fence",
+		"admin_control:zarelist_fence",
+		"admin_control:twilight_cedar_fence",
+		"admin_control:star_birch_fence",
+		"admin_control:crimson_elm_fence",
+		"admin_control:moon_ash_fence",
+		"admin_control:malachite_sequoia_fence"
+	]
+}

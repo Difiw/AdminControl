@@ -1,0 +1,64 @@
+{
+ "variants": {
+  "broken=false,facing=north,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom"
+  },
+  "broken=false,facing=north,half=upper": {
+   "model": "admin_control:block/casino_machine_top"
+  },
+  "broken=true,facing=north,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom"
+  },
+  "broken=true,facing=north,half=upper": {
+   "model": "admin_control:block/casino_machine_top_broken"
+  },
+  "broken=false,facing=east,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom",
+   "y": 90
+  },
+  "broken=false,facing=east,half=upper": {
+   "model": "admin_control:block/casino_machine_top",
+   "y": 90
+  },
+  "broken=true,facing=east,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom",
+   "y": 90
+  },
+  "broken=true,facing=east,half=upper": {
+   "model": "admin_control:block/casino_machine_top_broken",
+   "y": 90
+  },
+  "broken=false,facing=south,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom",
+   "y": 180
+  },
+  "broken=false,facing=south,half=upper": {
+   "model": "admin_control:block/casino_machine_top",
+   "y": 180
+  },
+  "broken=true,facing=south,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom",
+   "y": 180
+  },
+  "broken=true,facing=south,half=upper": {
+   "model": "admin_control:block/casino_machine_top_broken",
+   "y": 180
+  },
+  "broken=false,facing=west,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom",
+   "y": 270
+  },
+  "broken=false,facing=west,half=upper": {
+   "model": "admin_control:block/casino_machine_top",
+   "y": 270
+  },
+  "broken=true,facing=west,half=lower": {
+   "model": "admin_control:block/casino_machine_bottom",
+   "y": 270
+  },
+  "broken=true,facing=west,half=upper": {
+   "model": "admin_control:block/casino_machine_top_broken",
+   "y": 270
+  }
+ }
+}

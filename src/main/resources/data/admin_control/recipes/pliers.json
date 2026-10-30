@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"I I",
+		" I ",
+		"R R"
+	],
+	"key": {
+		"I": {"item": "minecraft:iron_ingot"},
+		"R": {"item": "minecraft:red_dye"}
+	},
+	"result": {"item": "admin_control:pliers"}
+}

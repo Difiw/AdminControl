@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_trapdoor",
+		"admin_control:zarelist_trapdoor",
+		"admin_control:twilight_cedar_trapdoor",
+		"admin_control:star_birch_trapdoor",
+		"admin_control:crimson_elm_trapdoor",
+		"admin_control:moon_ash_trapdoor",
+		"admin_control:malachite_sequoia_trapdoor"
+	]
+}

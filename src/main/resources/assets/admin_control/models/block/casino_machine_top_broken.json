@@ -1,0 +1,8 @@
+{
+	"parent": "admin_control:block/casino_machine_top",
+	"textures": {
+		"screen": "admin_control:block/casino_machine_screen_broken",
+		"marquee": "admin_control:block/casino_machine_marquee_off",
+		"lamp": "admin_control:block/casino_machine_lamp_off"
+	}
+}

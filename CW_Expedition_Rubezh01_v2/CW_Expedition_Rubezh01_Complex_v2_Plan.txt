@@ -1,0 +1,13 @@
+CW Expedition — Rubezh-01 coordinate plan
+Schematic axes: X east, Y up, Z south. Origin/Offset: 0,0,0. Intended paste: level natural/flat terrain, ground at Y=0.
+Overall bounds: 150 x 42 x 150
+
+A Main research: X55..92, Z83..112, floors Y1..18, roof/mechanical Y19..23.
+B Laboratory: X99..127, Z83..106, floors Y1..12, roof plant Y13..15; connector X92..99 Z91..96.
+C Residence/medical: X15..40, Z87..107, floors Y1..12, pitched roof Y13..18.
+D Hangar/technical: X91..124, Z25..53, clear hall Y1..10, gabled roof Y11..15.
+E Radio/communications: tower X25..35 Z28..38 Y1..33; equipment hut X40..49 Z28..38 Y1..8; fenced pad X20..52 Z23..44.
+Gatehouse: X59..68 Z4..14. Main gate opening: X68..82 Z3.
+Main road: X71..79 Z3..81. Plaza: X50..100 Z66..81. Parking: X44..68 Z53..64 (6 marked bays).
+Routes: branch to hangar X76..104 Z44..50; west route X29..75 Z75..80; sidewalks border roads and building approaches.
+No building bounding boxes intersect; laboratory connector is intentional.

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{"item": "minecraft:glass_bottle"},
+		{"item": "minecraft:milk_bucket"},
+		{"item": "minecraft:cocoa_beans"},
+		{"item": "minecraft:sugar"},
+		{"item": "minecraft:blaze_powder"}
+	],
+	"result": {"item": "admin_control:protein_shake_coffee"}
+}

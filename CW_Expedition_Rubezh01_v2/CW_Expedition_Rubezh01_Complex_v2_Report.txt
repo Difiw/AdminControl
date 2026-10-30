@@ -1,0 +1,48 @@
+CW Expedition — Rubezh-01 v2 validation report
+Generated: local offline build; no Minecraft world was modified.
+
+FORMAT
+- Sponge Schematic Version: 2
+- Minecraft DataVersion: 3465 (Java 1.20.1)
+- Dimensions (Width x Height x Length): 150 x 42 x 150
+- Offset: [0, 0, 0]
+- Palette entries / block states: 55
+- Decoded positions: 945000 (expected 945000)
+- Non-air blocks: 46420
+- BlockData bytes: 945000
+- BlockEntities: 0; Entities: 0
+- SHA-256: 8b40539f478e5cf0ea40150e2b3d2917668fcd29ff34b6b012a8a3e00a1098f0
+
+STRUCTURES
+1. Main research building — 38x30, three floors, asymmetric wing, reception/security/corridors/offices/archive/staff and technical areas, stairs, modern parapet roof and two compact rooftop plants.
+2. Laboratory — 29x24, two floors, long cyan window bands, four-section glass-partition lab layout, analysis/sample/wash areas, service entry, rooftop units, enclosed connector.
+3. Residence/medical — 26x21, two floors, warm calcite/birch facade, exam/rest/common/sleeping/service areas, beds and desks, veranda and stepped pitched brick roof.
+4. Hangar/technical — 34x29, tall glazed vehicle door, side personnel door, workshop/racks/generator/service zones, trusses and two-slope copper roof, loading apron.
+5. Radio/communications — four-leg tapered lattice tower to Y33 with braces, platforms, ladder and antenna; fenced gravel hazard pad and furnished equipment hut.
+
+SITE
+- 7–9 block main road, two branches, central plaza, sidewalks/curbs, six marked parking bays, gatehouse and barrier, perimeter fence, street lighting, drains, sparse landscaping and controlled neglect details.
+- Ground is one flat grass layer intended for a level natural site. No perimeter water, water walls, terrain sides or floating island geometry.
+
+CHECKS PASSED
+- Independent NBT parser reread the gzip file to EOF.
+- Header, dimensions, offset, lists and DataVersion validated.
+- VarInt BlockData decoded to exactly Width*Height*Length positions; every palette index is in range.
+- Palette IDs use minecraft namespace and were checked against the generator's vanilla 1.20.1 allowlist; block-state syntax validated.
+- Export non-air count equals generation count: 46420.
+- Sampled floor levels, road continuity, fence/gate, tower four supports, hangar roof and lighting passed: {'main_three_floors': True, 'lab_two_floors': True, 'residence_two_floors': True, 'hangar_gabled_roof': True, 'tower_four_supports': True, 'main_road': True, 'fence_and_gate': True, 'interior_lighting': True}.
+- Top view and four isometric views were rendered from the decoded source block array used to write the schematic, not from concept art.
+
+SAFETY / LIMITATIONS
+- Found WorldEdit: W:\GameVersionCWL\CommonWorldServer\instances\Map\mods\worldedit-mod-7.2.15.jar.
+- The Map instance was not proven to be a disposable test world; no world files were opened for writing and no in-game paste was attempted.
+- No signs with text, inventories, block entities or entities are claimed; their lists are intentionally empty.
+- Preview is a schematic-data renderer, not an in-game Minecraft screenshot. Lighting propagation, neighbor-shape updates and visual resource-pack behavior require a safe test-world import.
+
+WORLDEDIT IMPORT (safe test world only)
+1. Copy the .schem into that test instance's config/worldedit/schematics folder.
+2. Start Minecraft 1.20.1 Fabric with compatible WorldEdit 7.2.15 and open only the disposable test world.
+3. Stand at the intended southwest-bottom origin on level terrain.
+4. Run //schem load CW_Expedition_Rubezh01_Complex_v2
+5. Run //paste -a (air is omitted; grass foundation is pasted at the origin level).
+6. Inspect roofs, doors, stairs and lighting; use //undo if placement is unsuitable.

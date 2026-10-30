@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{"item": "minecraft:cookie"},
+		{"item": "minecraft:pumpkin_seeds"},
+		{"item": "minecraft:sugar"},
+		{"item": "minecraft:wheat"}
+	],
+	"result": {"item": "admin_control:protein_bar_peanut", "count": 2}
+}

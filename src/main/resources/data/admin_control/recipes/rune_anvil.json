@@ -1,0 +1,1 @@
+{"type":"admin_control:rune_shaped","category":"misc","pattern":["BBB","ZLZ","LLL"],"key":{"B":{"item":"admin_control:lumirite_block"},"Z":{"item":"admin_control:zaremed_ingot"},"L":{"item":"admin_control:lumirite_ingot"}},"result":{"item":"admin_control:rune_anvil","count":1}}

@@ -1,0 +1,7879 @@
+# Отчёт CW EMI: способы получения предметов
+
+Всего предметов: 2571
+
+- с рецептом (крафт на станции): 1748
+- без рецепта, но есть способ добычи (блок/моб/сундук/торговля/бокс/механика): 481
+- только творческий режим: 328
+- только команда /give: 14
+- вообще без данных (ошибка): 0
+
+## По модам
+
+| Мод | Предметов | Рецепт | Добыча | Creative | Команда |
+|---|---|---|---|---|---|
+| ad_astra | 410 | 331 | 57 | 22 | 0 |
+| admin_control | 250 | 154 | 46 | 49 | 1 |
+| chemical_warfare | 219 | 204 | 14 | 1 | 0 |
+| cushionbackport | 16 | 16 | 0 | 0 | 0 |
+| dannys-aot | 3 | 0 | 0 | 2 | 1 |
+| guided_airstrike | 4 | 3 | 0 | 0 | 1 |
+| immersive_aircraft | 27 | 27 | 0 | 0 | 0 |
+| immersive_machinery | 8 | 8 | 0 | 0 | 0 |
+| libraryferret | 15 | 5 | 5 | 0 | 5 |
+| lookinsharp | 80 | 10 | 6 | 64 | 0 |
+| minecraft | 1254 | 788 | 335 | 126 | 5 |
+| naturalist | 81 | 29 | 14 | 38 | 0 |
+| pointblank | 147 | 118 | 4 | 24 | 1 |
+| sophisticatedbackpacks | 57 | 55 | 0 | 2 | 0 |
+
+## Типы рецептов (прочитано / не прочитано)
+
+- ad_astra:alloying: показано 1, не удалось прочитать 0
+- ad_astra:compressing: показано 10, не удалось прочитать 0
+- ad_astra:cryo_freezing: показано 0, не удалось прочитать 4
+- ad_astra:nasa_workbench: показано 4, не удалось прочитать 0
+- ad_astra:oxygen_loading: показано 0, не удалось прочитать 2
+- ad_astra:refining: показано 0, не удалось прочитать 1
+- ad_astra:space_station_recipe: показано 0, не удалось прочитать 6
+- chemical_warfare:station: показано 161, не удалось прочитать 0
+- lookinsharp:forging: показано 7, не удалось прочитать 0
+- minecraft:blasting: показано 60, не удалось прочитать 0
+- minecraft:campfire_cooking: показано 18, не удалось прочитать 0
+- minecraft:crafting: показано 1532, не удалось прочитать 19
+- minecraft:smelting: показано 126, не удалось прочитать 0
+- minecraft:smithing: показано 36, не удалось прочитать 0
+- minecraft:smoking: показано 17, не удалось прочитать 0
+- minecraft:stonecutting: показано 343, не удалось прочитать 0
+- naturalist:net: показано 0, не удалось прочитать 1
+- pointblank:default: показано 112, не удалось прочитать 0
+
+## Контрольные предметы
+
+- **ad_astra:tier_1_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_1_rocket
+- **ad_astra:tier_2_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_2_rocket
+- **ad_astra:tier_3_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_3_rocket
+- **ad_astra:tier_4_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_4_rocket
+- **ad_astra:rocket_fin**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate → 4×ad_astra:rocket_fin
+- **ad_astra:steel_ingot**
+  - крафт на «ad_astra:etrionic_blast_furnace»: 1 рец.; пример: minecraft:iron_ingot, minecraft:coal(+1 вар.) → 1×ad_astra:steel_ingot [Время: 5.0 с, энергия: 20]
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: ad_astra:steel_block → 9×ad_astra:steel_ingot
+- **ad_astra:desh_ingot**
+  - крафт на «minecraft:blast_furnace»: 3 рец.; пример: ad_astra:moon_desh_ore → 1×ad_astra:desh_ingot
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, … (9 слотов) → 1×ad_astra:desh_ingot
+  - крафт на «minecraft:furnace»: 3 рец.; пример: ad_astra:deepslate_desh_ore → 1×ad_astra:desh_ingot
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+  - находка в сундуке ad_astra:chests/village/moon/house
+- **ad_astra:compressor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:piston, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:piston, minecraft:iron_ingot → 1×ad_astra:compressor
+  - добыча из блока ad_astra:compressor: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:nasa_workbench**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_rod, ad_astra:steel_plate, ad_astra:iron_rod, minecraft:redstone_torch, minecraft:crafting_table, minecraft:redstone_torch, ad_astra:steel_plate, ad_astra:steel_block, … (9 слотов) → 1×ad_astra:nasa_workbench
+  - добыча из блока ad_astra:nasa_workbench: сломать инструментом minecraft:iron_pickaxe или лучше
+- **minecraft:oak_leaves**
+  - добыча из блока minecraft:oak_leaves: добыть шёлковым касанием
+- **minecraft:oak_sapling**
+  - добыча из блока minecraft:oak_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_oak_sapling: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:apple**
+  - находка в сундуке minecraft:chests/igloo_chest
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/stronghold_crossing
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - торговля: minecraft:farmer, уровень 2
+- **minecraft:grass_block**
+  - добыча из блока minecraft:grass_block: добыть шёлковым касанием
+- **minecraft:dirt**
+  - добыча из блока minecraft:grass_block: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dirt: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:podzol: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:farmland: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:mycelium: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dirt_path: сломать любым способом (в т.ч. рукой)
+- **minecraft:diamond**
+  - крафт на «minecraft:blast_furnace»: 5 рец.; пример: libraryferret:diamond_coins_jtl → 1×minecraft:diamond
+  - крафт на «minecraft:furnace»: 5 рец.; пример: minecraft:deepslate_diamond_ore → 1×minecraft:diamond
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond_block → 9×minecraft:diamond
+  - добыча из блока minecraft:diamond_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_diamond_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока ad_astra:mars_diamond_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока ad_astra:venus_diamond_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока libraryferret:unbreakable_diamond_beacon: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/nether_bridge
+  - … и ещё 13 способов
+- **minecraft:iron_ore**
+  - добыча из блока minecraft:iron_ore: добыть шёлковым касанием
+- **minecraft:obsidian**
+  - добыча из блока minecraft:obsidian: сломать инструментом minecraft:diamond_pickaxe или лучше
+  - добыча из блока minecraft:ender_chest: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:cobweb**
+  - добыча из блока minecraft:cobweb: добыть шёлковым касанием
+- **minecraft:dragon_egg**
+  - добыча из блока minecraft:dragon_egg: сломать любым способом (в т.ч. рукой)
+  - особая механика: dragon_egg
+- **minecraft:barrier**
+  - только вкладка операторских предметов или /give
+- **minecraft:bedrock**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:command_block**
+  - только вкладка операторских предметов или /give
+- **minecraft:spawner**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:netherite_ingot**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:netherite_scrap, minecraft:netherite_scrap, minecraft:netherite_scrap, minecraft:netherite_scrap, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:netherite_ingot
+  - находка в сундуке minecraft:chests/bastion_treasure
+- **minecraft:enchanted_golden_apple**
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **minecraft:elytra**
+  - особая механика: elytra
+- **minecraft:nether_star**
+  - особая механика: nether_star
+- **minecraft:wither_skeleton_skull**
+  - добыча из блока minecraft:wither_skeleton_skull: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:wither_skeleton_wall_skull: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:wither_skeleton
+- **minecraft:trident**
+  - только творческий режим, вкладка itemGroup.combat или /give
+- **minecraft:name_tag**
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - торговля: minecraft:librarian, уровень 5
+- **minecraft:zombie_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:debug_stick**
+  - только вкладка операторских предметов или /give
+
+## Все предметы по модам
+
+### ad_astra
+
+- **ad_astra:tier_1_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:steel_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_1_rocket
+- **ad_astra:tier_2_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:desh_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_2_rocket
+- **ad_astra:tier_3_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:ostrum_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_3_rocket
+- **ad_astra:tier_4_rocket**
+  - крафт на «ad_astra:nasa_workbench»: 1 рец.; пример: ad_astra:rocket_nose_cone, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:calorite_block, ad_astra:rocket_fin, … (14 слотов) → 1×ad_astra:tier_4_rocket
+- **ad_astra:tier_1_rover**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_block, ad_astra:steel_rod, ad_astra:large_gas_tank, ad_astra:radio, ad_astra:desh_engine, ad_astra:wheel, ad_astra:desh_plate, ad_astra:wheel → 1×ad_astra:tier_1_rover
+- **ad_astra:launch_pad**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_rod, … (9 слотов) → 1×ad_astra:launch_pad
+  - добыча из блока ad_astra:launch_pad: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+- **ad_astra:steel_cable**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, ad_astra:steel_plate, ad_astra:steel_plate, … (9 слотов) → 16×ad_astra:steel_cable
+  - добыча из блока ad_astra:steel_cable: сломать любым способом (в т.ч. рукой)
+- **ad_astra:desh_cable**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, ad_astra:desh_plate, ad_astra:desh_plate, … (9 слотов) → 16×ad_astra:desh_cable
+  - добыча из блока ad_astra:desh_cable: сломать любым способом (в т.ч. рукой)
+- **ad_astra:desh_fluid_pipe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, minecraft:glass, minecraft:glass, minecraft:glass, ad_astra:desh_plate, ad_astra:desh_plate, … (9 слотов) → 16×ad_astra:desh_fluid_pipe
+  - добыча из блока ad_astra:desh_fluid_pipe: сломать любым способом (в т.ч. рукой)
+- **ad_astra:ostrum_fluid_pipe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, minecraft:glass, minecraft:glass, minecraft:glass, ad_astra:ostrum_plate, ad_astra:ostrum_plate, … (9 слотов) → 16×ad_astra:ostrum_fluid_pipe
+  - добыча из блока ad_astra:ostrum_fluid_pipe: сломать любым способом (в т.ч. рукой)
+- **ad_astra:cable_duct**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, minecraft:copper_ingot, ad_astra:steel_plate, minecraft:copper_ingot, ad_astra:steel_cable, minecraft:copper_ingot, ad_astra:steel_plate, minecraft:copper_ingot, … (9 слотов) → 2×ad_astra:cable_duct
+  - добыча из блока ad_astra:cable_duct: сломать любым способом (в т.ч. рукой)
+- **ad_astra:fluid_pipe_duct**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, minecraft:copper_ingot, ad_astra:desh_plate, minecraft:copper_ingot, ad_astra:desh_fluid_pipe, minecraft:copper_ingot, ad_astra:desh_plate, minecraft:copper_ingot, … (9 слотов) → 2×ad_astra:fluid_pipe_duct
+  - добыча из блока ad_astra:fluid_pipe_duct: сломать любым способом (в т.ч. рукой)
+- **ad_astra:coal_generator**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:coal_block, minecraft:furnace, minecraft:coal_block, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×ad_astra:coal_generator
+  - добыча из блока ad_astra:coal_generator: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:compressor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:piston, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:piston, minecraft:iron_ingot → 1×ad_astra:compressor
+  - добыча из блока ad_astra:compressor: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:etrionic_blast_furnace**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, minecraft:redstone, minecraft:blast_furnace, minecraft:redstone, ad_astra:iron_plate, ad_astra:iron_plate, … (9 слотов) → 1×ad_astra:etrionic_blast_furnace
+  - добыча из блока ad_astra:etrionic_blast_furnace: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:nasa_workbench**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_rod, ad_astra:steel_plate, ad_astra:iron_rod, minecraft:redstone_torch, minecraft:crafting_table, minecraft:redstone_torch, ad_astra:steel_plate, ad_astra:steel_block, … (9 слотов) → 1×ad_astra:nasa_workbench
+  - добыча из блока ad_astra:nasa_workbench: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:fuel_refinery**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, minecraft:bucket, minecraft:furnace, minecraft:bucket, ad_astra:steel_plate, ad_astra:steel_plate, … (9 слотов) → 1×ad_astra:fuel_refinery
+  - добыча из блока ad_astra:fuel_refinery: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:oxygen_loader**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:fan, ad_astra:steel_plate, ad_astra:gas_tank, minecraft:lightning_rod, ad_astra:gas_tank, ad_astra:steel_plate, minecraft:redstone_block, … (9 слотов) → 1×ad_astra:oxygen_loader
+  - добыча из блока ad_astra:oxygen_loader: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:solar_panel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:photovoltaic_etrium_cell, ad_astra:photovoltaic_etrium_cell, ad_astra:photovoltaic_etrium_cell, ad_astra:steel_plate, ad_astra:desh_plate, ad_astra:steel_plate, ad_astra:desh_plate, ad_astra:desh_plate, … (9 слотов) → 1×ad_astra:solar_panel
+  - добыча из блока ad_astra:solar_panel: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:water_pump**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:desh_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:gas_tank, ad_astra:steel_plate, ad_astra:desh_plate, minecraft:hopper, … (9 слотов) → 1×ad_astra:water_pump
+  - добыча из блока ad_astra:water_pump: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:oxygen_distributor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:fan, ad_astra:large_gas_tank, ad_astra:fan, ad_astra:fan, ad_astra:oxygen_loader, ad_astra:fan, ad_astra:desh_plate, ad_astra:oxygen_gear, … (9 слотов) → 1×ad_astra:oxygen_distributor
+  - добыча из блока ad_astra:oxygen_distributor: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:gravity_normalizer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:etrionic_capacitor, minecraft:diamond_block, ad_astra:etrionic_capacitor, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate → 1×ad_astra:gravity_normalizer
+  - добыча из блока ad_astra:gravity_normalizer: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:energizer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:etrionic_capacitor, ad_astra:ostrum_plate, ad_astra:ostrum_block, minecraft:diamond_block, ad_astra:ostrum_block, ad_astra:ostrum_plate, ad_astra:etrionic_capacitor, … (9 слотов) → 1×ad_astra:energizer
+  - добыча из блока ad_astra:energizer: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:cryo_freezer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, minecraft:blue_ice, ad_astra:large_gas_tank, minecraft:blue_ice, ad_astra:ostrum_plate, ad_astra:ostrum_plate, … (9 слотов) → 1×ad_astra:cryo_freezer
+  - добыча из блока ad_astra:cryo_freezer: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:oxygen_sensor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:fan, ad_astra:ostrum_plate, ad_astra:ostrum_plate, minecraft:redstone_block, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, … (9 слотов) → 1×ad_astra:oxygen_sensor
+  - добыча из блока ad_astra:oxygen_sensor: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:white_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:white_wool, minecraft:white_wool, ad_astra:steel_rod, minecraft:white_wool, minecraft:white_wool, ad_astra:steel_rod → 1×ad_astra:white_flag
+  - добыча из блока ad_astra:white_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:orange_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:orange_wool, minecraft:orange_wool, ad_astra:steel_rod, minecraft:orange_wool, minecraft:orange_wool, ad_astra:steel_rod → 1×ad_astra:orange_flag
+  - добыча из блока ad_astra:orange_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:magenta_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:magenta_wool, minecraft:magenta_wool, ad_astra:steel_rod, minecraft:magenta_wool, minecraft:magenta_wool, ad_astra:steel_rod → 1×ad_astra:magenta_flag
+  - добыча из блока ad_astra:magenta_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:light_blue_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:light_blue_wool, minecraft:light_blue_wool, ad_astra:steel_rod, minecraft:light_blue_wool, minecraft:light_blue_wool, ad_astra:steel_rod → 1×ad_astra:light_blue_flag
+  - добыча из блока ad_astra:light_blue_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:yellow_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:yellow_wool, minecraft:yellow_wool, ad_astra:steel_rod, minecraft:yellow_wool, minecraft:yellow_wool, ad_astra:steel_rod → 1×ad_astra:yellow_flag
+  - добыча из блока ad_astra:yellow_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:lime_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:lime_wool, minecraft:lime_wool, ad_astra:steel_rod, minecraft:lime_wool, minecraft:lime_wool, ad_astra:steel_rod → 1×ad_astra:lime_flag
+  - добыча из блока ad_astra:lime_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:pink_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:pink_wool, minecraft:pink_wool, ad_astra:steel_rod, minecraft:pink_wool, minecraft:pink_wool, ad_astra:steel_rod → 1×ad_astra:pink_flag
+  - добыча из блока ad_astra:pink_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:gray_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:gray_wool, minecraft:gray_wool, ad_astra:steel_rod, minecraft:gray_wool, minecraft:gray_wool, ad_astra:steel_rod → 1×ad_astra:gray_flag
+  - добыча из блока ad_astra:gray_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:light_gray_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:light_gray_wool, minecraft:light_gray_wool, ad_astra:steel_rod, minecraft:light_gray_wool, minecraft:light_gray_wool, ad_astra:steel_rod → 1×ad_astra:light_gray_flag
+  - добыча из блока ad_astra:light_gray_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:cyan_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:cyan_wool, minecraft:cyan_wool, ad_astra:steel_rod, minecraft:cyan_wool, minecraft:cyan_wool, ad_astra:steel_rod → 1×ad_astra:cyan_flag
+  - добыча из блока ad_astra:cyan_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:purple_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:purple_wool, minecraft:purple_wool, ad_astra:steel_rod, minecraft:purple_wool, minecraft:purple_wool, ad_astra:steel_rod → 1×ad_astra:purple_flag
+  - добыча из блока ad_astra:purple_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:blue_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:blue_wool, minecraft:blue_wool, ad_astra:steel_rod, minecraft:blue_wool, minecraft:blue_wool, ad_astra:steel_rod → 1×ad_astra:blue_flag
+  - добыча из блока ad_astra:blue_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:brown_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:brown_wool, minecraft:brown_wool, ad_astra:steel_rod, minecraft:brown_wool, minecraft:brown_wool, ad_astra:steel_rod → 1×ad_astra:brown_flag
+  - добыча из блока ad_astra:brown_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:green_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:green_wool, minecraft:green_wool, ad_astra:steel_rod, minecraft:green_wool, minecraft:green_wool, ad_astra:steel_rod → 1×ad_astra:green_flag
+  - добыча из блока ad_astra:green_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:red_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:red_wool, minecraft:red_wool, ad_astra:steel_rod, minecraft:red_wool, minecraft:red_wool, ad_astra:steel_rod → 1×ad_astra:red_flag
+  - добыча из блока ad_astra:red_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:black_flag**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, minecraft:black_wool, minecraft:black_wool, ad_astra:steel_rod, minecraft:black_wool, minecraft:black_wool, ad_astra:steel_rod → 1×ad_astra:black_flag
+  - добыча из блока ad_astra:black_flag: сломать любым способом (в т.ч. рукой)
+- **ad_astra:earth_globe**
+  - добыча из блока ad_astra:earth_globe: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_globe**
+  - добыча из блока ad_astra:moon_globe: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_globe**
+  - добыча из блока ad_astra:mars_globe: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_globe**
+  - добыча из блока ad_astra:mercury_globe: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_globe**
+  - добыча из блока ad_astra:venus_globe: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_globe**
+  - добыча из блока ad_astra:glacio_globe: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:radio**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate → 1×ad_astra:radio
+  - добыча из блока ad_astra:radio: сломать любым способом (в т.ч. рукой)
+- **ad_astra:space_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, minecraft:glass_pane, ad_astra:steel_plate → 1×ad_astra:space_helmet
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+- **ad_astra:space_suit**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:gas_tank, ad_astra:oxygen_gear, ad_astra:gas_tank, ad_astra:steel_plate, minecraft:white_wool(+15 вар.), ad_astra:steel_plate → 1×ad_astra:space_suit
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+- **ad_astra:space_pants**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, minecraft:white_wool(+15 вар.), minecraft:white_wool(+15 вар.), ad_astra:steel_plate, ad_astra:steel_plate → 1×ad_astra:space_pants
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+- **ad_astra:space_boots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:white_wool(+15 вар.), minecraft:white_wool(+15 вар.), ad_astra:steel_plate, ad_astra:steel_plate → 1×ad_astra:space_boots
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+- **ad_astra:netherite_space_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, minecraft:netherite_helmet, ad_astra:ostrum_plate, ad_astra:ostrum_plate, minecraft:glass, ad_astra:ostrum_plate → 1×ad_astra:netherite_space_helmet
+- **ad_astra:netherite_space_suit**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:large_gas_tank, ad_astra:oxygen_gear, ad_astra:large_gas_tank, ad_astra:ostrum_plate, minecraft:netherite_chestplate, ad_astra:ostrum_plate → 1×ad_astra:netherite_space_suit
+- **ad_astra:netherite_space_pants**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, minecraft:netherite_leggings, ad_astra:ostrum_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate → 1×ad_astra:netherite_space_pants
+- **ad_astra:netherite_space_boots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:netherite_boots, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate → 1×ad_astra:netherite_space_boots
+- **ad_astra:jet_suit_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:netherite_space_helmet, ad_astra:calorite_plate, ad_astra:calorite_plate, minecraft:tinted_glass, ad_astra:calorite_plate → 1×ad_astra:jet_suit_helmet
+- **ad_astra:jet_suit**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_tank, ad_astra:netherite_space_suit, ad_astra:calorite_tank, ad_astra:etrionic_capacitor, ad_astra:calorite_engine, ad_astra:etrionic_capacitor → 1×ad_astra:jet_suit
+- **ad_astra:jet_suit_pants**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_block, ad_astra:netherite_space_pants, ad_astra:calorite_block, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate → 1×ad_astra:jet_suit_pants
+- **ad_astra:jet_suit_boots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:netherite_space_boots, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_block, ad_astra:calorite_block → 1×ad_astra:jet_suit_boots
+- **ad_astra:ti_69**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, ad_astra:steel_plate, minecraft:redstone, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, … (9 слотов) → 1×ad_astra:ti_69
+- **ad_astra:wrench**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_rod, ad_astra:iron_rod → 1×ad_astra:wrench
+- **ad_astra:zip_gun**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:large_gas_tank → 1×ad_astra:zip_gun
+- **ad_astra:space_painting**
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+- **ad_astra:cheese**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:cheese_block → 9×ad_astra:cheese
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:moon_cheese_ore → 1×ad_astra:cheese
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: ad_astra:moon_cheese_ore → 1×ad_astra:cheese
+  - добыча из блока ad_astra:moon_cheese_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/village/moon/house
+  - находка в сундуке ad_astra:chests/dungeon/moon/large_dungeon_chest
+- **ad_astra:etrionic_capacitor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, ad_astra:steel_plate, minecraft:redstone, ad_astra:steel_plate, minecraft:diamond, ad_astra:steel_plate, minecraft:diamond, ad_astra:steel_plate, … (9 слотов) → 1×ad_astra:etrionic_capacitor
+- **ad_astra:gas_tank**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_rod, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate → 1×ad_astra:gas_tank
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+- **ad_astra:large_gas_tank**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:gas_tank, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:gas_tank, ad_astra:steel_plate → 1×ad_astra:large_gas_tank
+- **ad_astra:iron_plate**
+  - крафт на «ad_astra:compressor»: 2 рец.; пример: minecraft:iron_block → 9×ad_astra:iron_plate [Время: 40.0 с, энергия: 20]
+- **ad_astra:iron_rod**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plate, ad_astra:iron_plate → 4×ad_astra:iron_rod
+- **ad_astra:steel_ingot**
+  - крафт на «ad_astra:etrionic_blast_furnace»: 1 рец.; пример: minecraft:iron_ingot, minecraft:coal(+1 вар.) → 1×ad_astra:steel_ingot [Время: 5.0 с, энергия: 20]
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: ad_astra:steel_block → 9×ad_astra:steel_ingot
+- **ad_astra:steel_nugget**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_ingot → 9×ad_astra:steel_nugget
+- **ad_astra:steel_plate**
+  - крафт на «ad_astra:compressor»: 2 рец.; пример: ad_astra:steel_ingot → 1×ad_astra:steel_plate [Время: 5.0 с, энергия: 20]
+- **ad_astra:steel_rod**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate → 4×ad_astra:steel_rod
+- **ad_astra:etrium_ingot**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:etrium_nugget**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:etrium_plate**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:etrium_rod**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:etrionic_core**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:desh_ingot**
+  - крафт на «minecraft:blast_furnace»: 3 рец.; пример: ad_astra:moon_desh_ore → 1×ad_astra:desh_ingot
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, ad_astra:desh_nugget, … (9 слотов) → 1×ad_astra:desh_ingot
+  - крафт на «minecraft:furnace»: 3 рец.; пример: ad_astra:deepslate_desh_ore → 1×ad_astra:desh_ingot
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+  - находка в сундуке ad_astra:chests/village/moon/house
+- **ad_astra:desh_nugget**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_ingot → 9×ad_astra:desh_nugget
+  - находка в сундуке ad_astra:chests/village/moon/house
+- **ad_astra:desh_plate**
+  - крафт на «ad_astra:compressor»: 2 рец.; пример: ad_astra:desh_block → 9×ad_astra:desh_plate [Время: 40.0 с, энергия: 20]
+- **ad_astra:ostrum_ingot**
+  - крафт на «minecraft:furnace»: 3 рец.; пример: ad_astra:raw_ostrum → 1×ad_astra:ostrum_ingot
+  - крафт на «minecraft:blast_furnace»: 3 рец.; пример: ad_astra:raw_ostrum → 1×ad_astra:ostrum_ingot
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: ad_astra:ostrum_nugget, ad_astra:ostrum_nugget, ad_astra:ostrum_nugget, ad_astra:ostrum_nugget, ad_astra:ostrum_nugget, ad_astra:ostrum_nugget, ad_astra:ostrum_nugget, ad_astra:ostrum_nugget, … (9 слотов) → 1×ad_astra:ostrum_ingot
+- **ad_astra:ostrum_nugget**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_ingot → 9×ad_astra:ostrum_nugget
+- **ad_astra:ostrum_plate**
+  - крафт на «ad_astra:compressor»: 2 рец.; пример: ad_astra:ostrum_block → 9×ad_astra:ostrum_plate [Время: 40.0 с, энергия: 20]
+- **ad_astra:calorite_ingot**
+  - крафт на «minecraft:furnace»: 3 рец.; пример: ad_astra:deepslate_calorite_ore → 1×ad_astra:calorite_ingot
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: ad_astra:calorite_block → 9×ad_astra:calorite_ingot
+  - крафт на «minecraft:blast_furnace»: 3 рец.; пример: ad_astra:raw_calorite → 1×ad_astra:calorite_ingot
+- **ad_astra:calorite_nugget**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_ingot → 9×ad_astra:calorite_nugget
+- **ad_astra:calorite_plate**
+  - крафт на «ad_astra:compressor»: 2 рец.; пример: ad_astra:calorite_ingot → 1×ad_astra:calorite_plate [Время: 5.0 с, энергия: 20]
+- **ad_astra:raw_desh**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:raw_desh_block → 9×ad_astra:raw_desh
+  - добыча из блока ad_astra:moon_desh_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:deepslate_desh_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/dungeon/moon/large_dungeon_chest
+- **ad_astra:raw_ostrum**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:raw_ostrum_block → 9×ad_astra:raw_ostrum
+  - добыча из блока ad_astra:mars_ostrum_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:deepslate_ostrum_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+- **ad_astra:raw_calorite**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:raw_calorite_block → 9×ad_astra:raw_calorite
+  - добыча из блока ad_astra:venus_calorite_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:deepslate_calorite_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:photovoltaic_etrium_cell**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blue_stained_glass, minecraft:blue_stained_glass, minecraft:blue_stained_glass, ad_astra:desh_plate, minecraft:diamond, ad_astra:desh_plate → 1×ad_astra:photovoltaic_etrium_cell
+- **ad_astra:photovoltaic_vesnium_cell**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:oxygen_gear**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_plate → 1×ad_astra:oxygen_gear
+- **ad_astra:wheel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:black_wool, minecraft:black_wool, ad_astra:steel_plate, minecraft:black_wool, minecraft:black_wool → 1×ad_astra:wheel
+- **ad_astra:engine_frame**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, ad_astra:steel_rod, ad_astra:steel_rod, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_rod, ad_astra:steel_rod, … (9 слотов) → 1×ad_astra:engine_frame
+- **ad_astra:fan**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_plate → 1×ad_astra:fan
+- **ad_astra:rocket_nose_cone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:lightning_rod, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate → 1×ad_astra:rocket_nose_cone
+- **ad_astra:steel_engine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:engine_frame, ad_astra:steel_plate, ad_astra:fan → 1×ad_astra:steel_engine
+- **ad_astra:desh_engine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:steel_engine, ad_astra:desh_plate, ad_astra:fan → 1×ad_astra:desh_engine
+- **ad_astra:ostrum_engine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:desh_engine, ad_astra:ostrum_plate, ad_astra:fan → 1×ad_astra:ostrum_engine
+- **ad_astra:calorite_engine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:ostrum_engine, ad_astra:calorite_plate, ad_astra:fan → 1×ad_astra:calorite_engine
+- **ad_astra:steel_tank**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:gas_tank, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_plate → 1×ad_astra:steel_tank
+- **ad_astra:desh_tank**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:steel_tank, ad_astra:steel_rod, ad_astra:desh_plate, ad_astra:desh_plate → 1×ad_astra:desh_tank
+- **ad_astra:ostrum_tank**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:desh_tank, ad_astra:steel_rod, ad_astra:ostrum_plate, ad_astra:ostrum_plate → 1×ad_astra:ostrum_tank
+- **ad_astra:calorite_tank**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:ostrum_tank, ad_astra:steel_rod, ad_astra:calorite_plate, ad_astra:calorite_plate → 1×ad_astra:calorite_tank
+- **ad_astra:rocket_fin**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate → 4×ad_astra:rocket_fin
+- **ad_astra:ice_shard**
+  - крафт на «minecraft:furnace»: 4 рец.; пример: ad_astra:moon_ice_shard_ore → 1×ad_astra:ice_shard
+  - крафт на «minecraft:blast_furnace»: 4 рец.; пример: ad_astra:moon_ice_shard_ore → 1×ad_astra:ice_shard
+  - добыча из блока ad_astra:moon_ice_shard_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:deepslate_ice_shard_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:mars_ice_shard_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:glacio_ice_shard_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке ad_astra:chests/dungeon/moon/large_dungeon_chest
+- **ad_astra:aeronos_mushroom**
+  - добыча из блока ad_astra:aeronos_mushroom: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_mushroom**
+  - добыча из блока ad_astra:strophar_mushroom: сломать любым способом (в т.ч. рукой)
+- **ad_astra:oxygen_bucket**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:hydrogen_bucket**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:oil_bucket**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:fuel_bucket**
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+- **ad_astra:cryo_fuel_bucket**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:cheese_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:cheese, ad_astra:cheese, ad_astra:cheese, ad_astra:cheese, ad_astra:cheese, ad_astra:cheese, ad_astra:cheese, ad_astra:cheese, … (9 слотов) → 1×ad_astra:cheese_block
+  - добыча из блока ad_astra:cheese_block: сломать любым способом (в т.ч. рукой)
+- **ad_astra:sky_stone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone, ad_astra:mars_stone, ad_astra:moon_stone, ad_astra:mars_stone, ad_astra:moon_stone, ad_astra:mars_stone, ad_astra:moon_stone, ad_astra:mars_stone, … (9 слотов) → 9×ad_astra:sky_stone
+  - добыча из блока ad_astra:sky_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:vent**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_rod, ad_astra:steel_rod, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_rod, ad_astra:steel_rod → 4×ad_astra:vent
+  - добыча из блока ad_astra:vent: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_factory_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, minecraft:iron_ingot, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, … (9 слотов) → 64×ad_astra:iron_factory_block
+  - добыча из блока ad_astra:iron_factory_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:encased_iron_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:steel_ingot, ad_astra:steel_ingot, … (9 слотов) → 64×ad_astra:encased_iron_block
+  - добыча из блока ad_astra:encased_iron_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_plateblock**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_rod, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, … (9 слотов) → 64×ad_astra:iron_plateblock
+  - добыча из блока ad_astra:iron_plateblock: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_panel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plate, minecraft:iron_ingot, ad_astra:iron_plate, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, ad_astra:iron_plate, minecraft:iron_ingot, … (9 слотов) → 64×ad_astra:iron_panel
+  - добыча из блока ad_astra:iron_panel: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_plating**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, ad_astra:iron_plate, … (9 слотов) → 64×ad_astra:iron_plating
+  - добыча из блока ad_astra:iron_plating: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_plating_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plating, ad_astra:iron_plating, ad_astra:iron_plating, ad_astra:iron_plating, ad_astra:iron_plating, ad_astra:iron_plating → 4×ad_astra:iron_plating_stairs
+  - добыча из блока ad_astra:iron_plating_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_plating_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plating, ad_astra:iron_plating, ad_astra:iron_plating → 6×ad_astra:iron_plating_slab
+  - добыча из блока ad_astra:iron_plating_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plating, ad_astra:iron_plating → 2×ad_astra:iron_pillar
+  - добыча из блока ad_astra:iron_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glowing_iron_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_pillar, minecraft:glowstone_dust → 1×ad_astra:glowing_iron_pillar
+  - добыча из блока ad_astra:glowing_iron_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:marked_iron_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_pillar, minecraft:yellow_dye, minecraft:black_dye → 1×ad_astra:marked_iron_pillar
+  - добыча из блока ad_astra:marked_iron_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_plating_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plating → 1×ad_astra:iron_plating_button
+  - добыча из блока ad_astra:iron_plating_button: сломать любым способом (в т.ч. рукой)
+- **ad_astra:iron_plating_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plating, ad_astra:iron_plating → 1×ad_astra:iron_plating_pressure_plate
+  - добыча из блока ad_astra:iron_plating_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:iron_sliding_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:iron_plating, ad_astra:iron_plating, ad_astra:iron_plating, minecraft:glass_pane, ad_astra:steel_block, minecraft:glass_pane, ad_astra:iron_plating, ad_astra:iron_plating, … (9 слотов) → 1×ad_astra:iron_sliding_door
+  - добыча из блока ad_astra:iron_sliding_door: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:etrium_factory_block**
+  - добыча из блока ad_astra:etrium_factory_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:encased_etrium_block**
+  - добыча из блока ad_astra:encased_etrium_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:etrium_plateblock**
+  - добыча из блока ad_astra:etrium_plateblock: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:etrium_panel**
+  - добыча из блока ad_astra:etrium_panel: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:etrium_block**
+  - добыча из блока ad_astra:etrium_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_factory_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_ingot, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, … (9 слотов) → 64×ad_astra:steel_factory_block
+  - добыча из блока ad_astra:steel_factory_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:encased_steel_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_ingot, ad_astra:steel_ingot, … (9 слотов) → 64×ad_astra:encased_steel_block
+  - добыча из блока ad_astra:encased_steel_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_plateblock**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_rod, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, … (9 слотов) → 64×ad_astra:steel_plateblock
+  - добыча из блока ad_astra:steel_plateblock: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_panel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_ingot, ad_astra:steel_plate, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_plate, ad_astra:steel_ingot, … (9 слотов) → 64×ad_astra:steel_panel
+  - добыча из блока ad_astra:steel_panel: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, … (9 слотов) → 1×ad_astra:steel_block
+  - добыча из блока ad_astra:steel_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_plating**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, … (9 слотов) → 64×ad_astra:steel_plating
+  - добыча из блока ad_astra:steel_plating: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_plating_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plating, ad_astra:steel_plating, ad_astra:steel_plating, ad_astra:steel_plating, ad_astra:steel_plating, ad_astra:steel_plating → 4×ad_astra:steel_plating_stairs
+  - добыча из блока ad_astra:steel_plating_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_plating_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plating, ad_astra:steel_plating, ad_astra:steel_plating → 6×ad_astra:steel_plating_slab
+  - добыча из блока ad_astra:steel_plating_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plating, ad_astra:steel_plating → 2×ad_astra:steel_pillar
+  - добыча из блока ad_astra:steel_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glowing_steel_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_pillar, minecraft:glowstone_dust → 1×ad_astra:glowing_steel_pillar
+  - добыча из блока ad_astra:glowing_steel_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_plating_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plating → 1×ad_astra:steel_plating_button
+  - добыча из блока ad_astra:steel_plating_button: сломать любым способом (в т.ч. рукой)
+- **ad_astra:steel_plating_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plating, ad_astra:steel_plating → 1×ad_astra:steel_plating_pressure_plate
+  - добыча из блока ad_astra:steel_plating_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:steel_sliding_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, minecraft:glass_pane, ad_astra:steel_block, minecraft:glass_pane, ad_astra:steel_plate, ad_astra:steel_plate, … (9 слотов) → 1×ad_astra:steel_sliding_door
+  - добыча из блока ad_astra:steel_sliding_door: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:airlock**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_block, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_block, ad_astra:steel_plate, … (9 слотов) → 1×ad_astra:airlock
+  - добыча из блока ad_astra:airlock: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:reinforced_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:obsidian, ad_astra:steel_plate, minecraft:obsidian, minecraft:glass, ad_astra:steel_block, minecraft:glass, minecraft:obsidian, ad_astra:steel_plate, … (9 слотов) → 1×ad_astra:reinforced_door
+  - добыча из блока ad_astra:reinforced_door: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:steel_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate → 3×ad_astra:steel_door
+  - добыча из блока ad_astra:steel_door: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:steel_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate, ad_astra:steel_plate → 2×ad_astra:steel_trapdoor
+  - добыча из блока ad_astra:steel_trapdoor: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:desh_factory_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_ingot, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, … (9 слотов) → 64×ad_astra:desh_factory_block
+  - добыча из блока ad_astra:desh_factory_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:encased_desh_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:steel_ingot, ad_astra:steel_ingot, … (9 слотов) → 64×ad_astra:encased_desh_block
+  - добыча из блока ad_astra:encased_desh_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_plateblock**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:steel_rod, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, … (9 слотов) → 64×ad_astra:desh_plateblock
+  - добыча из блока ad_astra:desh_plateblock: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_panel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_ingot, ad_astra:desh_plate, ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_plate, ad_astra:desh_ingot, … (9 слотов) → 64×ad_astra:desh_panel
+  - добыча из блока ad_astra:desh_panel: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_ingot, ad_astra:desh_ingot, … (9 слотов) → 1×ad_astra:desh_block
+  - добыча из блока ad_astra:desh_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:raw_desh_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:raw_desh, ad_astra:raw_desh, ad_astra:raw_desh, ad_astra:raw_desh, ad_astra:raw_desh, ad_astra:raw_desh, ad_astra:raw_desh, ad_astra:raw_desh, … (9 слотов) → 1×ad_astra:raw_desh_block
+  - добыча из блока ad_astra:raw_desh_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_plating**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, … (9 слотов) → 64×ad_astra:desh_plating
+  - добыча из блока ad_astra:desh_plating: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_plating_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plating, ad_astra:desh_plating, ad_astra:desh_plating, ad_astra:desh_plating, ad_astra:desh_plating, ad_astra:desh_plating → 4×ad_astra:desh_plating_stairs
+  - добыча из блока ad_astra:desh_plating_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_plating_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plating, ad_astra:desh_plating, ad_astra:desh_plating → 6×ad_astra:desh_plating_slab
+  - добыча из блока ad_astra:desh_plating_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plating, ad_astra:desh_plating → 2×ad_astra:desh_pillar
+  - добыча из блока ad_astra:desh_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glowing_desh_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_pillar, minecraft:glowstone_dust → 1×ad_astra:glowing_desh_pillar
+  - добыча из блока ad_astra:glowing_desh_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_plating_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plating → 1×ad_astra:desh_plating_button
+  - добыча из блока ad_astra:desh_plating_button: сломать любым способом (в т.ч. рукой)
+- **ad_astra:desh_plating_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plating, ad_astra:desh_plating → 1×ad_astra:desh_plating_pressure_plate
+  - добыча из блока ad_astra:desh_plating_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:desh_sliding_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:desh_plate, ad_astra:desh_plate, ad_astra:desh_plate, minecraft:glass_pane, ad_astra:desh_block, minecraft:glass_pane, ad_astra:desh_plate, ad_astra:desh_plate, … (9 слотов) → 1×ad_astra:desh_sliding_door
+  - добыча из блока ad_astra:desh_sliding_door: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:ostrum_factory_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_ingot, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, … (9 слотов) → 64×ad_astra:ostrum_factory_block
+  - добыча из блока ad_astra:ostrum_factory_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:encased_ostrum_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:steel_ingot, ad_astra:steel_ingot, … (9 слотов) → 64×ad_astra:encased_ostrum_block
+  - добыча из блока ad_astra:encased_ostrum_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_plateblock**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:steel_rod, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, … (9 слотов) → 64×ad_astra:ostrum_plateblock
+  - добыча из блока ad_astra:ostrum_plateblock: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_panel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_ingot, ad_astra:ostrum_plate, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_plate, ad_astra:ostrum_ingot, … (9 слотов) → 64×ad_astra:ostrum_panel
+  - добыча из блока ad_astra:ostrum_panel: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, ad_astra:ostrum_ingot, … (9 слотов) → 1×ad_astra:ostrum_block
+  - добыча из блока ad_astra:ostrum_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:raw_ostrum_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:raw_ostrum, ad_astra:raw_ostrum, ad_astra:raw_ostrum, ad_astra:raw_ostrum, ad_astra:raw_ostrum, ad_astra:raw_ostrum, ad_astra:raw_ostrum, ad_astra:raw_ostrum, … (9 слотов) → 1×ad_astra:raw_ostrum_block
+  - добыча из блока ad_astra:raw_ostrum_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_plating**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, … (9 слотов) → 64×ad_astra:ostrum_plating
+  - добыча из блока ad_astra:ostrum_plating: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_plating_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plating, ad_astra:ostrum_plating, ad_astra:ostrum_plating, ad_astra:ostrum_plating, ad_astra:ostrum_plating, ad_astra:ostrum_plating → 4×ad_astra:ostrum_plating_stairs
+  - добыча из блока ad_astra:ostrum_plating_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_plating_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plating, ad_astra:ostrum_plating, ad_astra:ostrum_plating → 6×ad_astra:ostrum_plating_slab
+  - добыча из блока ad_astra:ostrum_plating_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plating, ad_astra:ostrum_plating → 2×ad_astra:ostrum_pillar
+  - добыча из блока ad_astra:ostrum_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glowing_ostrum_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_pillar, minecraft:glowstone_dust → 1×ad_astra:glowing_ostrum_pillar
+  - добыча из блока ad_astra:glowing_ostrum_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_plating_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plating → 1×ad_astra:ostrum_plating_button
+  - добыча из блока ad_astra:ostrum_plating_button: сломать любым способом (в т.ч. рукой)
+- **ad_astra:ostrum_plating_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plating, ad_astra:ostrum_plating → 1×ad_astra:ostrum_plating_pressure_plate
+  - добыча из блока ad_astra:ostrum_plating_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:ostrum_sliding_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:ostrum_plate, ad_astra:ostrum_plate, ad_astra:ostrum_plate, minecraft:glass_pane, ad_astra:ostrum_block, minecraft:glass_pane, ad_astra:ostrum_plate, ad_astra:ostrum_plate, … (9 слотов) → 1×ad_astra:ostrum_sliding_door
+  - добыча из блока ad_astra:ostrum_sliding_door: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:calorite_factory_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_ingot, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, … (9 слотов) → 64×ad_astra:calorite_factory_block
+  - добыча из блока ad_astra:calorite_factory_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:encased_calorite_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:steel_ingot, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:steel_ingot, ad_astra:steel_ingot, … (9 слотов) → 64×ad_astra:encased_calorite_block
+  - добыча из блока ad_astra:encased_calorite_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_plateblock**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:steel_rod, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, … (9 слотов) → 64×ad_astra:calorite_plateblock
+  - добыча из блока ad_astra:calorite_plateblock: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_panel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_ingot, ad_astra:calorite_plate, ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_plate, ad_astra:calorite_ingot, … (9 слотов) → 64×ad_astra:calorite_panel
+  - добыча из блока ad_astra:calorite_panel: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_ingot, ad_astra:calorite_ingot, … (9 слотов) → 1×ad_astra:calorite_block
+  - добыча из блока ad_astra:calorite_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:raw_calorite_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:raw_calorite, ad_astra:raw_calorite, ad_astra:raw_calorite, ad_astra:raw_calorite, ad_astra:raw_calorite, ad_astra:raw_calorite, ad_astra:raw_calorite, ad_astra:raw_calorite, … (9 слотов) → 1×ad_astra:raw_calorite_block
+  - добыча из блока ad_astra:raw_calorite_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_plating**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, … (9 слотов) → 64×ad_astra:calorite_plating
+  - добыча из блока ad_astra:calorite_plating: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_plating_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plating, ad_astra:calorite_plating, ad_astra:calorite_plating, ad_astra:calorite_plating, ad_astra:calorite_plating, ad_astra:calorite_plating → 4×ad_astra:calorite_plating_stairs
+  - добыча из блока ad_astra:calorite_plating_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_plating_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plating, ad_astra:calorite_plating, ad_astra:calorite_plating → 6×ad_astra:calorite_plating_slab
+  - добыча из блока ad_astra:calorite_plating_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plating, ad_astra:calorite_plating → 2×ad_astra:calorite_pillar
+  - добыча из блока ad_astra:calorite_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glowing_calorite_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_pillar, minecraft:glowstone_dust → 1×ad_astra:glowing_calorite_pillar
+  - добыча из блока ad_astra:glowing_calorite_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_plating_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plating → 1×ad_astra:calorite_plating_button
+  - добыча из блока ad_astra:calorite_plating_button: сломать любым способом (в т.ч. рукой)
+- **ad_astra:calorite_plating_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plating, ad_astra:calorite_plating → 1×ad_astra:calorite_plating_pressure_plate
+  - добыча из блока ad_astra:calorite_plating_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:calorite_sliding_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:calorite_plate, ad_astra:calorite_plate, ad_astra:calorite_plate, minecraft:glass_pane, ad_astra:calorite_block, minecraft:glass_pane, ad_astra:calorite_plate, ad_astra:calorite_plate, … (9 слотов) → 1×ad_astra:calorite_sliding_door
+  - добыча из блока ad_astra:calorite_sliding_door: сломать инструментом minecraft:iron_pickaxe или лучше
+- **ad_astra:black_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:black_dye, ad_astra:steel_ingot → 4×ad_astra:black_industrial_lamp
+  - добыча из блока ad_astra:black_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:blue_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:blue_dye, ad_astra:steel_ingot → 4×ad_astra:blue_industrial_lamp
+  - добыча из блока ad_astra:blue_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:brown_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:brown_dye, ad_astra:steel_ingot → 4×ad_astra:brown_industrial_lamp
+  - добыча из блока ad_astra:brown_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cyan_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:cyan_dye, ad_astra:steel_ingot → 4×ad_astra:cyan_industrial_lamp
+  - добыча из блока ad_astra:cyan_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:gray_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:gray_dye, ad_astra:steel_ingot → 4×ad_astra:gray_industrial_lamp
+  - добыча из блока ad_astra:gray_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:green_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:green_dye, ad_astra:steel_ingot → 4×ad_astra:green_industrial_lamp
+  - добыча из блока ad_astra:green_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:light_blue_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:light_blue_dye, ad_astra:steel_ingot → 4×ad_astra:light_blue_industrial_lamp
+  - добыча из блока ad_astra:light_blue_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:light_gray_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:light_gray_dye, ad_astra:steel_ingot → 4×ad_astra:light_gray_industrial_lamp
+  - добыча из блока ad_astra:light_gray_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:lime_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:lime_dye, ad_astra:steel_ingot → 4×ad_astra:lime_industrial_lamp
+  - добыча из блока ad_astra:lime_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:magenta_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:magenta_dye, ad_astra:steel_ingot → 4×ad_astra:magenta_industrial_lamp
+  - добыча из блока ad_astra:magenta_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:orange_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:orange_dye, ad_astra:steel_ingot → 4×ad_astra:orange_industrial_lamp
+  - добыча из блока ad_astra:orange_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:pink_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:pink_dye, ad_astra:steel_ingot → 4×ad_astra:pink_industrial_lamp
+  - добыча из блока ad_astra:pink_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:purple_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:purple_dye, ad_astra:steel_ingot → 4×ad_astra:purple_industrial_lamp
+  - добыча из блока ad_astra:purple_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:red_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:red_dye, ad_astra:steel_ingot → 4×ad_astra:red_industrial_lamp
+  - добыча из блока ad_astra:red_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:white_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:white_dye, ad_astra:steel_ingot → 4×ad_astra:white_industrial_lamp
+  - добыча из блока ad_astra:white_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:yellow_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, ad_astra:steel_ingot, minecraft:yellow_dye, ad_astra:steel_ingot → 4×ad_astra:yellow_industrial_lamp
+  - добыча из блока ad_astra:yellow_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_black_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:black_dye, ad_astra:steel_ingot → 8×ad_astra:small_black_industrial_lamp
+  - добыча из блока ad_astra:small_black_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_blue_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:blue_dye, ad_astra:steel_ingot → 8×ad_astra:small_blue_industrial_lamp
+  - добыча из блока ad_astra:small_blue_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_brown_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:brown_dye, ad_astra:steel_ingot → 8×ad_astra:small_brown_industrial_lamp
+  - добыча из блока ad_astra:small_brown_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_cyan_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:cyan_dye, ad_astra:steel_ingot → 8×ad_astra:small_cyan_industrial_lamp
+  - добыча из блока ad_astra:small_cyan_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_gray_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:gray_dye, ad_astra:steel_ingot → 8×ad_astra:small_gray_industrial_lamp
+  - добыча из блока ad_astra:small_gray_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_green_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:green_dye, ad_astra:steel_ingot → 8×ad_astra:small_green_industrial_lamp
+  - добыча из блока ad_astra:small_green_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_light_blue_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:light_blue_dye, ad_astra:steel_ingot → 8×ad_astra:small_light_blue_industrial_lamp
+  - добыча из блока ad_astra:small_light_blue_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_light_gray_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:light_gray_dye, ad_astra:steel_ingot → 8×ad_astra:small_light_gray_industrial_lamp
+  - добыча из блока ad_astra:small_light_gray_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_lime_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:lime_dye, ad_astra:steel_ingot → 8×ad_astra:small_lime_industrial_lamp
+  - добыча из блока ad_astra:small_lime_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_magenta_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:magenta_dye, ad_astra:steel_ingot → 8×ad_astra:small_magenta_industrial_lamp
+  - добыча из блока ad_astra:small_magenta_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_orange_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:orange_dye, ad_astra:steel_ingot → 8×ad_astra:small_orange_industrial_lamp
+  - добыча из блока ad_astra:small_orange_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_pink_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:pink_dye, ad_astra:steel_ingot → 8×ad_astra:small_pink_industrial_lamp
+  - добыча из блока ad_astra:small_pink_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_purple_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:purple_dye, ad_astra:steel_ingot → 8×ad_astra:small_purple_industrial_lamp
+  - добыча из блока ad_astra:small_purple_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_red_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:red_dye, ad_astra:steel_ingot → 8×ad_astra:small_red_industrial_lamp
+  - добыча из блока ad_astra:small_red_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_white_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:white_dye, ad_astra:steel_ingot → 8×ad_astra:small_white_industrial_lamp
+  - добыча из блока ad_astra:small_white_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:small_yellow_industrial_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:yellow_dye, ad_astra:steel_ingot → 8×ad_astra:small_yellow_industrial_lamp
+  - добыча из блока ad_astra:small_yellow_industrial_lamp: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_sand**
+  - добыча из блока ad_astra:moon_sand: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/village/moon/house
+  - находка в сундуке ad_astra:chests/dungeon/moon/large_dungeon_chest
+- **ad_astra:moon_stone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:moon_cobblestone → 1×ad_astra:moon_stone
+  - добыча из блока ad_astra:moon_stone: добыть шёлковым касанием
+- **ad_astra:moon_deepslate**
+  - добыча из блока ad_astra:moon_deepslate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:moon_stone → 1×ad_astra:moon_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone, ad_astra:moon_stone, ad_astra:moon_stone, ad_astra:moon_stone, ad_astra:moon_stone, ad_astra:moon_stone → 4×ad_astra:moon_stone_stairs
+  - добыча из блока ad_astra:moon_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone, ad_astra:moon_stone, ad_astra:moon_stone → 6×ad_astra:moon_stone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:moon_stone → 2×ad_astra:moon_stone_slab
+  - добыча из блока ad_astra:moon_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_cobblestone**
+  - добыча из блока ad_astra:moon_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:moon_cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_cobblestone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_cobblestone, ad_astra:moon_cobblestone, ad_astra:moon_cobblestone, ad_astra:moon_cobblestone, ad_astra:moon_cobblestone, ad_astra:moon_cobblestone → 4×ad_astra:moon_cobblestone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:moon_cobblestone → 1×ad_astra:moon_cobblestone_stairs
+  - добыча из блока ad_astra:moon_cobblestone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_cobblestone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_cobblestone, ad_astra:moon_cobblestone, ad_astra:moon_cobblestone → 6×ad_astra:moon_cobblestone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:moon_cobblestone → 2×ad_astra:moon_cobblestone_slab
+  - добыча из блока ad_astra:moon_cobblestone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_stone_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone, ad_astra:moon_stone, ad_astra:moon_stone, ad_astra:moon_stone → 4×ad_astra:moon_stone_bricks
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:moon_stone → 1×ad_astra:moon_stone_bricks
+  - добыча из блока ad_astra:moon_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_stone_brick_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:moon_stone_bricks → 2×ad_astra:moon_stone_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks → 6×ad_astra:moon_stone_brick_slab
+  - добыча из блока ad_astra:moon_stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_stone_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:moon_stone_bricks → 1×ad_astra:moon_stone_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks → 4×ad_astra:moon_stone_brick_stairs
+  - добыча из блока ad_astra:moon_stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cracked_moon_stone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:moon_stone_bricks → 1×ad_astra:cracked_moon_stone_bricks
+  - добыча из блока ad_astra:cracked_moon_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_moon_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:moon_stone → 1×ad_astra:chiseled_moon_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone_brick_slab, ad_astra:moon_stone_brick_slab → 1×ad_astra:chiseled_moon_stone_bricks
+  - добыча из блока ad_astra:chiseled_moon_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_moon_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_moon_stone_bricks → 1×ad_astra:chiseled_moon_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_moon_stone_bricks, ad_astra:chiseled_moon_stone_bricks, ad_astra:chiseled_moon_stone_bricks, ad_astra:chiseled_moon_stone_bricks, ad_astra:chiseled_moon_stone_bricks, ad_astra:chiseled_moon_stone_bricks → 4×ad_astra:chiseled_moon_stone_stairs
+  - добыча из блока ad_astra:chiseled_moon_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_moon_stone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_moon_stone_bricks → 2×ad_astra:chiseled_moon_stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_moon_stone_bricks, ad_astra:chiseled_moon_stone_bricks, ad_astra:chiseled_moon_stone_bricks → 6×ad_astra:chiseled_moon_stone_slab
+  - добыча из блока ad_astra:chiseled_moon_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_moon_stone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_cobblestone, ad_astra:moon_cobblestone, ad_astra:moon_cobblestone, ad_astra:moon_cobblestone → 4×ad_astra:polished_moon_stone
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:moon_stone_bricks → 1×ad_astra:polished_moon_stone
+  - добыча из блока ad_astra:polished_moon_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_moon_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_moon_stone → 1×ad_astra:polished_moon_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_moon_stone, ad_astra:polished_moon_stone, ad_astra:polished_moon_stone, ad_astra:polished_moon_stone, ad_astra:polished_moon_stone, ad_astra:polished_moon_stone → 4×ad_astra:polished_moon_stone_stairs
+  - добыча из блока ad_astra:polished_moon_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_moon_stone_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_moon_stone → 2×ad_astra:polished_moon_stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_moon_stone, ad_astra:polished_moon_stone, ad_astra:polished_moon_stone → 6×ad_astra:polished_moon_stone_slab
+  - добыча из блока ad_astra:polished_moon_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_pillar**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:moon_stone_bricks → 1×ad_astra:moon_pillar
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone, ad_astra:moon_stone → 2×ad_astra:moon_pillar
+  - добыча из блока ad_astra:moon_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_stone_brick_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:moon_stone → 1×ad_astra:moon_stone_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks, ad_astra:moon_stone_bricks → 6×ad_astra:moon_stone_brick_wall
+  - добыча из блока ad_astra:moon_stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:moon_cheese_ore**
+  - добыча из блока ad_astra:moon_cheese_ore: добыть шёлковым касанием
+- **ad_astra:moon_desh_ore**
+  - добыча из блока ad_astra:moon_desh_ore: добыть шёлковым касанием
+- **ad_astra:deepslate_desh_ore**
+  - добыча из блока ad_astra:deepslate_desh_ore: добыть шёлковым касанием
+- **ad_astra:moon_iron_ore**
+  - добыча из блока ad_astra:moon_iron_ore: добыть шёлковым касанием
+- **ad_astra:moon_ice_shard_ore**
+  - добыча из блока ad_astra:moon_ice_shard_ore: добыть шёлковым касанием
+- **ad_astra:deepslate_ice_shard_ore**
+  - добыча из блока ad_astra:deepslate_ice_shard_ore: добыть шёлковым касанием
+- **ad_astra:aeronos_cap**
+  - добыча из блока ad_astra:aeronos_cap: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_stem**
+  - добыча из блока ad_astra:aeronos_stem: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:aeronos_cap(+1 вар.) → 4×ad_astra:aeronos_planks
+  - добыча из блока ad_astra:aeronos_planks: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks → 4×ad_astra:aeronos_stairs
+  - добыча из блока ad_astra:aeronos_stairs: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks → 6×ad_astra:aeronos_slab
+  - добыча из блока ad_astra:aeronos_slab: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:aeronos_planks, minecraft:stick, ad_astra:aeronos_planks, ad_astra:aeronos_planks, minecraft:stick, ad_astra:aeronos_planks → 3×ad_astra:aeronos_fence
+  - добыча из блока ad_astra:aeronos_fence: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, ad_astra:aeronos_planks, minecraft:stick, minecraft:stick, ad_astra:aeronos_planks, minecraft:stick → 1×ad_astra:aeronos_fence_gate
+  - добыча из блока ad_astra:aeronos_fence_gate: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_ladder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks → 6×ad_astra:aeronos_ladder
+  - добыча из блока ad_astra:aeronos_ladder: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks → 3×ad_astra:aeronos_door
+  - добыча из блока ad_astra:aeronos_door: сломать любым способом (в т.ч. рукой)
+- **ad_astra:aeronos_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks, ad_astra:aeronos_planks → 2×ad_astra:aeronos_trapdoor
+  - добыча из блока ad_astra:aeronos_trapdoor: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_cap**
+  - добыча из блока ad_astra:strophar_cap: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_stem**
+  - добыча из блока ad_astra:strophar_stem: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:strophar_cap(+1 вар.) → 4×ad_astra:strophar_planks
+  - добыча из блока ad_astra:strophar_planks: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks → 4×ad_astra:strophar_stairs
+  - добыча из блока ad_astra:strophar_stairs: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks → 6×ad_astra:strophar_slab
+  - добыча из блока ad_astra:strophar_slab: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:strophar_planks, minecraft:stick, ad_astra:strophar_planks, ad_astra:strophar_planks, minecraft:stick, ad_astra:strophar_planks → 3×ad_astra:strophar_fence
+  - добыча из блока ad_astra:strophar_fence: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, ad_astra:strophar_planks, minecraft:stick, minecraft:stick, ad_astra:strophar_planks, minecraft:stick → 1×ad_astra:strophar_fence_gate
+  - добыча из блока ad_astra:strophar_fence_gate: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_ladder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks → 6×ad_astra:strophar_ladder
+  - добыча из блока ad_astra:strophar_ladder: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks → 3×ad_astra:strophar_door
+  - добыча из блока ad_astra:strophar_door: сломать любым способом (в т.ч. рукой)
+- **ad_astra:strophar_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks, ad_astra:strophar_planks → 2×ad_astra:strophar_trapdoor
+  - добыча из блока ad_astra:strophar_trapdoor: сломать любым способом (в т.ч. рукой)
+- **ad_astra:mars_sand**
+  - добыча из блока ad_astra:mars_sand: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+- **ad_astra:mars_stone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:mars_cobblestone → 1×ad_astra:mars_stone
+  - добыча из блока ad_astra:mars_stone: добыть шёлковым касанием
+- **ad_astra:mars_stone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone, ad_astra:mars_stone, ad_astra:mars_stone, ad_astra:mars_stone, ad_astra:mars_stone, ad_astra:mars_stone → 4×ad_astra:mars_stone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mars_stone → 1×ad_astra:mars_stone_stairs
+  - добыча из блока ad_astra:mars_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone, ad_astra:mars_stone, ad_astra:mars_stone → 6×ad_astra:mars_stone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mars_stone → 2×ad_astra:mars_stone_slab
+  - добыча из блока ad_astra:mars_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_cobblestone**
+  - добыча из блока ad_astra:mars_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:mars_cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_cobblestone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mars_cobblestone → 1×ad_astra:mars_cobblestone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_cobblestone, ad_astra:mars_cobblestone, ad_astra:mars_cobblestone, ad_astra:mars_cobblestone, ad_astra:mars_cobblestone, ad_astra:mars_cobblestone → 4×ad_astra:mars_cobblestone_stairs
+  - добыча из блока ad_astra:mars_cobblestone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_cobblestone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mars_cobblestone → 2×ad_astra:mars_cobblestone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_cobblestone, ad_astra:mars_cobblestone, ad_astra:mars_cobblestone → 6×ad_astra:mars_cobblestone_slab
+  - добыча из блока ad_astra:mars_cobblestone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_stone_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone, ad_astra:mars_stone, ad_astra:mars_stone, ad_astra:mars_stone → 4×ad_astra:mars_stone_bricks
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mars_stone → 1×ad_astra:mars_stone_bricks
+  - добыча из блока ad_astra:mars_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_stone_brick_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mars_stone_bricks → 2×ad_astra:mars_stone_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks → 6×ad_astra:mars_stone_brick_slab
+  - добыча из блока ad_astra:mars_stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_stone_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mars_stone_bricks → 1×ad_astra:mars_stone_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks → 4×ad_astra:mars_stone_brick_stairs
+  - добыча из блока ad_astra:mars_stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cracked_mars_stone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:mars_stone_bricks → 1×ad_astra:cracked_mars_stone_bricks
+  - добыча из блока ad_astra:cracked_mars_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_mars_stone_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone_brick_slab, ad_astra:mars_stone_brick_slab → 1×ad_astra:chiseled_mars_stone_bricks
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mars_stone → 1×ad_astra:chiseled_mars_stone_bricks
+  - добыча из блока ad_astra:chiseled_mars_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_mars_stone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_mars_stone_bricks, ad_astra:chiseled_mars_stone_bricks, ad_astra:chiseled_mars_stone_bricks, ad_astra:chiseled_mars_stone_bricks, ad_astra:chiseled_mars_stone_bricks, ad_astra:chiseled_mars_stone_bricks → 4×ad_astra:chiseled_mars_stone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_mars_stone_bricks → 1×ad_astra:chiseled_mars_stone_stairs
+  - добыча из блока ad_astra:chiseled_mars_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_mars_stone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_mars_stone_bricks → 2×ad_astra:chiseled_mars_stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_mars_stone_bricks, ad_astra:chiseled_mars_stone_bricks, ad_astra:chiseled_mars_stone_bricks → 6×ad_astra:chiseled_mars_stone_slab
+  - добыча из блока ad_astra:chiseled_mars_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_mars_stone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_cobblestone, ad_astra:mars_cobblestone, ad_astra:mars_cobblestone, ad_astra:mars_cobblestone → 4×ad_astra:polished_mars_stone
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mars_stone → 1×ad_astra:polished_mars_stone
+  - добыча из блока ad_astra:polished_mars_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_mars_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_mars_stone → 1×ad_astra:polished_mars_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_mars_stone, ad_astra:polished_mars_stone, ad_astra:polished_mars_stone, ad_astra:polished_mars_stone, ad_astra:polished_mars_stone, ad_astra:polished_mars_stone → 4×ad_astra:polished_mars_stone_stairs
+  - добыча из блока ad_astra:polished_mars_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_mars_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_mars_stone, ad_astra:polished_mars_stone, ad_astra:polished_mars_stone → 6×ad_astra:polished_mars_stone_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_mars_stone → 2×ad_astra:polished_mars_stone_slab
+  - добыча из блока ad_astra:polished_mars_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone, ad_astra:mars_stone → 2×ad_astra:mars_pillar
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mars_stone_bricks → 1×ad_astra:mars_pillar
+  - добыча из блока ad_astra:mars_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_stone_brick_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mars_stone → 1×ad_astra:mars_stone_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks, ad_astra:mars_stone_bricks → 6×ad_astra:mars_stone_brick_wall
+  - добыча из блока ad_astra:mars_stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:conglomerate**
+  - добыча из блока ad_astra:conglomerate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_conglomerate**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:conglomerate → 1×ad_astra:polished_conglomerate
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:conglomerate, ad_astra:conglomerate, ad_astra:conglomerate, ad_astra:conglomerate → 4×ad_astra:polished_conglomerate
+  - добыча из блока ad_astra:polished_conglomerate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mars_iron_ore**
+  - добыча из блока ad_astra:mars_iron_ore: добыть шёлковым касанием
+- **ad_astra:mars_diamond_ore**
+  - добыча из блока ad_astra:mars_diamond_ore: добыть шёлковым касанием
+- **ad_astra:mars_ostrum_ore**
+  - добыча из блока ad_astra:mars_ostrum_ore: добыть шёлковым касанием
+- **ad_astra:deepslate_ostrum_ore**
+  - добыча из блока ad_astra:deepslate_ostrum_ore: добыть шёлковым касанием
+- **ad_astra:mars_ice_shard_ore**
+  - добыча из блока ad_astra:mars_ice_shard_ore: добыть шёлковым касанием
+- **ad_astra:venus_sandstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_sand, ad_astra:venus_sand, ad_astra:venus_sand, ad_astra:venus_sand → 4×ad_astra:venus_sandstone
+  - добыча из блока ad_astra:venus_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_sandstone_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_sandstone → 1×ad_astra:venus_sandstone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_sandstone, ad_astra:venus_sandstone, ad_astra:venus_sandstone, ad_astra:venus_sandstone → 4×ad_astra:venus_sandstone_bricks
+  - добыча из блока ad_astra:venus_sandstone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_sandstone_brick_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_sandstone_bricks, ad_astra:venus_sandstone_bricks, ad_astra:venus_sandstone_bricks → 6×ad_astra:venus_sandstone_brick_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_sandstone_bricks → 2×ad_astra:venus_sandstone_brick_slab
+  - добыча из блока ad_astra:venus_sandstone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_sandstone_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_sandstone_bricks, ad_astra:venus_sandstone_bricks, ad_astra:venus_sandstone_bricks, ad_astra:venus_sandstone_bricks, ad_astra:venus_sandstone_bricks, ad_astra:venus_sandstone_bricks → 4×ad_astra:venus_sandstone_brick_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_sandstone_bricks → 1×ad_astra:venus_sandstone_brick_stairs
+  - добыча из блока ad_astra:venus_sandstone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cracked_venus_sandstone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:venus_sandstone_bricks → 1×ad_astra:cracked_venus_sandstone_bricks
+  - добыча из блока ad_astra:cracked_venus_sandstone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_sand**
+  - добыча из блока ad_astra:venus_sand: сломать любым способом (в т.ч. рукой)
+- **ad_astra:venus_stone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:venus_cobblestone → 1×ad_astra:venus_stone
+  - добыча из блока ad_astra:venus_stone: добыть шёлковым касанием
+- **ad_astra:venus_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_stone → 1×ad_astra:venus_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone, ad_astra:venus_stone, ad_astra:venus_stone, ad_astra:venus_stone, ad_astra:venus_stone, ad_astra:venus_stone → 4×ad_astra:venus_stone_stairs
+  - добыча из блока ad_astra:venus_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone, ad_astra:venus_stone, ad_astra:venus_stone → 6×ad_astra:venus_stone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_stone → 2×ad_astra:venus_stone_slab
+  - добыча из блока ad_astra:venus_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_cobblestone**
+  - добыча из блока ad_astra:venus_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:venus_cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_cobblestone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_cobblestone → 1×ad_astra:venus_cobblestone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_cobblestone, ad_astra:venus_cobblestone, ad_astra:venus_cobblestone, ad_astra:venus_cobblestone, ad_astra:venus_cobblestone, ad_astra:venus_cobblestone → 4×ad_astra:venus_cobblestone_stairs
+  - добыча из блока ad_astra:venus_cobblestone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_cobblestone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_cobblestone → 2×ad_astra:venus_cobblestone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_cobblestone, ad_astra:venus_cobblestone, ad_astra:venus_cobblestone → 6×ad_astra:venus_cobblestone_slab
+  - добыча из блока ad_astra:venus_cobblestone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:venus_stone → 1×ad_astra:venus_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone, ad_astra:venus_stone, ad_astra:venus_stone, ad_astra:venus_stone → 4×ad_astra:venus_stone_bricks
+  - добыча из блока ad_astra:venus_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_stone_brick_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:venus_stone_bricks → 2×ad_astra:venus_stone_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks → 6×ad_astra:venus_stone_brick_slab
+  - добыча из блока ad_astra:venus_stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_stone_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:venus_stone_bricks → 1×ad_astra:venus_stone_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks → 4×ad_astra:venus_stone_brick_stairs
+  - добыча из блока ad_astra:venus_stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cracked_venus_stone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:venus_stone_bricks → 1×ad_astra:cracked_venus_stone_bricks
+  - добыча из блока ad_astra:cracked_venus_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_venus_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:venus_stone → 1×ad_astra:chiseled_venus_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone_brick_slab, ad_astra:venus_stone_brick_slab → 1×ad_astra:chiseled_venus_stone_bricks
+  - добыча из блока ad_astra:chiseled_venus_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_venus_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_venus_stone_bricks → 1×ad_astra:chiseled_venus_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_venus_stone_bricks, ad_astra:chiseled_venus_stone_bricks, ad_astra:chiseled_venus_stone_bricks, ad_astra:chiseled_venus_stone_bricks, ad_astra:chiseled_venus_stone_bricks, ad_astra:chiseled_venus_stone_bricks → 4×ad_astra:chiseled_venus_stone_stairs
+  - добыча из блока ad_astra:chiseled_venus_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_venus_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_venus_stone_bricks, ad_astra:chiseled_venus_stone_bricks, ad_astra:chiseled_venus_stone_bricks → 6×ad_astra:chiseled_venus_stone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_venus_stone_bricks → 2×ad_astra:chiseled_venus_stone_slab
+  - добыча из блока ad_astra:chiseled_venus_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_venus_stone**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:venus_stone_bricks → 1×ad_astra:polished_venus_stone
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_cobblestone, ad_astra:venus_cobblestone, ad_astra:venus_cobblestone, ad_astra:venus_cobblestone → 4×ad_astra:polished_venus_stone
+  - добыча из блока ad_astra:polished_venus_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_venus_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_venus_stone → 1×ad_astra:polished_venus_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_venus_stone, ad_astra:polished_venus_stone, ad_astra:polished_venus_stone, ad_astra:polished_venus_stone, ad_astra:polished_venus_stone, ad_astra:polished_venus_stone → 4×ad_astra:polished_venus_stone_stairs
+  - добыча из блока ad_astra:polished_venus_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_venus_stone_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:venus_stone → 2×ad_astra:polished_venus_stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_venus_stone, ad_astra:polished_venus_stone, ad_astra:polished_venus_stone → 6×ad_astra:polished_venus_stone_slab
+  - добыча из блока ad_astra:polished_venus_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_pillar**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:venus_stone_bricks → 1×ad_astra:venus_pillar
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone, ad_astra:venus_stone → 2×ad_astra:venus_pillar
+  - добыча из блока ad_astra:venus_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_stone_brick_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:venus_stone_bricks → 1×ad_astra:venus_stone_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks, ad_astra:venus_stone_bricks → 6×ad_astra:venus_stone_brick_wall
+  - добыча из блока ad_astra:venus_stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:venus_coal_ore**
+  - добыча из блока ad_astra:venus_coal_ore: добыть шёлковым касанием
+- **ad_astra:venus_gold_ore**
+  - добыча из блока ad_astra:venus_gold_ore: добыть шёлковым касанием
+- **ad_astra:venus_diamond_ore**
+  - добыча из блока ad_astra:venus_diamond_ore: добыть шёлковым касанием
+- **ad_astra:venus_calorite_ore**
+  - добыча из блока ad_astra:venus_calorite_ore: добыть шёлковым касанием
+- **ad_astra:deepslate_calorite_ore**
+  - добыча из блока ad_astra:deepslate_calorite_ore: добыть шёлковым касанием
+- **ad_astra:infernal_spire_block**
+  - добыча из блока ad_astra:infernal_spire_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_stone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:mercury_cobblestone → 1×ad_astra:mercury_stone
+  - добыча из блока ad_astra:mercury_stone: добыть шёлковым касанием
+- **ad_astra:mercury_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mercury_stone → 1×ad_astra:mercury_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone, ad_astra:mercury_stone, ad_astra:mercury_stone, ad_astra:mercury_stone, ad_astra:mercury_stone, ad_astra:mercury_stone → 4×ad_astra:mercury_stone_stairs
+  - добыча из блока ad_astra:mercury_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_stone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mercury_stone → 2×ad_astra:mercury_stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone, ad_astra:mercury_stone, ad_astra:mercury_stone → 6×ad_astra:mercury_stone_slab
+  - добыча из блока ad_astra:mercury_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_cobblestone**
+  - добыча из блока ad_astra:mercury_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:mercury_cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_cobblestone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mercury_cobblestone → 1×ad_astra:mercury_cobblestone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone → 4×ad_astra:mercury_cobblestone_stairs
+  - добыча из блока ad_astra:mercury_cobblestone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_cobblestone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mercury_cobblestone → 2×ad_astra:mercury_cobblestone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone → 6×ad_astra:mercury_cobblestone_slab
+  - добыча из блока ad_astra:mercury_cobblestone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:mercury_stone → 1×ad_astra:mercury_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone, ad_astra:mercury_stone, ad_astra:mercury_stone, ad_astra:mercury_stone → 4×ad_astra:mercury_stone_bricks
+  - добыча из блока ad_astra:mercury_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_stone_brick_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks → 6×ad_astra:mercury_stone_brick_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mercury_stone → 2×ad_astra:mercury_stone_brick_slab
+  - добыча из блока ad_astra:mercury_stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_stone_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mercury_stone_bricks → 1×ad_astra:mercury_stone_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks → 4×ad_astra:mercury_stone_brick_stairs
+  - добыча из блока ad_astra:mercury_stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cracked_mercury_stone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:mercury_stone_bricks → 1×ad_astra:cracked_mercury_stone_bricks
+  - добыча из блока ad_astra:cracked_mercury_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_mercury_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mercury_stone_bricks → 1×ad_astra:chiseled_mercury_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone_brick_slab, ad_astra:mercury_stone_brick_slab → 1×ad_astra:chiseled_mercury_stone_bricks
+  - добыча из блока ad_astra:chiseled_mercury_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_mercury_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_mercury_stone_bricks → 1×ad_astra:chiseled_mercury_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_mercury_stone_bricks, ad_astra:chiseled_mercury_stone_bricks, ad_astra:chiseled_mercury_stone_bricks, ad_astra:chiseled_mercury_stone_bricks, ad_astra:chiseled_mercury_stone_bricks, ad_astra:chiseled_mercury_stone_bricks → 4×ad_astra:chiseled_mercury_stone_stairs
+  - добыча из блока ad_astra:chiseled_mercury_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_mercury_stone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_mercury_stone_bricks → 2×ad_astra:chiseled_mercury_stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_mercury_stone_bricks, ad_astra:chiseled_mercury_stone_bricks, ad_astra:chiseled_mercury_stone_bricks → 6×ad_astra:chiseled_mercury_stone_slab
+  - добыча из блока ad_astra:chiseled_mercury_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_mercury_stone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone, ad_astra:mercury_cobblestone → 4×ad_astra:polished_mercury_stone
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mercury_stone_bricks → 1×ad_astra:polished_mercury_stone
+  - добыча из блока ad_astra:polished_mercury_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_mercury_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mercury_stone → 1×ad_astra:polished_mercury_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_mercury_stone, ad_astra:polished_mercury_stone, ad_astra:polished_mercury_stone, ad_astra:polished_mercury_stone, ad_astra:polished_mercury_stone, ad_astra:polished_mercury_stone → 4×ad_astra:polished_mercury_stone_stairs
+  - добыча из блока ad_astra:polished_mercury_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_mercury_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_mercury_stone, ad_astra:polished_mercury_stone, ad_astra:polished_mercury_stone → 6×ad_astra:polished_mercury_stone_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_mercury_stone → 2×ad_astra:polished_mercury_stone_slab
+  - добыча из блока ad_astra:polished_mercury_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_pillar**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mercury_stone → 1×ad_astra:mercury_pillar
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone, ad_astra:mercury_stone → 2×ad_astra:mercury_pillar
+  - добыча из блока ad_astra:mercury_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_stone_brick_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:mercury_stone_bricks → 1×ad_astra:mercury_stone_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks, ad_astra:mercury_stone_bricks → 6×ad_astra:mercury_stone_brick_wall
+  - добыча из блока ad_astra:mercury_stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:mercury_iron_ore**
+  - добыча из блока ad_astra:mercury_iron_ore: добыть шёлковым касанием
+- **ad_astra:glacio_stone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:glacio_cobblestone → 1×ad_astra:glacio_stone
+  - добыча из блока ad_astra:glacio_stone: добыть шёлковым касанием
+- **ad_astra:glacio_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:glacio_stone → 1×ad_astra:glacio_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone, ad_astra:glacio_stone, ad_astra:glacio_stone, ad_astra:glacio_stone, ad_astra:glacio_stone, ad_astra:glacio_stone → 4×ad_astra:glacio_stone_stairs
+  - добыча из блока ad_astra:glacio_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone, ad_astra:glacio_stone, ad_astra:glacio_stone → 6×ad_astra:glacio_stone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:glacio_stone → 2×ad_astra:glacio_stone_slab
+  - добыча из блока ad_astra:glacio_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_cobblestone**
+  - добыча из блока ad_astra:glacio_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:glacio_cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_cobblestone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:glacio_cobblestone → 1×ad_astra:glacio_cobblestone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone → 4×ad_astra:glacio_cobblestone_stairs
+  - добыча из блока ad_astra:glacio_cobblestone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_cobblestone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:glacio_cobblestone → 2×ad_astra:glacio_cobblestone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone → 6×ad_astra:glacio_cobblestone_slab
+  - добыча из блока ad_astra:glacio_cobblestone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:glacio_stone → 1×ad_astra:glacio_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone, ad_astra:glacio_stone, ad_astra:glacio_stone, ad_astra:glacio_stone → 4×ad_astra:glacio_stone_bricks
+  - добыча из блока ad_astra:glacio_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_stone_brick_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:glacio_stone_bricks → 2×ad_astra:glacio_stone_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks → 6×ad_astra:glacio_stone_brick_slab
+  - добыча из блока ad_astra:glacio_stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_stone_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks → 4×ad_astra:glacio_stone_brick_stairs
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:glacio_stone → 1×ad_astra:glacio_stone_brick_stairs
+  - добыча из блока ad_astra:glacio_stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cracked_glacio_stone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:glacio_stone_bricks → 1×ad_astra:cracked_glacio_stone_bricks
+  - добыча из блока ad_astra:cracked_glacio_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_glacio_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:glacio_stone_bricks → 1×ad_astra:chiseled_glacio_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone_brick_slab, ad_astra:glacio_stone_brick_slab → 1×ad_astra:chiseled_glacio_stone_bricks
+  - добыча из блока ad_astra:chiseled_glacio_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_glacio_stone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_glacio_stone_bricks, ad_astra:chiseled_glacio_stone_bricks, ad_astra:chiseled_glacio_stone_bricks, ad_astra:chiseled_glacio_stone_bricks, ad_astra:chiseled_glacio_stone_bricks, ad_astra:chiseled_glacio_stone_bricks → 4×ad_astra:chiseled_glacio_stone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_glacio_stone_bricks → 1×ad_astra:chiseled_glacio_stone_stairs
+  - добыча из блока ad_astra:chiseled_glacio_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_glacio_stone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_glacio_stone_bricks → 2×ad_astra:chiseled_glacio_stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_glacio_stone_bricks, ad_astra:chiseled_glacio_stone_bricks, ad_astra:chiseled_glacio_stone_bricks → 6×ad_astra:chiseled_glacio_stone_slab
+  - добыча из блока ad_astra:chiseled_glacio_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_glacio_stone**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:glacio_stone_bricks → 1×ad_astra:polished_glacio_stone
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone, ad_astra:glacio_cobblestone → 4×ad_astra:polished_glacio_stone
+  - добыча из блока ad_astra:polished_glacio_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_glacio_stone_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_glacio_stone → 1×ad_astra:polished_glacio_stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_glacio_stone, ad_astra:polished_glacio_stone, ad_astra:polished_glacio_stone, ad_astra:polished_glacio_stone, ad_astra:polished_glacio_stone, ad_astra:polished_glacio_stone → 4×ad_astra:polished_glacio_stone_stairs
+  - добыча из блока ad_astra:polished_glacio_stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_glacio_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_glacio_stone, ad_astra:polished_glacio_stone, ad_astra:polished_glacio_stone → 6×ad_astra:polished_glacio_stone_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:polished_glacio_stone → 2×ad_astra:polished_glacio_stone_slab
+  - добыча из блока ad_astra:polished_glacio_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_pillar**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:glacio_stone → 1×ad_astra:glacio_pillar
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone, ad_astra:glacio_stone → 2×ad_astra:glacio_pillar
+  - добыча из блока ad_astra:glacio_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_stone_brick_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: ad_astra:glacio_stone → 1×ad_astra:glacio_stone_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks, ad_astra:glacio_stone_bricks → 6×ad_astra:glacio_stone_brick_wall
+  - добыча из блока ad_astra:glacio_stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacio_ice_shard_ore**
+  - добыча из блока ad_astra:glacio_ice_shard_ore: добыть шёлковым касанием
+- **ad_astra:glacio_coal_ore**
+  - добыча из блока ad_astra:glacio_coal_ore: добыть шёлковым касанием
+- **ad_astra:glacio_copper_ore**
+  - добыча из блока ad_astra:glacio_copper_ore: добыть шёлковым касанием
+- **ad_astra:glacio_iron_ore**
+  - добыча из блока ad_astra:glacio_iron_ore: добыть шёлковым касанием
+- **ad_astra:glacio_lapis_ore**
+  - добыча из блока ad_astra:glacio_lapis_ore: добыть шёлковым касанием
+- **ad_astra:permafrost**
+  - добыча из блока ad_astra:permafrost: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:permafrost_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost → 4×ad_astra:permafrost_bricks
+  - добыча из блока ad_astra:permafrost_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:permafrost_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks → 4×ad_astra:permafrost_brick_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:permafrost_bricks → 1×ad_astra:permafrost_brick_stairs
+  - добыча из блока ad_astra:permafrost_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:permafrost_brick_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:permafrost_bricks → 2×ad_astra:permafrost_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks → 6×ad_astra:permafrost_brick_slab
+  - добыча из блока ad_astra:permafrost_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:cracked_permafrost_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: ad_astra:permafrost_bricks → 1×ad_astra:cracked_permafrost_bricks
+  - добыча из блока ad_astra:cracked_permafrost_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:permafrost_tiles**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:permafrost_bricks → 1×ad_astra:permafrost_tiles
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks → 4×ad_astra:permafrost_tiles
+  - добыча из блока ad_astra:permafrost_tiles: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_permafrost_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost_brick_slab, ad_astra:permafrost_brick_slab → 1×ad_astra:chiseled_permafrost_bricks
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:permafrost_bricks → 1×ad_astra:chiseled_permafrost_bricks
+  - добыча из блока ad_astra:chiseled_permafrost_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_permafrost_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_permafrost_bricks → 1×ad_astra:chiseled_permafrost_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_permafrost_bricks, ad_astra:chiseled_permafrost_bricks, ad_astra:chiseled_permafrost_bricks, ad_astra:chiseled_permafrost_bricks, ad_astra:chiseled_permafrost_bricks, ad_astra:chiseled_permafrost_bricks → 4×ad_astra:chiseled_permafrost_brick_stairs
+  - добыча из блока ad_astra:chiseled_permafrost_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:chiseled_permafrost_brick_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:chiseled_permafrost_bricks, ad_astra:chiseled_permafrost_bricks, ad_astra:chiseled_permafrost_bricks → 6×ad_astra:chiseled_permafrost_brick_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:chiseled_permafrost_bricks → 2×ad_astra:chiseled_permafrost_brick_slab
+  - добыча из блока ad_astra:chiseled_permafrost_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_permafrost**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost, ad_astra:permafrost, … (9 слотов) → 9×ad_astra:polished_permafrost
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:permafrost_bricks → 1×ad_astra:polished_permafrost
+  - добыча из блока ad_astra:polished_permafrost: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_permafrost_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:polished_permafrost → 1×ad_astra:polished_permafrost_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_permafrost, ad_astra:polished_permafrost, ad_astra:polished_permafrost, ad_astra:polished_permafrost, ad_astra:polished_permafrost, ad_astra:polished_permafrost → 4×ad_astra:polished_permafrost_stairs
+  - добыча из блока ad_astra:polished_permafrost_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:polished_permafrost_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:polished_permafrost, ad_astra:polished_permafrost, ad_astra:polished_permafrost → 6×ad_astra:polished_permafrost_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:polished_permafrost → 2×ad_astra:polished_permafrost_slab
+  - добыча из блока ad_astra:polished_permafrost_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:permafrost_pillar**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:permafrost → 1×ad_astra:permafrost_pillar
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost, ad_astra:permafrost → 2×ad_astra:permafrost_pillar
+  - добыча из блока ad_astra:permafrost_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:permafrost_brick_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks, ad_astra:permafrost_bricks → 6×ad_astra:permafrost_brick_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: ad_astra:permafrost_bricks → 1×ad_astra:permafrost_brick_wall
+  - добыча из блока ad_astra:permafrost_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **ad_astra:glacian_log**
+  - добыча из блока ad_astra:glacian_log: сломать любым способом (в т.ч. рукой)
+- **ad_astra:stripped_glacian_log**
+  - добыча из блока ad_astra:stripped_glacian_log: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_leaves**
+  - добыча из блока ad_astra:glacian_leaves: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_log(+1 вар.) → 4×ad_astra:glacian_planks
+  - добыча из блока ad_astra:glacian_planks: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks → 4×ad_astra:glacian_stairs
+  - добыча из блока ad_astra:glacian_stairs: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks → 6×ad_astra:glacian_slab
+  - добыча из блока ad_astra:glacian_slab: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks → 3×ad_astra:glacian_door
+  - добыча из блока ad_astra:glacian_door: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks, ad_astra:glacian_planks → 2×ad_astra:glacian_trapdoor
+  - добыча из блока ad_astra:glacian_trapdoor: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_planks, minecraft:stick, ad_astra:glacian_planks, ad_astra:glacian_planks, minecraft:stick, ad_astra:glacian_planks → 3×ad_astra:glacian_fence
+  - добыча из блока ad_astra:glacian_fence: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, ad_astra:glacian_planks, minecraft:stick, minecraft:stick, ad_astra:glacian_planks, minecraft:stick → 1×ad_astra:glacian_fence_gate
+  - добыча из блока ad_astra:glacian_fence_gate: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_planks → 1×ad_astra:glacian_button
+  - добыча из блока ad_astra:glacian_button: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: ad_astra:glacian_planks, ad_astra:glacian_planks → 1×ad_astra:glacian_pressure_plate
+  - добыча из блока ad_astra:glacian_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **ad_astra:glacian_fur**
+  - добыча из блока ad_astra:glacian_fur: сломать любым способом (в т.ч. рукой)
+- **ad_astra:lunarian_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:corrupted_lunarian_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:star_crawler_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:martian_raptor_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:pygro_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:zombified_pygro_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:pygro_brute_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:mogler_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:zombified_mogler_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:sulfur_creeper_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:glacian_ram_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+- **ad_astra:lunarian_wandering_trader_spawn_egg**
+  - только творческий режим, вкладка itemGroup.ad_astra.main или /give
+
+### admin_control
+
+- **admin_control:selection_brush**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:player_marker**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:npc_marker**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:story_tablet**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:npc_path_tool**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:template_teleporter**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:test_teleporter**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:npc_pose_tool**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:builder_marker**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:story_save_token**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:story_respawn_token**
+  - только творческий режим, вкладка itemGroup.admin_control.cw_expedition или /give
+- **admin_control:world_coin**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_life**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_ore**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_path**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_fight**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_shadow**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_mind**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_chips**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:skill_coin_sync**
+  - только творческий режим, вкладка itemGroup.admin_control.worldcoin или /give
+- **admin_control:casino_machine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:glass_pane, minecraft:gold_ingot, minecraft:redstone, minecraft:diamond, minecraft:redstone, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×admin_control:casino_machine
+  - добыча из блока admin_control:casino_machine: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **admin_control:hammer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stick, minecraft:iron_ingot, minecraft:stick → 1×admin_control:hammer
+- **admin_control:soldering_iron**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:iron_ingot, minecraft:redstone → 1×admin_control:soldering_iron
+- **admin_control:pliers**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:red_dye, minecraft:red_dye → 1×admin_control:pliers
+- **admin_control:screwdriver**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:red_dye → 1×admin_control:screwdriver
+- **admin_control:multimeter**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:glass_pane, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot, minecraft:copper_ingot, minecraft:copper_ingot → 1×admin_control:multimeter
+- **admin_control:protein_bar_chocolate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cookie, minecraft:cocoa_beans, minecraft:sugar, minecraft:wheat → 2×admin_control:protein_bar_chocolate
+- **admin_control:protein_bar_vanilla**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cookie, minecraft:sugar, minecraft:milk_bucket, minecraft:wheat → 2×admin_control:protein_bar_vanilla
+- **admin_control:protein_bar_berry**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cookie, minecraft:sweet_berries, minecraft:sugar, minecraft:wheat → 2×admin_control:protein_bar_berry
+- **admin_control:protein_bar_caramel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cookie, minecraft:honey_bottle, minecraft:sugar, minecraft:wheat → 2×admin_control:protein_bar_caramel
+- **admin_control:protein_bar_peanut**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cookie, minecraft:pumpkin_seeds, minecraft:sugar, minecraft:wheat → 2×admin_control:protein_bar_peanut
+- **admin_control:protein_shake_milk**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass_bottle, minecraft:milk_bucket, minecraft:sugar, minecraft:egg → 1×admin_control:protein_shake_milk
+- **admin_control:protein_shake_banana**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass_bottle, minecraft:milk_bucket, minecraft:yellow_dye, minecraft:sugar, minecraft:egg → 1×admin_control:protein_shake_banana
+- **admin_control:protein_shake_coffee**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass_bottle, minecraft:milk_bucket, minecraft:cocoa_beans, minecraft:sugar, minecraft:blaze_powder → 1×admin_control:protein_shake_coffee
+- **admin_control:hidden_item**
+  - только команда /give
+- **admin_control:albion_grass_block**
+  - добыча из блока admin_control:albion_grass_block: добыть шёлковым касанием
+- **admin_control:albion_dirt**
+  - добыча из блока admin_control:albion_dirt: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:albion_grass_block: сломать любым способом (в т.ч. рукой)
+- **admin_control:albion_dirt_path**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:albion_farmland**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:albion_stone**
+  - добыча из блока admin_control:albion_stone: добыть шёлковым касанием
+- **admin_control:albion_cobblestone**
+  - добыча из блока admin_control:albion_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока admin_control:albion_cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **admin_control:lumira_azure_glass**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_azure_glass_pane**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_amethyst_glass**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_amethyst_glass_pane**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_emerald_glass**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_emerald_glass_pane**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_starlight_glass**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_starlight_glass_pane**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_blossom_glass**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_blossom_glass_pane**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_waterfall_glass**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_waterfall_glass_pane**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_night_glass**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_night_glass_pane**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:spark_coal_ore**
+  - добыча из блока admin_control:spark_coal_ore: добыть шёлковым касанием
+- **admin_control:lumirite_ore**
+  - добыча из блока admin_control:lumirite_ore: добыть шёлковым касанием
+- **admin_control:zaremed_ore**
+  - добыча из блока admin_control:zaremed_ore: добыть шёлковым касанием
+- **admin_control:twilight_iron_ore**
+  - добыча из блока admin_control:twilight_iron_ore: добыть шёлковым касанием
+- **admin_control:starsilver_ore**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:dew_quartz_ore**
+  - добыча из блока admin_control:dew_quartz_ore: добыть шёлковым касанием
+- **admin_control:echolite_ore**
+  - добыча из блока admin_control:echolite_ore: добыть шёлковым касанием
+- **admin_control:heart_crystal_ore**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:jarolite_ore**
+  - добыча из блока admin_control:jarolite_ore: добыть шёлковым касанием
+- **admin_control:lumirite_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, … (9 слотов) → 1×admin_control:lumirite_block
+  - добыча из блока admin_control:lumirite_block: сломать инструментом minecraft:iron_pickaxe или лучше
+- **admin_control:zaremed_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, … (9 слотов) → 1×admin_control:zaremed_block
+  - добыча из блока admin_control:zaremed_block: сломать инструментом minecraft:iron_pickaxe или лучше
+- **admin_control:twilight_iron_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, … (9 слотов) → 1×admin_control:twilight_iron_block
+  - добыча из блока admin_control:twilight_iron_block: сломать инструментом minecraft:iron_pickaxe или лучше
+- **admin_control:starsilver_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, … (9 слотов) → 1×admin_control:starsilver_block
+  - добыча из блока admin_control:starsilver_block: сломать инструментом minecraft:iron_pickaxe или лучше
+- **admin_control:spark_coal**
+  - добыча из блока admin_control:spark_coal_ore: сломать инструментом minecraft:stone_pickaxe или лучше
+- **admin_control:raw_lumirite**
+  - добыча из блока admin_control:lumirite_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+- **admin_control:raw_zaremed**
+  - добыча из блока admin_control:zaremed_ore: сломать инструментом minecraft:diamond_pickaxe или лучше
+- **admin_control:raw_twilight_iron**
+  - добыча из блока admin_control:twilight_iron_ore: сломать инструментом minecraft:netherite_pickaxe или лучше
+- **admin_control:raw_starsilver**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:dew_quartz**
+  - добыча из блока admin_control:dew_quartz_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+- **admin_control:echolite**
+  - добыча из блока admin_control:echolite_ore: сломать инструментом minecraft:netherite_pickaxe или лучше
+- **admin_control:heart_crystal**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:jarolite**
+  - добыча из блока admin_control:jarolite_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+- **admin_control:lumirite_ingot**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: admin_control:raw_lumirite → 1×admin_control:lumirite_ingot
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: admin_control:raw_lumirite → 1×admin_control:lumirite_ingot
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumirite_block → 9×admin_control:lumirite_ingot
+- **admin_control:zaremed_ingot**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zaremed_block → 9×admin_control:zaremed_ingot
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: admin_control:raw_zaremed → 1×admin_control:zaremed_ingot
+  - крафт на «minecraft:furnace»: 1 рец.; пример: admin_control:raw_zaremed → 1×admin_control:zaremed_ingot
+- **admin_control:twilight_iron_ingot**
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: admin_control:raw_twilight_iron → 1×admin_control:twilight_iron_ingot
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_iron_block → 9×admin_control:twilight_iron_ingot
+  - крафт на «minecraft:furnace»: 1 рец.; пример: admin_control:raw_twilight_iron → 1×admin_control:twilight_iron_ingot
+- **admin_control:starsilver_ingot**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:starsilver_block → 9×admin_control:starsilver_ingot
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: admin_control:raw_starsilver → 1×admin_control:starsilver_ingot
+  - крафт на «minecraft:furnace»: 1 рец.; пример: admin_control:raw_starsilver → 1×admin_control:starsilver_ingot
+- **admin_control:spark_briquette**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:spark_coal, admin_control:spark_coal, admin_control:spark_coal, admin_control:spark_coal → 1×admin_control:spark_briquette
+- **admin_control:jarolite_briquette**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:jarolite, admin_control:jarolite, admin_control:jarolite, admin_control:jarolite, admin_control:jarolite, admin_control:jarolite, admin_control:jarolite, admin_control:jarolite, … (9 слотов) → 1×admin_control:jarolite_briquette
+- **admin_control:dew_lens**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:dew_quartz, admin_control:dew_quartz, admin_control:dew_quartz, admin_control:dew_quartz → 1×admin_control:dew_lens [Прочее]
+- **admin_control:echo_focus**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:echolite, admin_control:zaremed_ingot, admin_control:echolite → 1×admin_control:echo_focus [Прочее]
+- **admin_control:heart_prism**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:heart_crystal, admin_control:starsilver_ingot, admin_control:starsilver_ingot → 1×admin_control:heart_prism [Прочее]
+- **admin_control:rune_thread**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:string, minecraft:string → 1×admin_control:rune_thread
+- **admin_control:lumirite_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumirite_ingot, admin_control:lumirite_ingot, minecraft:stick → 1×admin_control:lumirite_sword
+- **admin_control:lumirite_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, minecraft:stick, minecraft:stick → 1×admin_control:lumirite_axe
+- **admin_control:lumirite_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumirite_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, minecraft:stick, minecraft:stick → 1×admin_control:lumirite_pickaxe
+- **admin_control:lumirite_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumirite_ingot, minecraft:stick, minecraft:stick → 1×admin_control:lumirite_shovel
+- **admin_control:lumirite_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumirite_ingot, admin_control:lumirite_ingot, minecraft:stick, minecraft:stick → 1×admin_control:lumirite_hoe
+- **admin_control:zaremed_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zaremed_ingot, admin_control:zaremed_ingot, minecraft:stick → 1×admin_control:zaremed_sword
+- **admin_control:zaremed_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, minecraft:stick, minecraft:stick → 1×admin_control:zaremed_axe
+- **admin_control:zaremed_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zaremed_ingot, admin_control:zaremed_ingot, admin_control:zaremed_ingot, minecraft:stick, minecraft:stick → 1×admin_control:zaremed_pickaxe
+- **admin_control:zaremed_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zaremed_ingot, minecraft:stick, minecraft:stick → 1×admin_control:zaremed_shovel
+- **admin_control:zaremed_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zaremed_ingot, admin_control:zaremed_ingot, minecraft:stick, minecraft:stick → 1×admin_control:zaremed_hoe
+- **admin_control:twilight_iron_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, minecraft:stick → 1×admin_control:twilight_iron_sword
+- **admin_control:twilight_iron_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, minecraft:stick, minecraft:stick → 1×admin_control:twilight_iron_axe
+- **admin_control:twilight_iron_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, minecraft:stick, minecraft:stick → 1×admin_control:twilight_iron_pickaxe
+- **admin_control:twilight_iron_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_iron_ingot, minecraft:stick, minecraft:stick → 1×admin_control:twilight_iron_shovel
+- **admin_control:twilight_iron_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, minecraft:stick, minecraft:stick → 1×admin_control:twilight_iron_hoe
+- **admin_control:starsilver_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, minecraft:stick → 1×admin_control:starsilver_sword
+- **admin_control:starsilver_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, minecraft:stick, minecraft:stick → 1×admin_control:starsilver_axe
+- **admin_control:starsilver_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, minecraft:stick, minecraft:stick → 1×admin_control:starsilver_pickaxe
+- **admin_control:starsilver_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:starsilver_ingot, minecraft:stick, minecraft:stick → 1×admin_control:starsilver_shovel
+- **admin_control:starsilver_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, minecraft:stick, minecraft:stick → 1×admin_control:starsilver_hoe
+- **admin_control:twilight_iron_helmet**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot → 1×admin_control:twilight_iron_helmet [Броня]
+- **admin_control:twilight_iron_chestplate**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot → 1×admin_control:twilight_iron_chestplate [Броня]
+- **admin_control:twilight_iron_leggings**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot → 1×admin_control:twilight_iron_leggings [Броня]
+- **admin_control:twilight_iron_boots**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot → 1×admin_control:twilight_iron_boots [Броня]
+- **admin_control:starsilver_helmet**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot → 1×admin_control:starsilver_helmet [Броня]
+- **admin_control:starsilver_chestplate**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot → 1×admin_control:starsilver_chestplate [Броня]
+- **admin_control:starsilver_leggings**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot → 1×admin_control:starsilver_leggings [Броня]
+- **admin_control:starsilver_boots**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot, admin_control:starsilver_ingot → 1×admin_control:starsilver_boots [Броня]
+- **admin_control:rune_workbench**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone, minecraft:oak_planks(+15 вар.), minecraft:crafting_table, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), … (9 слотов) → 1×admin_control:rune_workbench
+  - добыча из блока admin_control:rune_workbench: сломать любым способом (в т.ч. рукой)
+- **admin_control:rune_anvil**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:lumirite_block, admin_control:lumirite_block, admin_control:lumirite_block, admin_control:zaremed_ingot, admin_control:lumirite_ingot, admin_control:zaremed_ingot, admin_control:lumirite_ingot, admin_control:lumirite_ingot, … (9 слотов) → 1×admin_control:rune_anvil [Прочее]
+  - добыча из блока admin_control:rune_anvil: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **admin_control:rune_staff**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:dew_lens, admin_control:zaremed_ingot, minecraft:stick, minecraft:stick → 1×admin_control:rune_staff [Прочее]
+- **admin_control:lumira_willow_log**
+  - добыча из блока admin_control:lumira_willow_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_lumira_willow_log**
+  - добыча из блока admin_control:stripped_lumira_willow_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_log, admin_control:lumira_willow_log, admin_control:lumira_willow_log, admin_control:lumira_willow_log → 3×admin_control:lumira_willow_wood
+  - добыча из блока admin_control:lumira_willow_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_lumira_willow_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log → 3×admin_control:stripped_lumira_willow_wood
+  - добыча из блока admin_control:stripped_lumira_willow_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_planks**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: admin_control:lumira_willow_log → 4×admin_control:lumira_willow_planks
+  - добыча из блока admin_control:lumira_willow_planks: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_leaves**
+  - добыча из блока admin_control:lumira_willow_leaves: добыть шёлковым касанием
+- **admin_control:lumira_willow_sapling**
+  - добыча из блока admin_control:lumira_willow_sapling: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks → 4×admin_control:lumira_willow_stairs
+  - добыча из блока admin_control:lumira_willow_stairs: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks → 6×admin_control:lumira_willow_slab
+  - добыча из блока admin_control:lumira_willow_slab: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks, minecraft:stick, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, minecraft:stick, admin_control:lumira_willow_planks → 3×admin_control:lumira_willow_fence
+  - добыча из блока admin_control:lumira_willow_fence: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, admin_control:lumira_willow_planks, minecraft:stick, minecraft:stick, admin_control:lumira_willow_planks, minecraft:stick → 1×admin_control:lumira_willow_fence_gate
+  - добыча из блока admin_control:lumira_willow_fence_gate: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks → 3×admin_control:lumira_willow_door
+  - добыча из блока admin_control:lumira_willow_door: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_closed_door**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:lumira_willow_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks → 2×admin_control:lumira_willow_trapdoor
+  - добыча из блока admin_control:lumira_willow_trapdoor: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks → 1×admin_control:lumira_willow_button
+  - добыча из блока admin_control:lumira_willow_button: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks, admin_control:lumira_willow_planks → 1×admin_control:lumira_willow_pressure_plate
+  - добыча из блока admin_control:lumira_willow_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, admin_control:lumira_willow_planks, minecraft:stick → 3×admin_control:lumira_willow_sign
+  - добыча из блока admin_control:lumira_willow_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:lumira_willow_wall_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:lumira_willow_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log, admin_control:stripped_lumira_willow_log → 6×admin_control:lumira_willow_hanging_sign
+  - добыча из блока admin_control:lumira_willow_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:lumira_willow_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_log**
+  - добыча из блока admin_control:zarelist_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_zarelist_log**
+  - добыча из блока admin_control:stripped_zarelist_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_log, admin_control:zarelist_log, admin_control:zarelist_log, admin_control:zarelist_log → 3×admin_control:zarelist_wood
+  - добыча из блока admin_control:zarelist_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_zarelist_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log → 3×admin_control:stripped_zarelist_wood
+  - добыча из блока admin_control:stripped_zarelist_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_planks**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: admin_control:zarelist_log → 4×admin_control:zarelist_planks
+  - добыча из блока admin_control:zarelist_planks: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_leaves**
+  - добыча из блока admin_control:zarelist_leaves: добыть шёлковым касанием
+- **admin_control:zarelist_sapling**
+  - добыча из блока admin_control:zarelist_leaves: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:zarelist_sapling: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks → 4×admin_control:zarelist_stairs
+  - добыча из блока admin_control:zarelist_stairs: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks → 6×admin_control:zarelist_slab
+  - добыча из блока admin_control:zarelist_slab: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks, minecraft:stick, admin_control:zarelist_planks, admin_control:zarelist_planks, minecraft:stick, admin_control:zarelist_planks → 3×admin_control:zarelist_fence
+  - добыча из блока admin_control:zarelist_fence: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, admin_control:zarelist_planks, minecraft:stick, minecraft:stick, admin_control:zarelist_planks, minecraft:stick → 1×admin_control:zarelist_fence_gate
+  - добыча из блока admin_control:zarelist_fence_gate: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks → 3×admin_control:zarelist_door
+  - добыча из блока admin_control:zarelist_door: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_closed_door**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:zarelist_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks → 2×admin_control:zarelist_trapdoor
+  - добыча из блока admin_control:zarelist_trapdoor: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks → 1×admin_control:zarelist_button
+  - добыча из блока admin_control:zarelist_button: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks, admin_control:zarelist_planks → 1×admin_control:zarelist_pressure_plate
+  - добыча из блока admin_control:zarelist_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, admin_control:zarelist_planks, minecraft:stick → 3×admin_control:zarelist_sign
+  - добыча из блока admin_control:zarelist_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:zarelist_wall_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:zarelist_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log, admin_control:stripped_zarelist_log → 6×admin_control:zarelist_hanging_sign
+  - добыча из блока admin_control:zarelist_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:zarelist_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_log**
+  - добыча из блока admin_control:twilight_cedar_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_twilight_cedar_log**
+  - добыча из блока admin_control:stripped_twilight_cedar_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_log, admin_control:twilight_cedar_log, admin_control:twilight_cedar_log, admin_control:twilight_cedar_log → 3×admin_control:twilight_cedar_wood
+  - добыча из блока admin_control:twilight_cedar_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_twilight_cedar_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log → 3×admin_control:stripped_twilight_cedar_wood
+  - добыча из блока admin_control:stripped_twilight_cedar_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_planks**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: admin_control:twilight_cedar_wood → 4×admin_control:twilight_cedar_planks
+  - добыча из блока admin_control:twilight_cedar_planks: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_leaves**
+  - добыча из блока admin_control:twilight_cedar_leaves: добыть шёлковым касанием
+- **admin_control:twilight_cedar_sapling**
+  - добыча из блока admin_control:twilight_cedar_leaves: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:twilight_cedar_sapling: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks → 4×admin_control:twilight_cedar_stairs
+  - добыча из блока admin_control:twilight_cedar_stairs: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks → 6×admin_control:twilight_cedar_slab
+  - добыча из блока admin_control:twilight_cedar_slab: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks, minecraft:stick, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, minecraft:stick, admin_control:twilight_cedar_planks → 3×admin_control:twilight_cedar_fence
+  - добыча из блока admin_control:twilight_cedar_fence: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, admin_control:twilight_cedar_planks, minecraft:stick, minecraft:stick, admin_control:twilight_cedar_planks, minecraft:stick → 1×admin_control:twilight_cedar_fence_gate
+  - добыча из блока admin_control:twilight_cedar_fence_gate: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks → 3×admin_control:twilight_cedar_door
+  - добыча из блока admin_control:twilight_cedar_door: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_closed_door**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:twilight_cedar_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks → 2×admin_control:twilight_cedar_trapdoor
+  - добыча из блока admin_control:twilight_cedar_trapdoor: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks → 1×admin_control:twilight_cedar_button
+  - добыча из блока admin_control:twilight_cedar_button: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks → 1×admin_control:twilight_cedar_pressure_plate
+  - добыча из блока admin_control:twilight_cedar_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, admin_control:twilight_cedar_planks, minecraft:stick → 3×admin_control:twilight_cedar_sign
+  - добыча из блока admin_control:twilight_cedar_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:twilight_cedar_wall_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:twilight_cedar_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log, admin_control:stripped_twilight_cedar_log → 6×admin_control:twilight_cedar_hanging_sign
+  - добыча из блока admin_control:twilight_cedar_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:twilight_cedar_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_log**
+  - добыча из блока admin_control:star_birch_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_star_birch_log**
+  - добыча из блока admin_control:stripped_star_birch_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_log, admin_control:star_birch_log, admin_control:star_birch_log, admin_control:star_birch_log → 3×admin_control:star_birch_wood
+  - добыча из блока admin_control:star_birch_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_star_birch_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log → 3×admin_control:stripped_star_birch_wood
+  - добыча из блока admin_control:stripped_star_birch_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_planks**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: admin_control:stripped_star_birch_log → 4×admin_control:star_birch_planks
+  - добыча из блока admin_control:star_birch_planks: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_leaves**
+  - добыча из блока admin_control:star_birch_leaves: добыть шёлковым касанием
+- **admin_control:star_birch_sapling**
+  - добыча из блока admin_control:star_birch_leaves: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:star_birch_sapling: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks → 4×admin_control:star_birch_stairs
+  - добыча из блока admin_control:star_birch_stairs: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks → 6×admin_control:star_birch_slab
+  - добыча из блока admin_control:star_birch_slab: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks, minecraft:stick, admin_control:star_birch_planks, admin_control:star_birch_planks, minecraft:stick, admin_control:star_birch_planks → 3×admin_control:star_birch_fence
+  - добыча из блока admin_control:star_birch_fence: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, admin_control:star_birch_planks, minecraft:stick, minecraft:stick, admin_control:star_birch_planks, minecraft:stick → 1×admin_control:star_birch_fence_gate
+  - добыча из блока admin_control:star_birch_fence_gate: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks → 3×admin_control:star_birch_door
+  - добыча из блока admin_control:star_birch_door: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_closed_door**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:star_birch_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks → 2×admin_control:star_birch_trapdoor
+  - добыча из блока admin_control:star_birch_trapdoor: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks → 1×admin_control:star_birch_button
+  - добыча из блока admin_control:star_birch_button: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks, admin_control:star_birch_planks → 1×admin_control:star_birch_pressure_plate
+  - добыча из блока admin_control:star_birch_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, admin_control:star_birch_planks, minecraft:stick → 3×admin_control:star_birch_sign
+  - добыча из блока admin_control:star_birch_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:star_birch_wall_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:star_birch_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log, admin_control:stripped_star_birch_log → 6×admin_control:star_birch_hanging_sign
+  - добыча из блока admin_control:star_birch_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:star_birch_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_log**
+  - добыча из блока admin_control:crimson_elm_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_crimson_elm_log**
+  - добыча из блока admin_control:stripped_crimson_elm_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_log, admin_control:crimson_elm_log, admin_control:crimson_elm_log, admin_control:crimson_elm_log → 3×admin_control:crimson_elm_wood
+  - добыча из блока admin_control:crimson_elm_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_crimson_elm_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log → 3×admin_control:stripped_crimson_elm_wood
+  - добыча из блока admin_control:stripped_crimson_elm_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_planks**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: admin_control:crimson_elm_wood → 4×admin_control:crimson_elm_planks
+  - добыча из блока admin_control:crimson_elm_planks: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_leaves**
+  - добыча из блока admin_control:crimson_elm_leaves: добыть шёлковым касанием
+- **admin_control:crimson_elm_sapling**
+  - добыча из блока admin_control:crimson_elm_leaves: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:crimson_elm_sapling: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks → 4×admin_control:crimson_elm_stairs
+  - добыча из блока admin_control:crimson_elm_stairs: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks → 6×admin_control:crimson_elm_slab
+  - добыча из блока admin_control:crimson_elm_slab: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks, minecraft:stick, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, minecraft:stick, admin_control:crimson_elm_planks → 3×admin_control:crimson_elm_fence
+  - добыча из блока admin_control:crimson_elm_fence: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, admin_control:crimson_elm_planks, minecraft:stick, minecraft:stick, admin_control:crimson_elm_planks, minecraft:stick → 1×admin_control:crimson_elm_fence_gate
+  - добыча из блока admin_control:crimson_elm_fence_gate: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks → 3×admin_control:crimson_elm_door
+  - добыча из блока admin_control:crimson_elm_door: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_closed_door**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:crimson_elm_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks → 2×admin_control:crimson_elm_trapdoor
+  - добыча из блока admin_control:crimson_elm_trapdoor: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks → 1×admin_control:crimson_elm_button
+  - добыча из блока admin_control:crimson_elm_button: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks, admin_control:crimson_elm_planks → 1×admin_control:crimson_elm_pressure_plate
+  - добыча из блока admin_control:crimson_elm_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, admin_control:crimson_elm_planks, minecraft:stick → 3×admin_control:crimson_elm_sign
+  - добыча из блока admin_control:crimson_elm_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:crimson_elm_wall_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:crimson_elm_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log, admin_control:stripped_crimson_elm_log → 6×admin_control:crimson_elm_hanging_sign
+  - добыча из блока admin_control:crimson_elm_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:crimson_elm_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_log**
+  - добыча из блока admin_control:moon_ash_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_moon_ash_log**
+  - добыча из блока admin_control:stripped_moon_ash_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_log, admin_control:moon_ash_log, admin_control:moon_ash_log, admin_control:moon_ash_log → 3×admin_control:moon_ash_wood
+  - добыча из блока admin_control:moon_ash_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_moon_ash_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log → 3×admin_control:stripped_moon_ash_wood
+  - добыча из блока admin_control:stripped_moon_ash_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_planks**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: admin_control:moon_ash_log → 4×admin_control:moon_ash_planks
+  - добыча из блока admin_control:moon_ash_planks: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_leaves**
+  - добыча из блока admin_control:moon_ash_leaves: добыть шёлковым касанием
+- **admin_control:moon_ash_sapling**
+  - добыча из блока admin_control:moon_ash_leaves: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:moon_ash_sapling: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks → 4×admin_control:moon_ash_stairs
+  - добыча из блока admin_control:moon_ash_stairs: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks → 6×admin_control:moon_ash_slab
+  - добыча из блока admin_control:moon_ash_slab: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks, minecraft:stick, admin_control:moon_ash_planks, admin_control:moon_ash_planks, minecraft:stick, admin_control:moon_ash_planks → 3×admin_control:moon_ash_fence
+  - добыча из блока admin_control:moon_ash_fence: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, admin_control:moon_ash_planks, minecraft:stick, minecraft:stick, admin_control:moon_ash_planks, minecraft:stick → 1×admin_control:moon_ash_fence_gate
+  - добыча из блока admin_control:moon_ash_fence_gate: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks → 3×admin_control:moon_ash_door
+  - добыча из блока admin_control:moon_ash_door: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_closed_door**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:moon_ash_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks → 2×admin_control:moon_ash_trapdoor
+  - добыча из блока admin_control:moon_ash_trapdoor: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks → 1×admin_control:moon_ash_button
+  - добыча из блока admin_control:moon_ash_button: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks, admin_control:moon_ash_planks → 1×admin_control:moon_ash_pressure_plate
+  - добыча из блока admin_control:moon_ash_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, admin_control:moon_ash_planks, minecraft:stick → 3×admin_control:moon_ash_sign
+  - добыча из блока admin_control:moon_ash_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:moon_ash_wall_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:moon_ash_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log, admin_control:stripped_moon_ash_log → 6×admin_control:moon_ash_hanging_sign
+  - добыча из блока admin_control:moon_ash_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:moon_ash_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_log**
+  - добыча из блока admin_control:malachite_sequoia_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_malachite_sequoia_log**
+  - добыча из блока admin_control:stripped_malachite_sequoia_log: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_log, admin_control:malachite_sequoia_log, admin_control:malachite_sequoia_log, admin_control:malachite_sequoia_log → 3×admin_control:malachite_sequoia_wood
+  - добыча из блока admin_control:malachite_sequoia_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:stripped_malachite_sequoia_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log → 3×admin_control:stripped_malachite_sequoia_wood
+  - добыча из блока admin_control:stripped_malachite_sequoia_wood: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_planks**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: admin_control:malachite_sequoia_log → 4×admin_control:malachite_sequoia_planks
+  - добыча из блока admin_control:malachite_sequoia_planks: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_leaves**
+  - добыча из блока admin_control:malachite_sequoia_leaves: добыть шёлковым касанием
+- **admin_control:malachite_sequoia_sapling**
+  - добыча из блока admin_control:malachite_sequoia_sapling: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks → 4×admin_control:malachite_sequoia_stairs
+  - добыча из блока admin_control:malachite_sequoia_stairs: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks → 6×admin_control:malachite_sequoia_slab
+  - добыча из блока admin_control:malachite_sequoia_slab: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks, minecraft:stick, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, minecraft:stick, admin_control:malachite_sequoia_planks → 3×admin_control:malachite_sequoia_fence
+  - добыча из блока admin_control:malachite_sequoia_fence: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, admin_control:malachite_sequoia_planks, minecraft:stick, minecraft:stick, admin_control:malachite_sequoia_planks, minecraft:stick → 1×admin_control:malachite_sequoia_fence_gate
+  - добыча из блока admin_control:malachite_sequoia_fence_gate: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks → 3×admin_control:malachite_sequoia_door
+  - добыча из блока admin_control:malachite_sequoia_door: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_closed_door**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:malachite_sequoia_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks → 2×admin_control:malachite_sequoia_trapdoor
+  - добыча из блока admin_control:malachite_sequoia_trapdoor: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks → 1×admin_control:malachite_sequoia_button
+  - добыча из блока admin_control:malachite_sequoia_button: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks → 1×admin_control:malachite_sequoia_pressure_plate
+  - добыча из блока admin_control:malachite_sequoia_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, admin_control:malachite_sequoia_planks, minecraft:stick → 3×admin_control:malachite_sequoia_sign
+  - добыча из блока admin_control:malachite_sequoia_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:malachite_sequoia_wall_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:malachite_sequoia_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log, admin_control:stripped_malachite_sequoia_log → 6×admin_control:malachite_sequoia_hanging_sign
+  - добыча из блока admin_control:malachite_sequoia_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:malachite_sequoia_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **admin_control:necklace_dew**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:zaremed_ingot, admin_control:rune_thread, admin_control:zaremed_ingot, admin_control:dew_lens → 1×admin_control:necklace_dew [Украшения]
+- **admin_control:necklace_echo**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:zaremed_ingot, admin_control:rune_thread, admin_control:zaremed_ingot, admin_control:echo_focus → 1×admin_control:necklace_echo [Украшения]
+- **admin_control:necklace_guard**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:twilight_iron_ingot, admin_control:dew_quartz, admin_control:rune_thread → 1×admin_control:necklace_guard [Украшения]
+- **admin_control:necklace_star**
+  - крафт на «admin_control:rune_workbench»: 1 рец.; пример: admin_control:starsilver_ingot, admin_control:heart_prism, admin_control:starsilver_ingot, admin_control:rune_thread → 1×admin_control:necklace_star [Украшения]
+- **admin_control:coin_lyra**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+- **admin_control:coin_myrtle**
+  - только творческий режим, вкладка XXXXXXXXXX или /give
+
+### chemical_warfare
+
+- **chemical_warfare:lab_casing**
+  - добыча из блока chemical_warfare:lab_casing: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:lab_glass**
+  - добыча из блока chemical_warfare:lab_glass: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:lab_controller**
+  - добыча из блока chemical_warfare:lab_controller: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:chemical_extractor**
+  - добыча из блока chemical_warfare:chemical_extractor: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:lab_workstation**
+  - добыча из блока chemical_warfare:lab_workstation: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:dye_rocket_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_dye, minecraft:red_dye, minecraft:oak_planks, minecraft:crafting_table, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 1×chemical_warfare:dye_rocket_table
+  - добыча из блока chemical_warfare:dye_rocket_table: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:reagent_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass_bottle, minecraft:gunpowder, minecraft:glass_bottle, minecraft:oak_planks, minecraft:crafting_table, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, … (9 слотов) → 1×chemical_warfare:reagent_table
+  - добыча из блока chemical_warfare:reagent_table: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:casing_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:oak_planks, minecraft:crafting_table, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 1×chemical_warfare:casing_table
+  - добыча из блока chemical_warfare:casing_table: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:control_table**
+  - добыча из блока chemical_warfare:control_table: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:assembly_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:oak_planks, minecraft:anvil, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 1×chemical_warfare:assembly_table
+  - добыча из блока chemical_warfare:assembly_table: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:air_defense_t1**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:dispenser, minecraft:iron_ingot, minecraft:coal, minecraft:redstone, minecraft:coal, minecraft:iron_ingot, minecraft:iron_block, … (9 слотов) → 1×chemical_warfare:air_defense_t1
+  - добыча из блока chemical_warfare:air_defense_t1: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:air_defense_t2**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: chemical_warfare:air_defense_t1, minecraft:iron_ingot → 1×chemical_warfare:air_defense_t2
+  - добыча из блока chemical_warfare:air_defense_t2: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:air_defense_t3**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: chemical_warfare:air_defense_t2, minecraft:gold_ingot → 1×chemical_warfare:air_defense_t3
+  - добыча из блока chemical_warfare:air_defense_t3: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:air_defense_t4**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: chemical_warfare:air_defense_t3, minecraft:diamond → 1×chemical_warfare:air_defense_t4
+  - добыча из блока chemical_warfare:air_defense_t4: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:air_defense_t5**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: chemical_warfare:air_defense_t4, minecraft:netherite_scrap → 1×chemical_warfare:air_defense_t5
+  - добыча из блока chemical_warfare:air_defense_t5: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:launch_pad**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_stone, minecraft:redstone, minecraft:smooth_stone, minecraft:smooth_stone, minecraft:iron_block, minecraft:smooth_stone, minecraft:smooth_stone, minecraft:smooth_stone, … (9 слотов) → 1×chemical_warfare:launch_pad
+  - добыча из блока chemical_warfare:launch_pad: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:rocket_loader**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:hopper, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:dispenser, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_block, … (9 слотов) → 1×chemical_warfare:rocket_loader
+  - добыча из блока chemical_warfare:rocket_loader: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:launch_control**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone_torch, minecraft:comparator, minecraft:redstone_torch, minecraft:iron_ingot, minecraft:redstone_block, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_block, … (9 слотов) → 1×chemical_warfare:launch_control
+  - добыча из блока chemical_warfare:launch_control: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:silo_hatch**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_trapdoor, minecraft:iron_trapdoor, minecraft:iron_trapdoor, minecraft:iron_ingot, minecraft:iron_block, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone, … (9 слотов) → 1×chemical_warfare:silo_hatch
+  - добыча из блока chemical_warfare:silo_hatch: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:silo_hatch_panel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, chemical_warfare:signal_wire, minecraft:iron_ingot, minecraft:redstone, minecraft:comparator, minecraft:redstone, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×chemical_warfare:silo_hatch_panel
+  - добыча из блока chemical_warfare:silo_hatch_panel: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:silo_shaft**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:smooth_stone, minecraft:iron_ingot, minecraft:smooth_stone, minecraft:iron_block, minecraft:smooth_stone, minecraft:iron_ingot, minecraft:smooth_stone, … (9 слотов) → 8×chemical_warfare:silo_shaft
+  - добыча из блока chemical_warfare:silo_shaft: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:silo_shaft_ribbed**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_bars, minecraft:iron_ingot, minecraft:smooth_stone, minecraft:iron_block, minecraft:smooth_stone, minecraft:iron_ingot, minecraft:iron_bars, … (9 слотов) → 8×chemical_warfare:silo_shaft_ribbed
+  - добыча из блока chemical_warfare:silo_shaft_ribbed: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:silo_shaft_plated**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:heavy_weighted_pressure_plate, minecraft:iron_ingot, minecraft:smooth_stone, minecraft:iron_block, minecraft:smooth_stone, minecraft:iron_ingot, minecraft:heavy_weighted_pressure_plate, … (9 слотов) → 8×chemical_warfare:silo_shaft_plated
+  - добыча из блока chemical_warfare:silo_shaft_plated: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:silo_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:glass_pane, minecraft:iron_ingot, minecraft:glass_pane, minecraft:glowstone_dust, minecraft:glass_pane, minecraft:iron_ingot, minecraft:redstone, … (9 слотов) → 2×chemical_warfare:silo_lamp
+  - добыча из блока chemical_warfare:silo_lamp: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:silo_lamp_red**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: chemical_warfare:silo_lamp, minecraft:red_dye → 1×chemical_warfare:silo_lamp_red
+  - добыча из блока chemical_warfare:silo_lamp_red: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:signal_wire**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:redstone, minecraft:copper_ingot, minecraft:green_dye → 8×chemical_warfare:signal_wire
+  - добыча из блока chemical_warfare:signal_wire: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:supercomputer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot, minecraft:redstone, minecraft:diamond, minecraft:redstone, minecraft:iron_ingot, minecraft:redstone, … (9 слотов) → 1×chemical_warfare:supercomputer
+  - добыча из блока chemical_warfare:supercomputer: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:diskette_printer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:piston, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone, … (9 слотов) → 1×chemical_warfare:diskette_printer
+  - добыча из блока chemical_warfare:diskette_printer: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:coord_beacon**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:iron_nugget, minecraft:stone, minecraft:iron_nugget, minecraft:redstone → 1×chemical_warfare:coord_beacon
+  - добыча из блока chemical_warfare:coord_beacon: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:fuel_generator**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone, minecraft:furnace, minecraft:redstone, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×chemical_warfare:fuel_generator
+- **chemical_warfare:diskette_reader**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:glass, minecraft:redstone, minecraft:glass, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×chemical_warfare:diskette_reader
+  - добыча из блока chemical_warfare:diskette_reader: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:signal_antenna**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:lightning_rod, minecraft:iron_ingot, minecraft:iron_ingot → 1×chemical_warfare:signal_antenna
+  - добыча из блока chemical_warfare:signal_antenna: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:antenna_booster**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:copper_ingot, minecraft:iron_ingot, minecraft:redstone, chemical_warfare:antenna_module_t1, minecraft:redstone, minecraft:iron_ingot, minecraft:copper_ingot, … (9 слотов) → 1×chemical_warfare:antenna_booster
+  - добыча из блока chemical_warfare:antenna_booster: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:scorched_grass**
+  - добыча из блока chemical_warfare:scorched_grass: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:soot**
+  - добыча из блока chemical_warfare:soot: сломать инструментом minecraft:wooden_shovel или лучше
+- **chemical_warfare:burned_iron**
+  - добыча из блока chemical_warfare:burned_iron: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:burned_metal**
+  - добыча из блока chemical_warfare:burned_metal: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:scorched_stone**
+  - добыча из блока chemical_warfare:scorched_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:scorched_bricks**
+  - добыча из блока chemical_warfare:scorched_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **chemical_warfare:melted_glass**
+  - добыча из блока chemical_warfare:melted_glass: сломать любым способом (в т.ч. рукой)
+- **chemical_warfare:extinguisher_powder**
+  - добыча из блока chemical_warfare:extinguisher_powder: сломать инструментом minecraft:wooden_shovel или лучше
+- **chemical_warfare:coord_tablet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:glass_pane, minecraft:iron_ingot, minecraft:redstone, minecraft:compass, minecraft:redstone, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×chemical_warfare:coord_tablet
+- **chemical_warfare:link_tool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:compass, minecraft:redstone, minecraft:iron_ingot → 1×chemical_warfare:link_tool
+- **chemical_warfare:hatch_key**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot, minecraft:stick → 1×chemical_warfare:hatch_key
+- **chemical_warfare:hatch_scraper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:flint, minecraft:iron_ingot, minecraft:stick → 1×chemical_warfare:hatch_scraper
+- **chemical_warfare:antenna_module_t1**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:iron_ingot, minecraft:copper_ingot, minecraft:iron_ingot, minecraft:comparator → 1×chemical_warfare:antenna_module_t1
+- **chemical_warfare:antenna_module_t2**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:iron_ingot, chemical_warfare:antenna_module_t1, minecraft:iron_ingot, minecraft:redstone → 1×chemical_warfare:antenna_module_t2
+- **chemical_warfare:antenna_module_t3**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:iron_ingot, chemical_warfare:antenna_module_t2, minecraft:iron_ingot, minecraft:redstone → 1×chemical_warfare:antenna_module_t3
+- **chemical_warfare:antenna_module_t4**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:iron_ingot, chemical_warfare:antenna_module_t3, minecraft:iron_ingot, minecraft:redstone → 1×chemical_warfare:antenna_module_t4
+- **chemical_warfare:antenna_module_t5**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:netherite_scrap, minecraft:iron_ingot, chemical_warfare:antenna_module_t4, minecraft:iron_ingot, minecraft:redstone → 1×chemical_warfare:antenna_module_t5
+- **chemical_warfare:diskette**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:redstone, minecraft:paper → 2×chemical_warfare:diskette
+- **chemical_warfare:program_diskette**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: chemical_warfare:diskette, minecraft:redstone, minecraft:paper → 1×chemical_warfare:program_diskette
+- **chemical_warfare:control_tablet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:glass_pane, minecraft:iron_ingot, minecraft:redstone, chemical_warfare:coord_tablet, minecraft:redstone, minecraft:iron_ingot, minecraft:glowstone_dust, … (9 слотов) → 1×chemical_warfare:control_tablet
+- **chemical_warfare:programmer_book**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:book, chemical_warfare:program_diskette, minecraft:redstone, minecraft:ink_sac → 1×chemical_warfare:programmer_book
+- **chemical_warfare:guide_book**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:book, minecraft:gunpowder, minecraft:ink_sac, minecraft:iron_ingot → 1×chemical_warfare:guide_book
+- **chemical_warfare:retardant_bucket**
+  - только творческий режим, вкладка itemGroup.chemical_warfare.chemical_weapons или /give
+- **chemical_warfare:fire_extinguisher**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:sand, minecraft:iron_ingot, minecraft:iron_ingot → 1×chemical_warfare:fire_extinguisher
+- **chemical_warfare:sniper_binoculars**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:glass_pane, minecraft:spyglass, minecraft:glass_pane, minecraft:iron_ingot, minecraft:iron_ingot → 1×chemical_warfare:sniper_binoculars
+- **chemical_warfare:aa_missile**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:rocket_fuel, minecraft:redstone → 4×chemical_warfare:aa_missile
+- **chemical_warfare:incendiary_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:incendiary_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:incendiary_missile_t1
+- **chemical_warfare:incendiary_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:incendiary_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:incendiary_missile_t2
+- **chemical_warfare:incendiary_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:incendiary_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:incendiary_missile_t3
+- **chemical_warfare:incendiary_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:incendiary_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:incendiary_missile_t4
+- **chemical_warfare:incendiary_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:incendiary_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:incendiary_missile_t5
+- **chemical_warfare:napalm_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:napalm_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:napalm_missile_t1
+- **chemical_warfare:napalm_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:napalm_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:napalm_missile_t2
+- **chemical_warfare:napalm_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:napalm_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:napalm_missile_t3
+- **chemical_warfare:napalm_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:napalm_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:napalm_missile_t4
+- **chemical_warfare:napalm_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:napalm_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:napalm_missile_t5
+- **chemical_warfare:effect_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:effect_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:effect_missile_t1
+- **chemical_warfare:effect_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:effect_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:effect_missile_t2
+- **chemical_warfare:effect_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:effect_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:effect_missile_t3
+- **chemical_warfare:effect_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:effect_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:effect_missile_t4
+- **chemical_warfare:effect_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:effect_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:effect_missile_t5
+- **chemical_warfare:he_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:he_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:he_missile_t1
+- **chemical_warfare:he_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:he_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:he_missile_t2
+- **chemical_warfare:he_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:he_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:he_missile_t3
+- **chemical_warfare:he_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:he_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:he_missile_t4
+- **chemical_warfare:he_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:he_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:he_missile_t5
+- **chemical_warfare:smoke_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:smoke_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:smoke_missile_t1
+- **chemical_warfare:smoke_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:smoke_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:smoke_missile_t2
+- **chemical_warfare:smoke_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:smoke_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:smoke_missile_t3
+- **chemical_warfare:smoke_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:smoke_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:smoke_missile_t4
+- **chemical_warfare:smoke_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:smoke_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:smoke_missile_t5
+- **chemical_warfare:cryo_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:cryo_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:cryo_missile_t1
+- **chemical_warfare:cryo_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:cryo_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:cryo_missile_t2
+- **chemical_warfare:cryo_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:cryo_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:cryo_missile_t3
+- **chemical_warfare:cryo_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:cryo_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:cryo_missile_t4
+- **chemical_warfare:cryo_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:cryo_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:cryo_missile_t5
+- **chemical_warfare:cluster_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:cluster_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:cluster_missile_t1
+- **chemical_warfare:cluster_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:cluster_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:cluster_missile_t2
+- **chemical_warfare:cluster_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:cluster_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:cluster_missile_t3
+- **chemical_warfare:cluster_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:cluster_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:cluster_missile_t4
+- **chemical_warfare:cluster_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:cluster_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:cluster_missile_t5
+- **chemical_warfare:frag_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:frag_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:frag_missile_t1
+- **chemical_warfare:frag_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:frag_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:frag_missile_t2
+- **chemical_warfare:frag_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:frag_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:frag_missile_t3
+- **chemical_warfare:frag_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:frag_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:frag_missile_t4
+- **chemical_warfare:frag_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:frag_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:frag_missile_t5
+- **chemical_warfare:flash_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:flash_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:flash_missile_t1
+- **chemical_warfare:flash_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:flash_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:flash_missile_t2
+- **chemical_warfare:flash_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:flash_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:flash_missile_t3
+- **chemical_warfare:flash_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:flash_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:flash_missile_t4
+- **chemical_warfare:flash_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:flash_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:flash_missile_t5
+- **chemical_warfare:toxic_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:toxic_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:toxic_missile_t1
+- **chemical_warfare:toxic_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:toxic_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:toxic_missile_t2
+- **chemical_warfare:toxic_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:toxic_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:toxic_missile_t3
+- **chemical_warfare:toxic_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:toxic_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:toxic_missile_t4
+- **chemical_warfare:toxic_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:toxic_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:toxic_missile_t5
+- **chemical_warfare:ap_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:ap_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:ap_missile_t1
+- **chemical_warfare:ap_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:ap_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:ap_missile_t2
+- **chemical_warfare:ap_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:ap_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:ap_missile_t3
+- **chemical_warfare:ap_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:ap_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:ap_missile_t4
+- **chemical_warfare:ap_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:ap_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:ap_missile_t5
+- **chemical_warfare:thermobaric_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:thermobaric_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:thermobaric_missile_t1
+- **chemical_warfare:thermobaric_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:thermobaric_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:thermobaric_missile_t2
+- **chemical_warfare:thermobaric_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:thermobaric_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:thermobaric_missile_t3
+- **chemical_warfare:thermobaric_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:thermobaric_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:thermobaric_missile_t4
+- **chemical_warfare:thermobaric_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:thermobaric_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:thermobaric_missile_t5
+- **chemical_warfare:acid_missile_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, chemical_warfare:acid_mix_t1, chemical_warfare:rocket_fuel → 1×chemical_warfare:acid_missile_t1
+- **chemical_warfare:acid_missile_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, chemical_warfare:acid_mix_t2, chemical_warfare:rocket_fuel → 1×chemical_warfare:acid_missile_t2
+- **chemical_warfare:acid_missile_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, chemical_warfare:acid_mix_t3, chemical_warfare:rocket_fuel → 1×chemical_warfare:acid_missile_t3
+- **chemical_warfare:acid_missile_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, chemical_warfare:acid_mix_t4, chemical_warfare:rocket_fuel → 1×chemical_warfare:acid_missile_t4
+- **chemical_warfare:acid_missile_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t5, chemical_warfare:acid_mix_t5, chemical_warfare:rocket_fuel → 1×chemical_warfare:acid_missile_t5
+- **chemical_warfare:oxidizer**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:gunpowder → 1×chemical_warfare:oxidizer
+- **chemical_warfare:carbon_dust**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:coal → 1×chemical_warfare:carbon_dust
+- **chemical_warfare:thermal_agent**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:blaze_powder → 1×chemical_warfare:thermal_agent
+- **chemical_warfare:cryo_mix**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:packed_ice → 1×chemical_warfare:cryo_mix
+- **chemical_warfare:toxin_extract**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:spider_eye → 1×chemical_warfare:toxin_extract
+- **chemical_warfare:smoke_reagent**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:ink_sac → 1×chemical_warfare:smoke_reagent
+- **chemical_warfare:shrapnel_alloy**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:iron_nugget → 1×chemical_warfare:shrapnel_alloy
+- **chemical_warfare:flash_powder**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:glowstone_dust → 1×chemical_warfare:flash_powder
+- **chemical_warfare:napalm_base**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:magma_cream → 1×chemical_warfare:napalm_base
+- **chemical_warfare:blast_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:tnt → 1×chemical_warfare:blast_compound
+- **chemical_warfare:resin**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:slime_ball → 1×chemical_warfare:resin
+- **chemical_warfare:rocket_fuel**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:oxidizer, chemical_warfare:carbon_dust → 1×chemical_warfare:rocket_fuel
+- **chemical_warfare:rocket_casing**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: minecraft:iron_ingot, chemical_warfare:resin → 1×chemical_warfare:rocket_casing
+- **chemical_warfare:rocket_casing_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing, minecraft:iron_ingot → 1×chemical_warfare:rocket_casing_t2
+- **chemical_warfare:rocket_casing_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t2, minecraft:gold_ingot → 1×chemical_warfare:rocket_casing_t3
+- **chemical_warfare:rocket_casing_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t3, minecraft:diamond → 1×chemical_warfare:rocket_casing_t4
+- **chemical_warfare:rocket_casing_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:rocket_casing_t4, minecraft:netherite_scrap → 1×chemical_warfare:rocket_casing_t5
+- **chemical_warfare:incendiary_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:thermal_agent, chemical_warfare:oxidizer → 1×chemical_warfare:incendiary_compound
+- **chemical_warfare:napalm_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:napalm_base, chemical_warfare:resin → 1×chemical_warfare:napalm_compound
+- **chemical_warfare:toxic_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxin_extract, chemical_warfare:smoke_reagent → 1×chemical_warfare:toxic_compound
+- **chemical_warfare:smoke_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:smoke_reagent, chemical_warfare:carbon_dust → 1×chemical_warfare:smoke_compound
+- **chemical_warfare:cryo_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cryo_mix, chemical_warfare:resin → 1×chemical_warfare:cryo_compound
+- **chemical_warfare:he_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:blast_compound, chemical_warfare:oxidizer → 1×chemical_warfare:he_compound
+- **chemical_warfare:cluster_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:blast_compound, chemical_warfare:flash_powder → 1×chemical_warfare:cluster_compound
+- **chemical_warfare:frag_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:shrapnel_alloy, chemical_warfare:oxidizer → 1×chemical_warfare:frag_compound
+- **chemical_warfare:flash_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:flash_powder, chemical_warfare:oxidizer → 1×chemical_warfare:flash_compound
+- **chemical_warfare:effect_catalyst**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxin_extract, minecraft:glass_bottle → 1×chemical_warfare:effect_catalyst
+- **chemical_warfare:ap_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:shrapnel_alloy, minecraft:iron_ingot → 1×chemical_warfare:ap_compound
+- **chemical_warfare:thermobaric_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:blast_compound, chemical_warfare:thermal_agent → 1×chemical_warfare:thermobaric_compound
+- **chemical_warfare:acid_compound**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxin_extract, minecraft:slime_ball → 1×chemical_warfare:acid_compound
+- **chemical_warfare:incendiary_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:incendiary_compound → 1×chemical_warfare:incendiary_mix_t1
+- **chemical_warfare:incendiary_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:incendiary_mix_t1, minecraft:gunpowder → 1×chemical_warfare:incendiary_mix_t2
+- **chemical_warfare:incendiary_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:incendiary_mix_t2, minecraft:blaze_powder → 1×chemical_warfare:incendiary_mix_t3
+- **chemical_warfare:incendiary_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:incendiary_mix_t3, minecraft:fire_charge → 1×chemical_warfare:incendiary_mix_t4
+- **chemical_warfare:incendiary_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:incendiary_mix_t4, minecraft:magma_cream → 1×chemical_warfare:incendiary_mix_t5
+- **chemical_warfare:napalm_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:napalm_compound → 1×chemical_warfare:napalm_mix_t1
+- **chemical_warfare:napalm_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:napalm_mix_t1, minecraft:coal → 1×chemical_warfare:napalm_mix_t2
+- **chemical_warfare:napalm_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:napalm_mix_t2, minecraft:blaze_powder → 1×chemical_warfare:napalm_mix_t3
+- **chemical_warfare:napalm_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:napalm_mix_t3, minecraft:magma_cream → 1×chemical_warfare:napalm_mix_t4
+- **chemical_warfare:napalm_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:napalm_mix_t4, minecraft:ghast_tear → 1×chemical_warfare:napalm_mix_t5
+- **chemical_warfare:effect_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:effect_catalyst → 1×chemical_warfare:effect_mix_t1
+- **chemical_warfare:effect_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:effect_mix_t1, minecraft:spider_eye → 1×chemical_warfare:effect_mix_t2
+- **chemical_warfare:effect_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:effect_mix_t2, minecraft:fermented_spider_eye → 1×chemical_warfare:effect_mix_t3
+- **chemical_warfare:effect_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:effect_mix_t3, minecraft:glowstone_dust → 1×chemical_warfare:effect_mix_t4
+- **chemical_warfare:effect_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:effect_mix_t4, minecraft:nether_wart → 1×chemical_warfare:effect_mix_t5
+- **chemical_warfare:he_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:he_compound → 1×chemical_warfare:he_mix_t1
+- **chemical_warfare:he_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:he_mix_t1, minecraft:gunpowder → 1×chemical_warfare:he_mix_t2
+- **chemical_warfare:he_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:he_mix_t2, minecraft:tnt → 1×chemical_warfare:he_mix_t3
+- **chemical_warfare:he_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:he_mix_t3, minecraft:ghast_tear → 1×chemical_warfare:he_mix_t4
+- **chemical_warfare:he_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:he_mix_t4, minecraft:creeper_head → 1×chemical_warfare:he_mix_t5
+- **chemical_warfare:smoke_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:smoke_compound → 1×chemical_warfare:smoke_mix_t1
+- **chemical_warfare:smoke_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:smoke_mix_t1, minecraft:ink_sac → 1×chemical_warfare:smoke_mix_t2
+- **chemical_warfare:smoke_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:smoke_mix_t2, minecraft:charcoal → 1×chemical_warfare:smoke_mix_t3
+- **chemical_warfare:smoke_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:smoke_mix_t3, minecraft:coal → 1×chemical_warfare:smoke_mix_t4
+- **chemical_warfare:smoke_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:smoke_mix_t4, minecraft:black_dye → 1×chemical_warfare:smoke_mix_t5
+- **chemical_warfare:cryo_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cryo_compound → 1×chemical_warfare:cryo_mix_t1
+- **chemical_warfare:cryo_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cryo_mix_t1, minecraft:snowball → 1×chemical_warfare:cryo_mix_t2
+- **chemical_warfare:cryo_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cryo_mix_t2, minecraft:packed_ice → 1×chemical_warfare:cryo_mix_t3
+- **chemical_warfare:cryo_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cryo_mix_t3, minecraft:blue_ice → 1×chemical_warfare:cryo_mix_t4
+- **chemical_warfare:cryo_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cryo_mix_t4, minecraft:powder_snow_bucket → 1×chemical_warfare:cryo_mix_t5
+- **chemical_warfare:cluster_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cluster_compound → 1×chemical_warfare:cluster_mix_t1
+- **chemical_warfare:cluster_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cluster_mix_t1, minecraft:fire_charge → 1×chemical_warfare:cluster_mix_t2
+- **chemical_warfare:cluster_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cluster_mix_t2, minecraft:tnt → 1×chemical_warfare:cluster_mix_t3
+- **chemical_warfare:cluster_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cluster_mix_t3, minecraft:firework_rocket → 1×chemical_warfare:cluster_mix_t4
+- **chemical_warfare:cluster_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:cluster_mix_t4, minecraft:gunpowder → 1×chemical_warfare:cluster_mix_t5
+- **chemical_warfare:frag_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:frag_compound → 1×chemical_warfare:frag_mix_t1
+- **chemical_warfare:frag_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:frag_mix_t1, minecraft:iron_nugget → 1×chemical_warfare:frag_mix_t2
+- **chemical_warfare:frag_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:frag_mix_t2, minecraft:flint → 1×chemical_warfare:frag_mix_t3
+- **chemical_warfare:frag_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:frag_mix_t3, minecraft:iron_ingot → 1×chemical_warfare:frag_mix_t4
+- **chemical_warfare:frag_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:frag_mix_t4, minecraft:quartz → 1×chemical_warfare:frag_mix_t5
+- **chemical_warfare:flash_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:flash_compound → 1×chemical_warfare:flash_mix_t1
+- **chemical_warfare:flash_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:flash_mix_t1, minecraft:glowstone_dust → 1×chemical_warfare:flash_mix_t2
+- **chemical_warfare:flash_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:flash_mix_t2, minecraft:redstone → 1×chemical_warfare:flash_mix_t3
+- **chemical_warfare:flash_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:flash_mix_t3, minecraft:blaze_powder → 1×chemical_warfare:flash_mix_t4
+- **chemical_warfare:flash_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:flash_mix_t4, minecraft:amethyst_shard → 1×chemical_warfare:flash_mix_t5
+- **chemical_warfare:toxic_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxic_compound → 1×chemical_warfare:toxic_mix_t1
+- **chemical_warfare:toxic_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxic_mix_t1, minecraft:spider_eye → 1×chemical_warfare:toxic_mix_t2
+- **chemical_warfare:toxic_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxic_mix_t2, minecraft:rotten_flesh → 1×chemical_warfare:toxic_mix_t3
+- **chemical_warfare:toxic_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxic_mix_t3, minecraft:poisonous_potato → 1×chemical_warfare:toxic_mix_t4
+- **chemical_warfare:toxic_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:toxic_mix_t4, minecraft:fermented_spider_eye → 1×chemical_warfare:toxic_mix_t5
+- **chemical_warfare:ap_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:ap_compound → 1×chemical_warfare:ap_mix_t1
+- **chemical_warfare:ap_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:ap_mix_t1, minecraft:iron_ingot → 1×chemical_warfare:ap_mix_t2
+- **chemical_warfare:ap_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:ap_mix_t2, minecraft:flint → 1×chemical_warfare:ap_mix_t3
+- **chemical_warfare:ap_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:ap_mix_t3, minecraft:obsidian → 1×chemical_warfare:ap_mix_t4
+- **chemical_warfare:ap_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:ap_mix_t4, minecraft:diamond → 1×chemical_warfare:ap_mix_t5
+- **chemical_warfare:thermobaric_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:thermobaric_compound → 1×chemical_warfare:thermobaric_mix_t1
+- **chemical_warfare:thermobaric_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:thermobaric_mix_t1, minecraft:gunpowder → 1×chemical_warfare:thermobaric_mix_t2
+- **chemical_warfare:thermobaric_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:thermobaric_mix_t2, minecraft:blaze_powder → 1×chemical_warfare:thermobaric_mix_t3
+- **chemical_warfare:thermobaric_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:thermobaric_mix_t3, minecraft:tnt → 1×chemical_warfare:thermobaric_mix_t4
+- **chemical_warfare:thermobaric_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:thermobaric_mix_t4, minecraft:nether_star → 1×chemical_warfare:thermobaric_mix_t5
+- **chemical_warfare:acid_mix_t1**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:acid_compound → 1×chemical_warfare:acid_mix_t1
+- **chemical_warfare:acid_mix_t2**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:acid_mix_t1, minecraft:spider_eye → 1×chemical_warfare:acid_mix_t2
+- **chemical_warfare:acid_mix_t3**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:acid_mix_t2, minecraft:slime_ball → 1×chemical_warfare:acid_mix_t3
+- **chemical_warfare:acid_mix_t4**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:acid_mix_t3, minecraft:potion → 1×chemical_warfare:acid_mix_t4
+- **chemical_warfare:acid_mix_t5**
+  - крафт на «тип chemical_warfare:station»: 1 рец.; пример: chemical_warfare:acid_mix_t4, minecraft:ghast_tear → 1×chemical_warfare:acid_mix_t5
+
+### cushionbackport
+
+- **cushionbackport:white_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:white_dye, cushionbackport:orange_cushion(+14 вар.) → 1×cushionbackport:white_cushion
+- **cushionbackport:orange_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:orange_wool, minecraft:orange_wool, minecraft:orange_wool → 1×cushionbackport:orange_cushion
+- **cushionbackport:magenta_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:magenta_wool, minecraft:magenta_wool, minecraft:magenta_wool → 1×cushionbackport:magenta_cushion
+- **cushionbackport:light_blue_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_blue_dye, cushionbackport:white_cushion(+14 вар.) → 1×cushionbackport:light_blue_cushion
+- **cushionbackport:yellow_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:yellow_wool, minecraft:yellow_wool, minecraft:yellow_wool → 1×cushionbackport:yellow_cushion
+- **cushionbackport:lime_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:lime_wool, minecraft:lime_wool, minecraft:lime_wool → 1×cushionbackport:lime_cushion
+- **cushionbackport:pink_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:pink_wool, minecraft:pink_wool, minecraft:pink_wool → 1×cushionbackport:pink_cushion
+- **cushionbackport:gray_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:gray_wool, minecraft:gray_wool, minecraft:gray_wool → 1×cushionbackport:gray_cushion
+- **cushionbackport:light_gray_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_gray_dye, cushionbackport:white_cushion(+14 вар.) → 1×cushionbackport:light_gray_cushion
+- **cushionbackport:cyan_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:cyan_wool, minecraft:cyan_wool, minecraft:cyan_wool → 1×cushionbackport:cyan_cushion
+- **cushionbackport:purple_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:purple_wool, minecraft:purple_wool, minecraft:purple_wool → 1×cushionbackport:purple_cushion
+- **cushionbackport:blue_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:blue_wool, minecraft:blue_wool, minecraft:blue_wool → 1×cushionbackport:blue_cushion
+- **cushionbackport:brown_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:brown_dye, cushionbackport:white_cushion(+14 вар.) → 1×cushionbackport:brown_cushion
+- **cushionbackport:green_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:green_wool, minecraft:green_wool, minecraft:green_wool → 1×cushionbackport:green_cushion
+- **cushionbackport:red_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:red_wool, minecraft:red_wool, minecraft:red_wool → 1×cushionbackport:red_cushion
+- **cushionbackport:black_cushion**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:black_wool, minecraft:black_wool, minecraft:black_wool → 1×cushionbackport:black_cushion
+
+### dannys-aot
+
+- **dannys-aot:odm_gear**
+  - только творческий режим, вкладка itemGroup.dannys-aot.aot_items или /give
+- **dannys-aot:blade**
+  - только творческий режим, вкладка itemGroup.dannys-aot.aot_items или /give
+- **dannys-aot:titan_spawn_egg**
+  - только команда /give
+
+### guided_airstrike
+
+- **guided_airstrike:predator_tablet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass_pane, minecraft:compass, minecraft:glass_pane, minecraft:redstone, minecraft:firework_rocket, minecraft:redstone, minecraft:iron_ingot, minecraft:spyglass, … (9 слотов) → 1×guided_airstrike:predator_tablet
+- **guided_airstrike:high_yield_predator_tablet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: guided_airstrike:predator_tablet, minecraft:tnt, minecraft:fire_charge, minecraft:gunpowder → 1×guided_airstrike:high_yield_predator_tablet
+- **guided_airstrike:clean_predator_tablet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: guided_airstrike:predator_tablet, minecraft:obsidian, minecraft:ender_pearl, minecraft:amethyst_shard → 1×guided_airstrike:clean_predator_tablet
+- **guided_airstrike:debug_predator_tablet**
+  - только команда /give
+
+### immersive_aircraft
+
+- **immersive_aircraft:hull**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.), minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.), … (9 слотов) → 1×immersive_aircraft:hull
+- **immersive_aircraft:engine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone, minecraft:piston, minecraft:blast_furnace, minecraft:piston, minecraft:cobblestone, immersive_aircraft:boiler, minecraft:cobblestone → 1×immersive_aircraft:engine
+- **immersive_aircraft:sail**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:white_carpet, minecraft:white_carpet, minecraft:string, minecraft:white_carpet, minecraft:white_carpet, minecraft:string, minecraft:white_carpet, minecraft:white_carpet, … (9 слотов) → 1×immersive_aircraft:sail
+- **immersive_aircraft:propeller**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×immersive_aircraft:propeller
+- **immersive_aircraft:boiler**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:furnace, minecraft:copper_ingot → 1×immersive_aircraft:boiler
+- **immersive_aircraft:airship**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: immersive_aircraft:sail, immersive_aircraft:sail, immersive_aircraft:sail, immersive_aircraft:sail, immersive_aircraft:sail, immersive_aircraft:sail, immersive_aircraft:hull, immersive_aircraft:hull, … (9 слотов) → 1×immersive_aircraft:airship
+- **immersive_aircraft:cargo_airship**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, immersive_aircraft:airship, minecraft:chest, minecraft:chest, immersive_aircraft:hull, minecraft:chest → 1×immersive_aircraft:cargo_airship
+- **immersive_aircraft:warship**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: immersive_aircraft:sail, immersive_aircraft:hull, immersive_aircraft:sail, immersive_aircraft:engine, immersive_aircraft:cargo_airship, immersive_aircraft:engine, immersive_aircraft:hull, immersive_aircraft:industrial_gears, … (9 слотов) → 1×immersive_aircraft:warship
+- **immersive_aircraft:biplane**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: immersive_aircraft:hull, immersive_aircraft:hull, immersive_aircraft:engine, immersive_aircraft:propeller, immersive_aircraft:hull → 1×immersive_aircraft:biplane
+- **immersive_aircraft:gyrodyne**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: immersive_aircraft:sail, immersive_aircraft:hull, immersive_aircraft:propeller, immersive_aircraft:hull, immersive_aircraft:sail → 1×immersive_aircraft:gyrodyne
+- **immersive_aircraft:quadrocopter**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: immersive_aircraft:propeller, minecraft:bamboo, immersive_aircraft:propeller, minecraft:bamboo, immersive_aircraft:engine, minecraft:bamboo, immersive_aircraft:propeller, minecraft:bamboo, … (9 слотов) → 1×immersive_aircraft:quadrocopter
+- **immersive_aircraft:bamboo_hopper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: immersive_aircraft:biplane, immersive_aircraft:hull, immersive_aircraft:biplane, minecraft:bamboo_block, immersive_aircraft:engine, minecraft:bamboo_block, minecraft:bamboo_block, minecraft:bamboo_block, … (9 слотов) → 1×immersive_aircraft:bamboo_hopper
+- **immersive_aircraft:rotary_cannon**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dispenser, immersive_aircraft:industrial_gears, minecraft:copper_ingot → 1×immersive_aircraft:rotary_cannon
+- **immersive_aircraft:heavy_crossbow**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crossbow, minecraft:tripwire_hook, minecraft:dark_oak_log(+15 вар.) → 1×immersive_aircraft:heavy_crossbow
+- **immersive_aircraft:telescope**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spyglass, minecraft:copper_ingot → 1×immersive_aircraft:telescope
+- **immersive_aircraft:bomb_bay**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:tnt, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×immersive_aircraft:bomb_bay
+- **immersive_aircraft:enhanced_propeller**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:copper_ingot, immersive_aircraft:propeller, minecraft:copper_ingot, minecraft:copper_ingot → 1×immersive_aircraft:enhanced_propeller
+- **immersive_aircraft:eco_engine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:slime_ball, minecraft:gold_ingot, minecraft:slime_ball, minecraft:gold_ingot, immersive_aircraft:engine, minecraft:gold_ingot, minecraft:brick, minecraft:brick, … (9 слотов) → 1×immersive_aircraft:eco_engine
+- **immersive_aircraft:nether_engine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:magma_cream, minecraft:netherite_ingot, minecraft:magma_cream, minecraft:blaze_rod, immersive_aircraft:engine, minecraft:blaze_rod, minecraft:nether_brick, minecraft:nether_brick, … (9 слотов) → 1×immersive_aircraft:nether_engine
+- **immersive_aircraft:steel_boiler**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, immersive_aircraft:boiler, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:blast_furnace, … (9 слотов) → 1×immersive_aircraft:steel_boiler
+- **immersive_aircraft:industrial_gears**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:copper_ingot, minecraft:lever, minecraft:iron_ingot, minecraft:copper_ingot, minecraft:copper_ingot → 1×immersive_aircraft:industrial_gears
+- **immersive_aircraft:sturdy_pipes**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:iron_ingot, minecraft:copper_ingot, minecraft:iron_ingot, minecraft:copper_ingot → 1×immersive_aircraft:sturdy_pipes
+- **immersive_aircraft:gyroscope**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:comparator, minecraft:compass, minecraft:comparator → 1×immersive_aircraft:gyroscope
+- **immersive_aircraft:gyroscope_hud**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_nugget, minecraft:glass_pane, minecraft:gold_nugget, minecraft:gold_ingot, minecraft:redstone_lamp, minecraft:gold_ingot, minecraft:note_block, immersive_aircraft:gyroscope, … (9 слотов) → 1×immersive_aircraft:gyroscope_hud
+- **immersive_aircraft:gyroscope_dials**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:clock, minecraft:clock, minecraft:clock, minecraft:note_block, immersive_aircraft:gyroscope, minecraft:lever → 1×immersive_aircraft:gyroscope_dials
+- **immersive_aircraft:hull_reinforcement**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, immersive_aircraft:hull, immersive_aircraft:hull, immersive_aircraft:hull, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×immersive_aircraft:hull_reinforcement
+- **immersive_aircraft:improved_landing_gear**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:coal, minecraft:coal, minecraft:iron_ingot, minecraft:coal, minecraft:coal → 1×immersive_aircraft:improved_landing_gear
+
+### immersive_machinery
+
+- **immersive_machinery:tunnel_digger**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, immersive_aircraft:industrial_gears, minecraft:copper_ingot, minecraft:iron_block, immersive_aircraft:engine, immersive_machinery:iron_drill, minecraft:rail, minecraft:rail, … (9 слотов) → 1×immersive_machinery:tunnel_digger
+- **immersive_machinery:bamboo_bee**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: immersive_machinery:redstone_mechanism, immersive_aircraft:quadrocopter → 1×immersive_machinery:bamboo_bee
+- **immersive_machinery:redstone_sheep**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, immersive_aircraft:engine, immersive_machinery:redstone_mechanism, immersive_aircraft:hull, immersive_aircraft:propeller, immersive_aircraft:hull → 1×immersive_machinery:redstone_sheep
+- **immersive_machinery:copperfin**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:glass, minecraft:copper_ingot, minecraft:glass, minecraft:conduit, immersive_aircraft:propeller, minecraft:copper_ingot, immersive_aircraft:engine, … (9 слотов) → 1×immersive_machinery:copperfin
+- **immersive_machinery:redstone_mechanism**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:comparator, minecraft:redstone, minecraft:copper_ingot, minecraft:redstone_torch, minecraft:repeater, minecraft:iron_ingot → 1×immersive_machinery:redstone_mechanism
+- **immersive_machinery:iron_drill**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_block, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×immersive_machinery:iron_drill
+- **immersive_machinery:diamond_drill**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:iron_block, immersive_machinery:iron_drill, minecraft:diamond → 1×immersive_machinery:diamond_drill
+- **immersive_machinery:netherite_drill**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:iron_block, immersive_machinery:diamond_drill, minecraft:netherite_ingot → 1×immersive_machinery:netherite_drill
+
+### libraryferret
+
+- **libraryferret:iron_coins_jtl**
+  - добыча из блока libraryferret:fake_iron_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **libraryferret:emerald_coins_jtl**
+  - добыча из блока libraryferret:fake_emerald_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **libraryferret:gold_coins_jtl**
+  - добыча из блока libraryferret:fake_gold_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **libraryferret:diamond_coins_jtl**
+  - добыча из блока libraryferret:fake_diamond_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **libraryferret:netherite_coins_jtl**
+  - добыча из блока libraryferret:fake_netherite_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **libraryferret:fake_iron_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: libraryferret:iron_coins_jtl, libraryferret:iron_coins_jtl, libraryferret:iron_coins_jtl, libraryferret:iron_coins_jtl, libraryferret:iron_coins_jtl, libraryferret:iron_coins_jtl, libraryferret:iron_coins_jtl, libraryferret:iron_coins_jtl, … (9 слотов) → 1×libraryferret:fake_iron_block
+  - добыча из блока libraryferret:fake_iron_block: добыть шёлковым касанием
+- **libraryferret:fake_gold_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: libraryferret:gold_coins_jtl, libraryferret:gold_coins_jtl, libraryferret:gold_coins_jtl, libraryferret:gold_coins_jtl, libraryferret:gold_coins_jtl, libraryferret:gold_coins_jtl, libraryferret:gold_coins_jtl, libraryferret:gold_coins_jtl, … (9 слотов) → 1×libraryferret:fake_gold_block
+  - добыча из блока libraryferret:fake_gold_block: добыть шёлковым касанием
+- **libraryferret:fake_emerald_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: libraryferret:emerald_coins_jtl, libraryferret:emerald_coins_jtl, libraryferret:emerald_coins_jtl, libraryferret:emerald_coins_jtl, libraryferret:emerald_coins_jtl, libraryferret:emerald_coins_jtl, libraryferret:emerald_coins_jtl, libraryferret:emerald_coins_jtl, … (9 слотов) → 1×libraryferret:fake_emerald_block
+  - добыча из блока libraryferret:fake_emerald_block: добыть шёлковым касанием
+- **libraryferret:fake_diamond_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: libraryferret:diamond_coins_jtl, libraryferret:diamond_coins_jtl, libraryferret:diamond_coins_jtl, libraryferret:diamond_coins_jtl, libraryferret:diamond_coins_jtl, libraryferret:diamond_coins_jtl, libraryferret:diamond_coins_jtl, libraryferret:diamond_coins_jtl, … (9 слотов) → 1×libraryferret:fake_diamond_block
+  - добыча из блока libraryferret:fake_diamond_block: добыть шёлковым касанием
+- **libraryferret:fake_netherite_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: libraryferret:netherite_coins_jtl, libraryferret:netherite_coins_jtl, libraryferret:netherite_coins_jtl, libraryferret:netherite_coins_jtl, libraryferret:netherite_coins_jtl, libraryferret:netherite_coins_jtl, libraryferret:netherite_coins_jtl, libraryferret:netherite_coins_jtl, … (9 слотов) → 1×libraryferret:fake_netherite_block
+  - добыча из блока libraryferret:fake_netherite_block: добыть шёлковым касанием
+- **libraryferret:unbreakable_iron_beacon**
+  - только команда /give
+- **libraryferret:unbreakable_gold_beacon**
+  - только команда /give
+- **libraryferret:unbreakable_emerald_beacon**
+  - только команда /give
+- **libraryferret:unbreakable_diamond_beacon**
+  - только команда /give
+- **libraryferret:unbreakable_netherite_beacon**
+  - только команда /give
+
+### lookinsharp
+
+- **lookinsharp:forging_station**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:red_wool, minecraft:gold_ingot, minecraft:red_wool, minecraft:anvil, minecraft:red_wool, minecraft:smooth_stone, minecraft:smooth_stone, … (9 слотов) → 1×lookinsharp:forging_station
+- **lookinsharp:withering_artifact**
+  - выпадает с моба minecraft:wither_skeleton
+- **lookinsharp:deadly_artifact**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:sticky_artifact**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:glacial_artifact**
+  - выпадает с моба minecraft:snow_golem
+- **lookinsharp:tonic_artifact**
+  - выпадает с моба minecraft:witch
+- **lookinsharp:weakening_artifact**
+  - выпадает с моба minecraft:husk
+- **lookinsharp:vampiric_artifact**
+  - выпадает с моба minecraft:ghast
+- **lookinsharp:battering_artifact**
+  - выпадает с моба minecraft:iron_golem
+- **lookinsharp:wooden_sword**
+  - крафт на «lookinsharp:forging_station»: 1 рец.; пример: minecraft:wooden_sword → 1×lookinsharp:wooden_sword
+- **lookinsharp:wooden_broadsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_shortsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_cutlass**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_honed_sword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_gladius**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_cleaver**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_greatsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_scythe**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:wooden_spear**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_sword**
+  - крафт на «lookinsharp:forging_station»: 1 рец.; пример: minecraft:stone_sword → 1×lookinsharp:stone_sword
+- **lookinsharp:stone_broadsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_shortsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_cutlass**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_honed_sword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_gladius**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_cleaver**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_greatsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_scythe**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:stone_spear**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_sword**
+  - крафт на «minecraft:smithing_table»: 8 рец.; пример: lookinsharp:weakening_artifact, minecraft:fermented_spider_eye → 1×lookinsharp:iron_sword
+  - крафт на «lookinsharp:forging_station»: 1 рец.; пример: minecraft:iron_sword → 1×lookinsharp:iron_sword
+- **lookinsharp:iron_broadsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_shortsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_cutlass**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_honed_sword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_gladius**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_cleaver**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_greatsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_scythe**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:iron_spear**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_sword**
+  - крафт на «lookinsharp:forging_station»: 1 рец.; пример: minecraft:golden_sword → 1×lookinsharp:golden_sword
+- **lookinsharp:golden_broadsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_shortsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_cutlass**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_honed_sword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_gladius**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_cleaver**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_greatsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_scythe**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:golden_spear**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_sword**
+  - крафт на «lookinsharp:forging_station»: 1 рец.; пример: minecraft:diamond_sword → 1×lookinsharp:diamond_sword
+- **lookinsharp:diamond_broadsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_shortsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_cutlass**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_honed_sword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_gladius**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_cleaver**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_greatsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_scythe**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:diamond_spear**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_sword**
+  - крафт на «lookinsharp:forging_station»: 1 рец.; пример: minecraft:netherite_sword → 1×lookinsharp:netherite_sword
+- **lookinsharp:netherite_broadsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_shortsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_cutlass**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_honed_sword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_gladius**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_cleaver**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_greatsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_scythe**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:netherite_spear**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_ingot**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:redstone, minecraft:lapis_lazuli → 1×lookinsharp:vitalium_ingot
+- **lookinsharp:vitalium_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: lookinsharp:vitalium_ingot, lookinsharp:vitalium_ingot, minecraft:stick → 1×lookinsharp:vitalium_sword
+- **lookinsharp:vitalium_broadsword**
+  - крафт на «lookinsharp:forging_station»: 1 рец.; пример: lookinsharp:vitalium_sword → 1×lookinsharp:vitalium_broadsword
+- **lookinsharp:vitalium_shortsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_cutlass**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_honed_sword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_gladius**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_cleaver**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_greatsword**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_scythe**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+- **lookinsharp:vitalium_spear**
+  - только творческий режим, вкладка itemGroup.lookinsharp.main или /give
+
+### minecraft
+
+- **minecraft:stone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:cobblestone → 1×minecraft:stone
+  - добыча из блока minecraft:stone: добыть шёлковым касанием
+  - добыча из блока minecraft:infested_stone: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/village/village_mason
+- **minecraft:granite**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diorite, minecraft:quartz → 1×minecraft:granite
+  - добыча из блока minecraft:granite: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_granite**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:granite → 1×minecraft:polished_granite
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:granite, minecraft:granite, minecraft:granite, minecraft:granite → 4×minecraft:polished_granite
+  - добыча из блока minecraft:polished_granite: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 3
+- **minecraft:diorite**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone, minecraft:quartz, minecraft:quartz, minecraft:cobblestone → 2×minecraft:diorite
+  - добыча из блока minecraft:diorite: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_diorite**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:diorite → 1×minecraft:polished_diorite
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diorite, minecraft:diorite, minecraft:diorite, minecraft:diorite → 4×minecraft:polished_diorite
+  - добыча из блока minecraft:polished_diorite: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 3
+- **minecraft:andesite**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diorite, minecraft:cobblestone → 2×minecraft:andesite
+  - добыча из блока minecraft:andesite: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_andesite**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:andesite → 1×minecraft:polished_andesite
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:andesite, minecraft:andesite, minecraft:andesite, minecraft:andesite → 4×minecraft:polished_andesite
+  - добыча из блока minecraft:polished_andesite: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 3
+- **minecraft:deepslate**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:deepslate
+  - добыча из блока minecraft:deepslate: добыть шёлковым касанием
+  - добыча из блока minecraft:infested_deepslate: добыть шёлковым касанием
+- **minecraft:cobbled_deepslate**
+  - добыча из блока minecraft:deepslate: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:cobbled_deepslate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_deepslate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate → 4×minecraft:polished_deepslate
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:polished_deepslate
+  - добыча из блока minecraft:polished_deepslate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:calcite**
+  - добыча из блока minecraft:calcite: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:tuff**
+  - добыча из блока minecraft:tuff: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dripstone_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:pointed_dripstone, minecraft:pointed_dripstone, minecraft:pointed_dripstone, minecraft:pointed_dripstone → 1×minecraft:dripstone_block
+  - добыча из блока minecraft:dripstone_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 3
+- **minecraft:grass_block**
+  - добыча из блока minecraft:grass_block: добыть шёлковым касанием
+- **minecraft:dirt**
+  - добыча из блока minecraft:grass_block: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dirt: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:podzol: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:farmland: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:mycelium: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dirt_path: сломать любым способом (в т.ч. рукой)
+- **minecraft:coarse_dirt**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dirt, minecraft:gravel, minecraft:gravel, minecraft:dirt → 4×minecraft:coarse_dirt
+  - добыча из блока minecraft:coarse_dirt: сломать любым способом (в т.ч. рукой)
+- **minecraft:podzol**
+  - добыча из блока minecraft:podzol: добыть шёлковым касанием
+  - торговля: minecraft:wandering_trader, уровень 2
+- **minecraft:rooted_dirt**
+  - добыча из блока minecraft:rooted_dirt: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:mud**
+  - добыча из блока minecraft:mud: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_nylium**
+  - добыча из блока minecraft:crimson_nylium: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+- **minecraft:warped_nylium**
+  - добыча из блока minecraft:warped_nylium: добыть шёлковым касанием
+- **minecraft:cobblestone**
+  - добыча из блока minecraft:stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:infested_cobblestone: добыть шёлковым касанием
+- **minecraft:oak_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_log(+3 вар.) → 4×minecraft:oak_planks
+  - добыча из блока minecraft:oak_planks: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:spruce_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_log(+3 вар.) → 4×minecraft:spruce_planks
+  - добыча из блока minecraft:spruce_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_log(+3 вар.) → 4×minecraft:birch_planks
+  - добыча из блока minecraft:birch_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_log(+3 вар.) → 4×minecraft:jungle_planks
+  - добыча из блока minecraft:jungle_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_log(+3 вар.) → 4×minecraft:acacia_planks
+  - добыча из блока minecraft:acacia_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_log(+3 вар.) → 4×minecraft:cherry_planks
+  - добыча из блока minecraft:cherry_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_log(+3 вар.) → 4×minecraft:dark_oak_planks
+  - добыча из блока minecraft:dark_oak_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_log(+3 вар.) → 4×minecraft:mangrove_planks
+  - добыча из блока minecraft:mangrove_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_block(+1 вар.) → 2×minecraft:bamboo_planks
+  - добыча из блока minecraft:bamboo_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_stem(+3 вар.) → 4×minecraft:crimson_planks
+  - добыча из блока minecraft:crimson_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_planks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_stem(+3 вар.) → 4×minecraft:warped_planks
+  - добыча из блока minecraft:warped_planks: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_mosaic**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_slab, minecraft:bamboo_slab → 1×minecraft:bamboo_mosaic
+  - добыча из блока minecraft:bamboo_mosaic: сломать любым способом (в т.ч. рукой)
+- **minecraft:oak_sapling**
+  - добыча из блока minecraft:oak_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_oak_sapling: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:spruce_sapling**
+  - добыча из блока minecraft:spruce_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_spruce_sapling: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:birch_sapling**
+  - добыча из блока minecraft:birch_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_birch_sapling: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:jungle_sapling**
+  - добыча из блока minecraft:jungle_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_jungle_sapling: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:acacia_sapling**
+  - добыча из блока minecraft:acacia_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_acacia_sapling: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_savanna_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:cherry_sapling**
+  - добыча из блока minecraft:cherry_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:cherry_leaves: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_cherry_sapling: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:dark_oak_sapling**
+  - добыча из блока minecraft:dark_oak_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_dark_oak_sapling: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:mangrove_propagule**
+  - добыча из блока minecraft:potted_mangrove_propagule: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:bedrock**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:sand**
+  - добыча из блока minecraft:sand: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/desert_pyramid
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:suspicious_sand**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:suspicious_gravel**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:red_sand**
+  - добыча из блока minecraft:red_sand: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:gravel**
+  - добыча из блока minecraft:gravel: сломать любым способом (в т.ч. рукой)
+- **minecraft:coal_ore**
+  - добыча из блока minecraft:coal_ore: добыть шёлковым касанием
+- **minecraft:deepslate_coal_ore**
+  - добыча из блока minecraft:deepslate_coal_ore: добыть шёлковым касанием
+- **minecraft:iron_ore**
+  - добыча из блока minecraft:iron_ore: добыть шёлковым касанием
+- **minecraft:deepslate_iron_ore**
+  - добыча из блока minecraft:deepslate_iron_ore: добыть шёлковым касанием
+- **minecraft:copper_ore**
+  - добыча из блока minecraft:copper_ore: добыть шёлковым касанием
+- **minecraft:deepslate_copper_ore**
+  - добыча из блока minecraft:deepslate_copper_ore: добыть шёлковым касанием
+- **minecraft:gold_ore**
+  - добыча из блока minecraft:gold_ore: добыть шёлковым касанием
+- **minecraft:deepslate_gold_ore**
+  - добыча из блока minecraft:deepslate_gold_ore: добыть шёлковым касанием
+- **minecraft:redstone_ore**
+  - добыча из блока minecraft:redstone_ore: добыть шёлковым касанием
+- **minecraft:deepslate_redstone_ore**
+  - добыча из блока minecraft:deepslate_redstone_ore: добыть шёлковым касанием
+- **minecraft:emerald_ore**
+  - добыча из блока minecraft:emerald_ore: добыть шёлковым касанием
+  - добыча из блока libraryferret:unbreakable_emerald_beacon: добыть шёлковым касанием
+- **minecraft:deepslate_emerald_ore**
+  - добыча из блока minecraft:deepslate_emerald_ore: добыть шёлковым касанием
+- **minecraft:lapis_ore**
+  - добыча из блока minecraft:lapis_ore: добыть шёлковым касанием
+- **minecraft:deepslate_lapis_ore**
+  - добыча из блока minecraft:deepslate_lapis_ore: добыть шёлковым касанием
+- **minecraft:diamond_ore**
+  - добыча из блока minecraft:diamond_ore: добыть шёлковым касанием
+  - добыча из блока libraryferret:unbreakable_diamond_beacon: добыть шёлковым касанием
+- **minecraft:deepslate_diamond_ore**
+  - добыча из блока minecraft:deepslate_diamond_ore: добыть шёлковым касанием
+- **minecraft:nether_gold_ore**
+  - добыча из блока minecraft:nether_gold_ore: добыть шёлковым касанием
+- **minecraft:nether_quartz_ore**
+  - добыча из блока minecraft:nether_quartz_ore: добыть шёлковым касанием
+- **minecraft:ancient_debris**
+  - добыча из блока minecraft:ancient_debris: сломать инструментом minecraft:diamond_pickaxe или лучше
+  - добыча из блока libraryferret:unbreakable_netherite_beacon: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:coal_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:coal, minecraft:coal, minecraft:coal, minecraft:coal, minecraft:coal, minecraft:coal, minecraft:coal, minecraft:coal, … (9 слотов) → 1×minecraft:coal_block
+  - добыча из блока minecraft:coal_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:raw_iron_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:raw_iron, minecraft:raw_iron, minecraft:raw_iron, minecraft:raw_iron, minecraft:raw_iron, minecraft:raw_iron, minecraft:raw_iron, minecraft:raw_iron, … (9 слотов) → 1×minecraft:raw_iron_block
+  - добыча из блока minecraft:raw_iron_block: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:raw_copper_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:raw_copper, minecraft:raw_copper, minecraft:raw_copper, minecraft:raw_copper, minecraft:raw_copper, minecraft:raw_copper, minecraft:raw_copper, minecraft:raw_copper, … (9 слотов) → 1×minecraft:raw_copper_block
+  - добыча из блока minecraft:raw_copper_block: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:raw_gold_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:raw_gold, minecraft:raw_gold, minecraft:raw_gold, minecraft:raw_gold, minecraft:raw_gold, minecraft:raw_gold, minecraft:raw_gold, minecraft:raw_gold, … (9 слотов) → 1×minecraft:raw_gold_block
+  - добыча из блока minecraft:raw_gold_block: сломать инструментом minecraft:iron_pickaxe или лучше
+- **minecraft:amethyst_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:amethyst_shard, minecraft:amethyst_shard, minecraft:amethyst_shard, minecraft:amethyst_shard → 1×minecraft:amethyst_block
+  - добыча из блока minecraft:amethyst_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:budding_amethyst**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:iron_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×minecraft:iron_block
+  - добыча из блока minecraft:iron_block: сломать инструментом minecraft:stone_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:copper_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, … (9 слотов) → 1×minecraft:copper_block
+  - добыча из блока minecraft:copper_block: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:gold_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, … (9 слотов) → 1×minecraft:gold_block
+  - добыча из блока minecraft:gold_block: сломать инструментом minecraft:iron_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:diamond_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 1×minecraft:diamond_block
+  - добыча из блока minecraft:diamond_block: сломать инструментом minecraft:iron_pickaxe или лучше
+- **minecraft:netherite_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:netherite_ingot, minecraft:netherite_ingot, minecraft:netherite_ingot, minecraft:netherite_ingot, minecraft:netherite_ingot, minecraft:netherite_ingot, minecraft:netherite_ingot, minecraft:netherite_ingot, … (9 слотов) → 1×minecraft:netherite_block
+  - добыча из блока minecraft:netherite_block: сломать инструментом minecraft:diamond_pickaxe или лучше
+- **minecraft:exposed_copper**
+  - добыча из блока minecraft:exposed_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:weathered_copper**
+  - добыча из блока minecraft:weathered_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:oxidized_copper**
+  - добыча из блока minecraft:oxidized_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:cut_copper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_block, minecraft:copper_block, minecraft:copper_block, minecraft:copper_block → 4×minecraft:cut_copper
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:copper_block → 4×minecraft:cut_copper
+  - добыча из блока minecraft:cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:exposed_cut_copper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:exposed_copper, minecraft:exposed_copper, minecraft:exposed_copper, minecraft:exposed_copper → 4×minecraft:exposed_cut_copper
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:exposed_copper → 4×minecraft:exposed_cut_copper
+  - добыча из блока minecraft:exposed_cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:weathered_cut_copper**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:weathered_copper → 4×minecraft:weathered_cut_copper
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:weathered_copper, minecraft:weathered_copper, minecraft:weathered_copper, minecraft:weathered_copper → 4×minecraft:weathered_cut_copper
+  - добыча из блока minecraft:weathered_cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:oxidized_cut_copper**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:oxidized_copper → 4×minecraft:oxidized_cut_copper
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oxidized_copper, minecraft:oxidized_copper, minecraft:oxidized_copper, minecraft:oxidized_copper → 4×minecraft:oxidized_cut_copper
+  - добыча из блока minecraft:oxidized_cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:cut_copper_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cut_copper, minecraft:cut_copper, minecraft:cut_copper, minecraft:cut_copper, minecraft:cut_copper, minecraft:cut_copper → 4×minecraft:cut_copper_stairs
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:copper_block → 4×minecraft:cut_copper_stairs
+  - добыча из блока minecraft:cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:exposed_cut_copper_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:exposed_cut_copper → 1×minecraft:exposed_cut_copper_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:exposed_cut_copper, minecraft:exposed_cut_copper, minecraft:exposed_cut_copper, minecraft:exposed_cut_copper, minecraft:exposed_cut_copper, minecraft:exposed_cut_copper → 4×minecraft:exposed_cut_copper_stairs
+  - добыча из блока minecraft:exposed_cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:weathered_cut_copper_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:weathered_cut_copper → 1×minecraft:weathered_cut_copper_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:weathered_cut_copper, minecraft:weathered_cut_copper, minecraft:weathered_cut_copper, minecraft:weathered_cut_copper, minecraft:weathered_cut_copper, minecraft:weathered_cut_copper → 4×minecraft:weathered_cut_copper_stairs
+  - добыча из блока minecraft:weathered_cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:oxidized_cut_copper_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:oxidized_cut_copper → 1×minecraft:oxidized_cut_copper_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oxidized_cut_copper, minecraft:oxidized_cut_copper, minecraft:oxidized_cut_copper, minecraft:oxidized_cut_copper, minecraft:oxidized_cut_copper, minecraft:oxidized_cut_copper → 4×minecraft:oxidized_cut_copper_stairs
+  - добыча из блока minecraft:oxidized_cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:cut_copper_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:copper_block → 8×minecraft:cut_copper_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cut_copper, minecraft:cut_copper, minecraft:cut_copper → 6×minecraft:cut_copper_slab
+  - добыча из блока minecraft:cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:exposed_cut_copper_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:exposed_cut_copper, minecraft:exposed_cut_copper, minecraft:exposed_cut_copper → 6×minecraft:exposed_cut_copper_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:exposed_copper → 8×minecraft:exposed_cut_copper_slab
+  - добыча из блока minecraft:exposed_cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:weathered_cut_copper_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:weathered_cut_copper → 2×minecraft:weathered_cut_copper_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:weathered_cut_copper, minecraft:weathered_cut_copper, minecraft:weathered_cut_copper → 6×minecraft:weathered_cut_copper_slab
+  - добыча из блока minecraft:weathered_cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:oxidized_cut_copper_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:oxidized_copper → 8×minecraft:oxidized_cut_copper_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oxidized_cut_copper, minecraft:oxidized_cut_copper, minecraft:oxidized_cut_copper → 6×minecraft:oxidized_cut_copper_slab
+  - добыча из блока minecraft:oxidized_cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_copper_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_block, minecraft:honeycomb → 1×minecraft:waxed_copper_block
+  - добыча из блока minecraft:waxed_copper_block: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_exposed_copper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:exposed_copper, minecraft:honeycomb → 1×minecraft:waxed_exposed_copper
+  - добыча из блока minecraft:waxed_exposed_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_weathered_copper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:weathered_copper, minecraft:honeycomb → 1×minecraft:waxed_weathered_copper
+  - добыча из блока minecraft:waxed_weathered_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_oxidized_copper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oxidized_copper, minecraft:honeycomb → 1×minecraft:waxed_oxidized_copper
+  - добыча из блока minecraft:waxed_oxidized_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_cut_copper**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:waxed_copper_block → 4×minecraft:waxed_cut_copper
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:waxed_copper_block, minecraft:waxed_copper_block, minecraft:waxed_copper_block, minecraft:waxed_copper_block → 4×minecraft:waxed_cut_copper
+  - добыча из блока minecraft:waxed_cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_exposed_cut_copper**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:waxed_exposed_copper → 4×minecraft:waxed_exposed_cut_copper
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:exposed_cut_copper, minecraft:honeycomb → 1×minecraft:waxed_exposed_cut_copper
+  - добыча из блока minecraft:waxed_exposed_cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_weathered_cut_copper**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:waxed_weathered_copper → 4×minecraft:waxed_weathered_cut_copper
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:weathered_cut_copper, minecraft:honeycomb → 1×minecraft:waxed_weathered_cut_copper
+  - добыча из блока minecraft:waxed_weathered_cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_oxidized_cut_copper**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:oxidized_cut_copper, minecraft:honeycomb → 1×minecraft:waxed_oxidized_cut_copper
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:waxed_oxidized_copper → 4×minecraft:waxed_oxidized_cut_copper
+  - добыча из блока minecraft:waxed_oxidized_cut_copper: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_cut_copper_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_copper_block → 4×minecraft:waxed_cut_copper_stairs
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:cut_copper_stairs, minecraft:honeycomb → 1×minecraft:waxed_cut_copper_stairs
+  - добыча из блока minecraft:waxed_cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_exposed_cut_copper_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_exposed_cut_copper → 1×minecraft:waxed_exposed_cut_copper_stairs
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper → 4×minecraft:waxed_exposed_cut_copper_stairs
+  - добыча из блока minecraft:waxed_exposed_cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_weathered_cut_copper_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_weathered_copper → 4×minecraft:waxed_weathered_cut_copper_stairs
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:waxed_weathered_cut_copper, minecraft:waxed_weathered_cut_copper, minecraft:waxed_weathered_cut_copper, minecraft:waxed_weathered_cut_copper, minecraft:waxed_weathered_cut_copper, minecraft:waxed_weathered_cut_copper → 4×minecraft:waxed_weathered_cut_copper_stairs
+  - добыча из блока minecraft:waxed_weathered_cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_oxidized_cut_copper_stairs**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:waxed_oxidized_cut_copper, minecraft:waxed_oxidized_cut_copper, minecraft:waxed_oxidized_cut_copper, minecraft:waxed_oxidized_cut_copper, minecraft:waxed_oxidized_cut_copper, minecraft:waxed_oxidized_cut_copper → 4×minecraft:waxed_oxidized_cut_copper_stairs
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_oxidized_copper → 4×minecraft:waxed_oxidized_cut_copper_stairs
+  - добыча из блока minecraft:waxed_oxidized_cut_copper_stairs: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_cut_copper_slab**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:waxed_cut_copper, minecraft:waxed_cut_copper, minecraft:waxed_cut_copper → 6×minecraft:waxed_cut_copper_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_cut_copper → 2×minecraft:waxed_cut_copper_slab
+  - добыча из блока minecraft:waxed_cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_exposed_cut_copper_slab**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper, minecraft:waxed_exposed_cut_copper → 6×minecraft:waxed_exposed_cut_copper_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_exposed_copper → 8×minecraft:waxed_exposed_cut_copper_slab
+  - добыча из блока minecraft:waxed_exposed_cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_weathered_cut_copper_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_weathered_cut_copper → 2×minecraft:waxed_weathered_cut_copper_slab
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:weathered_cut_copper_slab, minecraft:honeycomb → 1×minecraft:waxed_weathered_cut_copper_slab
+  - добыча из блока minecraft:waxed_weathered_cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:waxed_oxidized_cut_copper_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:waxed_oxidized_cut_copper → 2×minecraft:waxed_oxidized_cut_copper_slab
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:oxidized_cut_copper_slab, minecraft:honeycomb → 1×minecraft:waxed_oxidized_cut_copper_slab
+  - добыча из блока minecraft:waxed_oxidized_cut_copper_slab: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:oak_log**
+  - добыча из блока minecraft:oak_log: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:spruce_log**
+  - добыча из блока minecraft:spruce_log: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+- **minecraft:birch_log**
+  - добыча из блока minecraft:birch_log: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:jungle_log**
+  - добыча из блока minecraft:jungle_log: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:acacia_log**
+  - добыча из блока minecraft:acacia_log: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:cherry_log**
+  - добыча из блока minecraft:cherry_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_log**
+  - добыча из блока minecraft:dark_oak_log: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+  - находка в сундуке minecraft:chests/pillager_outpost
+- **minecraft:mangrove_log**
+  - добыча из блока minecraft:mangrove_log: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:mangrove_roots**
+  - добыча из блока minecraft:mangrove_roots: сломать любым способом (в т.ч. рукой)
+- **minecraft:muddy_mangrove_roots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mud, minecraft:mangrove_roots → 1×minecraft:muddy_mangrove_roots
+  - добыча из блока minecraft:muddy_mangrove_roots: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_stem**
+  - добыча из блока minecraft:crimson_stem: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_stem**
+  - добыча из блока minecraft:warped_stem: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, … (9 слотов) → 1×minecraft:bamboo_block
+  - добыча из блока minecraft:bamboo_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_oak_log**
+  - добыча из блока minecraft:stripped_oak_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_spruce_log**
+  - добыча из блока minecraft:stripped_spruce_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_birch_log**
+  - добыча из блока minecraft:stripped_birch_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_jungle_log**
+  - добыча из блока minecraft:stripped_jungle_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_acacia_log**
+  - добыча из блока minecraft:stripped_acacia_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_cherry_log**
+  - добыча из блока minecraft:stripped_cherry_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_dark_oak_log**
+  - добыча из блока minecraft:stripped_dark_oak_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_mangrove_log**
+  - добыча из блока minecraft:stripped_mangrove_log: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_crimson_stem**
+  - добыча из блока minecraft:stripped_crimson_stem: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_warped_stem**
+  - добыча из блока minecraft:stripped_warped_stem: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_oak_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_oak_log, minecraft:stripped_oak_log, minecraft:stripped_oak_log, minecraft:stripped_oak_log → 3×minecraft:stripped_oak_wood
+  - добыча из блока minecraft:stripped_oak_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_spruce_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_spruce_log, minecraft:stripped_spruce_log, minecraft:stripped_spruce_log, minecraft:stripped_spruce_log → 3×minecraft:stripped_spruce_wood
+  - добыча из блока minecraft:stripped_spruce_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_birch_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_birch_log, minecraft:stripped_birch_log, minecraft:stripped_birch_log, minecraft:stripped_birch_log → 3×minecraft:stripped_birch_wood
+  - добыча из блока minecraft:stripped_birch_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_jungle_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_jungle_log, minecraft:stripped_jungle_log, minecraft:stripped_jungle_log, minecraft:stripped_jungle_log → 3×minecraft:stripped_jungle_wood
+  - добыча из блока minecraft:stripped_jungle_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_acacia_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_acacia_log, minecraft:stripped_acacia_log, minecraft:stripped_acacia_log, minecraft:stripped_acacia_log → 3×minecraft:stripped_acacia_wood
+  - добыча из блока minecraft:stripped_acacia_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_cherry_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_cherry_log, minecraft:stripped_cherry_log, minecraft:stripped_cherry_log, minecraft:stripped_cherry_log → 3×minecraft:stripped_cherry_wood
+  - добыча из блока minecraft:stripped_cherry_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_dark_oak_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log → 3×minecraft:stripped_dark_oak_wood
+  - добыча из блока minecraft:stripped_dark_oak_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_mangrove_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log → 3×minecraft:stripped_mangrove_wood
+  - добыча из блока minecraft:stripped_mangrove_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_crimson_hyphae**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem → 3×minecraft:stripped_crimson_hyphae
+  - добыча из блока minecraft:stripped_crimson_hyphae: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_warped_hyphae**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stripped_warped_stem, minecraft:stripped_warped_stem, minecraft:stripped_warped_stem, minecraft:stripped_warped_stem → 3×minecraft:stripped_warped_hyphae
+  - добыча из блока minecraft:stripped_warped_hyphae: сломать любым способом (в т.ч. рукой)
+- **minecraft:stripped_bamboo_block**
+  - добыча из блока minecraft:stripped_bamboo_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:oak_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_log, minecraft:oak_log, minecraft:oak_log, minecraft:oak_log → 3×minecraft:oak_wood
+  - добыча из блока minecraft:oak_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_log, minecraft:spruce_log, minecraft:spruce_log, minecraft:spruce_log → 3×minecraft:spruce_wood
+  - добыча из блока minecraft:spruce_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_log, minecraft:birch_log, minecraft:birch_log, minecraft:birch_log → 3×minecraft:birch_wood
+  - добыча из блока minecraft:birch_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_log, minecraft:jungle_log, minecraft:jungle_log, minecraft:jungle_log → 3×minecraft:jungle_wood
+  - добыча из блока minecraft:jungle_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_log, minecraft:acacia_log, minecraft:acacia_log, minecraft:acacia_log → 3×minecraft:acacia_wood
+  - добыча из блока minecraft:acacia_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_log, minecraft:cherry_log, minecraft:cherry_log, minecraft:cherry_log → 3×minecraft:cherry_wood
+  - добыча из блока minecraft:cherry_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_log, minecraft:dark_oak_log, minecraft:dark_oak_log, minecraft:dark_oak_log → 3×minecraft:dark_oak_wood
+  - добыча из блока minecraft:dark_oak_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_wood**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_log, minecraft:mangrove_log, minecraft:mangrove_log, minecraft:mangrove_log → 3×minecraft:mangrove_wood
+  - добыча из блока minecraft:mangrove_wood: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_hyphae**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_stem, minecraft:crimson_stem, minecraft:crimson_stem, minecraft:crimson_stem → 3×minecraft:crimson_hyphae
+  - добыча из блока minecraft:crimson_hyphae: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_hyphae**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_stem, minecraft:warped_stem, minecraft:warped_stem, minecraft:warped_stem → 3×minecraft:warped_hyphae
+  - добыча из блока minecraft:warped_hyphae: сломать любым способом (в т.ч. рукой)
+- **minecraft:oak_leaves**
+  - добыча из блока minecraft:oak_leaves: добыть шёлковым касанием
+- **minecraft:spruce_leaves**
+  - добыча из блока minecraft:spruce_leaves: добыть шёлковым касанием
+- **minecraft:birch_leaves**
+  - добыча из блока minecraft:birch_leaves: добыть шёлковым касанием
+- **minecraft:jungle_leaves**
+  - добыча из блока minecraft:jungle_leaves: добыть шёлковым касанием
+- **minecraft:acacia_leaves**
+  - добыча из блока minecraft:acacia_leaves: добыть шёлковым касанием
+- **minecraft:cherry_leaves**
+  - добыча из блока minecraft:cherry_leaves: добыть шёлковым касанием
+- **minecraft:dark_oak_leaves**
+  - добыча из блока minecraft:dark_oak_leaves: добыть шёлковым касанием
+- **minecraft:mangrove_leaves**
+  - добыча из блока minecraft:mangrove_leaves: добыть шёлковым касанием
+- **minecraft:azalea_leaves**
+  - добыча из блока minecraft:azalea_leaves: добыть шёлковым касанием
+- **minecraft:flowering_azalea_leaves**
+  - добыча из блока minecraft:flowering_azalea_leaves: добыть шёлковым касанием
+- **minecraft:sponge**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:wet_sponge → 1×minecraft:sponge
+  - добыча из блока minecraft:sponge: сломать любым способом (в т.ч. рукой)
+- **minecraft:wet_sponge**
+  - добыча из блока minecraft:wet_sponge: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:elder_guardian
+- **minecraft:glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:end_stone, minecraft:blaze_powder → 3×minecraft:glass
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:sand(+4 вар.) → 1×minecraft:glass
+  - добыча из блока minecraft:glass: добыть шёлковым касанием
+  - торговля: minecraft:librarian, уровень 3
+- **minecraft:tinted_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:amethyst_shard, minecraft:amethyst_shard, minecraft:glass, minecraft:amethyst_shard, minecraft:amethyst_shard → 2×minecraft:tinted_glass
+  - добыча из блока minecraft:tinted_glass: сломать любым способом (в т.ч. рукой)
+- **minecraft:lapis_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:lapis_lazuli, minecraft:lapis_lazuli, minecraft:lapis_lazuli, minecraft:lapis_lazuli, minecraft:lapis_lazuli, minecraft:lapis_lazuli, minecraft:lapis_lazuli, minecraft:lapis_lazuli, … (9 слотов) → 1×minecraft:lapis_block
+  - добыча из блока minecraft:lapis_block: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:sandstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand → 1×minecraft:sandstone
+  - добыча из блока minecraft:sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chiseled_sandstone**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:sandstone → 1×minecraft:chiseled_sandstone
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sandstone_slab, minecraft:sandstone_slab → 1×minecraft:chiseled_sandstone
+  - добыча из блока minecraft:chiseled_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cut_sandstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sandstone, minecraft:sandstone, minecraft:sandstone, minecraft:sandstone → 4×minecraft:cut_sandstone
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:sandstone → 1×minecraft:cut_sandstone
+  - добыча из блока minecraft:cut_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cobweb**
+  - добыча из блока minecraft:cobweb: добыть шёлковым касанием
+- **minecraft:grass**
+  - добыча из блока minecraft:grass: срезать ножницами
+  - находка в сундуке minecraft:chests/village/village_savanna_house
+- **minecraft:fern**
+  - добыча из блока minecraft:fern: срезать ножницами
+  - добыча из блока minecraft:potted_fern: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:azalea**
+  - добыча из блока minecraft:azalea: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_azalea_bush: сломать любым способом (в т.ч. рукой)
+- **minecraft:flowering_azalea**
+  - добыча из блока minecraft:flowering_azalea: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_flowering_azalea_bush: сломать любым способом (в т.ч. рукой)
+- **minecraft:dead_bush**
+  - добыча из блока minecraft:dead_bush: срезать ножницами
+  - добыча из блока minecraft:potted_dead_bush: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_desert_house
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:seagrass**
+  - добыча из блока minecraft:seagrass: срезать ножницами
+  - добыча из блока minecraft:tall_seagrass: срезать ножницами
+  - выпадает с моба minecraft:turtle
+- **minecraft:sea_pickle**
+  - добыча из блока minecraft:sea_pickle: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:white_wool**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:string, minecraft:string, minecraft:string, minecraft:string → 1×minecraft:white_wool
+  - добыча из блока minecraft:white_wool: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_shepherd
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:orange_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:orange_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:orange_wool
+  - добыча из блока minecraft:orange_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:magenta_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:magenta_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:magenta_wool
+  - добыча из блока minecraft:magenta_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:light_blue_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:light_blue_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:light_blue_wool
+  - добыча из блока minecraft:light_blue_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:yellow_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:yellow_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:yellow_wool
+  - добыча из блока minecraft:yellow_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:lime_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:lime_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:lime_wool
+  - добыча из блока minecraft:lime_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:pink_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:pink_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:pink_wool
+  - добыча из блока minecraft:pink_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:gray_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gray_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:gray_wool
+  - добыча из блока minecraft:gray_wool: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_shepherd
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:light_gray_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:light_gray_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:light_gray_wool
+  - добыча из блока minecraft:light_gray_wool: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_shepherd
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:cyan_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cyan_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:cyan_wool
+  - добыча из блока minecraft:cyan_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:purple_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:purple_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:purple_wool
+  - добыча из блока minecraft:purple_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:blue_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blue_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:blue_wool
+  - добыча из блока minecraft:blue_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:brown_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:brown_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:brown_wool
+  - добыча из блока minecraft:brown_wool: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_shepherd
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:green_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:green_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:green_wool
+  - добыча из блока minecraft:green_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:red_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_dye, minecraft:black_wool(+14 вар.) → 1×minecraft:red_wool
+  - добыча из блока minecraft:red_wool: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:black_wool**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:black_dye, minecraft:blue_wool(+14 вар.) → 1×minecraft:black_wool
+  - добыча из блока minecraft:black_wool: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_shepherd
+  - игровая механика: gameplay/hero_of_the_village/shepherd_gift
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:dandelion**
+  - добыча из блока minecraft:dandelion: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_dandelion: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:poppy**
+  - добыча из блока minecraft:poppy: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_poppy: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:iron_golem
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:blue_orchid**
+  - добыча из блока minecraft:blue_orchid: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_blue_orchid: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:allium**
+  - добыча из блока minecraft:allium: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_allium: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:azure_bluet**
+  - добыча из блока minecraft:azure_bluet: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_azure_bluet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:red_tulip**
+  - добыча из блока minecraft:red_tulip: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_red_tulip: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:orange_tulip**
+  - добыча из блока minecraft:orange_tulip: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_orange_tulip: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:white_tulip**
+  - добыча из блока minecraft:white_tulip: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_white_tulip: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:pink_tulip**
+  - добыча из блока minecraft:pink_tulip: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_pink_tulip: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:oxeye_daisy**
+  - добыча из блока minecraft:oxeye_daisy: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_oxeye_daisy: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:cornflower**
+  - добыча из блока minecraft:cornflower: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_cornflower: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:lily_of_the_valley**
+  - добыча из блока minecraft:lily_of_the_valley: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_lily_of_the_valley: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:wither_rose**
+  - добыча из блока minecraft:wither_rose: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_wither_rose: сломать любым способом (в т.ч. рукой)
+  - особая механика: wither_rose
+- **minecraft:torchflower**
+  - добыча из блока minecraft:torchflower: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_torchflower: сломать любым способом (в т.ч. рукой)
+- **minecraft:pitcher_plant**
+  - добыча из блока minecraft:pitcher_plant: сломать любым способом (в т.ч. рукой)
+- **minecraft:spore_blossom**
+  - добыча из блока minecraft:spore_blossom: сломать любым способом (в т.ч. рукой)
+- **minecraft:brown_mushroom**
+  - добыча из блока minecraft:brown_mushroom: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:brown_mushroom_block: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_brown_mushroom: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:red_mushroom**
+  - добыча из блока minecraft:red_mushroom: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:red_mushroom_block: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_red_mushroom: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:crimson_fungus**
+  - добыча из блока minecraft:crimson_fungus: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_crimson_fungus: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+- **minecraft:warped_fungus**
+  - добыча из блока minecraft:warped_fungus: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_warped_fungus: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_roots**
+  - добыча из блока minecraft:crimson_roots: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_crimson_roots: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+- **minecraft:warped_roots**
+  - добыча из блока minecraft:warped_roots: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_warped_roots: сломать любым способом (в т.ч. рукой)
+- **minecraft:nether_sprouts**
+  - добыча из блока minecraft:nether_sprouts: срезать ножницами
+- **minecraft:weeping_vines**
+  - добыча из блока minecraft:weeping_vines: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:weeping_vines_plant: сломать любым способом (в т.ч. рукой)
+- **minecraft:twisting_vines**
+  - добыча из блока minecraft:twisting_vines: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:twisting_vines_plant: сломать любым способом (в т.ч. рукой)
+- **minecraft:sugar_cane**
+  - добыча из блока minecraft:sugar_cane: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:kelp**
+  - добыча из блока minecraft:kelp: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:kelp_plant: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:moss_carpet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:moss_block, minecraft:moss_block → 3×minecraft:moss_carpet
+  - добыча из блока minecraft:moss_carpet: сломать любым способом (в т.ч. рукой)
+- **minecraft:pink_petals**
+  - добыча из блока minecraft:pink_petals: сломать любым способом (в т.ч. рукой)
+- **minecraft:moss_block**
+  - добыча из блока minecraft:moss_block: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:hanging_roots**
+  - добыча из блока minecraft:hanging_roots: срезать ножницами
+- **minecraft:big_dripleaf**
+  - добыча из блока minecraft:big_dripleaf: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:big_dripleaf_stem: сломать любым способом (в т.ч. рукой)
+- **minecraft:small_dripleaf**
+  - добыча из блока minecraft:small_dripleaf: срезать ножницами
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:bamboo**
+  - добыча из блока minecraft:bamboo_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:bamboo: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_bamboo: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:panda
+  - находка в сундуке minecraft:chests/jungle_temple
+  - находка в сундуке minecraft:chests/shipwreck_supply
+- **minecraft:oak_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 6×minecraft:oak_slab
+  - добыча из блока minecraft:oak_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks → 6×minecraft:spruce_slab
+  - добыча из блока minecraft:spruce_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks → 6×minecraft:birch_slab
+  - добыча из блока minecraft:birch_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks → 6×minecraft:jungle_slab
+  - добыча из блока minecraft:jungle_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks → 6×minecraft:acacia_slab
+  - добыча из блока minecraft:acacia_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks → 6×minecraft:cherry_slab
+  - добыча из блока minecraft:cherry_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks → 6×minecraft:dark_oak_slab
+  - добыча из блока minecraft:dark_oak_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks → 6×minecraft:mangrove_slab
+  - добыча из блока minecraft:mangrove_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks → 6×minecraft:bamboo_slab
+  - добыча из блока minecraft:bamboo_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_mosaic_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_mosaic, minecraft:bamboo_mosaic, minecraft:bamboo_mosaic → 6×minecraft:bamboo_mosaic_slab
+  - добыча из блока minecraft:bamboo_mosaic_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks → 6×minecraft:crimson_slab
+  - добыча из блока minecraft:crimson_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks → 6×minecraft:warped_slab
+  - добыча из блока minecraft:warped_slab: сломать любым способом (в т.ч. рукой)
+- **minecraft:stone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:stone → 2×minecraft:stone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone, minecraft:stone, minecraft:stone → 6×minecraft:stone_slab
+  - добыча из блока minecraft:stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_stone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_stone, minecraft:smooth_stone, minecraft:smooth_stone → 6×minecraft:smooth_stone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:smooth_stone → 2×minecraft:smooth_stone_slab
+  - добыча из блока minecraft:smooth_stone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:sandstone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sandstone(+1 вар.), minecraft:sandstone(+1 вар.), minecraft:sandstone(+1 вар.) → 6×minecraft:sandstone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:sandstone → 2×minecraft:sandstone_slab
+  - добыча из блока minecraft:sandstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cut_sandstone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cut_sandstone, minecraft:cut_sandstone, minecraft:cut_sandstone → 6×minecraft:cut_sandstone_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:sandstone → 2×minecraft:cut_sandstone_slab
+  - добыча из блока minecraft:cut_sandstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:petrified_oak_slab**
+  - добыча из блока minecraft:petrified_oak_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cobblestone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone → 6×minecraft:cobblestone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobblestone → 2×minecraft:cobblestone_slab
+  - добыча из блока minecraft:cobblestone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:brick_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:bricks → 2×minecraft:brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bricks, minecraft:bricks, minecraft:bricks → 6×minecraft:brick_slab
+  - добыча из блока minecraft:brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:stone_brick_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:stone_bricks → 2×minecraft:stone_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks → 6×minecraft:stone_brick_slab
+  - добыча из блока minecraft:stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mud_brick_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks → 6×minecraft:mud_brick_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mud_bricks → 2×minecraft:mud_brick_slab
+  - добыча из блока minecraft:mud_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:nether_brick_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:nether_bricks → 2×minecraft:nether_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks → 6×minecraft:nether_brick_slab
+  - добыча из блока minecraft:nether_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:quartz_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:quartz_block → 2×minecraft:quartz_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chiseled_quartz_block(+2 вар.), minecraft:chiseled_quartz_block(+2 вар.), minecraft:chiseled_quartz_block(+2 вар.) → 6×minecraft:quartz_slab
+  - добыча из блока minecraft:quartz_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:red_sandstone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_sandstone(+1 вар.), minecraft:red_sandstone(+1 вар.), minecraft:red_sandstone(+1 вар.) → 6×minecraft:red_sandstone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_sandstone → 2×minecraft:red_sandstone_slab
+  - добыча из блока minecraft:red_sandstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cut_red_sandstone_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:cut_red_sandstone → 2×minecraft:cut_red_sandstone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cut_red_sandstone, minecraft:cut_red_sandstone, minecraft:cut_red_sandstone → 6×minecraft:cut_red_sandstone_slab
+  - добыча из блока minecraft:cut_red_sandstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:purpur_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:purpur_block(+1 вар.), minecraft:purpur_block(+1 вар.), minecraft:purpur_block(+1 вар.) → 6×minecraft:purpur_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:purpur_block → 2×minecraft:purpur_slab
+  - добыча из блока minecraft:purpur_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:prismarine_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:prismarine → 2×minecraft:prismarine_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine, minecraft:prismarine, minecraft:prismarine → 6×minecraft:prismarine_slab
+  - добыча из блока minecraft:prismarine_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:prismarine_brick_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:prismarine_bricks → 2×minecraft:prismarine_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine_bricks, minecraft:prismarine_bricks, minecraft:prismarine_bricks → 6×minecraft:prismarine_brick_slab
+  - добыча из блока minecraft:prismarine_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dark_prismarine_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:dark_prismarine → 2×minecraft:dark_prismarine_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_prismarine, minecraft:dark_prismarine, minecraft:dark_prismarine → 6×minecraft:dark_prismarine_slab
+  - добыча из блока minecraft:dark_prismarine_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_quartz**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:quartz_block → 1×minecraft:smooth_quartz
+  - добыча из блока minecraft:smooth_quartz: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_red_sandstone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:red_sandstone → 1×minecraft:smooth_red_sandstone
+  - добыча из блока minecraft:smooth_red_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_sandstone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:sandstone → 1×minecraft:smooth_sandstone
+  - добыча из блока minecraft:smooth_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_stone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:stone → 1×minecraft:smooth_stone
+  - добыча из блока minecraft:smooth_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/village/village_mason
+- **minecraft:bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:brick, minecraft:brick, minecraft:brick, minecraft:brick → 1×minecraft:bricks
+  - добыча из блока minecraft:bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:bookshelf**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:book, minecraft:book, minecraft:book, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), … (9 слотов) → 1×minecraft:bookshelf
+  - добыча из блока minecraft:bookshelf: добыть шёлковым касанием
+  - торговля: minecraft:librarian, уровень 1
+- **minecraft:chiseled_bookshelf**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), … (9 слотов) → 1×minecraft:chiseled_bookshelf
+  - добыча из блока minecraft:chiseled_bookshelf: добыть шёлковым касанием
+- **minecraft:decorated_pot**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:brick, minecraft:brick, minecraft:brick, minecraft:brick → 1×minecraft:decorated_pot
+  - добыча из блока minecraft:decorated_pot: сломать любым способом (в т.ч. рукой)
+- **minecraft:mossy_cobblestone**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:cobblestone, minecraft:vine → 1×minecraft:mossy_cobblestone
+  - добыча из блока minecraft:mossy_cobblestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:obsidian**
+  - добыча из блока minecraft:obsidian: сломать инструментом minecraft:diamond_pickaxe или лучше
+  - добыча из блока minecraft:ender_chest: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:torch**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:coal(+1 вар.), minecraft:stick → 4×minecraft:torch
+  - добыча из блока minecraft:torch: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:wall_torch: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/village/village_savanna_house
+- **minecraft:end_rod**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blaze_rod, minecraft:popped_chorus_fruit → 6×minecraft:end_rod
+  - добыча из блока minecraft:end_rod: сломать любым способом (в т.ч. рукой)
+- **minecraft:chorus_plant**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chorus_fruit, minecraft:chorus_fruit, minecraft:chorus_fruit, minecraft:chorus_fruit → 4×minecraft:chorus_plant
+- **minecraft:chorus_flower**
+  - добыча из блока minecraft:chorus_flower: сломать любым способом (в т.ч. рукой)
+- **minecraft:purpur_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:popped_chorus_fruit, minecraft:popped_chorus_fruit, minecraft:popped_chorus_fruit, minecraft:popped_chorus_fruit → 4×minecraft:purpur_block
+  - добыча из блока minecraft:purpur_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:purpur_pillar**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:purpur_slab, minecraft:purpur_slab → 1×minecraft:purpur_pillar
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:purpur_block → 1×minecraft:purpur_pillar
+  - добыча из блока minecraft:purpur_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:purpur_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:purpur_block → 1×minecraft:purpur_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:purpur_block(+1 вар.), minecraft:purpur_block(+1 вар.), minecraft:purpur_block(+1 вар.), minecraft:purpur_block(+1 вар.), minecraft:purpur_block(+1 вар.), minecraft:purpur_block(+1 вар.) → 4×minecraft:purpur_stairs
+  - добыча из блока minecraft:purpur_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:spawner**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:chest**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:chest
+  - добыча из блока minecraft:chest: сломать любым способом (в т.ч. рукой)
+- **minecraft:crafting_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:crafting_table
+  - добыча из блока minecraft:crafting_table: сломать любым способом (в т.ч. рукой)
+- **minecraft:farmland**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:furnace**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.) → 1×minecraft:furnace
+  - добыча из блока minecraft:furnace: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/village/village_snowy_house
+- **minecraft:ladder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick → 3×minecraft:ladder
+  - добыча из блока minecraft:ladder: сломать любым способом (в т.ч. рукой)
+- **minecraft:cobblestone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobblestone → 1×minecraft:cobblestone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone → 4×minecraft:cobblestone_stairs
+  - добыча из блока minecraft:cobblestone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:snow**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:snow_block, minecraft:snow_block, minecraft:snow_block → 6×minecraft:snow
+- **minecraft:ice**
+  - добыча из блока minecraft:ice: добыть шёлковым касанием
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке ad_astra:chests/dungeon/moon/large_dungeon_chest
+- **minecraft:snow_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:snowball, minecraft:snowball, minecraft:snowball, minecraft:snowball → 1×minecraft:snow_block
+  - добыча из блока minecraft:snow_block: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/village/village_snowy_house
+- **minecraft:cactus**
+  - добыча из блока minecraft:cactus: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_cactus: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_desert_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:clay**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:clay_ball, minecraft:clay_ball, minecraft:clay_ball, minecraft:clay_ball → 1×minecraft:clay
+  - добыча из блока minecraft:clay: добыть шёлковым касанием
+  - игровая механика: archaeology/trail_ruins_common
+  - игровая механика: gameplay/hero_of_the_village/mason_gift
+- **minecraft:jukebox**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:diamond, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), … (9 слотов) → 1×minecraft:jukebox
+  - добыча из блока minecraft:jukebox: сломать любым способом (в т.ч. рукой)
+- **minecraft:oak_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:stick, minecraft:oak_planks, minecraft:oak_planks, minecraft:stick, minecraft:oak_planks → 3×minecraft:oak_fence
+  - добыча из блока minecraft:oak_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:stick, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:stick, minecraft:spruce_planks → 3×minecraft:spruce_fence
+  - добыча из блока minecraft:spruce_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:stick, minecraft:birch_planks, minecraft:birch_planks, minecraft:stick, minecraft:birch_planks → 3×minecraft:birch_fence
+  - добыча из блока minecraft:birch_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:stick, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:stick, minecraft:jungle_planks → 3×minecraft:jungle_fence
+  - добыча из блока minecraft:jungle_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:stick, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:stick, minecraft:acacia_planks → 3×minecraft:acacia_fence
+  - добыча из блока minecraft:acacia_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:stick, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:stick, minecraft:cherry_planks → 3×minecraft:cherry_fence
+  - добыча из блока minecraft:cherry_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:stick, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:stick, minecraft:dark_oak_planks → 3×minecraft:dark_oak_fence
+  - добыча из блока minecraft:dark_oak_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:stick, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:stick, minecraft:mangrove_planks → 3×minecraft:mangrove_fence
+  - добыча из блока minecraft:mangrove_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:stick, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:stick, minecraft:bamboo_planks → 3×minecraft:bamboo_fence
+  - добыча из блока minecraft:bamboo_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks, minecraft:stick, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:stick, minecraft:crimson_planks → 3×minecraft:crimson_fence
+  - добыча из блока minecraft:crimson_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks, minecraft:stick, minecraft:warped_planks, minecraft:warped_planks, minecraft:stick, minecraft:warped_planks → 3×minecraft:warped_fence
+  - добыча из блока minecraft:warped_fence: сломать любым способом (в т.ч. рукой)
+- **minecraft:pumpkin**
+  - добыча из блока minecraft:pumpkin: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:carved_pumpkin**
+  - добыча из блока minecraft:carved_pumpkin: сломать любым способом (в т.ч. рукой)
+- **minecraft:jack_o_lantern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:carved_pumpkin, minecraft:torch → 1×minecraft:jack_o_lantern
+  - добыча из блока minecraft:jack_o_lantern: сломать любым способом (в т.ч. рукой)
+- **minecraft:netherrack**
+  - добыча из блока minecraft:netherrack: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:warped_nylium: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:crimson_nylium: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:soul_sand**
+  - добыча из блока minecraft:soul_sand: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+- **minecraft:soul_soil**
+  - добыча из блока minecraft:soul_soil: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:soul_campfire: сломать любым способом (в т.ч. рукой)
+- **minecraft:basalt**
+  - добыча из блока minecraft:basalt: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_basalt**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:basalt, minecraft:basalt, minecraft:basalt, minecraft:basalt → 4×minecraft:polished_basalt
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:basalt → 1×minecraft:polished_basalt
+  - добыча из блока minecraft:polished_basalt: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_basalt**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:basalt → 1×minecraft:smooth_basalt
+  - добыча из блока minecraft:smooth_basalt: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:soul_torch**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:coal(+1 вар.), minecraft:stick, minecraft:soul_sand(+1 вар.) → 4×minecraft:soul_torch
+  - добыча из блока minecraft:soul_torch: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:soul_wall_torch: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке ad_astra:chests/village/moon/house
+- **minecraft:glowstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust, minecraft:glowstone_dust → 1×minecraft:glowstone
+  - добыча из блока minecraft:glowstone: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - торговля: minecraft:cleric, уровень 3
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:infested_stone**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:infested_cobblestone**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:infested_stone_bricks**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:infested_mossy_stone_bricks**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:infested_cracked_stone_bricks**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:infested_chiseled_stone_bricks**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:infested_deepslate**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:stone_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:stone → 1×minecraft:stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone, minecraft:stone, minecraft:stone, minecraft:stone → 4×minecraft:stone_bricks
+  - добыча из блока minecraft:stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:infested_stone_bricks: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/village/village_mason
+- **minecraft:mossy_stone_bricks**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:stone_bricks, minecraft:vine → 1×minecraft:mossy_stone_bricks
+  - добыча из блока minecraft:mossy_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:infested_mossy_stone_bricks: добыть шёлковым касанием
+- **minecraft:cracked_stone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:stone_bricks → 1×minecraft:cracked_stone_bricks
+  - добыча из блока minecraft:cracked_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:infested_cracked_stone_bricks: добыть шёлковым касанием
+- **minecraft:chiseled_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:stone_bricks → 1×minecraft:chiseled_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone_brick_slab, minecraft:stone_brick_slab → 1×minecraft:chiseled_stone_bricks
+  - добыча из блока minecraft:chiseled_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:infested_chiseled_stone_bricks: добыть шёлковым касанием
+  - торговля: minecraft:mason, уровень 2
+- **minecraft:packed_mud**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mud, minecraft:wheat → 1×minecraft:packed_mud
+  - добыча из блока minecraft:packed_mud: сломать любым способом (в т.ч. рукой)
+- **minecraft:mud_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:packed_mud, minecraft:packed_mud, minecraft:packed_mud, minecraft:packed_mud → 4×minecraft:mud_bricks
+  - добыча из блока minecraft:mud_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_bricks**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:deepslate_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate → 4×minecraft:deepslate_bricks
+  - добыча из блока minecraft:deepslate_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cracked_deepslate_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:deepslate_bricks → 1×minecraft:cracked_deepslate_bricks
+  - добыча из блока minecraft:cracked_deepslate_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_tiles**
+  - крафт на «minecraft:stonecutter»: 3 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:deepslate_tiles
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks → 4×minecraft:deepslate_tiles
+  - добыча из блока minecraft:deepslate_tiles: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cracked_deepslate_tiles**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:deepslate_tiles → 1×minecraft:cracked_deepslate_tiles
+  - добыча из блока minecraft:cracked_deepslate_tiles: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chiseled_deepslate**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:chiseled_deepslate
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobbled_deepslate_slab, minecraft:cobbled_deepslate_slab → 1×minecraft:chiseled_deepslate
+  - добыча из блока minecraft:chiseled_deepslate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:reinforced_deepslate**
+  - только творческий режим, вкладка itemGroup.buildingBlocks или /give
+- **minecraft:brown_mushroom_block**
+  - добыча из блока minecraft:brown_mushroom_block: добыть шёлковым касанием
+- **minecraft:red_mushroom_block**
+  - добыча из блока minecraft:red_mushroom_block: добыть шёлковым касанием
+- **minecraft:mushroom_stem**
+  - добыча из блока minecraft:mushroom_stem: добыть шёлковым касанием
+- **minecraft:iron_bars**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 16×minecraft:iron_bars
+  - добыча из блока minecraft:iron_bars: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chain**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_nugget, minecraft:iron_ingot, minecraft:iron_nugget → 1×minecraft:chain
+  - добыча из блока minecraft:chain: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:glass_pane**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass → 16×minecraft:glass_pane
+  - добыча из блока minecraft:glass_pane: добыть шёлковым касанием
+- **minecraft:melon**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:melon_slice, minecraft:melon_slice, minecraft:melon_slice, minecraft:melon_slice, minecraft:melon_slice, minecraft:melon_slice, minecraft:melon_slice, minecraft:melon_slice, … (9 слотов) → 1×minecraft:melon
+  - добыча из блока minecraft:melon: добыть шёлковым касанием
+- **minecraft:vine**
+  - добыча из блока minecraft:vine: срезать ножницами
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:glow_lichen**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bricks, minecraft:bricks, minecraft:bricks, minecraft:bricks, minecraft:bricks, minecraft:bricks → 4×minecraft:brick_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:bricks → 1×minecraft:brick_stairs
+  - добыча из блока minecraft:brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:stone_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks → 4×minecraft:stone_brick_stairs
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:stone → 1×minecraft:stone_brick_stairs
+  - добыча из блока minecraft:stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mud_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mud_bricks → 1×minecraft:mud_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks → 4×minecraft:mud_brick_stairs
+  - добыча из блока minecraft:mud_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mycelium**
+  - добыча из блока minecraft:mycelium: добыть шёлковым касанием
+- **minecraft:lily_pad**
+  - добыча из блока minecraft:lily_pad: сломать любым способом (в т.ч. рукой)
+  - рыбалка
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:nether_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_brick, minecraft:nether_brick, minecraft:nether_brick, minecraft:nether_brick → 1×minecraft:nether_bricks
+  - добыча из блока minecraft:nether_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cracked_nether_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:nether_bricks → 1×minecraft:cracked_nether_bricks
+  - добыча из блока minecraft:cracked_nether_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chiseled_nether_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:nether_bricks → 1×minecraft:chiseled_nether_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_brick_slab, minecraft:nether_brick_slab → 1×minecraft:chiseled_nether_bricks
+  - добыча из блока minecraft:chiseled_nether_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:nether_brick_fence**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_bricks, minecraft:nether_brick, minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_brick, minecraft:nether_bricks → 6×minecraft:nether_brick_fence
+  - добыча из блока minecraft:nether_brick_fence: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:nether_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks → 4×minecraft:nether_brick_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:nether_bricks → 1×minecraft:nether_brick_stairs
+  - добыча из блока minecraft:nether_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:sculk**
+  - добыча из блока minecraft:sculk: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:sculk_vein**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:sculk_catalyst**
+  - добыча из блока minecraft:sculk_catalyst: добыть шёлковым касанием
+  - выпадает с моба minecraft:warden
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:sculk_shrieker**
+  - добыча из блока minecraft:sculk_shrieker: добыть шёлковым касанием
+- **minecraft:enchanting_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:book, minecraft:diamond, minecraft:obsidian, minecraft:diamond, minecraft:obsidian, minecraft:obsidian, minecraft:obsidian → 1×minecraft:enchanting_table
+  - добыча из блока minecraft:enchanting_table: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:end_portal_frame**
+  - только творческий режим, вкладка itemGroup.functional или /give
+- **minecraft:end_stone**
+  - добыча из блока minecraft:end_stone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:end_stone_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:end_stone → 1×minecraft:end_stone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:end_stone, minecraft:end_stone, minecraft:end_stone, minecraft:end_stone → 4×minecraft:end_stone_bricks
+  - добыча из блока minecraft:end_stone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dragon_egg**
+  - добыча из блока minecraft:dragon_egg: сломать любым способом (в т.ч. рукой)
+  - особая механика: dragon_egg
+- **minecraft:sandstone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:sandstone → 1×minecraft:sandstone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sandstone(+2 вар.), minecraft:sandstone(+2 вар.), minecraft:sandstone(+2 вар.), minecraft:sandstone(+2 вар.), minecraft:sandstone(+2 вар.), minecraft:sandstone(+2 вар.) → 4×minecraft:sandstone_stairs
+  - добыча из блока minecraft:sandstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:ender_chest**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:obsidian, minecraft:obsidian, minecraft:obsidian, minecraft:obsidian, minecraft:ender_eye, minecraft:obsidian, minecraft:obsidian, minecraft:obsidian, … (9 слотов) → 1×minecraft:ender_chest
+  - добыча из блока minecraft:ender_chest: добыть шёлковым касанием
+- **minecraft:emerald_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:emerald, minecraft:emerald, minecraft:emerald, minecraft:emerald, minecraft:emerald, minecraft:emerald, minecraft:emerald, minecraft:emerald, … (9 слотов) → 1×minecraft:emerald_block
+  - добыча из блока minecraft:emerald_block: сломать инструментом minecraft:iron_pickaxe или лучше
+- **minecraft:oak_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 4×minecraft:oak_stairs
+  - добыча из блока minecraft:oak_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks → 4×minecraft:spruce_stairs
+  - добыча из блока minecraft:spruce_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks → 4×minecraft:birch_stairs
+  - добыча из блока minecraft:birch_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks → 4×minecraft:jungle_stairs
+  - добыча из блока minecraft:jungle_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks → 4×minecraft:acacia_stairs
+  - добыча из блока minecraft:acacia_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks → 4×minecraft:cherry_stairs
+  - добыча из блока minecraft:cherry_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks → 4×minecraft:dark_oak_stairs
+  - добыча из блока minecraft:dark_oak_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks → 4×minecraft:mangrove_stairs
+  - добыча из блока minecraft:mangrove_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks → 4×minecraft:bamboo_stairs
+  - добыча из блока minecraft:bamboo_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_mosaic_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_mosaic, minecraft:bamboo_mosaic, minecraft:bamboo_mosaic, minecraft:bamboo_mosaic, minecraft:bamboo_mosaic, minecraft:bamboo_mosaic → 4×minecraft:bamboo_mosaic_stairs
+  - добыча из блока minecraft:bamboo_mosaic_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks → 4×minecraft:crimson_stairs
+  - добыча из блока minecraft:crimson_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks → 4×minecraft:warped_stairs
+  - добыча из блока minecraft:warped_stairs: сломать любым способом (в т.ч. рукой)
+- **minecraft:command_block**
+  - только вкладка операторских предметов или /give
+- **minecraft:beacon**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:nether_star, minecraft:glass, minecraft:obsidian, minecraft:obsidian, … (9 слотов) → 1×minecraft:beacon
+  - добыча из блока minecraft:beacon: сломать любым способом (в т.ч. рукой)
+- **minecraft:cobblestone_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone, minecraft:cobblestone → 6×minecraft:cobblestone_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobblestone → 1×minecraft:cobblestone_wall
+  - добыча из блока minecraft:cobblestone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mossy_cobblestone_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone → 6×minecraft:mossy_cobblestone_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mossy_cobblestone → 1×minecraft:mossy_cobblestone_wall
+  - добыча из блока minecraft:mossy_cobblestone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:brick_wall**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:bricks → 1×minecraft:brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bricks, minecraft:bricks, minecraft:bricks, minecraft:bricks, minecraft:bricks, minecraft:bricks → 6×minecraft:brick_wall
+  - добыча из блока minecraft:brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:prismarine_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine, minecraft:prismarine, minecraft:prismarine, minecraft:prismarine, minecraft:prismarine, minecraft:prismarine → 6×minecraft:prismarine_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:prismarine → 1×minecraft:prismarine_wall
+  - добыча из блока minecraft:prismarine_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:red_sandstone_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_sandstone, minecraft:red_sandstone, minecraft:red_sandstone, minecraft:red_sandstone, minecraft:red_sandstone, minecraft:red_sandstone → 6×minecraft:red_sandstone_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_sandstone → 1×minecraft:red_sandstone_wall
+  - добыча из блока minecraft:red_sandstone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mossy_stone_brick_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks → 6×minecraft:mossy_stone_brick_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mossy_stone_bricks → 1×minecraft:mossy_stone_brick_wall
+  - добыча из блока minecraft:mossy_stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:granite_wall**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:granite → 1×minecraft:granite_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:granite, minecraft:granite, minecraft:granite, minecraft:granite, minecraft:granite, minecraft:granite → 6×minecraft:granite_wall
+  - добыча из блока minecraft:granite_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:stone_brick_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:stone_bricks → 1×minecraft:stone_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks, minecraft:stone_bricks → 6×minecraft:stone_brick_wall
+  - добыча из блока minecraft:stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mud_brick_wall**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mud_bricks → 1×minecraft:mud_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks, minecraft:mud_bricks → 6×minecraft:mud_brick_wall
+  - добыча из блока minecraft:mud_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:nether_brick_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks, minecraft:nether_bricks → 6×minecraft:nether_brick_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:nether_bricks → 1×minecraft:nether_brick_wall
+  - добыча из блока minecraft:nether_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:andesite_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:andesite, minecraft:andesite, minecraft:andesite, minecraft:andesite, minecraft:andesite, minecraft:andesite → 6×minecraft:andesite_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:andesite → 1×minecraft:andesite_wall
+  - добыча из блока minecraft:andesite_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:red_nether_brick_wall**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_nether_bricks → 1×minecraft:red_nether_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks → 6×minecraft:red_nether_brick_wall
+  - добыча из блока minecraft:red_nether_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:sandstone_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sandstone, minecraft:sandstone, minecraft:sandstone, minecraft:sandstone, minecraft:sandstone, minecraft:sandstone → 6×minecraft:sandstone_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:sandstone → 1×minecraft:sandstone_wall
+  - добыча из блока minecraft:sandstone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:end_stone_brick_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks → 6×minecraft:end_stone_brick_wall
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:end_stone_bricks → 1×minecraft:end_stone_brick_wall
+  - добыча из блока minecraft:end_stone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:diorite_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diorite, minecraft:diorite, minecraft:diorite, minecraft:diorite, minecraft:diorite, minecraft:diorite → 6×minecraft:diorite_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:diorite → 1×minecraft:diorite_wall
+  - добыча из блока minecraft:diorite_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:blackstone_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blackstone, minecraft:blackstone, minecraft:blackstone, minecraft:blackstone, minecraft:blackstone, minecraft:blackstone → 6×minecraft:blackstone_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:blackstone → 1×minecraft:blackstone_wall
+  - добыча из блока minecraft:blackstone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:polished_blackstone → 1×minecraft:polished_blackstone_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone → 6×minecraft:polished_blackstone_wall
+  - добыча из блока minecraft:polished_blackstone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_brick_wall**
+  - крафт на «minecraft:stonecutter»: 3 рец.; пример: minecraft:polished_blackstone → 1×minecraft:polished_blackstone_brick_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks → 6×minecraft:polished_blackstone_brick_wall
+  - добыча из блока minecraft:polished_blackstone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cobbled_deepslate_wall**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:cobbled_deepslate_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate → 6×minecraft:cobbled_deepslate_wall
+  - добыча из блока minecraft:cobbled_deepslate_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_deepslate_wall**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:polished_deepslate_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate → 6×minecraft:polished_deepslate_wall
+  - добыча из блока minecraft:polished_deepslate_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_brick_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks → 6×minecraft:deepslate_brick_wall
+  - крафт на «minecraft:stonecutter»: 3 рец.; пример: minecraft:polished_deepslate → 1×minecraft:deepslate_brick_wall
+  - добыча из блока minecraft:deepslate_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_tile_wall**
+  - крафт на «minecraft:stonecutter»: 4 рец.; пример: minecraft:deepslate_tiles → 1×minecraft:deepslate_tile_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles → 6×minecraft:deepslate_tile_wall
+  - добыча из блока minecraft:deepslate_tile_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:anvil**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_block, minecraft:iron_block, minecraft:iron_block, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:anvil
+  - добыча из блока minecraft:anvil: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chipped_anvil**
+  - добыча из блока minecraft:chipped_anvil: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:damaged_anvil**
+  - добыча из блока minecraft:damaged_anvil: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chiseled_quartz_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:quartz_slab, minecraft:quartz_slab → 1×minecraft:chiseled_quartz_block
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:quartz_block → 1×minecraft:chiseled_quartz_block
+  - добыча из блока minecraft:chiseled_quartz_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:quartz_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:quartz, minecraft:quartz, minecraft:quartz, minecraft:quartz → 1×minecraft:quartz_block
+  - добыча из блока minecraft:quartz_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 5
+- **minecraft:quartz_bricks**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:quartz_block → 1×minecraft:quartz_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:quartz_block, minecraft:quartz_block, minecraft:quartz_block, minecraft:quartz_block → 4×minecraft:quartz_bricks
+  - добыча из блока minecraft:quartz_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:quartz_pillar**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:quartz_block → 1×minecraft:quartz_pillar
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:quartz_block, minecraft:quartz_block → 2×minecraft:quartz_pillar
+  - добыча из блока minecraft:quartz_pillar: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 5
+- **minecraft:quartz_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:quartz_block → 1×minecraft:quartz_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chiseled_quartz_block(+2 вар.), minecraft:chiseled_quartz_block(+2 вар.), minecraft:chiseled_quartz_block(+2 вар.), minecraft:chiseled_quartz_block(+2 вар.), minecraft:chiseled_quartz_block(+2 вар.), minecraft:chiseled_quartz_block(+2 вар.) → 4×minecraft:quartz_stairs
+  - добыча из блока minecraft:quartz_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:white_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:white_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:white_terracotta
+  - добыча из блока minecraft:white_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:orange_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:orange_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:orange_terracotta
+  - добыча из блока minecraft:orange_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:magenta_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:magenta_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:magenta_terracotta
+  - добыча из блока minecraft:magenta_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:light_blue_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:light_blue_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:light_blue_terracotta
+  - добыча из блока minecraft:light_blue_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:yellow_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:yellow_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:yellow_terracotta
+  - добыча из блока minecraft:yellow_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:lime_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:lime_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:lime_terracotta
+  - добыча из блока minecraft:lime_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:pink_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:pink_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:pink_terracotta
+  - добыча из блока minecraft:pink_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:gray_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:gray_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:gray_terracotta
+  - добыча из блока minecraft:gray_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:light_gray_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:light_gray_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:light_gray_terracotta
+  - добыча из блока minecraft:light_gray_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:cyan_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:cyan_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:cyan_terracotta
+  - добыча из блока minecraft:cyan_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:purple_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:purple_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:purple_terracotta
+  - добыча из блока minecraft:purple_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:blue_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:blue_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:blue_terracotta
+  - добыча из блока minecraft:blue_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:brown_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:brown_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:brown_terracotta
+  - добыча из блока minecraft:brown_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:green_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:green_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:green_terracotta
+  - добыча из блока minecraft:green_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:red_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:red_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:red_terracotta
+  - добыча из блока minecraft:red_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:black_terracotta**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, minecraft:black_dye, minecraft:terracotta, minecraft:terracotta, minecraft:terracotta, … (9 слотов) → 8×minecraft:black_terracotta
+  - добыча из блока minecraft:black_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:barrier**
+  - только вкладка операторских предметов или /give
+- **minecraft:light**
+  - только вкладка операторских предметов или /give
+- **minecraft:hay_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:wheat, minecraft:wheat, minecraft:wheat, minecraft:wheat, minecraft:wheat, minecraft:wheat, minecraft:wheat, minecraft:wheat, … (9 слотов) → 1×minecraft:hay_block
+  - добыча из блока minecraft:hay_block: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба naturalist:giraffe
+- **minecraft:white_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:white_wool, minecraft:white_wool → 3×minecraft:white_carpet
+  - добыча из блока minecraft:white_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:orange_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:orange_wool, minecraft:orange_wool → 3×minecraft:orange_carpet
+  - добыча из блока minecraft:orange_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:magenta_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:magenta_wool, minecraft:magenta_wool → 3×minecraft:magenta_carpet
+  - добыча из блока minecraft:magenta_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:light_blue_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_blue_dye, minecraft:black_carpet(+14 вар.) → 1×minecraft:light_blue_carpet
+  - добыча из блока minecraft:light_blue_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:yellow_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:yellow_dye, minecraft:black_carpet(+14 вар.) → 1×minecraft:yellow_carpet
+  - добыча из блока minecraft:yellow_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:lime_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:lime_wool, minecraft:lime_wool → 3×minecraft:lime_carpet
+  - добыча из блока minecraft:lime_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:pink_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:pink_dye, minecraft:black_carpet(+14 вар.) → 1×minecraft:pink_carpet
+  - добыча из блока minecraft:pink_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:gray_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:gray_wool, minecraft:gray_wool → 3×minecraft:gray_carpet
+  - добыча из блока minecraft:gray_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:light_gray_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_gray_dye, minecraft:black_carpet(+14 вар.) → 1×minecraft:light_gray_carpet
+  - добыча из блока minecraft:light_gray_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:cyan_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:cyan_wool, minecraft:cyan_wool → 3×minecraft:cyan_carpet
+  - добыча из блока minecraft:cyan_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:purple_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:purple_wool, minecraft:purple_wool → 3×minecraft:purple_carpet
+  - добыча из блока minecraft:purple_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:blue_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:blue_dye, minecraft:black_carpet(+14 вар.) → 1×minecraft:blue_carpet
+  - добыча из блока minecraft:blue_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:brown_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:brown_wool, minecraft:brown_wool → 3×minecraft:brown_carpet
+  - добыча из блока minecraft:brown_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:green_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:green_dye, minecraft:black_carpet(+14 вар.) → 1×minecraft:green_carpet
+  - добыча из блока minecraft:green_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:red_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:red_wool, minecraft:red_wool → 3×minecraft:red_carpet
+  - добыча из блока minecraft:red_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:black_carpet**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:black_dye, minecraft:blue_carpet(+14 вар.) → 1×minecraft:black_carpet
+  - добыча из блока minecraft:black_carpet: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:shepherd, уровень 2
+- **minecraft:terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:clay → 1×minecraft:terracotta
+  - добыча из блока minecraft:terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:packed_ice**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:ice, minecraft:ice, minecraft:ice, minecraft:ice, minecraft:ice, minecraft:ice, minecraft:ice, minecraft:ice, … (9 слотов) → 1×minecraft:packed_ice
+  - добыча из блока minecraft:packed_ice: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/ancient_city_ice_box
+  - торговля: minecraft:wandering_trader, уровень 2
+- **minecraft:dirt_path**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:sunflower**
+  - добыча из блока minecraft:sunflower: сломать любым способом (в т.ч. рукой)
+- **minecraft:lilac**
+  - добыча из блока minecraft:lilac: сломать любым способом (в т.ч. рукой)
+- **minecraft:rose_bush**
+  - добыча из блока minecraft:rose_bush: сломать любым способом (в т.ч. рукой)
+- **minecraft:peony**
+  - добыча из блока minecraft:peony: сломать любым способом (в т.ч. рукой)
+- **minecraft:tall_grass**
+  - находка в сундуке minecraft:chests/village/village_savanna_house
+- **minecraft:large_fern**
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+- **minecraft:white_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:white_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:white_stained_glass
+  - добыча из блока minecraft:white_stained_glass: добыть шёлковым касанием
+- **minecraft:orange_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:orange_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:orange_stained_glass
+  - добыча из блока minecraft:orange_stained_glass: добыть шёлковым касанием
+- **minecraft:magenta_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:magenta_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:magenta_stained_glass
+  - добыча из блока minecraft:magenta_stained_glass: добыть шёлковым касанием
+- **minecraft:light_blue_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:light_blue_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:light_blue_stained_glass
+  - добыча из блока minecraft:light_blue_stained_glass: добыть шёлковым касанием
+- **minecraft:yellow_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:yellow_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:yellow_stained_glass
+  - добыча из блока minecraft:yellow_stained_glass: добыть шёлковым касанием
+- **minecraft:lime_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:lime_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:lime_stained_glass
+  - добыча из блока minecraft:lime_stained_glass: добыть шёлковым касанием
+- **minecraft:pink_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:pink_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:pink_stained_glass
+  - добыча из блока minecraft:pink_stained_glass: добыть шёлковым касанием
+- **minecraft:gray_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:gray_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:gray_stained_glass
+  - добыча из блока minecraft:gray_stained_glass: добыть шёлковым касанием
+- **minecraft:light_gray_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:light_gray_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:light_gray_stained_glass
+  - добыча из блока minecraft:light_gray_stained_glass: добыть шёлковым касанием
+- **minecraft:cyan_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:cyan_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:cyan_stained_glass
+  - добыча из блока minecraft:cyan_stained_glass: добыть шёлковым касанием
+- **minecraft:purple_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:purple_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:purple_stained_glass
+  - добыча из блока minecraft:purple_stained_glass: добыть шёлковым касанием
+- **minecraft:blue_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:blue_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:blue_stained_glass
+  - добыча из блока minecraft:blue_stained_glass: добыть шёлковым касанием
+- **minecraft:brown_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:brown_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:brown_stained_glass
+  - добыча из блока minecraft:brown_stained_glass: добыть шёлковым касанием
+- **minecraft:green_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:green_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:green_stained_glass
+  - добыча из блока minecraft:green_stained_glass: добыть шёлковым касанием
+- **minecraft:red_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:red_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:red_stained_glass
+  - добыча из блока minecraft:red_stained_glass: добыть шёлковым касанием
+- **minecraft:black_stained_glass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:glass, minecraft:black_dye, minecraft:glass, minecraft:glass, minecraft:glass, … (9 слотов) → 8×minecraft:black_stained_glass
+  - добыча из блока minecraft:black_stained_glass: добыть шёлковым касанием
+- **minecraft:white_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:white_stained_glass, minecraft:white_stained_glass, minecraft:white_stained_glass, minecraft:white_stained_glass, minecraft:white_stained_glass, minecraft:white_stained_glass → 16×minecraft:white_stained_glass_pane
+  - добыча из блока minecraft:white_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:orange_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:orange_dye, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, … (9 слотов) → 8×minecraft:orange_stained_glass_pane
+  - добыча из блока minecraft:orange_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:magenta_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:magenta_dye, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, … (9 слотов) → 8×minecraft:magenta_stained_glass_pane
+  - добыча из блока minecraft:magenta_stained_glass_pane: добыть шёлковым касанием
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:light_blue_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_blue_stained_glass, minecraft:light_blue_stained_glass, minecraft:light_blue_stained_glass, minecraft:light_blue_stained_glass, minecraft:light_blue_stained_glass, minecraft:light_blue_stained_glass → 16×minecraft:light_blue_stained_glass_pane
+  - добыча из блока minecraft:light_blue_stained_glass_pane: добыть шёлковым касанием
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:yellow_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:yellow_dye, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, … (9 слотов) → 8×minecraft:yellow_stained_glass_pane
+  - добыча из блока minecraft:yellow_stained_glass_pane: добыть шёлковым касанием
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:lime_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:lime_dye, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, … (9 слотов) → 8×minecraft:lime_stained_glass_pane
+  - добыча из блока minecraft:lime_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:pink_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:pink_stained_glass, minecraft:pink_stained_glass, minecraft:pink_stained_glass, minecraft:pink_stained_glass, minecraft:pink_stained_glass, minecraft:pink_stained_glass → 16×minecraft:pink_stained_glass_pane
+  - добыча из блока minecraft:pink_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:gray_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:gray_stained_glass, minecraft:gray_stained_glass, minecraft:gray_stained_glass, minecraft:gray_stained_glass, minecraft:gray_stained_glass, minecraft:gray_stained_glass → 16×minecraft:gray_stained_glass_pane
+  - добыча из блока minecraft:gray_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:light_gray_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_gray_stained_glass, minecraft:light_gray_stained_glass, minecraft:light_gray_stained_glass, minecraft:light_gray_stained_glass, minecraft:light_gray_stained_glass, minecraft:light_gray_stained_glass → 16×minecraft:light_gray_stained_glass_pane
+  - добыча из блока minecraft:light_gray_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:cyan_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:cyan_dye, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, … (9 слотов) → 8×minecraft:cyan_stained_glass_pane
+  - добыча из блока minecraft:cyan_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:purple_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:purple_stained_glass, minecraft:purple_stained_glass, minecraft:purple_stained_glass, minecraft:purple_stained_glass, minecraft:purple_stained_glass, minecraft:purple_stained_glass → 16×minecraft:purple_stained_glass_pane
+  - добыча из блока minecraft:purple_stained_glass_pane: добыть шёлковым касанием
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:blue_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:blue_stained_glass, minecraft:blue_stained_glass, minecraft:blue_stained_glass, minecraft:blue_stained_glass, minecraft:blue_stained_glass, minecraft:blue_stained_glass → 16×minecraft:blue_stained_glass_pane
+  - добыча из блока minecraft:blue_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:brown_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:brown_dye, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, … (9 слотов) → 8×minecraft:brown_stained_glass_pane
+  - добыча из блока minecraft:brown_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:green_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, minecraft:green_dye, minecraft:glass_pane, minecraft:glass_pane, minecraft:glass_pane, … (9 слотов) → 8×minecraft:green_stained_glass_pane
+  - добыча из блока minecraft:green_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:red_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:red_stained_glass, minecraft:red_stained_glass, minecraft:red_stained_glass, minecraft:red_stained_glass, minecraft:red_stained_glass, minecraft:red_stained_glass → 16×minecraft:red_stained_glass_pane
+  - добыча из блока minecraft:red_stained_glass_pane: добыть шёлковым касанием
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:black_stained_glass_pane**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:black_stained_glass, minecraft:black_stained_glass, minecraft:black_stained_glass, minecraft:black_stained_glass, minecraft:black_stained_glass, minecraft:black_stained_glass → 16×minecraft:black_stained_glass_pane
+  - добыча из блока minecraft:black_stained_glass_pane: добыть шёлковым касанием
+- **minecraft:prismarine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard → 1×minecraft:prismarine
+  - добыча из блока minecraft:prismarine: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:prismarine_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, … (9 слотов) → 1×minecraft:prismarine_bricks
+  - добыча из блока minecraft:prismarine_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dark_prismarine**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:black_dye, minecraft:prismarine_shard, minecraft:prismarine_shard, minecraft:prismarine_shard, … (9 слотов) → 1×minecraft:dark_prismarine
+  - добыча из блока minecraft:dark_prismarine: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:prismarine_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:prismarine → 1×minecraft:prismarine_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine, minecraft:prismarine, minecraft:prismarine, minecraft:prismarine, minecraft:prismarine, minecraft:prismarine → 4×minecraft:prismarine_stairs
+  - добыча из блока minecraft:prismarine_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:prismarine_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine_bricks, minecraft:prismarine_bricks, minecraft:prismarine_bricks, minecraft:prismarine_bricks, minecraft:prismarine_bricks, minecraft:prismarine_bricks → 4×minecraft:prismarine_brick_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:prismarine_bricks → 1×minecraft:prismarine_brick_stairs
+  - добыча из блока minecraft:prismarine_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dark_prismarine_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:dark_prismarine → 1×minecraft:dark_prismarine_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_prismarine, minecraft:dark_prismarine, minecraft:dark_prismarine, minecraft:dark_prismarine, minecraft:dark_prismarine, minecraft:dark_prismarine → 4×minecraft:dark_prismarine_stairs
+  - добыча из блока minecraft:dark_prismarine_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:sea_lantern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:prismarine_shard, minecraft:prismarine_crystals, minecraft:prismarine_shard, minecraft:prismarine_crystals, minecraft:prismarine_crystals, minecraft:prismarine_crystals, minecraft:prismarine_shard, minecraft:prismarine_crystals, … (9 слотов) → 1×minecraft:sea_lantern
+  - добыча из блока minecraft:sea_lantern: добыть шёлковым касанием
+- **minecraft:red_sandstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_sand, minecraft:red_sand, minecraft:red_sand, minecraft:red_sand → 1×minecraft:red_sandstone
+  - добыча из блока minecraft:red_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chiseled_red_sandstone**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_sandstone → 1×minecraft:chiseled_red_sandstone
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_sandstone_slab, minecraft:red_sandstone_slab → 1×minecraft:chiseled_red_sandstone
+  - добыча из блока minecraft:chiseled_red_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cut_red_sandstone**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_sandstone → 1×minecraft:cut_red_sandstone
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_sandstone, minecraft:red_sandstone, minecraft:red_sandstone, minecraft:red_sandstone → 4×minecraft:cut_red_sandstone
+  - добыча из блока minecraft:cut_red_sandstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:red_sandstone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_sandstone(+2 вар.), minecraft:red_sandstone(+2 вар.), minecraft:red_sandstone(+2 вар.), minecraft:red_sandstone(+2 вар.), minecraft:red_sandstone(+2 вар.), minecraft:red_sandstone(+2 вар.) → 4×minecraft:red_sandstone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_sandstone → 1×minecraft:red_sandstone_stairs
+  - добыча из блока minecraft:red_sandstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:repeating_command_block**
+  - только вкладка операторских предметов или /give
+- **minecraft:chain_command_block**
+  - только вкладка операторских предметов или /give
+- **minecraft:magma_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:magma_cream, minecraft:magma_cream, minecraft:magma_cream, minecraft:magma_cream → 1×minecraft:magma_block
+  - добыча из блока minecraft:magma_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:nether_wart_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_wart, minecraft:nether_wart, minecraft:nether_wart, minecraft:nether_wart, minecraft:nether_wart, minecraft:nether_wart, minecraft:nether_wart, minecraft:nether_wart, … (9 слотов) → 1×minecraft:nether_wart_block
+  - добыча из блока minecraft:nether_wart_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_wart_block**
+  - добыча из блока minecraft:warped_wart_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:red_nether_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nether_brick, minecraft:nether_wart, minecraft:nether_wart, minecraft:nether_brick → 1×minecraft:red_nether_bricks
+  - добыча из блока minecraft:red_nether_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:bone_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bone_meal, minecraft:bone_meal, minecraft:bone_meal, minecraft:bone_meal, minecraft:bone_meal, minecraft:bone_meal, minecraft:bone_meal, minecraft:bone_meal, … (9 слотов) → 1×minecraft:bone_block
+  - добыча из блока minecraft:bone_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:structure_void**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: minecraft:barrier → 1×minecraft:structure_void
+- **minecraft:shulker_box**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:shulker_shell, minecraft:chest, minecraft:shulker_shell → 1×minecraft:shulker_box
+  - добыча из блока minecraft:shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:white_shulker_box**
+  - добыча из блока minecraft:white_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:orange_shulker_box**
+  - добыча из блока minecraft:orange_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:magenta_shulker_box**
+  - добыча из блока minecraft:magenta_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:light_blue_shulker_box**
+  - добыча из блока minecraft:light_blue_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:yellow_shulker_box**
+  - добыча из блока minecraft:yellow_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:lime_shulker_box**
+  - добыча из блока minecraft:lime_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:pink_shulker_box**
+  - добыча из блока minecraft:pink_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:gray_shulker_box**
+  - добыча из блока minecraft:gray_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:light_gray_shulker_box**
+  - добыча из блока minecraft:light_gray_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:cyan_shulker_box**
+  - добыча из блока minecraft:cyan_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:purple_shulker_box**
+  - добыча из блока minecraft:purple_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:blue_shulker_box**
+  - добыча из блока minecraft:blue_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:brown_shulker_box**
+  - добыча из блока minecraft:brown_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:green_shulker_box**
+  - добыча из блока minecraft:green_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:red_shulker_box**
+  - добыча из блока minecraft:red_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:black_shulker_box**
+  - добыча из блока minecraft:black_shulker_box: сломать любым способом (в т.ч. рукой)
+- **minecraft:white_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:white_terracotta → 1×minecraft:white_glazed_terracotta
+  - добыча из блока minecraft:white_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:orange_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:orange_terracotta → 1×minecraft:orange_glazed_terracotta
+  - добыча из блока minecraft:orange_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:magenta_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:magenta_terracotta → 1×minecraft:magenta_glazed_terracotta
+  - добыча из блока minecraft:magenta_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:light_blue_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:light_blue_terracotta → 1×minecraft:light_blue_glazed_terracotta
+  - добыча из блока minecraft:light_blue_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:yellow_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:yellow_terracotta → 1×minecraft:yellow_glazed_terracotta
+  - добыча из блока minecraft:yellow_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:lime_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:lime_terracotta → 1×minecraft:lime_glazed_terracotta
+  - добыча из блока minecraft:lime_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:pink_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:pink_terracotta → 1×minecraft:pink_glazed_terracotta
+  - добыча из блока minecraft:pink_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:gray_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:gray_terracotta → 1×minecraft:gray_glazed_terracotta
+  - добыча из блока minecraft:gray_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:light_gray_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:light_gray_terracotta → 1×minecraft:light_gray_glazed_terracotta
+  - добыча из блока minecraft:light_gray_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:cyan_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:cyan_terracotta → 1×minecraft:cyan_glazed_terracotta
+  - добыча из блока minecraft:cyan_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:purple_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:purple_terracotta → 1×minecraft:purple_glazed_terracotta
+  - добыча из блока minecraft:purple_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:blue_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:blue_terracotta → 1×minecraft:blue_glazed_terracotta
+  - добыча из блока minecraft:blue_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:brown_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:brown_terracotta → 1×minecraft:brown_glazed_terracotta
+  - добыча из блока minecraft:brown_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:green_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:green_terracotta → 1×minecraft:green_glazed_terracotta
+  - добыча из блока minecraft:green_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:red_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:red_terracotta → 1×minecraft:red_glazed_terracotta
+  - добыча из блока minecraft:red_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:black_glazed_terracotta**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:black_terracotta → 1×minecraft:black_glazed_terracotta
+  - добыча из блока minecraft:black_glazed_terracotta: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:mason, уровень 4
+- **minecraft:white_concrete**
+  - добыча из блока minecraft:white_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:orange_concrete**
+  - добыча из блока minecraft:orange_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:magenta_concrete**
+  - добыча из блока minecraft:magenta_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:light_blue_concrete**
+  - добыча из блока minecraft:light_blue_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:yellow_concrete**
+  - добыча из блока minecraft:yellow_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:lime_concrete**
+  - добыча из блока minecraft:lime_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:pink_concrete**
+  - добыча из блока minecraft:pink_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:gray_concrete**
+  - добыча из блока minecraft:gray_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:light_gray_concrete**
+  - добыча из блока minecraft:light_gray_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cyan_concrete**
+  - добыча из блока minecraft:cyan_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:purple_concrete**
+  - добыча из блока minecraft:purple_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:blue_concrete**
+  - добыча из блока minecraft:blue_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:brown_concrete**
+  - добыча из блока minecraft:brown_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:green_concrete**
+  - добыча из блока minecraft:green_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:red_concrete**
+  - добыча из блока minecraft:red_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:black_concrete**
+  - добыча из блока minecraft:black_concrete: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:white_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:white_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:white_concrete_powder
+  - добыча из блока minecraft:white_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:orange_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:orange_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:orange_concrete_powder
+  - добыча из блока minecraft:orange_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:magenta_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:magenta_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:magenta_concrete_powder
+  - добыча из блока minecraft:magenta_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:light_blue_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:light_blue_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:light_blue_concrete_powder
+  - добыча из блока minecraft:light_blue_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:yellow_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:yellow_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:yellow_concrete_powder
+  - добыча из блока minecraft:yellow_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:lime_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:lime_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:lime_concrete_powder
+  - добыча из блока minecraft:lime_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:pink_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:pink_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:pink_concrete_powder
+  - добыча из блока minecraft:pink_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:gray_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gray_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:gray_concrete_powder
+  - добыча из блока minecraft:gray_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:light_gray_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:light_gray_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:light_gray_concrete_powder
+  - добыча из блока minecraft:light_gray_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:cyan_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cyan_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:cyan_concrete_powder
+  - добыча из блока minecraft:cyan_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:purple_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:purple_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:purple_concrete_powder
+  - добыча из блока minecraft:purple_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:blue_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blue_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:blue_concrete_powder
+  - добыча из блока minecraft:blue_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:brown_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:brown_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:brown_concrete_powder
+  - добыча из блока minecraft:brown_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:green_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:green_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:green_concrete_powder
+  - добыча из блока minecraft:green_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:red_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:red_concrete_powder
+  - добыча из блока minecraft:red_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:black_concrete_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:black_dye, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:sand, minecraft:gravel, minecraft:gravel, minecraft:gravel, … (9 слотов) → 8×minecraft:black_concrete_powder
+  - добыча из блока minecraft:black_concrete_powder: сломать любым способом (в т.ч. рукой)
+- **minecraft:turtle_egg**
+  - добыча из блока minecraft:turtle_egg: добыть шёлковым касанием
+- **minecraft:sniffer_egg**
+  - добыча из блока minecraft:sniffer_egg: сломать любым способом (в т.ч. рукой)
+  - игровая механика: archaeology/ocean_ruin_warm
+- **minecraft:dead_tube_coral_block**
+  - добыча из блока minecraft:dead_tube_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:tube_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dead_brain_coral_block**
+  - добыча из блока minecraft:dead_brain_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:brain_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dead_bubble_coral_block**
+  - добыча из блока minecraft:dead_bubble_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:bubble_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dead_fire_coral_block**
+  - добыча из блока minecraft:dead_fire_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:fire_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dead_horn_coral_block**
+  - добыча из блока minecraft:dead_horn_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:horn_coral_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:tube_coral_block**
+  - добыча из блока minecraft:tube_coral_block: добыть шёлковым касанием
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:brain_coral_block**
+  - добыча из блока minecraft:brain_coral_block: добыть шёлковым касанием
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:bubble_coral_block**
+  - добыча из блока minecraft:bubble_coral_block: добыть шёлковым касанием
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:fire_coral_block**
+  - добыча из блока minecraft:fire_coral_block: добыть шёлковым касанием
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:horn_coral_block**
+  - добыча из блока minecraft:horn_coral_block: добыть шёлковым касанием
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:tube_coral**
+  - добыча из блока minecraft:tube_coral: добыть шёлковым касанием
+- **minecraft:brain_coral**
+  - добыча из блока minecraft:brain_coral: добыть шёлковым касанием
+- **minecraft:bubble_coral**
+  - добыча из блока minecraft:bubble_coral: добыть шёлковым касанием
+- **minecraft:fire_coral**
+  - добыча из блока minecraft:fire_coral: добыть шёлковым касанием
+- **minecraft:horn_coral**
+  - добыча из блока minecraft:horn_coral: добыть шёлковым касанием
+- **minecraft:dead_brain_coral**
+  - добыча из блока minecraft:dead_brain_coral: добыть шёлковым касанием
+- **minecraft:dead_bubble_coral**
+  - добыча из блока minecraft:dead_bubble_coral: добыть шёлковым касанием
+- **minecraft:dead_fire_coral**
+  - добыча из блока minecraft:dead_fire_coral: добыть шёлковым касанием
+- **minecraft:dead_horn_coral**
+  - добыча из блока minecraft:dead_horn_coral: добыть шёлковым касанием
+- **minecraft:dead_tube_coral**
+  - добыча из блока minecraft:dead_tube_coral: добыть шёлковым касанием
+- **minecraft:tube_coral_fan**
+  - добыча из блока minecraft:tube_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:tube_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:brain_coral_fan**
+  - добыча из блока minecraft:brain_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:brain_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:bubble_coral_fan**
+  - добыча из блока minecraft:bubble_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:bubble_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:fire_coral_fan**
+  - добыча из блока minecraft:fire_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:fire_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:horn_coral_fan**
+  - добыча из блока minecraft:horn_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:horn_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:dead_tube_coral_fan**
+  - добыча из блока minecraft:dead_tube_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:dead_tube_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:dead_brain_coral_fan**
+  - добыча из блока minecraft:dead_brain_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:dead_brain_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:dead_bubble_coral_fan**
+  - добыча из блока minecraft:dead_bubble_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:dead_bubble_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:dead_fire_coral_fan**
+  - добыча из блока minecraft:dead_fire_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:dead_fire_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:dead_horn_coral_fan**
+  - добыча из блока minecraft:dead_horn_coral_fan: добыть шёлковым касанием
+  - добыча из блока minecraft:dead_horn_coral_wall_fan: добыть шёлковым касанием
+- **minecraft:blue_ice**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:packed_ice, minecraft:packed_ice, minecraft:packed_ice, minecraft:packed_ice, minecraft:packed_ice, minecraft:packed_ice, minecraft:packed_ice, minecraft:packed_ice, … (9 слотов) → 1×minecraft:blue_ice
+  - добыча из блока minecraft:blue_ice: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/village/village_snowy_house
+  - торговля: minecraft:wandering_trader, уровень 2
+- **minecraft:conduit**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:nautilus_shell, minecraft:nautilus_shell, minecraft:nautilus_shell, minecraft:nautilus_shell, minecraft:heart_of_the_sea, minecraft:nautilus_shell, minecraft:nautilus_shell, minecraft:nautilus_shell, … (9 слотов) → 1×minecraft:conduit
+  - добыча из блока minecraft:conduit: сломать любым способом (в т.ч. рукой)
+- **minecraft:polished_granite_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:polished_granite → 1×minecraft:polished_granite_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_granite, minecraft:polished_granite, minecraft:polished_granite, minecraft:polished_granite, minecraft:polished_granite, minecraft:polished_granite → 4×minecraft:polished_granite_stairs
+  - добыча из блока minecraft:polished_granite_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_red_sandstone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_red_sandstone, minecraft:smooth_red_sandstone, minecraft:smooth_red_sandstone, minecraft:smooth_red_sandstone, minecraft:smooth_red_sandstone, minecraft:smooth_red_sandstone → 4×minecraft:smooth_red_sandstone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:smooth_red_sandstone → 1×minecraft:smooth_red_sandstone_stairs
+  - добыча из блока minecraft:smooth_red_sandstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mossy_stone_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks → 4×minecraft:mossy_stone_brick_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mossy_stone_bricks → 1×minecraft:mossy_stone_brick_stairs
+  - добыча из блока minecraft:mossy_stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_diorite_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:polished_diorite → 1×minecraft:polished_diorite_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_diorite, minecraft:polished_diorite, minecraft:polished_diorite, minecraft:polished_diorite, minecraft:polished_diorite, minecraft:polished_diorite → 4×minecraft:polished_diorite_stairs
+  - добыча из блока minecraft:polished_diorite_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mossy_cobblestone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone → 4×minecraft:mossy_cobblestone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mossy_cobblestone → 1×minecraft:mossy_cobblestone_stairs
+  - добыча из блока minecraft:mossy_cobblestone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:end_stone_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:end_stone_bricks → 1×minecraft:end_stone_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks → 4×minecraft:end_stone_brick_stairs
+  - добыча из блока minecraft:end_stone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:stone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:stone → 1×minecraft:stone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone, minecraft:stone, minecraft:stone, minecraft:stone, minecraft:stone, minecraft:stone → 4×minecraft:stone_stairs
+  - добыча из блока minecraft:stone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_sandstone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_sandstone, minecraft:smooth_sandstone, minecraft:smooth_sandstone, minecraft:smooth_sandstone, minecraft:smooth_sandstone, minecraft:smooth_sandstone → 4×minecraft:smooth_sandstone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:smooth_sandstone → 1×minecraft:smooth_sandstone_stairs
+  - добыча из блока minecraft:smooth_sandstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_quartz_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:smooth_quartz → 1×minecraft:smooth_quartz_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_quartz, minecraft:smooth_quartz, minecraft:smooth_quartz, minecraft:smooth_quartz, minecraft:smooth_quartz, minecraft:smooth_quartz → 4×minecraft:smooth_quartz_stairs
+  - добыча из блока minecraft:smooth_quartz_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:granite_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:granite → 1×minecraft:granite_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:granite, minecraft:granite, minecraft:granite, minecraft:granite, minecraft:granite, minecraft:granite → 4×minecraft:granite_stairs
+  - добыча из блока minecraft:granite_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:andesite_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:andesite, minecraft:andesite, minecraft:andesite, minecraft:andesite, minecraft:andesite, minecraft:andesite → 4×minecraft:andesite_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:andesite → 1×minecraft:andesite_stairs
+  - добыча из блока minecraft:andesite_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:red_nether_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_nether_bricks → 1×minecraft:red_nether_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks → 4×minecraft:red_nether_brick_stairs
+  - добыча из блока minecraft:red_nether_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_andesite_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:polished_andesite → 1×minecraft:polished_andesite_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_andesite, minecraft:polished_andesite, minecraft:polished_andesite, minecraft:polished_andesite, minecraft:polished_andesite, minecraft:polished_andesite → 4×minecraft:polished_andesite_stairs
+  - добыча из блока minecraft:polished_andesite_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:diorite_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:diorite → 1×minecraft:diorite_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diorite, minecraft:diorite, minecraft:diorite, minecraft:diorite, minecraft:diorite, minecraft:diorite → 4×minecraft:diorite_stairs
+  - добыча из блока minecraft:diorite_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cobbled_deepslate_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:cobbled_deepslate_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate → 4×minecraft:cobbled_deepslate_stairs
+  - добыча из блока minecraft:cobbled_deepslate_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_deepslate_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate → 4×minecraft:polished_deepslate_stairs
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:cobbled_deepslate → 1×minecraft:polished_deepslate_stairs
+  - добыча из блока minecraft:polished_deepslate_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_brick_stairs**
+  - крафт на «minecraft:stonecutter»: 3 рец.; пример: minecraft:polished_deepslate → 1×minecraft:deepslate_brick_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks → 4×minecraft:deepslate_brick_stairs
+  - добыча из блока minecraft:deepslate_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_tile_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles → 4×minecraft:deepslate_tile_stairs
+  - крафт на «minecraft:stonecutter»: 4 рец.; пример: minecraft:polished_deepslate → 1×minecraft:deepslate_tile_stairs
+  - добыча из блока minecraft:deepslate_tile_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_granite_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_granite, minecraft:polished_granite, minecraft:polished_granite → 6×minecraft:polished_granite_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:granite → 2×minecraft:polished_granite_slab
+  - добыча из блока minecraft:polished_granite_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_red_sandstone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:smooth_red_sandstone → 2×minecraft:smooth_red_sandstone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_red_sandstone, minecraft:smooth_red_sandstone, minecraft:smooth_red_sandstone → 6×minecraft:smooth_red_sandstone_slab
+  - добыча из блока minecraft:smooth_red_sandstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mossy_stone_brick_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks, minecraft:mossy_stone_bricks → 6×minecraft:mossy_stone_brick_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mossy_stone_bricks → 2×minecraft:mossy_stone_brick_slab
+  - добыча из блока minecraft:mossy_stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_diorite_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:diorite → 2×minecraft:polished_diorite_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_diorite, minecraft:polished_diorite, minecraft:polished_diorite → 6×minecraft:polished_diorite_slab
+  - добыча из блока minecraft:polished_diorite_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:mossy_cobblestone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:mossy_cobblestone → 2×minecraft:mossy_cobblestone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mossy_cobblestone, minecraft:mossy_cobblestone, minecraft:mossy_cobblestone → 6×minecraft:mossy_cobblestone_slab
+  - добыча из блока minecraft:mossy_cobblestone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:end_stone_brick_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:end_stone_bricks, minecraft:end_stone_bricks, minecraft:end_stone_bricks → 6×minecraft:end_stone_brick_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:end_stone → 2×minecraft:end_stone_brick_slab
+  - добыча из блока minecraft:end_stone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_sandstone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:smooth_sandstone → 2×minecraft:smooth_sandstone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_sandstone, minecraft:smooth_sandstone, minecraft:smooth_sandstone → 6×minecraft:smooth_sandstone_slab
+  - добыча из блока minecraft:smooth_sandstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smooth_quartz_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smooth_quartz, minecraft:smooth_quartz, minecraft:smooth_quartz → 6×minecraft:smooth_quartz_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:smooth_quartz → 2×minecraft:smooth_quartz_slab
+  - добыча из блока minecraft:smooth_quartz_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:granite_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:granite, minecraft:granite, minecraft:granite → 6×minecraft:granite_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:granite → 2×minecraft:granite_slab
+  - добыча из блока minecraft:granite_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:andesite_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:andesite → 2×minecraft:andesite_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:andesite, minecraft:andesite, minecraft:andesite → 6×minecraft:andesite_slab
+  - добыча из блока minecraft:andesite_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:red_nether_brick_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:red_nether_bricks → 2×minecraft:red_nether_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_nether_bricks, minecraft:red_nether_bricks, minecraft:red_nether_bricks → 6×minecraft:red_nether_brick_slab
+  - добыча из блока minecraft:red_nether_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_andesite_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:andesite → 2×minecraft:polished_andesite_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_andesite, minecraft:polished_andesite, minecraft:polished_andesite → 6×minecraft:polished_andesite_slab
+  - добыча из блока minecraft:polished_andesite_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:diorite_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diorite, minecraft:diorite, minecraft:diorite → 6×minecraft:diorite_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:diorite → 2×minecraft:diorite_slab
+  - добыча из блока minecraft:diorite_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cobbled_deepslate_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobbled_deepslate, minecraft:cobbled_deepslate, minecraft:cobbled_deepslate → 6×minecraft:cobbled_deepslate_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:cobbled_deepslate → 2×minecraft:cobbled_deepslate_slab
+  - добыча из блока minecraft:cobbled_deepslate_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_deepslate_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_deepslate, minecraft:polished_deepslate, minecraft:polished_deepslate → 6×minecraft:polished_deepslate_slab
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:cobbled_deepslate → 2×minecraft:polished_deepslate_slab
+  - добыча из блока minecraft:polished_deepslate_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_brick_slab**
+  - крафт на «minecraft:stonecutter»: 3 рец.; пример: minecraft:deepslate_bricks → 2×minecraft:deepslate_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:deepslate_bricks, minecraft:deepslate_bricks, minecraft:deepslate_bricks → 6×minecraft:deepslate_brick_slab
+  - добыча из блока minecraft:deepslate_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:deepslate_tile_slab**
+  - крафт на «minecraft:stonecutter»: 4 рец.; пример: minecraft:polished_deepslate → 2×minecraft:deepslate_tile_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:deepslate_tiles, minecraft:deepslate_tiles, minecraft:deepslate_tiles → 6×minecraft:deepslate_tile_slab
+  - добыча из блока minecraft:deepslate_tile_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:scaffolding**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo, minecraft:string, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo, minecraft:bamboo → 6×minecraft:scaffolding
+  - добыча из блока minecraft:scaffolding: сломать любым способом (в т.ч. рукой)
+- **minecraft:redstone**
+  - крафт на «minecraft:furnace»: 2 рец.; пример: minecraft:deepslate_redstone_ore → 1×minecraft:redstone
+  - крафт на «minecraft:blast_furnace»: 2 рец.; пример: minecraft:redstone_ore → 1×minecraft:redstone
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone_block → 9×minecraft:redstone
+  - добыча из блока minecraft:redstone_wire: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:redstone_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_redstone_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - выпадает с моба minecraft:witch
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/village/village_temple
+  - … и ещё 7 способов
+- **minecraft:redstone_torch**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:stick → 1×minecraft:redstone_torch
+  - добыча из блока minecraft:redstone_torch: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:redstone_wall_torch: сломать любым способом (в т.ч. рукой)
+- **minecraft:redstone_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:redstone, minecraft:redstone, minecraft:redstone, minecraft:redstone, minecraft:redstone, minecraft:redstone, minecraft:redstone, … (9 слотов) → 1×minecraft:redstone_block
+  - добыча из блока minecraft:redstone_block: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:repeater**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone_torch, minecraft:redstone, minecraft:redstone_torch, minecraft:stone, minecraft:stone, minecraft:stone → 1×minecraft:repeater
+  - добыча из блока minecraft:repeater: сломать любым способом (в т.ч. рукой)
+- **minecraft:comparator**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone_torch, minecraft:redstone_torch, minecraft:quartz, minecraft:redstone_torch, minecraft:stone, minecraft:stone, minecraft:stone → 1×minecraft:comparator
+  - добыча из блока minecraft:comparator: сломать любым способом (в т.ч. рукой)
+- **minecraft:piston**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:cobblestone(+11 вар.), minecraft:iron_ingot, minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:redstone, … (9 слотов) → 1×minecraft:piston
+  - добыча из блока minecraft:piston: сломать любым способом (в т.ч. рукой)
+- **minecraft:sticky_piston**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:slime_ball, minecraft:piston → 1×minecraft:sticky_piston
+  - добыча из блока minecraft:sticky_piston: сломать любым способом (в т.ч. рукой)
+- **minecraft:slime_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:slime_ball, minecraft:slime_ball, minecraft:slime_ball, minecraft:slime_ball, minecraft:slime_ball, minecraft:slime_ball, minecraft:slime_ball, minecraft:slime_ball, … (9 слотов) → 1×minecraft:slime_block
+  - добыча из блока minecraft:slime_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:honey_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:honey_bottle, minecraft:honey_bottle, minecraft:honey_bottle, minecraft:honey_bottle → 1×minecraft:honey_block
+  - добыча из блока minecraft:honey_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:observer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:redstone, minecraft:redstone, minecraft:quartz, minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), … (9 слотов) → 1×minecraft:observer
+  - добыча из блока minecraft:observer: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:hopper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:chest, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:hopper
+  - добыча из блока minecraft:hopper: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dispenser**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:bow, minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:redstone, … (9 слотов) → 1×minecraft:dispenser
+  - добыча из блока minecraft:dispenser: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:dropper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:redstone, minecraft:cobblestone(+11 вар.) → 1×minecraft:dropper
+  - добыча из блока minecraft:dropper: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:lectern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:bookshelf, minecraft:oak_slab(+15 вар.) → 1×minecraft:lectern
+  - добыча из блока minecraft:lectern: сломать любым способом (в т.ч. рукой)
+- **minecraft:target**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:redstone, minecraft:hay_block, minecraft:redstone, minecraft:redstone → 1×minecraft:target
+  - добыча из блока minecraft:target: сломать любым способом (в т.ч. рукой)
+- **minecraft:lever**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:cobblestone(+11 вар.) → 1×minecraft:lever
+  - добыча из блока minecraft:lever: сломать любым способом (в т.ч. рукой)
+- **minecraft:lightning_rod**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot → 1×minecraft:lightning_rod
+  - добыча из блока minecraft:lightning_rod: сломать инструментом minecraft:stone_pickaxe или лучше
+- **minecraft:daylight_detector**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass, minecraft:quartz, minecraft:quartz, minecraft:quartz, minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), … (9 слотов) → 1×minecraft:daylight_detector
+  - добыча из блока minecraft:daylight_detector: сломать любым способом (в т.ч. рукой)
+- **minecraft:sculk_sensor**
+  - добыча из блока minecraft:sculk_sensor: добыть шёлковым касанием
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:calibrated_sculk_sensor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:amethyst_shard, minecraft:amethyst_shard, minecraft:sculk_sensor, minecraft:amethyst_shard → 1×minecraft:calibrated_sculk_sensor
+  - добыча из блока minecraft:calibrated_sculk_sensor: добыть шёлковым касанием
+- **minecraft:tripwire_hook**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:stick, minecraft:oak_planks(+15 вар.) → 2×minecraft:tripwire_hook
+  - добыча из блока minecraft:tripwire_hook: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/pillager_outpost
+  - рыбалка
+- **minecraft:trapped_chest**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:tripwire_hook → 1×minecraft:trapped_chest
+  - добыча из блока minecraft:trapped_chest: сломать любым способом (в т.ч. рукой)
+- **minecraft:tnt**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gunpowder, minecraft:sand(+1 вар.), minecraft:gunpowder, minecraft:sand(+1 вар.), minecraft:gunpowder, minecraft:sand(+1 вар.), minecraft:gunpowder, minecraft:sand(+1 вар.), … (9 слотов) → 1×minecraft:tnt
+  - добыча из блока minecraft:tnt: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/buried_treasure
+  - игровая механика: archaeology/desert_pyramid
+- **minecraft:redstone_lamp**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:redstone, minecraft:glowstone, minecraft:redstone, minecraft:redstone → 1×minecraft:redstone_lamp
+  - добыча из блока minecraft:redstone_lamp: сломать любым способом (в т.ч. рукой)
+- **minecraft:note_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:redstone, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), … (9 слотов) → 1×minecraft:note_block
+  - добыча из блока minecraft:note_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:stone_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone → 1×minecraft:stone_button
+  - добыча из блока minecraft:stone_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:polished_blackstone_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone → 1×minecraft:polished_blackstone_button
+  - добыча из блока minecraft:polished_blackstone_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:oak_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks → 1×minecraft:oak_button
+  - добыча из блока minecraft:oak_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks → 1×minecraft:spruce_button
+  - добыча из блока minecraft:spruce_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks → 1×minecraft:birch_button
+  - добыча из блока minecraft:birch_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks → 1×minecraft:jungle_button
+  - добыча из блока minecraft:jungle_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks → 1×minecraft:acacia_button
+  - добыча из блока minecraft:acacia_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks → 1×minecraft:cherry_button
+  - добыча из блока minecraft:cherry_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks → 1×minecraft:dark_oak_button
+  - добыча из блока minecraft:dark_oak_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks → 1×minecraft:mangrove_button
+  - добыча из блока minecraft:mangrove_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks → 1×minecraft:bamboo_button
+  - добыча из блока minecraft:bamboo_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks → 1×minecraft:crimson_button
+  - добыча из блока minecraft:crimson_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_button**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks → 1×minecraft:warped_button
+  - добыча из блока minecraft:warped_button: сломать любым способом (в т.ч. рукой)
+- **minecraft:stone_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stone, minecraft:stone → 1×minecraft:stone_pressure_plate
+  - добыча из блока minecraft:stone_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone, minecraft:polished_blackstone → 1×minecraft:polished_blackstone_pressure_plate
+  - добыча из блока minecraft:polished_blackstone_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:light_weighted_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:light_weighted_pressure_plate
+  - добыча из блока minecraft:light_weighted_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/ruined_portal
+- **minecraft:heavy_weighted_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:heavy_weighted_pressure_plate
+  - добыча из блока minecraft:heavy_weighted_pressure_plate: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:oak_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:oak_planks → 1×minecraft:oak_pressure_plate
+  - добыча из блока minecraft:oak_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:spruce_planks → 1×minecraft:spruce_pressure_plate
+  - добыча из блока minecraft:spruce_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:birch_planks → 1×minecraft:birch_pressure_plate
+  - добыча из блока minecraft:birch_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:jungle_planks → 1×minecraft:jungle_pressure_plate
+  - добыча из блока minecraft:jungle_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:acacia_planks → 1×minecraft:acacia_pressure_plate
+  - добыча из блока minecraft:acacia_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:cherry_planks → 1×minecraft:cherry_pressure_plate
+  - добыча из блока minecraft:cherry_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:dark_oak_planks → 1×minecraft:dark_oak_pressure_plate
+  - добыча из блока minecraft:dark_oak_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:mangrove_planks → 1×minecraft:mangrove_pressure_plate
+  - добыча из блока minecraft:mangrove_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:bamboo_planks → 1×minecraft:bamboo_pressure_plate
+  - добыча из блока minecraft:bamboo_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks, minecraft:crimson_planks → 1×minecraft:crimson_pressure_plate
+  - добыча из блока minecraft:crimson_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_pressure_plate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks, minecraft:warped_planks → 1×minecraft:warped_pressure_plate
+  - добыча из блока minecraft:warped_pressure_plate: сломать любым способом (в т.ч. рукой)
+- **minecraft:iron_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 3×minecraft:iron_door
+  - добыча из блока minecraft:iron_door: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:oak_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 3×minecraft:oak_door
+  - добыча из блока minecraft:oak_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks → 3×minecraft:spruce_door
+  - добыча из блока minecraft:spruce_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks → 3×minecraft:birch_door
+  - добыча из блока minecraft:birch_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks → 3×minecraft:jungle_door
+  - добыча из блока minecraft:jungle_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks → 3×minecraft:acacia_door
+  - добыча из блока minecraft:acacia_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks → 3×minecraft:cherry_door
+  - добыча из блока minecraft:cherry_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks → 3×minecraft:dark_oak_door
+  - добыча из блока minecraft:dark_oak_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks → 3×minecraft:mangrove_door
+  - добыча из блока minecraft:mangrove_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks → 3×minecraft:bamboo_door
+  - добыча из блока minecraft:bamboo_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks → 3×minecraft:crimson_door
+  - добыча из блока minecraft:crimson_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_door**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks → 3×minecraft:warped_door
+  - добыча из блока minecraft:warped_door: сломать любым способом (в т.ч. рукой)
+- **minecraft:iron_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:iron_trapdoor
+  - добыча из блока minecraft:iron_trapdoor: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:oak_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 2×minecraft:oak_trapdoor
+  - добыча из блока minecraft:oak_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks → 2×minecraft:spruce_trapdoor
+  - добыча из блока minecraft:spruce_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks → 2×minecraft:birch_trapdoor
+  - добыча из блока minecraft:birch_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks → 2×minecraft:jungle_trapdoor
+  - добыча из блока minecraft:jungle_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks → 2×minecraft:acacia_trapdoor
+  - добыча из блока minecraft:acacia_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks → 2×minecraft:cherry_trapdoor
+  - добыча из блока minecraft:cherry_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks → 2×minecraft:dark_oak_trapdoor
+  - добыча из блока minecraft:dark_oak_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks → 2×minecraft:mangrove_trapdoor
+  - добыча из блока minecraft:mangrove_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks → 2×minecraft:bamboo_trapdoor
+  - добыча из блока minecraft:bamboo_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks → 2×minecraft:crimson_trapdoor
+  - добыча из блока minecraft:crimson_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_trapdoor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks → 2×minecraft:warped_trapdoor
+  - добыча из блока minecraft:warped_trapdoor: сломать любым способом (в т.ч. рукой)
+- **minecraft:oak_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:oak_planks, minecraft:stick, minecraft:stick, minecraft:oak_planks, minecraft:stick → 1×minecraft:oak_fence_gate
+  - добыча из блока minecraft:oak_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:spruce_planks, minecraft:stick, minecraft:stick, minecraft:spruce_planks, minecraft:stick → 1×minecraft:spruce_fence_gate
+  - добыча из блока minecraft:spruce_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:birch_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:birch_planks, minecraft:stick, minecraft:stick, minecraft:birch_planks, minecraft:stick → 1×minecraft:birch_fence_gate
+  - добыча из блока minecraft:birch_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:jungle_planks, minecraft:stick, minecraft:stick, minecraft:jungle_planks, minecraft:stick → 1×minecraft:jungle_fence_gate
+  - добыча из блока minecraft:jungle_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:acacia_planks, minecraft:stick, minecraft:stick, minecraft:acacia_planks, minecraft:stick → 1×minecraft:acacia_fence_gate
+  - добыча из блока minecraft:acacia_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:cherry_planks, minecraft:stick, minecraft:stick, minecraft:cherry_planks, minecraft:stick → 1×minecraft:cherry_fence_gate
+  - добыча из блока minecraft:cherry_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:dark_oak_planks, minecraft:stick, minecraft:stick, minecraft:dark_oak_planks, minecraft:stick → 1×minecraft:dark_oak_fence_gate
+  - добыча из блока minecraft:dark_oak_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:mangrove_planks, minecraft:stick, minecraft:stick, minecraft:mangrove_planks, minecraft:stick → 1×minecraft:mangrove_fence_gate
+  - добыча из блока minecraft:mangrove_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:bamboo_planks, minecraft:stick, minecraft:stick, minecraft:bamboo_planks, minecraft:stick → 1×minecraft:bamboo_fence_gate
+  - добыча из блока minecraft:bamboo_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:crimson_planks, minecraft:stick, minecraft:stick, minecraft:crimson_planks, minecraft:stick → 1×minecraft:crimson_fence_gate
+  - добыча из блока minecraft:crimson_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_fence_gate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:warped_planks, minecraft:stick, minecraft:stick, minecraft:warped_planks, minecraft:stick → 1×minecraft:warped_fence_gate
+  - добыча из блока minecraft:warped_fence_gate: сломать любым способом (в т.ч. рукой)
+- **minecraft:powered_rail**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:stick, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:redstone, minecraft:gold_ingot → 6×minecraft:powered_rail
+  - добыча из блока minecraft:powered_rail: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+- **minecraft:detector_rail**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stone_pressure_plate, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot → 6×minecraft:detector_rail
+  - добыча из блока minecraft:detector_rail: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+- **minecraft:rail**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stick, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 16×minecraft:rail
+  - добыча из блока minecraft:rail: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+- **minecraft:activator_rail**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:stick, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone_torch, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stick, … (9 слотов) → 6×minecraft:activator_rail
+  - добыча из блока minecraft:activator_rail: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+- **minecraft:saddle**
+  - выпадает с моба minecraft:ravager
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/jungle_temple
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - … и ещё 5 способов
+- **minecraft:minecart**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:minecart
+- **minecraft:chest_minecart**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:minecart → 1×minecraft:chest_minecart
+- **minecraft:furnace_minecart**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:furnace, minecraft:minecart → 1×minecraft:furnace_minecart
+- **minecraft:tnt_minecart**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:tnt, minecraft:minecart → 1×minecraft:tnt_minecart
+- **minecraft:hopper_minecart**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:hopper, minecraft:minecart → 1×minecraft:hopper_minecart
+- **minecraft:carrot_on_a_stick**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:fishing_rod, minecraft:carrot → 1×minecraft:carrot_on_a_stick
+- **minecraft:warped_fungus_on_a_stick**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:fishing_rod, minecraft:warped_fungus → 1×minecraft:warped_fungus_on_a_stick
+- **minecraft:elytra**
+  - особая механика: elytra
+- **minecraft:oak_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks → 1×minecraft:oak_boat
+- **minecraft:oak_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:oak_boat → 1×minecraft:oak_chest_boat
+- **minecraft:spruce_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks → 1×minecraft:spruce_boat
+- **minecraft:spruce_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:spruce_boat → 1×minecraft:spruce_chest_boat
+- **minecraft:birch_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks → 1×minecraft:birch_boat
+- **minecraft:birch_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:birch_boat → 1×minecraft:birch_chest_boat
+- **minecraft:jungle_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks → 1×minecraft:jungle_boat
+- **minecraft:jungle_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:jungle_boat → 1×minecraft:jungle_chest_boat
+- **minecraft:acacia_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks → 1×minecraft:acacia_boat
+- **minecraft:acacia_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:acacia_boat → 1×minecraft:acacia_chest_boat
+- **minecraft:cherry_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks → 1×minecraft:cherry_boat
+- **minecraft:cherry_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:cherry_boat → 1×minecraft:cherry_chest_boat
+- **minecraft:dark_oak_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks → 1×minecraft:dark_oak_boat
+- **minecraft:dark_oak_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:dark_oak_boat → 1×minecraft:dark_oak_chest_boat
+- **minecraft:mangrove_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks → 1×minecraft:mangrove_boat
+- **minecraft:mangrove_chest_boat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:mangrove_boat → 1×minecraft:mangrove_chest_boat
+- **minecraft:bamboo_raft**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks → 1×minecraft:bamboo_raft
+- **minecraft:bamboo_chest_raft**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chest, minecraft:bamboo_raft → 1×minecraft:bamboo_chest_raft
+- **minecraft:structure_block**
+  - только вкладка операторских предметов или /give
+- **minecraft:jigsaw**
+  - только вкладка операторских предметов или /give
+- **minecraft:turtle_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:scute, minecraft:scute, minecraft:scute, minecraft:scute, minecraft:scute → 1×minecraft:turtle_helmet
+- **minecraft:scute**
+  - выпадает с моба naturalist:tortoise
+- **minecraft:flint_and_steel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:flint → 1×minecraft:flint_and_steel
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/ruined_portal
+- **minecraft:apple**
+  - находка в сундуке minecraft:chests/igloo_chest
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/stronghold_crossing
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - торговля: minecraft:farmer, уровень 2
+- **minecraft:bow**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:string, minecraft:stick, minecraft:string, minecraft:stick, minecraft:string → 1×minecraft:bow
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_fletcher
+  - торговля: minecraft:fletcher, уровень 2
+  - торговля: minecraft:fletcher, уровень 4
+- **minecraft:arrow**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:flint, minecraft:stick, minecraft:feather → 4×minecraft:arrow
+  - выпадает с моба minecraft:skeleton
+  - выпадает с моба minecraft:stray
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/village/village_fletcher
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/pillager_outpost
+  - находка в сундуке minecraft:chests/jungle_temple_dispenser
+  - находка в сундуке minecraft:chests/bastion_other
+  - … и ещё 2 способов
+- **minecraft:coal**
+  - крафт на «minecraft:furnace»: 4 рец.; пример: ad_astra:glacio_coal_ore → 1×minecraft:coal
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:coal_block → 9×minecraft:coal
+  - крафт на «minecraft:blast_furnace»: 4 рец.; пример: minecraft:coal_ore → 1×minecraft:coal
+  - добыча из блока minecraft:coal_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_coal_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:venus_coal_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:glacio_coal_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - выпадает с моба minecraft:wither_skeleton
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/underwater_ruin_small
+  - … и ещё 16 способов
+- **minecraft:charcoal**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:dark_oak_log(+15 вар.) → 1×minecraft:charcoal
+  - добыча из блока minecraft:campfire: сломать любым способом (в т.ч. рукой)
+- **minecraft:diamond**
+  - крафт на «minecraft:blast_furnace»: 5 рец.; пример: libraryferret:diamond_coins_jtl → 1×minecraft:diamond
+  - крафт на «minecraft:furnace»: 5 рец.; пример: minecraft:deepslate_diamond_ore → 1×minecraft:diamond
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond_block → 9×minecraft:diamond
+  - добыча из блока minecraft:diamond_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_diamond_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока ad_astra:mars_diamond_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока ad_astra:venus_diamond_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока libraryferret:unbreakable_diamond_beacon: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/nether_bridge
+  - … и ещё 13 способов
+- **minecraft:emerald**
+  - крафт на «minecraft:blast_furnace»: 3 рец.; пример: minecraft:emerald_ore → 1×minecraft:emerald
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:emerald_block → 9×minecraft:emerald
+  - крафт на «minecraft:furnace»: 3 рец.; пример: minecraft:deepslate_emerald_ore → 1×minecraft:emerald
+  - добыча из блока minecraft:emerald_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_emerald_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока libraryferret:unbreakable_emerald_beacon: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:evoker
+  - выпадает с моба minecraft:vindicator
+  - находка в сундуке minecraft:chests/village/village_mason
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - … и ещё 16 способов
+- **minecraft:lapis_lazuli**
+  - крафт на «minecraft:furnace»: 3 рец.; пример: minecraft:lapis_ore → 1×minecraft:lapis_lazuli
+  - крафт на «minecraft:blast_furnace»: 3 рец.; пример: ad_astra:glacio_lapis_ore → 1×minecraft:lapis_lazuli
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:lapis_block → 9×minecraft:lapis_lazuli
+  - добыча из блока minecraft:lapis_ore: сломать инструментом minecraft:stone_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_lapis_ore: сломать инструментом minecraft:stone_pickaxe или лучше
+  - добыча из блока ad_astra:glacio_lapis_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - находка в сундуке minecraft:chests/village/village_temple
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/shipwreck_treasure
+  - находка в сундуке ad_astra:chests/dungeon/moon/large_dungeon_chest
+  - игровая механика: gameplay/hero_of_the_village/cleric_gift
+  - … и ещё 1 способов
+- **minecraft:quartz**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:nether_quartz_ore → 1×minecraft:quartz
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: minecraft:nether_quartz_ore → 1×minecraft:quartz
+  - добыча из блока minecraft:nether_quartz_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_treasure
+- **minecraft:amethyst_shard**
+  - добыча из блока minecraft:amethyst_cluster: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:raw_iron**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:raw_iron_block → 9×minecraft:raw_iron
+  - добыча из блока minecraft:iron_ore: сломать инструментом minecraft:stone_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_iron_ore: сломать инструментом minecraft:stone_pickaxe или лучше
+  - добыча из блока ad_astra:moon_iron_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:mars_iron_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:mercury_iron_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока ad_astra:glacio_iron_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/dungeon/moon/large_dungeon_chest
+- **minecraft:iron_ingot**
+  - крафт на «minecraft:furnace»: 8 рец.; пример: ad_astra:mercury_iron_ore → 1×minecraft:iron_ingot
+  - крафт на «minecraft:blast_furnace»: 8 рец.; пример: ad_astra:mars_iron_ore → 1×minecraft:iron_ingot
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:iron_block → 9×minecraft:iron_ingot
+  - добыча из блока libraryferret:unbreakable_iron_beacon: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:iron_golem
+  - выпадает с моба minecraft:zombie
+  - выпадает с моба minecraft:zombie_villager
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - … и ещё 16 способов
+- **minecraft:raw_copper**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:raw_copper_block → 9×minecraft:raw_copper
+  - добыча из блока minecraft:copper_ore: сломать инструментом minecraft:stone_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_copper_ore: сломать инструментом minecraft:stone_pickaxe или лучше
+  - добыча из блока ad_astra:glacio_copper_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:copper_ingot**
+  - крафт на «minecraft:blast_furnace»: 4 рец.; пример: minecraft:raw_copper → 1×minecraft:copper_ingot
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:waxed_copper_block → 9×minecraft:copper_ingot
+  - крафт на «minecraft:furnace»: 4 рец.; пример: ad_astra:glacio_copper_ore → 1×minecraft:copper_ingot
+  - выпадает с моба minecraft:drowned
+- **minecraft:raw_gold**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:raw_gold_block → 9×minecraft:raw_gold
+  - добыча из блока minecraft:gold_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока minecraft:deepslate_gold_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+  - добыча из блока ad_astra:venus_gold_ore: сломать инструментом minecraft:iron_pickaxe или лучше
+- **minecraft:gold_ingot**
+  - крафт на «minecraft:furnace»: 6 рец.; пример: minecraft:gold_ore → 1×minecraft:gold_ingot
+  - крафт на «minecraft:blast_furnace»: 6 рец.; пример: ad_astra:venus_gold_ore → 1×minecraft:gold_ingot
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:gold_block → 9×minecraft:gold_ingot
+  - добыча из блока libraryferret:unbreakable_gold_beacon: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/jungle_temple
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - … и ещё 13 способов
+- **minecraft:netherite_ingot**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:netherite_scrap, minecraft:netherite_scrap, minecraft:netherite_scrap, minecraft:netherite_scrap, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:netherite_ingot
+  - находка в сундуке minecraft:chests/bastion_treasure
+- **minecraft:netherite_scrap**
+  - крафт на «minecraft:furnace»: 2 рец.; пример: libraryferret:netherite_coins_jtl → 1×minecraft:netherite_scrap
+  - крафт на «minecraft:blast_furnace»: 2 рец.; пример: libraryferret:netherite_coins_jtl → 1×minecraft:netherite_scrap
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+- **minecraft:wooden_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:stick → 1×minecraft:wooden_sword
+- **minecraft:wooden_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:stick, minecraft:stick → 1×minecraft:wooden_shovel
+- **minecraft:wooden_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:stick, minecraft:stick → 1×minecraft:wooden_pickaxe
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:wooden_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:stick, minecraft:stick → 1×minecraft:wooden_axe
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+- **minecraft:wooden_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:stick, minecraft:stick → 1×minecraft:wooden_hoe
+  - игровая механика: archaeology/trail_ruins_common
+  - игровая механика: archaeology/ocean_ruin_warm
+  - игровая механика: archaeology/ocean_ruin_cold
+- **minecraft:stone_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:stick → 1×minecraft:stone_sword
+  - выпадает с моба minecraft:elder_guardian
+- **minecraft:stone_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:stick, minecraft:stick → 1×minecraft:stone_shovel
+  - игровая механика: gameplay/hero_of_the_village/toolsmith_gift
+  - торговля: minecraft:toolsmith, уровень 1
+- **minecraft:stone_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:stick, minecraft:stick → 1×minecraft:stone_pickaxe
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+  - игровая механика: gameplay/hero_of_the_village/toolsmith_gift
+  - торговля: minecraft:toolsmith, уровень 1
+- **minecraft:stone_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:stick, minecraft:stick → 1×minecraft:stone_axe
+  - находка в сундуке minecraft:chests/underwater_ruin_small
+  - находка в сундуке minecraft:chests/igloo_chest
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+  - игровая механика: gameplay/hero_of_the_village/toolsmith_gift
+  - игровая механика: gameplay/hero_of_the_village/weaponsmith_gift
+  - торговля: minecraft:toolsmith, уровень 1
+- **minecraft:stone_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:stick, minecraft:stick → 1×minecraft:stone_hoe
+  - игровая механика: gameplay/hero_of_the_village/toolsmith_gift
+  - торговля: minecraft:toolsmith, уровень 1
+- **minecraft:golden_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:stick → 1×minecraft:golden_sword
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:golden_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:stick, minecraft:stick → 1×minecraft:golden_shovel
+  - находка в сундуке minecraft:chests/ruined_portal
+- **minecraft:golden_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:stick, minecraft:stick → 1×minecraft:golden_pickaxe
+  - находка в сундуке minecraft:chests/ruined_portal
+- **minecraft:golden_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:stick, minecraft:stick → 1×minecraft:golden_axe
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_other
+  - игровая механика: gameplay/hero_of_the_village/weaponsmith_gift
+- **minecraft:golden_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:stick, minecraft:stick → 1×minecraft:golden_hoe
+  - находка в сундуке minecraft:chests/ruined_portal
+- **minecraft:iron_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stick → 1×minecraft:iron_sword
+  - выпадает с моба minecraft:evoker
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - находка в сундуке minecraft:chests/buried_treasure
+  - находка в сундуке minecraft:chests/bastion_other
+  - торговля: minecraft:weaponsmith, уровень 1
+- **minecraft:iron_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:stick, minecraft:stick → 1×minecraft:iron_shovel
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - торговля: minecraft:toolsmith, уровень 3
+- **minecraft:iron_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stick, minecraft:stick → 1×minecraft:iron_pickaxe
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/stronghold_crossing
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - торговля: minecraft:toolsmith, уровень 3
+- **minecraft:iron_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stick, minecraft:stick → 1×minecraft:iron_axe
+  - находка в сундуке minecraft:chests/village/village_armorer
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - игровая механика: archaeology/ocean_ruin_warm
+  - игровая механика: gameplay/hero_of_the_village/weaponsmith_gift
+  - игровая механика: archaeology/ocean_ruin_cold
+  - торговля: minecraft:weaponsmith, уровень 1
+  - торговля: minecraft:toolsmith, уровень 3
+- **minecraft:iron_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:stick, minecraft:stick → 1×minecraft:iron_hoe
+- **minecraft:diamond_sword**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:stick → 1×minecraft:diamond_sword
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - торговля: minecraft:weaponsmith, уровень 5
+- **minecraft:diamond_shovel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:stick, minecraft:stick → 1×minecraft:diamond_shovel
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/bastion_other
+  - торговля: minecraft:toolsmith, уровень 4
+- **minecraft:diamond_pickaxe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:stick, minecraft:stick → 1×minecraft:diamond_pickaxe
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/bastion_other
+  - торговля: minecraft:toolsmith, уровень 5
+- **minecraft:diamond_axe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:stick, minecraft:stick → 1×minecraft:diamond_axe
+  - торговля: minecraft:weaponsmith, уровень 4
+  - торговля: minecraft:toolsmith, уровень 4
+- **minecraft:diamond_hoe**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:stick, minecraft:stick → 1×minecraft:diamond_hoe
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - торговля: minecraft:toolsmith, уровень 3
+- **minecraft:netherite_sword**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_sword, minecraft:netherite_ingot → 1×minecraft:netherite_sword
+- **minecraft:netherite_shovel**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_shovel, minecraft:netherite_ingot → 1×minecraft:netherite_shovel
+- **minecraft:netherite_pickaxe**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_pickaxe, minecraft:netherite_ingot → 1×minecraft:netherite_pickaxe
+- **minecraft:netherite_axe**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_axe, minecraft:netherite_ingot → 1×minecraft:netherite_axe
+- **minecraft:netherite_hoe**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_hoe, minecraft:netherite_ingot → 1×minecraft:netherite_hoe
+- **minecraft:stick**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 4×minecraft:stick
+  - добыча из блока minecraft:azalea_leaves: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dead_bush: сломать любым способом (в т.ч. рукой)
+  - добыча из блока admin_control:star_birch_leaves: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:witch
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/village/village_cartographer
+  - … и ещё 6 способов
+- **minecraft:bowl**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 4×minecraft:bowl
+  - рыбалка
+- **minecraft:mushroom_stew**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:brown_mushroom, minecraft:red_mushroom, minecraft:bowl → 1×minecraft:mushroom_stew
+- **minecraft:string**
+  - добыча из блока minecraft:cobweb: сломать инструментом minecraft:wooden_sword или лучше
+  - добыча из блока minecraft:tripwire: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:cat
+  - выпадает с моба minecraft:cave_spider
+  - выпадает с моба minecraft:spider
+  - выпадает с моба minecraft:strider
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - … и ещё 8 способов
+- **minecraft:feather**
+  - выпадает с моба minecraft:chicken
+  - выпадает с моба minecraft:parrot
+  - выпадает с моба naturalist:bluejay
+  - выпадает с моба naturalist:canary
+  - выпадает с моба naturalist:cardinal
+  - выпадает с моба naturalist:duck
+  - выпадает с моба naturalist:finch
+  - выпадает с моба naturalist:robin
+  - … и ещё 6 способов
+- **minecraft:gunpowder**
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:popped_chorus_fruit → 1×minecraft:gunpowder
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: minecraft:popped_chorus_fruit → 1×minecraft:gunpowder
+  - выпадает с моба minecraft:creeper
+  - выпадает с моба minecraft:ghast
+  - выпадает с моба minecraft:witch
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/desert_pyramid
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - игровая механика: archaeology/desert_pyramid
+  - … и ещё 1 способов
+- **minecraft:wheat_seeds**
+  - добыча из блока minecraft:grass: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:fern: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:wheat: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - находка в сундуке minecraft:chests/village/village_armorer
+  - находка в сундуке minecraft:chests/village/village_savanna_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:wheat**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:hay_block → 9×minecraft:wheat
+  - находка в сундуке minecraft:chests/underwater_ruin_small
+  - находка в сундуке minecraft:chests/igloo_chest
+  - находка в сундуке minecraft:chests/village/village_shepherd
+  - находка в сундуке minecraft:chests/village/village_desert_house
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/underwater_ruin_big
+  - находка в сундуке minecraft:chests/pillager_outpost
+  - … и ещё 5 способов
+- **minecraft:bread**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:wheat, minecraft:wheat, minecraft:wheat → 1×minecraft:bread
+  - находка в сундуке minecraft:chests/village/village_mason
+  - находка в сундуке minecraft:chests/village/village_toolsmith
+  - находка в сундуке minecraft:chests/village/village_cartographer
+  - находка в сундуке minecraft:chests/village/village_desert_house
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/village/village_temple
+  - … и ещё 13 способов
+- **minecraft:leather_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather → 1×minecraft:leather_helmet
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/village/village_tannery
+  - торговля: minecraft:leatherworker, уровень 2
+  - торговля: minecraft:leatherworker, уровень 5
+- **minecraft:leather_chestplate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather → 1×minecraft:leather_chestplate
+  - находка в сундуке minecraft:chests/underwater_ruin_small
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/village/village_tannery
+  - находка в сундуке minecraft:chests/buried_treasure
+  - находка в сундуке minecraft:chests/underwater_ruin_big
+  - торговля: minecraft:leatherworker, уровень 1
+  - торговля: minecraft:leatherworker, уровень 3
+- **minecraft:leather_leggings**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather → 1×minecraft:leather_leggings
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/village/village_tannery
+  - торговля: minecraft:leatherworker, уровень 1
+- **minecraft:leather_boots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather → 1×minecraft:leather_boots
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/village/village_tannery
+  - рыбалка
+  - торговля: minecraft:leatherworker, уровень 2
+- **minecraft:chainmail_helmet**
+  - игровая механика: gameplay/hero_of_the_village/armorer_gift
+  - торговля: minecraft:armorer, уровень 3
+- **minecraft:chainmail_chestplate**
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - игровая механика: gameplay/hero_of_the_village/armorer_gift
+  - торговля: minecraft:armorer, уровень 3
+- **minecraft:chainmail_leggings**
+  - игровая механика: gameplay/hero_of_the_village/armorer_gift
+  - торговля: minecraft:armorer, уровень 2
+- **minecraft:chainmail_boots**
+  - игровая механика: gameplay/hero_of_the_village/armorer_gift
+  - торговля: minecraft:armorer, уровень 2
+- **minecraft:iron_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:iron_helmet
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - торговля: minecraft:armorer, уровень 1
+- **minecraft:iron_chestplate**
+  - крафт на «minecraft:smithing_table»: 16 рец.; пример: minecraft:eye_armor_trim_smithing_template, minecraft:netherite_helmet(+15 вар.), minecraft:iron_ingot(+9 вар.) → 1×minecraft:iron_chestplate
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:iron_chestplate
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - торговля: minecraft:armorer, уровень 1
+- **minecraft:iron_leggings**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:iron_leggings
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - торговля: minecraft:armorer, уровень 1
+- **minecraft:iron_boots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:iron_boots
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - торговля: minecraft:armorer, уровень 1
+- **minecraft:diamond_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond → 1×minecraft:diamond_helmet
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - торговля: minecraft:armorer, уровень 5
+- **minecraft:diamond_chestplate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond → 1×minecraft:diamond_chestplate
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - торговля: minecraft:armorer, уровень 5
+- **minecraft:diamond_leggings**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond → 1×minecraft:diamond_leggings
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - торговля: minecraft:armorer, уровень 4
+- **minecraft:diamond_boots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond → 1×minecraft:diamond_boots
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - торговля: minecraft:armorer, уровень 4
+- **minecraft:golden_helmet**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:golden_helmet
+  - находка в сундуке minecraft:chests/underwater_ruin_small
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/underwater_ruin_big
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:golden_chestplate**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:golden_chestplate
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:golden_leggings**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:golden_leggings
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:golden_boots**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:golden_boots
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:netherite_helmet**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_helmet, minecraft:netherite_ingot → 1×minecraft:netherite_helmet
+- **minecraft:netherite_chestplate**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_chestplate, minecraft:netherite_ingot → 1×minecraft:netherite_chestplate
+- **minecraft:netherite_leggings**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_leggings, minecraft:netherite_ingot → 1×minecraft:netherite_leggings
+- **minecraft:netherite_boots**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, minecraft:diamond_boots, minecraft:netherite_ingot → 1×minecraft:netherite_boots
+- **minecraft:flint**
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/village/village_fletcher
+  - торговля: minecraft:fletcher, уровень 1
+- **minecraft:porkchop**
+  - выпадает с моба minecraft:hoglin
+  - выпадает с моба minecraft:pig
+  - выпадает с моба naturalist:boar
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/village/village_butcher
+- **minecraft:cooked_porkchop**
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:porkchop → 1×minecraft:cooked_porkchop
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:porkchop → 1×minecraft:cooked_porkchop
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:porkchop → 1×minecraft:cooked_porkchop
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/bastion_other
+  - игровая механика: gameplay/hero_of_the_village/butcher_gift
+  - торговля: minecraft:butcher, уровень 2
+- **minecraft:painting**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick, minecraft:white_wool(+15 вар.), minecraft:stick, minecraft:stick, minecraft:stick, … (9 слотов) → 1×minecraft:painting
+  - торговля: minecraft:shepherd, уровень 5
+- **minecraft:golden_apple**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:apple, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, … (9 слотов) → 1×minecraft:golden_apple
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/igloo_chest
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - … и ещё 5 способов
+- **minecraft:enchanted_golden_apple**
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **minecraft:oak_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:oak_planks, minecraft:stick → 3×minecraft:oak_sign
+  - добыча из блока minecraft:oak_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:oak_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:spruce_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:spruce_planks, minecraft:stick → 3×minecraft:spruce_sign
+  - добыча из блока minecraft:spruce_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:spruce_wall_sign: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+- **minecraft:birch_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:birch_planks, minecraft:stick → 3×minecraft:birch_sign
+  - добыча из блока minecraft:birch_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:birch_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:jungle_planks, minecraft:stick → 3×minecraft:jungle_sign
+  - добыча из блока minecraft:jungle_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:jungle_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:acacia_planks, minecraft:stick → 3×minecraft:acacia_sign
+  - добыча из блока minecraft:acacia_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:acacia_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:cherry_planks, minecraft:stick → 3×minecraft:cherry_sign
+  - добыча из блока minecraft:cherry_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:cherry_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:dark_oak_planks, minecraft:stick → 3×minecraft:dark_oak_sign
+  - добыча из блока minecraft:dark_oak_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dark_oak_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:mangrove_planks, minecraft:stick → 3×minecraft:mangrove_sign
+  - добыча из блока minecraft:mangrove_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:mangrove_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:bamboo_planks, minecraft:stick → 3×minecraft:bamboo_sign
+  - добыча из блока minecraft:bamboo_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:bamboo_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:crimson_planks, minecraft:stick → 3×minecraft:crimson_sign
+  - добыча из блока minecraft:crimson_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:crimson_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:warped_planks, minecraft:stick → 3×minecraft:warped_sign
+  - добыча из блока minecraft:warped_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:warped_wall_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:oak_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_oak_log, minecraft:stripped_oak_log, minecraft:stripped_oak_log, minecraft:stripped_oak_log, minecraft:stripped_oak_log, minecraft:stripped_oak_log → 6×minecraft:oak_hanging_sign
+  - добыча из блока minecraft:oak_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:oak_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:spruce_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_spruce_log, minecraft:stripped_spruce_log, minecraft:stripped_spruce_log, minecraft:stripped_spruce_log, minecraft:stripped_spruce_log, minecraft:stripped_spruce_log → 6×minecraft:spruce_hanging_sign
+  - добыча из блока minecraft:spruce_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:spruce_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:birch_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_birch_log, minecraft:stripped_birch_log, minecraft:stripped_birch_log, minecraft:stripped_birch_log, minecraft:stripped_birch_log, minecraft:stripped_birch_log → 6×minecraft:birch_hanging_sign
+  - добыча из блока minecraft:birch_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:birch_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:jungle_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_jungle_log, minecraft:stripped_jungle_log, minecraft:stripped_jungle_log, minecraft:stripped_jungle_log, minecraft:stripped_jungle_log, minecraft:stripped_jungle_log → 6×minecraft:jungle_hanging_sign
+  - добыча из блока minecraft:jungle_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:jungle_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:acacia_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_acacia_log, minecraft:stripped_acacia_log, minecraft:stripped_acacia_log, minecraft:stripped_acacia_log, minecraft:stripped_acacia_log, minecraft:stripped_acacia_log → 6×minecraft:acacia_hanging_sign
+  - добыча из блока minecraft:acacia_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:acacia_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:cherry_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_cherry_log, minecraft:stripped_cherry_log, minecraft:stripped_cherry_log, minecraft:stripped_cherry_log, minecraft:stripped_cherry_log, minecraft:stripped_cherry_log → 6×minecraft:cherry_hanging_sign
+  - добыча из блока minecraft:cherry_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:cherry_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:dark_oak_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log, minecraft:stripped_dark_oak_log → 6×minecraft:dark_oak_hanging_sign
+  - добыча из блока minecraft:dark_oak_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dark_oak_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:mangrove_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log, minecraft:stripped_mangrove_log → 6×minecraft:mangrove_hanging_sign
+  - добыча из блока minecraft:mangrove_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:mangrove_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:bamboo_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_bamboo_block, minecraft:stripped_bamboo_block, minecraft:stripped_bamboo_block, minecraft:stripped_bamboo_block, minecraft:stripped_bamboo_block, minecraft:stripped_bamboo_block → 6×minecraft:bamboo_hanging_sign
+  - добыча из блока minecraft:bamboo_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:bamboo_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:crimson_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem, minecraft:stripped_crimson_stem → 6×minecraft:crimson_hanging_sign
+  - добыча из блока minecraft:crimson_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:crimson_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:warped_hanging_sign**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chain, minecraft:chain, minecraft:stripped_warped_stem, minecraft:stripped_warped_stem, minecraft:stripped_warped_stem, minecraft:stripped_warped_stem, minecraft:stripped_warped_stem, minecraft:stripped_warped_stem → 6×minecraft:warped_hanging_sign
+  - добыча из блока minecraft:warped_hanging_sign: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:warped_wall_hanging_sign: сломать любым способом (в т.ч. рукой)
+- **minecraft:bucket**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:bucket
+  - находка в сундуке ad_astra:chests/village/moon/blacksmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/village/village_savanna_house
+  - находка в сундуке minecraft:chests/woodland_mansion
+- **minecraft:water_bucket**
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - находка в сундуке minecraft:chests/village/village_armorer
+- **minecraft:lava_bucket**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:powder_snow_bucket**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:snowball**
+  - добыча из блока minecraft:snow_block: сломать инструментом minecraft:wooden_shovel или лучше
+  - выпадает с моба minecraft:snow_golem
+  - находка в сундуке minecraft:chests/ancient_city_ice_box
+  - находка в сундуке minecraft:chests/village/village_snowy_house
+- **minecraft:leather**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:phantom_membrane, minecraft:phantom_membrane, minecraft:phantom_membrane, minecraft:phantom_membrane → 1×minecraft:leather
+  - выпадает с моба minecraft:cow
+  - выпадает с моба minecraft:donkey
+  - выпадает с моба minecraft:hoglin
+  - выпадает с моба minecraft:horse
+  - выпадает с моба minecraft:llama
+  - выпадает с моба minecraft:mooshroom
+  - выпадает с моба minecraft:mule
+  - выпадает с моба minecraft:trader_llama
+  - … и ещё 10 способов
+- **minecraft:milk_bucket**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:pufferfish_bucket**
+  - торговля: minecraft:wandering_trader, уровень 2
+- **minecraft:salmon_bucket**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:cod_bucket**
+  - торговля: minecraft:fisherman, уровень 1
+- **minecraft:tropical_fish_bucket**
+  - торговля: minecraft:wandering_trader, уровень 2
+- **minecraft:axolotl_bucket**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:tadpole_bucket**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:brick**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:clay_ball → 1×minecraft:brick
+  - игровая механика: archaeology/trail_ruins_common
+  - игровая механика: archaeology/desert_well
+  - торговля: minecraft:mason, уровень 1
+- **minecraft:clay_ball**
+  - добыча из блока minecraft:clay: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_mason
+  - находка в сундуке minecraft:chests/village/village_desert_house
+- **minecraft:dried_kelp_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dried_kelp, minecraft:dried_kelp, minecraft:dried_kelp, minecraft:dried_kelp, minecraft:dried_kelp, minecraft:dried_kelp, minecraft:dried_kelp, minecraft:dried_kelp, … (9 слотов) → 1×minecraft:dried_kelp_block
+  - добыча из блока minecraft:dried_kelp_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:paper**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:water_bucket, minecraft:chorus_plant, minecraft:chorus_plant, minecraft:chorus_plant → 6×minecraft:paper
+  - находка в сундуке minecraft:chests/shipwreck_map
+  - находка в сундуке minecraft:chests/village/village_cartographer
+  - находка в сундуке minecraft:chests/stronghold_library
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - игровая механика: gameplay/hero_of_the_village/cartographer_gift
+- **minecraft:book**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:paper, minecraft:paper, minecraft:paper, minecraft:leather → 1×minecraft:book
+  - добыча из блока minecraft:bookshelf: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/shipwreck_map
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/village/village_desert_house
+  - находка в сундуке minecraft:chests/stronghold_library
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - игровая механика: gameplay/hero_of_the_village/librarian_gift
+- **minecraft:slime_ball**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:water_bucket, minecraft:ender_eye → 3×minecraft:slime_ball
+  - выпадает с моба minecraft:slime
+  - выпадает с моба naturalist:snail
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:egg**
+  - находка в сундуке minecraft:chests/village/village_fletcher
+- **minecraft:compass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:compass
+  - находка в сундуке minecraft:chests/shipwreck_map
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/village/village_cartographer
+  - находка в сундуке minecraft:chests/stronghold_library
+  - торговля: minecraft:librarian, уровень 4
+- **minecraft:recovery_compass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:echo_shard, minecraft:echo_shard, minecraft:echo_shard, minecraft:echo_shard, minecraft:compass, minecraft:echo_shard, minecraft:echo_shard, minecraft:echo_shard, … (9 слотов) → 1×minecraft:recovery_compass
+- **minecraft:bundle**
+  - только команда /give
+- **minecraft:fishing_rod**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stick, minecraft:string, minecraft:stick, minecraft:string → 1×minecraft:fishing_rod
+  - находка в сундуке minecraft:chests/underwater_ruin_small
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/underwater_ruin_big
+  - торговля: minecraft:fisherman, уровень 3
+- **minecraft:clock**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:redstone, minecraft:gold_ingot, minecraft:gold_ingot → 1×minecraft:clock
+  - находка в сундуке minecraft:chests/shipwreck_map
+  - находка в сундуке minecraft:chests/ruined_portal
+  - торговля: minecraft:librarian, уровень 4
+- **minecraft:spyglass**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:amethyst_shard, minecraft:copper_ingot, minecraft:copper_ingot → 1×minecraft:spyglass
+- **minecraft:glowstone_dust**
+  - добыча из блока minecraft:glowstone: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:witch
+- **minecraft:cod**
+  - выпадает с моба minecraft:cod
+  - выпадает с моба minecraft:dolphin
+  - выпадает с моба minecraft:elder_guardian
+  - выпадает с моба minecraft:guardian
+  - выпадает с моба minecraft:polar_bear
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - находка в сундуке minecraft:chests/village/village_armorer
+  - рыбалка
+  - … и ещё 1 способов
+- **minecraft:salmon**
+  - выпадает с моба minecraft:polar_bear
+  - выпадает с моба minecraft:salmon
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - находка в сундуке minecraft:chests/village/village_armorer
+  - находка в сундуке minecraft:chests/spawn_bonus_chest
+  - рыбалка
+  - игровая механика: gameplay/hero_of_the_village/fisherman_gift
+- **minecraft:tropical_fish**
+  - выпадает с моба minecraft:tropical_fish
+  - рыбалка
+- **minecraft:pufferfish**
+  - выпадает с моба minecraft:elder_guardian
+  - выпадает с моба minecraft:pufferfish
+  - рыбалка
+- **minecraft:cooked_cod**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:cod → 1×minecraft:cooked_cod
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:cod → 1×minecraft:cooked_cod
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:cod → 1×minecraft:cooked_cod
+  - находка в сундуке minecraft:chests/buried_treasure
+  - торговля: minecraft:fisherman, уровень 1
+- **minecraft:cooked_salmon**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:salmon → 1×minecraft:cooked_salmon
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:salmon → 1×minecraft:cooked_salmon
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:salmon → 1×minecraft:cooked_salmon
+  - находка в сундуке minecraft:chests/buried_treasure
+  - торговля: minecraft:fisherman, уровень 2
+- **minecraft:ink_sac**
+  - выпадает с моба minecraft:squid
+- **minecraft:glow_ink_sac**
+  - выпадает с моба minecraft:glow_squid
+- **minecraft:cocoa_beans**
+  - добыча из блока minecraft:cocoa: сломать любым способом (в т.ч. рукой)
+- **minecraft:white_dye**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:bone_meal → 1×minecraft:white_dye
+  - игровая механика: archaeology/trail_ruins_common
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:orange_dye**
+  - крафт на «minecraft:crafting_table»: 3 рец.; пример: minecraft:orange_tulip → 1×minecraft:orange_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:magenta_dye**
+  - крафт на «minecraft:crafting_table»: 5 рец.; пример: minecraft:allium → 1×minecraft:magenta_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:light_blue_dye**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:blue_orchid → 1×minecraft:light_blue_dye
+  - игровая механика: archaeology/trail_ruins_common
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:yellow_dye**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:dandelion → 1×minecraft:yellow_dye
+  - находка в сундуке minecraft:chests/village/village_mason
+  - игровая механика: archaeology/trail_ruins_common
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:lime_dye**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:sea_pickle → 1×minecraft:lime_dye
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:green_dye, minecraft:white_dye → 2×minecraft:lime_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:pink_dye**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: minecraft:red_dye, minecraft:white_dye → 2×minecraft:pink_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:gray_dye**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:black_dye, minecraft:white_dye → 2×minecraft:gray_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:light_gray_dye**
+  - крафт на «minecraft:crafting_table»: 5 рец.; пример: minecraft:white_tulip → 1×minecraft:light_gray_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:cyan_dye**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:pitcher_plant → 2×minecraft:cyan_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:purple_dye**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:blue_dye, minecraft:red_dye → 2×minecraft:purple_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:blue_dye**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:lapis_lazuli → 1×minecraft:blue_dye
+  - игровая механика: archaeology/trail_ruins_common
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:brown_dye**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cocoa_beans → 1×minecraft:brown_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:green_dye**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:cactus → 1×minecraft:green_dye
+  - находка в сундуке minecraft:chests/village/village_desert_house
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:red_dye**
+  - крафт на «minecraft:crafting_table»: 4 рец.; пример: minecraft:rose_bush → 2×minecraft:red_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:black_dye**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:ink_sac → 1×minecraft:black_dye
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:bone_meal**
+  - крафт на «minecraft:crafting_table»: 3 рец.; пример: minecraft:bone_block → 9×minecraft:bone_meal
+  - выпадает с моба minecraft:cod
+  - выпадает с моба minecraft:pufferfish
+  - выпадает с моба minecraft:salmon
+  - выпадает с моба naturalist:butterfly
+  - выпадает с моба naturalist:caterpillar
+- **minecraft:bone**
+  - выпадает с моба minecraft:skeleton
+  - выпадает с моба minecraft:skeleton_horse
+  - выпадает с моба minecraft:stray
+  - выпадает с моба minecraft:wither_skeleton
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/jungle_temple
+  - … и ещё 5 способов
+- **minecraft:sugar**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:honey_bottle → 3×minecraft:sugar
+  - выпадает с моба minecraft:witch
+- **minecraft:cake**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:milk_bucket, minecraft:milk_bucket, minecraft:milk_bucket, minecraft:sugar, minecraft:egg, minecraft:sugar, minecraft:wheat, minecraft:wheat, … (9 слотов) → 1×minecraft:cake
+  - торговля: minecraft:farmer, уровень 4
+- **minecraft:white_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:white_wool, minecraft:white_wool, minecraft:white_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:white_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:orange_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:orange_dye, minecraft:black_bed(+14 вар.) → 1×minecraft:orange_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:magenta_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:magenta_wool, minecraft:magenta_wool, minecraft:magenta_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:magenta_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:light_blue_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_blue_dye, minecraft:black_bed(+14 вар.) → 1×minecraft:light_blue_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:yellow_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:yellow_dye, minecraft:black_bed(+14 вар.) → 1×minecraft:yellow_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:lime_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:lime_wool, minecraft:lime_wool, minecraft:lime_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:lime_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:pink_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:pink_wool, minecraft:pink_wool, minecraft:pink_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:pink_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:gray_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:gray_dye, minecraft:black_bed(+14 вар.) → 1×minecraft:gray_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:light_gray_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:light_gray_wool, minecraft:light_gray_wool, minecraft:light_gray_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:light_gray_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:cyan_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:cyan_wool, minecraft:cyan_wool, minecraft:cyan_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:cyan_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:purple_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:purple_dye, minecraft:black_bed(+14 вар.) → 1×minecraft:purple_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:blue_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:blue_wool, minecraft:blue_wool, minecraft:blue_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:blue_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:brown_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:brown_dye, minecraft:black_bed(+14 вар.) → 1×minecraft:brown_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:green_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:green_dye, minecraft:black_bed(+14 вар.) → 1×minecraft:green_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:red_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:red_wool, minecraft:red_wool, minecraft:red_wool, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:red_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:black_bed**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:black_dye, minecraft:blue_bed(+14 вар.) → 1×minecraft:black_bed
+  - торговля: minecraft:shepherd, уровень 3
+- **minecraft:cookie**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:wheat, minecraft:cocoa_beans, minecraft:wheat → 8×minecraft:cookie
+  - игровая механика: gameplay/hero_of_the_village/farmer_gift
+  - торговля: minecraft:farmer, уровень 3
+- **minecraft:filled_map**
+  - находка в сундуке minecraft:chests/shipwreck_map
+  - находка в сундуке minecraft:chests/underwater_ruin_small
+  - находка в сундуке minecraft:chests/underwater_ruin_big
+  - торговля: minecraft:cartographer, уровень 2
+  - торговля: minecraft:cartographer, уровень 3
+- **minecraft:shears**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:shears
+  - находка в сундуке minecraft:chests/village/village_shepherd
+  - торговля: minecraft:shepherd, уровень 1
+- **minecraft:melon_slice**
+  - добыча из блока minecraft:melon: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба naturalist:hippo
+- **minecraft:dried_kelp**
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:kelp → 1×minecraft:dried_kelp
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:kelp → 1×minecraft:dried_kelp
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dried_kelp_block → 9×minecraft:dried_kelp
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:kelp → 1×minecraft:dried_kelp
+- **minecraft:pumpkin_seeds**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:pumpkin → 4×minecraft:pumpkin_seeds
+  - добыча из блока minecraft:attached_pumpkin_stem: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:pumpkin_stem: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:melon_seeds**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:melon_slice → 1×minecraft:melon_seeds
+  - добыча из блока minecraft:attached_melon_stem: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:melon_stem: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:beef**
+  - выпадает с моба minecraft:cow
+  - выпадает с моба minecraft:mooshroom
+  - находка в сундуке minecraft:chests/village/village_butcher
+- **minecraft:cooked_beef**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:beef → 1×minecraft:cooked_beef
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:beef → 1×minecraft:cooked_beef
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:beef → 1×minecraft:cooked_beef
+  - игровая механика: gameplay/hero_of_the_village/butcher_gift
+  - бокс админов: в 2 из 2 наборов (шанс ≈ 100%)
+- **minecraft:chicken**
+  - выпадает с моба minecraft:chicken
+- **minecraft:cooked_chicken**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:chicken → 1×minecraft:cooked_chicken
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:chicken → 1×minecraft:cooked_chicken
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:chicken → 1×minecraft:cooked_chicken
+  - игровая механика: gameplay/hero_of_the_village/butcher_gift
+  - торговля: minecraft:butcher, уровень 2
+- **minecraft:rotten_flesh**
+  - выпадает с моба minecraft:drowned
+  - выпадает с моба minecraft:husk
+  - выпадает с моба minecraft:zoglin
+  - выпадает с моба minecraft:zombie
+  - выпадает с моба minecraft:zombie_horse
+  - выпадает с моба minecraft:zombie_villager
+  - выпадает с моба minecraft:zombified_piglin
+  - выпадает с моба naturalist:vulture
+  - … и ещё 12 способов
+- **minecraft:ender_pearl**
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - торговля: minecraft:cleric, уровень 4
+  - бокс админов: в 1 из 2 наборов (шанс ≈ 50%)
+- **minecraft:blaze_rod**
+  - выпадает с моба minecraft:blaze
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:ghast_tear**
+  - выпадает с моба minecraft:ghast
+- **minecraft:gold_nugget**
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: minecraft:golden_pickaxe(+9 вар.) → 1×minecraft:gold_nugget
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:golden_pickaxe(+9 вар.) → 1×minecraft:gold_nugget
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot → 9×minecraft:gold_nugget
+  - добыча из блока minecraft:nether_gold_ore: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - выпадает с моба minecraft:zombified_piglin
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/igloo_chest
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/shipwreck_treasure
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - … и ещё 6 способов
+- **minecraft:nether_wart**
+  - добыча из блока minecraft:nether_wart: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/nether_bridge
+- **minecraft:potion**
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/buried_treasure
+  - рыбалка
+- **minecraft:glass_bottle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass, minecraft:glass, minecraft:glass → 3×minecraft:glass_bottle
+  - выпадает с моба minecraft:witch
+- **minecraft:spider_eye**
+  - выпадает с моба minecraft:cave_spider
+  - выпадает с моба minecraft:spider
+  - выпадает с моба minecraft:witch
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **minecraft:fermented_spider_eye**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:spider_eye, minecraft:brown_mushroom, minecraft:sugar → 1×minecraft:fermented_spider_eye
+- **minecraft:blaze_powder**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blaze_rod → 2×minecraft:blaze_powder
+- **minecraft:magma_cream**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blaze_powder, minecraft:slime_ball → 1×minecraft:magma_cream
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:brewing_stand**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blaze_rod, minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.), minecraft:cobblestone(+11 вар.) → 1×minecraft:brewing_stand
+  - добыча из блока minecraft:brewing_stand: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cauldron**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×minecraft:cauldron
+  - добыча из блока minecraft:cauldron: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:water_cauldron: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:lava_cauldron: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - добыча из блока minecraft:powder_snow_cauldron: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:ender_eye**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:ender_pearl, minecraft:blaze_powder → 1×minecraft:ender_eye
+- **minecraft:glistering_melon_slice**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_nugget, minecraft:gold_nugget, minecraft:gold_nugget, minecraft:gold_nugget, minecraft:melon_slice, minecraft:gold_nugget, minecraft:gold_nugget, minecraft:gold_nugget, … (9 слотов) → 1×minecraft:glistering_melon_slice
+  - находка в сундуке minecraft:chests/ruined_portal
+  - торговля: minecraft:farmer, уровень 5
+- **minecraft:allay_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:axolotl_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:bat_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:bee_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:blaze_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:cat_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:camel_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:cave_spider_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:chicken_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:cod_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:cow_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:creeper_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:dolphin_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:donkey_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:drowned_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:elder_guardian_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:ender_dragon_spawn_egg**
+  - только команда /give
+- **minecraft:enderman_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:endermite_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:evoker_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:fox_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:frog_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:ghast_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:glow_squid_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:goat_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:guardian_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:hoglin_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:horse_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:husk_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:iron_golem_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:llama_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:magma_cube_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:mooshroom_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:mule_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:ocelot_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:panda_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:parrot_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:phantom_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:pig_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:piglin_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:piglin_brute_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:pillager_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:polar_bear_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:pufferfish_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:rabbit_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:ravager_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:salmon_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:sheep_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:shulker_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:silverfish_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:skeleton_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:skeleton_horse_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:slime_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:sniffer_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:snow_golem_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:spider_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:squid_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:stray_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:strider_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:tadpole_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:trader_llama_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:tropical_fish_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:turtle_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:vex_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:villager_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:vindicator_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:wandering_trader_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:warden_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:witch_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:wither_spawn_egg**
+  - только команда /give
+- **minecraft:wither_skeleton_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:wolf_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:zoglin_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:zombie_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:zombie_horse_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:zombie_villager_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:zombified_piglin_spawn_egg**
+  - только творческий режим, вкладка itemGroup.spawnEggs или /give
+- **minecraft:experience_bottle**
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/shipwreck_treasure
+  - находка в сундуке minecraft:chests/pillager_outpost
+  - торговля: minecraft:cleric, уровень 5
+- **minecraft:fire_charge**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gunpowder, minecraft:blaze_powder, minecraft:coal(+1 вар.) → 3×minecraft:fire_charge
+  - находка в сундуке minecraft:chests/ruined_portal
+- **minecraft:writable_book**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:book, minecraft:ink_sac, minecraft:feather → 1×minecraft:writable_book
+- **minecraft:written_book**
+  - только команда /give
+- **minecraft:item_frame**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick, minecraft:leather, minecraft:stick, minecraft:stick, minecraft:stick, … (9 слотов) → 1×minecraft:item_frame
+  - торговля: minecraft:cartographer, уровень 4
+- **minecraft:glow_item_frame**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:item_frame, minecraft:glow_ink_sac → 1×minecraft:glow_item_frame
+- **minecraft:flower_pot**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:brick, minecraft:brick, minecraft:brick → 1×minecraft:flower_pot
+  - добыча из блока minecraft:flower_pot: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_torchflower: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_oak_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_spruce_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_birch_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_jungle_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_acacia_sapling: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:potted_cherry_sapling: сломать любым способом (в т.ч. рукой)
+  - … и ещё 16 способов
+- **minecraft:carrot**
+  - добыча из блока minecraft:carrots: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/pillager_outpost
+- **minecraft:potato**
+  - добыча из блока minecraft:potatoes: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:zombie
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/village/village_snowy_house
+  - находка в сундуке minecraft:chests/village/village_plains_house
+  - находка в сундуке minecraft:chests/pillager_outpost
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+- **minecraft:baked_potato**
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:potato → 1×minecraft:baked_potato
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:potato → 1×minecraft:baked_potato
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:potato → 1×minecraft:baked_potato
+  - находка в сундуке minecraft:chests/ancient_city_ice_box
+- **minecraft:poisonous_potato**
+  - находка в сундуке minecraft:chests/shipwreck_supply
+- **minecraft:map**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:paper, minecraft:paper, minecraft:paper, minecraft:paper, minecraft:filled_map, minecraft:paper, minecraft:paper, minecraft:paper, … (9 слотов) → 1×minecraft:map
+  - находка в сундуке minecraft:chests/shipwreck_map
+  - находка в сундуке minecraft:chests/village/village_cartographer
+  - находка в сундуке minecraft:chests/stronghold_library
+  - игровая механика: gameplay/hero_of_the_village/cartographer_gift
+  - торговля: minecraft:cartographer, уровень 1
+- **minecraft:golden_carrot**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_nugget, minecraft:gold_nugget, minecraft:gold_nugget, minecraft:gold_nugget, minecraft:carrot, minecraft:gold_nugget, minecraft:gold_nugget, minecraft:gold_nugget, … (9 слотов) → 1×minecraft:golden_carrot
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/ancient_city_ice_box
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/bastion_other
+  - торговля: minecraft:farmer, уровень 5
+- **minecraft:skeleton_skull**
+  - добыча из блока minecraft:skeleton_skull: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:skeleton_wall_skull: сломать любым способом (в т.ч. рукой)
+- **minecraft:wither_skeleton_skull**
+  - добыча из блока minecraft:wither_skeleton_skull: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:wither_skeleton_wall_skull: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:wither_skeleton
+- **minecraft:player_head**
+  - добыча из блока minecraft:player_head: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:player_wall_head: сломать любым способом (в т.ч. рукой)
+- **minecraft:zombie_head**
+  - добыча из блока minecraft:zombie_head: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:zombie_wall_head: сломать любым способом (в т.ч. рукой)
+- **minecraft:creeper_head**
+  - добыча из блока minecraft:creeper_head: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:creeper_wall_head: сломать любым способом (в т.ч. рукой)
+- **minecraft:dragon_head**
+  - добыча из блока minecraft:dragon_head: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:dragon_wall_head: сломать любым способом (в т.ч. рукой)
+  - особая механика: dragon_head
+- **minecraft:piglin_head**
+  - добыча из блока minecraft:piglin_head: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:piglin_wall_head: сломать любым способом (в т.ч. рукой)
+- **minecraft:nether_star**
+  - особая механика: nether_star
+- **minecraft:pumpkin_pie**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:pumpkin, minecraft:sugar, minecraft:egg → 1×minecraft:pumpkin_pie
+  - игровая механика: gameplay/hero_of_the_village/farmer_gift
+  - торговля: minecraft:farmer, уровень 2
+- **minecraft:firework_rocket**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gunpowder, minecraft:paper → 3×minecraft:firework_rocket
+- **minecraft:firework_star**
+  - только творческий режим, вкладка itemGroup.ingredients или /give
+- **minecraft:enchanted_book**
+  - находка в сундуке ad_astra:chests/dungeon/moon/dungeon_chest
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/stronghold_library
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/stronghold_crossing
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - … и ещё 10 способов
+- **minecraft:nether_brick**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:netherrack → 1×minecraft:nether_brick
+  - находка в сундуке minecraft:chests/nether_bridge
+- **minecraft:prismarine_shard**
+  - выпадает с моба minecraft:elder_guardian
+  - выпадает с моба minecraft:guardian
+- **minecraft:prismarine_crystals**
+  - добыча из блока minecraft:sea_lantern: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:elder_guardian
+  - выпадает с моба minecraft:guardian
+  - находка в сундуке minecraft:chests/buried_treasure
+- **minecraft:rabbit**
+  - выпадает с моба minecraft:rabbit
+- **minecraft:cooked_rabbit**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:rabbit → 1×minecraft:cooked_rabbit
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:rabbit → 1×minecraft:cooked_rabbit
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:rabbit → 1×minecraft:cooked_rabbit
+  - игровая механика: gameplay/hero_of_the_village/butcher_gift
+- **minecraft:rabbit_stew**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:baked_potato, minecraft:cooked_rabbit, minecraft:bowl, minecraft:carrot, minecraft:brown_mushroom → 1×minecraft:rabbit_stew
+  - торговля: minecraft:butcher, уровень 1
+- **minecraft:rabbit_foot**
+  - выпадает с моба minecraft:rabbit
+- **minecraft:rabbit_hide**
+  - выпадает с моба minecraft:rabbit
+- **minecraft:armor_stand**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick, minecraft:stick, minecraft:smooth_stone_slab, minecraft:stick → 1×minecraft:armor_stand
+- **minecraft:iron_horse_armor**
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/jungle_temple
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **minecraft:golden_horse_armor**
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/jungle_temple
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **minecraft:diamond_horse_armor**
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/jungle_temple
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/village/village_weaponsmith
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/stronghold_corridor
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **minecraft:leather_horse_armor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather, minecraft:leather → 1×minecraft:leather_horse_armor
+  - торговля: minecraft:leatherworker, уровень 4
+- **minecraft:lead**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:string, minecraft:string, minecraft:string, minecraft:slime_ball, minecraft:string → 2×minecraft:lead
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:name_tag**
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - торговля: minecraft:librarian, уровень 5
+- **minecraft:command_block_minecart**
+  - только вкладка операторских предметов или /give
+- **minecraft:mutton**
+  - выпадает с моба minecraft:sheep
+  - находка в сундуке minecraft:chests/village/village_butcher
+- **minecraft:cooked_mutton**
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:mutton → 1×minecraft:cooked_mutton
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:mutton → 1×minecraft:cooked_mutton
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:mutton → 1×minecraft:cooked_mutton
+  - игровая механика: gameplay/hero_of_the_village/butcher_gift
+- **minecraft:white_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:white_wool, minecraft:white_wool, minecraft:white_wool, minecraft:white_wool, minecraft:white_wool, minecraft:white_wool, minecraft:stick → 1×minecraft:white_banner
+  - добыча из блока minecraft:white_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:white_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:orange_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:orange_wool, minecraft:orange_wool, minecraft:orange_wool, minecraft:orange_wool, minecraft:orange_wool, minecraft:orange_wool, minecraft:stick → 1×minecraft:orange_banner
+  - добыча из блока minecraft:orange_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:orange_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:magenta_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:magenta_wool, minecraft:magenta_wool, minecraft:magenta_wool, minecraft:magenta_wool, minecraft:magenta_wool, minecraft:magenta_wool, minecraft:stick → 1×minecraft:magenta_banner
+  - добыча из блока minecraft:magenta_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:magenta_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:light_blue_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:light_blue_wool, minecraft:light_blue_wool, minecraft:light_blue_wool, minecraft:light_blue_wool, minecraft:light_blue_wool, minecraft:light_blue_wool, minecraft:stick → 1×minecraft:light_blue_banner
+  - добыча из блока minecraft:light_blue_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:light_blue_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:yellow_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:yellow_wool, minecraft:yellow_wool, minecraft:yellow_wool, minecraft:yellow_wool, minecraft:yellow_wool, minecraft:yellow_wool, minecraft:stick → 1×minecraft:yellow_banner
+  - добыча из блока minecraft:yellow_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:yellow_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:lime_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:lime_wool, minecraft:lime_wool, minecraft:lime_wool, minecraft:lime_wool, minecraft:lime_wool, minecraft:lime_wool, minecraft:stick → 1×minecraft:lime_banner
+  - добыча из блока minecraft:lime_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:lime_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:pink_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:pink_wool, minecraft:pink_wool, minecraft:pink_wool, minecraft:pink_wool, minecraft:pink_wool, minecraft:pink_wool, minecraft:stick → 1×minecraft:pink_banner
+  - добыча из блока minecraft:pink_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:pink_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:gray_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gray_wool, minecraft:gray_wool, minecraft:gray_wool, minecraft:gray_wool, minecraft:gray_wool, minecraft:gray_wool, minecraft:stick → 1×minecraft:gray_banner
+  - добыча из блока minecraft:gray_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:gray_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:light_gray_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:light_gray_wool, minecraft:light_gray_wool, minecraft:light_gray_wool, minecraft:light_gray_wool, minecraft:light_gray_wool, minecraft:light_gray_wool, minecraft:stick → 1×minecraft:light_gray_banner
+  - добыча из блока minecraft:light_gray_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:light_gray_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:cyan_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:cyan_wool, minecraft:cyan_wool, minecraft:cyan_wool, minecraft:cyan_wool, minecraft:cyan_wool, minecraft:cyan_wool, minecraft:stick → 1×minecraft:cyan_banner
+  - добыча из блока minecraft:cyan_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:cyan_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:purple_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:purple_wool, minecraft:purple_wool, minecraft:purple_wool, minecraft:purple_wool, minecraft:purple_wool, minecraft:purple_wool, minecraft:stick → 1×minecraft:purple_banner
+  - добыча из блока minecraft:purple_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:purple_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:blue_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blue_wool, minecraft:blue_wool, minecraft:blue_wool, minecraft:blue_wool, minecraft:blue_wool, minecraft:blue_wool, minecraft:stick → 1×minecraft:blue_banner
+  - добыча из блока minecraft:blue_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:blue_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:brown_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:brown_wool, minecraft:brown_wool, minecraft:brown_wool, minecraft:brown_wool, minecraft:brown_wool, minecraft:brown_wool, minecraft:stick → 1×minecraft:brown_banner
+  - добыча из блока minecraft:brown_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:brown_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:green_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:green_wool, minecraft:green_wool, minecraft:green_wool, minecraft:green_wool, minecraft:green_wool, minecraft:green_wool, minecraft:stick → 1×minecraft:green_banner
+  - добыча из блока minecraft:green_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:green_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:red_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:red_wool, minecraft:red_wool, minecraft:red_wool, minecraft:red_wool, minecraft:red_wool, minecraft:red_wool, minecraft:stick → 1×minecraft:red_banner
+  - добыча из блока minecraft:red_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:red_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:black_banner**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:black_wool, minecraft:black_wool, minecraft:black_wool, minecraft:black_wool, minecraft:black_wool, minecraft:black_wool, minecraft:stick → 1×minecraft:black_banner
+  - добыча из блока minecraft:black_banner: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:black_wall_banner: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:cartographer, уровень 4
+  - торговля: minecraft:shepherd, уровень 4
+- **minecraft:end_crystal**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), minecraft:ender_eye, minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), minecraft:obsidian(+1 вар.), … (9 слотов) → 1×minecraft:end_crystal
+- **minecraft:chorus_fruit**
+  - добыча из блока minecraft:chorus_plant: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба minecraft:enderman
+- **minecraft:popped_chorus_fruit**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:chorus_fruit → 1×minecraft:popped_chorus_fruit
+- **minecraft:torchflower_seeds**
+  - добыча из блока minecraft:torchflower_crop: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/sniffer_digging
+- **minecraft:pitcher_pod**
+  - добыча из блока minecraft:pitcher_crop: сломать любым способом (в т.ч. рукой)
+  - игровая механика: gameplay/sniffer_digging
+- **minecraft:beetroot**
+  - только творческий режим, вкладка itemGroup.foodAndDrink или /give
+- **minecraft:beetroot_seeds**
+  - добыча из блока minecraft:beetroots: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/end_city_treasure
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/village/village_snowy_house
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/woodland_mansion
+  - игровая механика: archaeology/trail_ruins_common
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:beetroot_soup**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bowl, minecraft:beetroot, minecraft:beetroot, minecraft:beetroot, minecraft:beetroot, minecraft:beetroot, minecraft:beetroot → 1×minecraft:beetroot_soup
+  - находка в сундуке minecraft:chests/village/village_snowy_house
+- **minecraft:dragon_breath**
+  - особая механика: dragon_breath
+- **minecraft:splash_potion**
+  - только творческий режим, вкладка itemGroup.foodAndDrink или /give
+- **minecraft:spectral_arrow**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: naturalist:glow_goop, naturalist:glow_goop, naturalist:glow_goop, naturalist:glow_goop, minecraft:arrow, naturalist:glow_goop, naturalist:glow_goop, naturalist:glow_goop, … (9 слотов) → 2×minecraft:spectral_arrow
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:tipped_arrow**
+  - выпадает с моба minecraft:stray
+  - игровая механика: gameplay/hero_of_the_village/fletcher_gift
+  - торговля: minecraft:fletcher, уровень 5
+- **minecraft:lingering_potion**
+  - только творческий режим, вкладка itemGroup.foodAndDrink или /give
+- **minecraft:shield**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:iron_ingot, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:shield
+  - торговля: minecraft:armorer, уровень 3
+- **minecraft:totem_of_undying**
+  - выпадает с моба minecraft:evoker
+- **minecraft:shulker_shell**
+  - выпадает с моба minecraft:shulker
+- **minecraft:iron_nugget**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:iron_pickaxe(+13 вар.) → 1×minecraft:iron_nugget
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: minecraft:iron_pickaxe(+13 вар.) → 1×minecraft:iron_nugget
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot → 9×minecraft:iron_nugget
+  - находка в сундуке minecraft:chests/ruined_portal
+  - находка в сундуке minecraft:chests/shipwreck_treasure
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+  - находка в сундуке ad_astra:chests/village/moon/house
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:knowledge_book**
+  - только команда /give
+- **minecraft:debug_stick**
+  - только вкладка операторских предметов или /give
+- **minecraft:music_disc_13**
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/woodland_mansion
+- **minecraft:music_disc_cat**
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/simple_dungeon
+  - находка в сундуке minecraft:chests/woodland_mansion
+- **minecraft:music_disc_blocks**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_chirp**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_far**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_mall**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_mellohi**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_stal**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_strad**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_ward**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_11**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_wait**
+  - только творческий режим, вкладка itemGroup.tools или /give
+- **minecraft:music_disc_otherside**
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/stronghold_corridor
+- **minecraft:music_disc_relic**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:music_disc_5**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:disc_fragment_5, minecraft:disc_fragment_5, minecraft:disc_fragment_5, minecraft:disc_fragment_5, minecraft:disc_fragment_5, minecraft:disc_fragment_5, minecraft:disc_fragment_5, minecraft:disc_fragment_5, … (9 слотов) → 1×minecraft:music_disc_5
+- **minecraft:music_disc_pigstep**
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:disc_fragment_5**
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:trident**
+  - только творческий режим, вкладка itemGroup.combat или /give
+- **minecraft:phantom_membrane**
+  - только творческий режим, вкладка itemGroup.ingredients или /give
+- **minecraft:nautilus_shell**
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:heart_of_the_sea**
+  - находка в сундуке minecraft:chests/buried_treasure
+- **minecraft:crossbow**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:iron_ingot, minecraft:stick, minecraft:string, minecraft:tripwire_hook, minecraft:string, minecraft:stick → 1×minecraft:crossbow
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/pillager_outpost
+  - находка в сундуке minecraft:chests/bastion_other
+  - торговля: minecraft:fletcher, уровень 3
+  - торговля: minecraft:fletcher, уровень 5
+- **minecraft:suspicious_stew**
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/ancient_city_ice_box
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - игровая механика: archaeology/desert_well
+  - торговля: minecraft:farmer, уровень 4
+- **minecraft:loom**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:string, minecraft:string, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:loom
+  - добыча из блока minecraft:loom: сломать любым способом (в т.ч. рукой)
+- **minecraft:flower_banner_pattern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:paper, minecraft:oxeye_daisy → 1×minecraft:flower_banner_pattern
+- **minecraft:creeper_banner_pattern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:paper, minecraft:creeper_head → 1×minecraft:creeper_banner_pattern
+- **minecraft:skull_banner_pattern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:paper, minecraft:wither_skeleton_skull → 1×minecraft:skull_banner_pattern
+- **minecraft:mojang_banner_pattern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:paper, minecraft:enchanted_golden_apple → 1×minecraft:mojang_banner_pattern
+- **minecraft:globe_banner_pattern**
+  - торговля: minecraft:cartographer, уровень 5
+- **minecraft:piglin_banner_pattern**
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:goat_horn**
+  - находка в сундуке minecraft:chests/pillager_outpost
+- **minecraft:composter**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_slab(+15 вар.) → 1×minecraft:composter
+  - добыча из блока minecraft:composter: сломать любым способом (в т.ч. рукой)
+- **minecraft:barrel**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_slab(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:barrel
+  - добыча из блока minecraft:barrel: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/village/village_fisher
+  - находка в сундуке minecraft:chests/village/village_armorer
+- **minecraft:smoker**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.), minecraft:furnace, minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.) → 1×minecraft:smoker
+  - добыча из блока minecraft:smoker: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:blast_furnace**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:furnace, minecraft:iron_ingot, minecraft:smooth_stone, minecraft:smooth_stone, … (9 слотов) → 1×minecraft:blast_furnace
+  - добыча из блока minecraft:blast_furnace: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cartography_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:paper, minecraft:paper, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:cartography_table
+  - добыча из блока minecraft:cartography_table: сломать любым способом (в т.ч. рукой)
+- **minecraft:fletching_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:flint, minecraft:flint, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:fletching_table
+  - добыча из блока minecraft:fletching_table: сломать любым способом (в т.ч. рукой)
+- **minecraft:grindstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stone_slab, minecraft:stick, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:grindstone
+  - добыча из блока minecraft:grindstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:smithing_table**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.) → 1×minecraft:smithing_table
+  - добыча из блока minecraft:smithing_table: сломать любым способом (в т.ч. рукой)
+- **minecraft:stonecutter**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:stone, minecraft:stone, minecraft:stone → 1×minecraft:stonecutter
+  - добыча из блока minecraft:stonecutter: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:bell**
+  - добыча из блока minecraft:bell: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:armorer, уровень 2
+  - торговля: minecraft:weaponsmith, уровень 2
+  - торговля: minecraft:toolsmith, уровень 2
+- **minecraft:lantern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_nugget, minecraft:iron_nugget, minecraft:iron_nugget, minecraft:iron_nugget, minecraft:torch, minecraft:iron_nugget, minecraft:iron_nugget, minecraft:iron_nugget, … (9 слотов) → 1×minecraft:lantern
+  - добыча из блока minecraft:lantern: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - торговля: minecraft:librarian, уровень 2
+- **minecraft:soul_lantern**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_nugget, minecraft:iron_nugget, minecraft:iron_nugget, minecraft:iron_nugget, minecraft:soul_torch, minecraft:iron_nugget, minecraft:iron_nugget, minecraft:iron_nugget, … (9 слотов) → 1×minecraft:soul_lantern
+  - добыча из блока minecraft:soul_lantern: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:sweet_berries**
+  - находка в сундуке minecraft:chests/village/village_taiga_house
+- **minecraft:glow_berries**
+  - находка в сундуке ad_astra:chests/temple/mars/temple
+  - находка в сундуке minecraft:chests/ancient_city
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+- **minecraft:campfire**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stick, minecraft:coal(+1 вар.), minecraft:stick, minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.) → 1×minecraft:campfire
+  - добыча из блока minecraft:campfire: добыть шёлковым касанием
+  - торговля: minecraft:fisherman, уровень 2
+- **minecraft:soul_campfire**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:stick, minecraft:soul_sand(+1 вар.), minecraft:stick, minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.), minecraft:dark_oak_log(+15 вар.) → 1×minecraft:soul_campfire
+  - добыча из блока minecraft:soul_campfire: добыть шёлковым касанием
+- **minecraft:shroomlight**
+  - добыча из блока minecraft:shroomlight: сломать любым способом (в т.ч. рукой)
+- **minecraft:honeycomb**
+  - только творческий режим, вкладка itemGroup.ingredients или /give
+- **minecraft:bee_nest**
+  - добыча из блока minecraft:bee_nest: добыть шёлковым касанием
+- **minecraft:beehive**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), minecraft:honeycomb, minecraft:honeycomb, minecraft:honeycomb, minecraft:oak_planks(+15 вар.), minecraft:oak_planks(+15 вар.), … (9 слотов) → 1×minecraft:beehive
+  - добыча из блока minecraft:beehive: сломать любым способом (в т.ч. рукой)
+- **minecraft:honey_bottle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:honey_block, minecraft:glass_bottle, minecraft:glass_bottle, minecraft:glass_bottle, minecraft:glass_bottle → 4×minecraft:honey_bottle
+- **minecraft:honeycomb_block**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:honeycomb, minecraft:honeycomb, minecraft:honeycomb, minecraft:honeycomb → 1×minecraft:honeycomb_block
+  - добыча из блока minecraft:honeycomb_block: сломать любым способом (в т.ч. рукой)
+- **minecraft:lodestone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:chiseled_stone_bricks, minecraft:chiseled_stone_bricks, minecraft:chiseled_stone_bricks, minecraft:chiseled_stone_bricks, minecraft:netherite_ingot, minecraft:chiseled_stone_bricks, minecraft:chiseled_stone_bricks, minecraft:chiseled_stone_bricks, … (9 слотов) → 1×minecraft:lodestone
+  - добыча из блока minecraft:lodestone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_bridge
+- **minecraft:crying_obsidian**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:obsidian, minecraft:popped_chorus_fruit, minecraft:popped_chorus_fruit, minecraft:popped_chorus_fruit → 2×minecraft:crying_obsidian
+  - добыча из блока minecraft:crying_obsidian: сломать инструментом minecraft:diamond_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:blackstone**
+  - добыча из блока minecraft:blackstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:blackstone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blackstone, minecraft:blackstone, minecraft:blackstone → 6×minecraft:blackstone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:blackstone → 2×minecraft:blackstone_slab
+  - добыча из блока minecraft:blackstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:blackstone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blackstone, minecraft:blackstone, minecraft:blackstone, minecraft:blackstone, minecraft:blackstone, minecraft:blackstone → 4×minecraft:blackstone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:blackstone → 1×minecraft:blackstone_stairs
+  - добыча из блока minecraft:blackstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:gilded_blackstone**
+  - добыча из блока minecraft:gilded_blackstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:polished_blackstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:blackstone, minecraft:blackstone, minecraft:blackstone, minecraft:blackstone → 4×minecraft:polished_blackstone
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: minecraft:blackstone → 1×minecraft:polished_blackstone
+  - добыча из блока minecraft:polished_blackstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_slab**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:blackstone → 2×minecraft:polished_blackstone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone → 6×minecraft:polished_blackstone_slab
+  - добыча из блока minecraft:polished_blackstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_stairs**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:blackstone → 1×minecraft:polished_blackstone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone → 4×minecraft:polished_blackstone_stairs
+  - добыча из блока minecraft:polished_blackstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:chiseled_polished_blackstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone_slab, minecraft:polished_blackstone_slab → 1×minecraft:chiseled_polished_blackstone
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:blackstone → 1×minecraft:chiseled_polished_blackstone
+  - добыча из блока minecraft:chiseled_polished_blackstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_bricks**
+  - крафт на «minecraft:stonecutter»: 2 рец.; пример: minecraft:blackstone → 1×minecraft:polished_blackstone_bricks
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone, minecraft:polished_blackstone → 4×minecraft:polished_blackstone_bricks
+  - добыча из блока minecraft:polished_blackstone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_brick_slab**
+  - крафт на «minecraft:stonecutter»: 3 рец.; пример: minecraft:polished_blackstone_bricks → 2×minecraft:polished_blackstone_brick_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks → 6×minecraft:polished_blackstone_brick_slab
+  - добыча из блока minecraft:polished_blackstone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:polished_blackstone_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks, minecraft:polished_blackstone_bricks → 4×minecraft:polished_blackstone_brick_stairs
+  - крафт на «minecraft:stonecutter»: 3 рец.; пример: minecraft:blackstone → 1×minecraft:polished_blackstone_brick_stairs
+  - добыча из блока minecraft:polished_blackstone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:cracked_polished_blackstone_bricks**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:polished_blackstone_bricks → 1×minecraft:cracked_polished_blackstone_bricks
+  - добыча из блока minecraft:cracked_polished_blackstone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **minecraft:respawn_anchor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crying_obsidian, minecraft:crying_obsidian, minecraft:crying_obsidian, minecraft:glowstone, minecraft:glowstone, minecraft:glowstone, minecraft:crying_obsidian, minecraft:crying_obsidian, … (9 слотов) → 1×minecraft:respawn_anchor
+  - добыча из блока minecraft:respawn_anchor: сломать инструментом minecraft:diamond_pickaxe или лучше
+- **minecraft:candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:string, minecraft:honeycomb → 1×minecraft:candle
+  - добыча из блока minecraft:candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:candle_cake: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:white_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:white_dye → 1×minecraft:white_candle
+  - добыча из блока minecraft:white_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:white_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:orange_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:orange_dye → 1×minecraft:orange_candle
+  - добыча из блока minecraft:orange_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:orange_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:magenta_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:magenta_dye → 1×minecraft:magenta_candle
+  - добыча из блока minecraft:magenta_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:magenta_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:light_blue_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:light_blue_dye → 1×minecraft:light_blue_candle
+  - добыча из блока minecraft:light_blue_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:light_blue_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:yellow_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:yellow_dye → 1×minecraft:yellow_candle
+  - добыча из блока minecraft:yellow_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:yellow_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:lime_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:lime_dye → 1×minecraft:lime_candle
+  - добыча из блока minecraft:lime_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:lime_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:pink_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:pink_dye → 1×minecraft:pink_candle
+  - добыча из блока minecraft:pink_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:pink_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:gray_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:gray_dye → 1×minecraft:gray_candle
+  - добыча из блока minecraft:gray_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:gray_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:light_gray_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:light_gray_dye → 1×minecraft:light_gray_candle
+  - добыча из блока minecraft:light_gray_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:light_gray_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:cyan_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:cyan_dye → 1×minecraft:cyan_candle
+  - добыча из блока minecraft:cyan_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:cyan_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:purple_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:purple_dye → 1×minecraft:purple_candle
+  - добыча из блока minecraft:purple_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:purple_candle_cake: сломать любым способом (в т.ч. рукой)
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:blue_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:blue_dye → 1×minecraft:blue_candle
+  - добыча из блока minecraft:blue_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:blue_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:brown_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:brown_dye → 1×minecraft:brown_candle
+  - добыча из блока minecraft:brown_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:brown_candle_cake: сломать любым способом (в т.ч. рукой)
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:green_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:green_dye → 1×minecraft:green_candle
+  - добыча из блока minecraft:green_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:green_candle_cake: сломать любым способом (в т.ч. рукой)
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:red_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:red_dye → 1×minecraft:red_candle
+  - добыча из блока minecraft:red_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:red_candle_cake: сломать любым способом (в т.ч. рукой)
+  - игровая механика: archaeology/trail_ruins_common
+- **minecraft:black_candle**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:candle, minecraft:black_dye → 1×minecraft:black_candle
+  - добыча из блока minecraft:black_candle: сломать любым способом (в т.ч. рукой)
+  - добыча из блока minecraft:black_candle_cake: сломать любым способом (в т.ч. рукой)
+- **minecraft:small_amethyst_bud**
+  - добыча из блока minecraft:small_amethyst_bud: добыть шёлковым касанием
+- **minecraft:medium_amethyst_bud**
+  - добыча из блока minecraft:medium_amethyst_bud: добыть шёлковым касанием
+- **minecraft:large_amethyst_bud**
+  - добыча из блока minecraft:large_amethyst_bud: добыть шёлковым касанием
+- **minecraft:amethyst_cluster**
+  - добыча из блока minecraft:amethyst_cluster: добыть шёлковым касанием
+- **minecraft:pointed_dripstone**
+  - добыча из блока minecraft:pointed_dripstone: сломать любым способом (в т.ч. рукой)
+  - торговля: minecraft:wandering_trader, уровень 1
+- **minecraft:ochre_froglight**
+  - добыча из блока minecraft:ochre_froglight: сломать любым способом (в т.ч. рукой)
+- **minecraft:verdant_froglight**
+  - добыча из блока minecraft:verdant_froglight: сломать любым способом (в т.ч. рукой)
+- **minecraft:pearlescent_froglight**
+  - добыча из блока minecraft:pearlescent_froglight: сломать любым способом (в т.ч. рукой)
+- **minecraft:frogspawn**
+  - только творческий режим, вкладка itemGroup.natural или /give
+- **minecraft:echo_shard**
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:brush**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:feather, minecraft:copper_ingot, minecraft:stick → 1×minecraft:brush
+- **minecraft:netherite_upgrade_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:netherite_upgrade_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:netherrack, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:netherite_upgrade_smithing_template
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:sentry_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:sentry_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:cobblestone, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:sentry_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/pillager_outpost
+- **minecraft:dune_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:dune_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:sandstone, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:dune_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **minecraft:coast_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:coast_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:cobblestone, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:coast_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/shipwreck_map
+  - находка в сундуке minecraft:chests/shipwreck_supply
+  - находка в сундуке minecraft:chests/shipwreck_treasure
+- **minecraft:wild_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:wild_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:mossy_cobblestone, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:wild_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/jungle_temple
+- **minecraft:ward_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:ward_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:cobbled_deepslate, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:ward_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:eye_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:eye_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:end_stone, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:eye_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/stronghold_library
+  - находка в сундуке minecraft:chests/stronghold_corridor
+- **minecraft:vex_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:vex_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:cobblestone, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:vex_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/woodland_mansion
+- **minecraft:tide_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:tide_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:prismarine, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:tide_armor_trim_smithing_template
+  - выпадает с моба minecraft:elder_guardian
+- **minecraft:snout_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:snout_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:blackstone, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:snout_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/bastion_hoglin_stable
+  - находка в сундуке minecraft:chests/bastion_bridge
+  - находка в сундуке minecraft:chests/bastion_other
+- **minecraft:rib_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:rib_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:netherrack, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:rib_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/nether_bridge
+- **minecraft:spire_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:spire_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:purpur_block, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:spire_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/end_city_treasure
+- **minecraft:wayfinder_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:wayfinder_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:terracotta, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:wayfinder_armor_trim_smithing_template
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:shaper_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:shaper_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:terracotta, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:shaper_armor_trim_smithing_template
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:silence_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:silence_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:cobbled_deepslate, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:silence_armor_trim_smithing_template
+  - находка в сундуке minecraft:chests/ancient_city
+- **minecraft:raiser_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:raiser_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:terracotta, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:raiser_armor_trim_smithing_template
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:host_armor_trim_smithing_template**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:host_armor_trim_smithing_template, minecraft:diamond, minecraft:diamond, minecraft:terracotta, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 2×minecraft:host_armor_trim_smithing_template
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:angler_pottery_sherd**
+  - игровая механика: archaeology/ocean_ruin_warm
+- **minecraft:archer_pottery_sherd**
+  - игровая механика: archaeology/desert_pyramid
+- **minecraft:arms_up_pottery_sherd**
+  - игровая механика: archaeology/desert_well
+- **minecraft:blade_pottery_sherd**
+  - игровая механика: archaeology/ocean_ruin_cold
+- **minecraft:brewer_pottery_sherd**
+  - игровая механика: archaeology/desert_well
+- **minecraft:burn_pottery_sherd**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:danger_pottery_sherd**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:explorer_pottery_sherd**
+  - игровая механика: archaeology/ocean_ruin_cold
+- **minecraft:friend_pottery_sherd**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:heart_pottery_sherd**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:heartbreak_pottery_sherd**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:howl_pottery_sherd**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:miner_pottery_sherd**
+  - игровая механика: archaeology/desert_pyramid
+- **minecraft:mourner_pottery_sherd**
+  - игровая механика: archaeology/ocean_ruin_cold
+- **minecraft:plenty_pottery_sherd**
+  - игровая механика: archaeology/ocean_ruin_cold
+- **minecraft:prize_pottery_sherd**
+  - игровая механика: archaeology/desert_pyramid
+- **minecraft:sheaf_pottery_sherd**
+  - игровая механика: archaeology/trail_ruins_rare
+- **minecraft:shelter_pottery_sherd**
+  - игровая механика: archaeology/ocean_ruin_warm
+- **minecraft:skull_pottery_sherd**
+  - игровая механика: archaeology/desert_pyramid
+- **minecraft:snort_pottery_sherd**
+  - игровая механика: archaeology/ocean_ruin_warm
+
+### naturalist
+
+- **naturalist:bushmeat**
+  - выпадает с моба naturalist:elephant
+  - выпадает с моба naturalist:giraffe
+  - выпадает с моба naturalist:rhino
+- **naturalist:cooked_bushmeat**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: naturalist:bushmeat → 1×naturalist:cooked_bushmeat
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:bushmeat → 1×naturalist:cooked_bushmeat
+  - крафт на «minecraft:campfire»: 1 рец.; пример: naturalist:bushmeat → 1×naturalist:cooked_bushmeat
+- **naturalist:fur**
+  - выпадает с моба naturalist:bear
+  - выпадает с моба naturalist:lion
+- **naturalist:alligator_egg**
+  - добыча из блока naturalist:alligator_egg: добыть шёлковым касанием
+- **naturalist:duck_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:tortoise_egg**
+  - добыча из блока naturalist:tortoise_egg: добыть шёлковым касанием
+- **naturalist:cooked_egg**
+  - крафт на «minecraft:campfire»: 1 рец.; пример: naturalist:tortoise_egg(+2 вар.) → 1×naturalist:cooked_egg
+  - крафт на «minecraft:smoker»: 1 рец.; пример: naturalist:tortoise_egg(+2 вар.) → 1×naturalist:cooked_egg
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:tortoise_egg(+2 вар.) → 1×naturalist:cooked_egg
+- **naturalist:snail_eggs**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:antler**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:glow_goop**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: minecraft:glow_berries → 1×naturalist:glow_goop
+  - крафт на «minecraft:furnace»: 1 рец.; пример: minecraft:glow_berries → 1×naturalist:glow_goop
+  - крафт на «minecraft:campfire»: 1 рец.; пример: minecraft:glow_berries → 1×naturalist:glow_goop
+  - добыча из блока naturalist:glow_goop: сломать любым способом (в т.ч. рукой)
+  - выпадает с моба naturalist:firefly
+- **naturalist:teddy_bear**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:string, minecraft:string, minecraft:white_wool(+15 вар.), minecraft:string, minecraft:string → 1×naturalist:teddy_bear
+  - добыча из блока naturalist:teddy_bear: сломать любым способом (в т.ч. рукой)
+- **naturalist:duck**
+  - выпадает с моба naturalist:duck
+- **naturalist:cooked_duck**
+  - крафт на «minecraft:campfire»: 1 рец.; пример: naturalist:duck → 1×naturalist:cooked_duck
+  - крафт на «minecraft:smoker»: 1 рец.; пример: naturalist:duck → 1×naturalist:cooked_duck
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:duck → 1×naturalist:cooked_duck
+- **naturalist:venison**
+  - выпадает с моба naturalist:deer
+- **naturalist:cooked_venison**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: naturalist:venison → 1×naturalist:cooked_venison
+  - крафт на «minecraft:campfire»: 1 рец.; пример: naturalist:venison → 1×naturalist:cooked_venison
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:venison → 1×naturalist:cooked_venison
+- **naturalist:lizard_tail**
+  - выпадает с моба naturalist:lizard_tail
+- **naturalist:cooked_lizard_tail**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: naturalist:lizard_tail → 1×naturalist:cooked_lizard_tail
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:lizard_tail → 1×naturalist:cooked_lizard_tail
+  - крафт на «minecraft:campfire»: 1 рец.; пример: naturalist:lizard_tail → 1×naturalist:cooked_lizard_tail
+- **naturalist:catfish_bucket**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:bass_bucket**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:catfish**
+  - выпадает с моба naturalist:catfish
+- **naturalist:cooked_catfish**
+  - крафт на «minecraft:smoker»: 1 рец.; пример: naturalist:catfish → 1×naturalist:cooked_catfish
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:catfish → 1×naturalist:cooked_catfish
+  - крафт на «minecraft:campfire»: 1 рец.; пример: naturalist:catfish → 1×naturalist:cooked_catfish
+- **naturalist:bass**
+  - выпадает с моба naturalist:bass
+- **naturalist:cooked_bass**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:bass → 1×naturalist:cooked_bass
+  - крафт на «minecraft:smoker»: 1 рец.; пример: naturalist:bass → 1×naturalist:cooked_bass
+  - крафт на «minecraft:campfire»: 1 рец.; пример: naturalist:bass → 1×naturalist:cooked_bass
+- **naturalist:bug_net**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:bamboo, minecraft:bamboo, minecraft:string, minecraft:bamboo, minecraft:string, minecraft:string → 1×naturalist:bug_net
+- **naturalist:chrysalis**
+  - добыча из блока naturalist:chrysalis: добыть шёлковым касанием
+- **naturalist:caterpillar**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:butterfly**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:snail_shell**
+  - выпадает с моба naturalist:snail
+- **naturalist:snail_bucket**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:azure_froglass**
+  - добыча из блока naturalist:azure_froglass: добыть шёлковым касанием
+- **naturalist:verdant_froglass**
+  - добыча из блока naturalist:verdant_froglass: добыть шёлковым касанием
+- **naturalist:crimson_froglass**
+  - добыча из блока naturalist:crimson_froglass: добыть шёлковым касанием
+- **naturalist:azure_froglass_pane**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:azure_froglass, naturalist:azure_froglass, naturalist:azure_froglass, naturalist:azure_froglass, naturalist:azure_froglass, naturalist:azure_froglass → 16×naturalist:azure_froglass_pane
+- **naturalist:verdant_froglass_pane**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:verdant_froglass, naturalist:verdant_froglass, naturalist:verdant_froglass, naturalist:verdant_froglass, naturalist:verdant_froglass, naturalist:verdant_froglass → 16×naturalist:verdant_froglass_pane
+- **naturalist:crimson_froglass_pane**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:crimson_froglass, naturalist:crimson_froglass, naturalist:crimson_froglass, naturalist:crimson_froglass, naturalist:crimson_froglass, naturalist:crimson_froglass → 16×naturalist:crimson_froglass_pane
+- **naturalist:shellstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:calcite, naturalist:snail_shell, naturalist:snail_shell, minecraft:calcite → 8×naturalist:shellstone
+  - добыча из блока naturalist:shellstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:shellstone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:shellstone → 1×naturalist:shellstone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone, naturalist:shellstone, naturalist:shellstone, naturalist:shellstone, naturalist:shellstone, naturalist:shellstone → 4×naturalist:shellstone_stairs
+  - добыча из блока naturalist:shellstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:shellstone_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone, naturalist:shellstone, naturalist:shellstone → 6×naturalist:shellstone_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:shellstone → 2×naturalist:shellstone_slab
+  - добыча из блока naturalist:shellstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:shellstone_wall**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:shellstone → 1×naturalist:shellstone_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone, naturalist:shellstone, naturalist:shellstone, naturalist:shellstone, naturalist:shellstone, naturalist:shellstone → 6×naturalist:shellstone_wall
+  - добыча из блока naturalist:shellstone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:shellstone_bricks**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone, naturalist:shellstone, naturalist:shellstone, naturalist:shellstone → 1×naturalist:shellstone_bricks
+  - добыча из блока naturalist:shellstone_bricks: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:shellstone_brick_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks → 4×naturalist:shellstone_brick_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:shellstone_bricks → 1×naturalist:shellstone_brick_stairs
+  - добыча из блока naturalist:shellstone_brick_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:shellstone_brick_slab**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks → 6×naturalist:shellstone_brick_slab
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:shellstone_bricks → 2×naturalist:shellstone_brick_slab
+  - добыча из блока naturalist:shellstone_brick_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:shellstone_brick_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks, naturalist:shellstone_bricks → 6×naturalist:shellstone_brick_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:shellstone_bricks → 1×naturalist:shellstone_brick_wall
+  - добыча из блока naturalist:shellstone_brick_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:cut_shellstone**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:shellstone_slab, naturalist:shellstone_slab → 1×naturalist:cut_shellstone
+  - добыча из блока naturalist:cut_shellstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:cut_shellstone_stairs**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:cut_shellstone → 1×naturalist:cut_shellstone_stairs
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone → 4×naturalist:cut_shellstone_stairs
+  - добыча из блока naturalist:cut_shellstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:cut_shellstone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:cut_shellstone → 2×naturalist:cut_shellstone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone → 6×naturalist:cut_shellstone_slab
+  - добыча из блока naturalist:cut_shellstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:cut_shellstone_wall**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:cut_shellstone → 1×naturalist:cut_shellstone_wall
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone, naturalist:cut_shellstone → 6×naturalist:cut_shellstone_wall
+  - добыча из блока naturalist:cut_shellstone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:smooth_shellstone**
+  - крафт на «minecraft:furnace»: 1 рец.; пример: naturalist:shellstone → 1×naturalist:smooth_shellstone
+  - добыча из блока naturalist:smooth_shellstone: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:smooth_shellstone_stairs**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone → 4×naturalist:smooth_shellstone_stairs
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:smooth_shellstone → 1×naturalist:smooth_shellstone_stairs
+  - добыча из блока naturalist:smooth_shellstone_stairs: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:smooth_shellstone_slab**
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:smooth_shellstone → 2×naturalist:smooth_shellstone_slab
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone → 6×naturalist:smooth_shellstone_slab
+  - добыча из блока naturalist:smooth_shellstone_slab: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:smooth_shellstone_wall**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone, naturalist:smooth_shellstone → 6×naturalist:smooth_shellstone_wall
+  - крафт на «minecraft:stonecutter»: 1 рец.; пример: naturalist:smooth_shellstone → 1×naturalist:smooth_shellstone_wall
+  - добыча из блока naturalist:smooth_shellstone_wall: сломать инструментом minecraft:wooden_pickaxe или лучше
+- **naturalist:alligator_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:bass_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:bear_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:bluejay_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:boar_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:butterfly_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:canary_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:cardinal_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:catfish_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:caterpillar_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:coral_snake_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:deer_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:dragonfly_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:duck_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:elephant_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:finch_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:firefly_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:giraffe_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:hippo_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:lion_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:lizard_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:rattlesnake_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:rhino_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:robin_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:snake_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:snail_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:sparrow_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:tortoise_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:vulture_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+- **naturalist:zebra_spawn_egg**
+  - только творческий режим, вкладка itemGroup.naturalist.tab или /give
+
+### pointblank
+
+- **pointblank:processor**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_nugget, minecraft:redstone, minecraft:iron_nugget, minecraft:lapis_lazuli, minecraft:diamond, minecraft:redstone, minecraft:iron_nugget, minecraft:copper_ingot, … (9 слотов) → 1×pointblank:processor
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:guninternals**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: pointblank:gunmetal_ingot, pointblank:gunmetal_ingot, pointblank:gunmetal_ingot, minecraft:iron_ingot, minecraft:iron_ingot → 1×pointblank:guninternals
+  - торговля: pointblank:arms_dealer, уровень 2
+- **pointblank:motor**
+  - торговля: pointblank:arms_dealer, уровень 2
+- **pointblank:gunmetal_mesh**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:copper_ingot → 1×pointblank:gunmetal_mesh
+- **pointblank:gunmetal_ingot**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: pointblank:gunmetal_nugget, pointblank:gunmetal_nugget, pointblank:gunmetal_nugget, pointblank:gunmetal_nugget, pointblank:gunmetal_nugget, pointblank:gunmetal_nugget, pointblank:gunmetal_nugget, pointblank:gunmetal_nugget, … (9 слотов) → 1×pointblank:gunmetal_ingot
+  - крафт на «minecraft:furnace»: 1 рец.; пример: pointblank:gunmetal_mesh → 1×pointblank:gunmetal_ingot
+  - крафт на «minecraft:blast_furnace»: 1 рец.; пример: pointblank:gunmetal_mesh → 1×pointblank:gunmetal_ingot
+- **pointblank:gunmetal_nugget**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: pointblank:gunmetal_ingot → 9×pointblank:gunmetal_nugget
+- **pointblank:workstation**
+  - добыча из блока pointblank:workstation: сломать любым способом (в т.ч. рукой)
+- **pointblank:printer**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:glass_pane(+15 вар.), minecraft:glass_pane(+15 вар.), pointblank:processor, minecraft:iron_ingot, minecraft:iron_ingot, … (9 слотов) → 1×pointblank:printer
+- **pointblank:ammo9mm**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot, minecraft:gunpowder → 19×pointblank:ammo9mm
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammodefault**
+  - только команда /give
+- **pointblank:ammo45acp**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot, minecraft:gunpowder → 19×pointblank:ammo45acp
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo46**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot, minecraft:gunpowder → 19×pointblank:ammo46
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo357**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot, minecraft:gunpowder → 19×pointblank:ammo357
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo57**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot, minecraft:gunpowder → 19×pointblank:ammo57
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo50ae**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot, minecraft:gunpowder → 19×pointblank:ammo50ae
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo545**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×2, minecraft:gunpowder → 17×pointblank:ammo545
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo556**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×2, minecraft:gunpowder → 17×pointblank:ammo556
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo68**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×2, minecraft:gunpowder → 17×pointblank:ammo68
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo762**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×2, minecraft:gunpowder → 17×pointblank:ammo762
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo762x51**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×3, minecraft:gunpowder → 16×pointblank:ammo762x51
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo338lapua**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×3, minecraft:gunpowder×2 → 10×pointblank:ammo338lapua
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo50bmg**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×4, minecraft:gunpowder×3 → 8×pointblank:ammo50bmg
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammo12gauge**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×2, minecraft:gunpowder → 10×pointblank:ammo12gauge
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:ammolasercharge**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot×2, minecraft:iron_ingot, minecraft:redstone×3 → 5×pointblank:ammolasercharge
+- **pointblank:ammocreative**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:grenade40mm**
+  - крафт на «pointblank:printer»: 1 рец.; пример: minecraft:copper_ingot, minecraft:iron_ingot, minecraft:tnt → 1×pointblank:grenade40mm
+- **pointblank:grenade20mm**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:smaw_rocket**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×10, minecraft:tnt → 1×pointblank:smaw_rocket
+  - торговля: pointblank:arms_dealer, уровень 3
+- **pointblank:at4_rocket**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×10, minecraft:tnt → 1×pointblank:at4_rocket
+  - торговля: pointblank:arms_dealer, уровень 3
+- **pointblank:javelin_rocket**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×10, pointblank:processor, minecraft:redstone×33, minecraft:tnt → 1×pointblank:javelin_rocket
+- **pointblank:grenade**
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:moa**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:moa
+- **pointblank:delta**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:moa_hg**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:operatorreflex**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:operatorreflex
+- **pointblank:holographic558**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:holographic558
+- **pointblank:holographic**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:holographic
+- **pointblank:holographic_em**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:holographic_em
+- **pointblank:aimpoint**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:aimpoint
+- **pointblank:aimpoint_t2**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:aimpoint_t2
+- **pointblank:srs**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×2 → 1×pointblank:srs
+- **pointblank:rspec**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:acog**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:redstone×6, minecraft:copper_ingot×3 → 1×pointblank:acog
+- **pointblank:specter**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:hi_red_zoom**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot, minecraft:redstone×3, minecraft:copper_ingot×2 → 1×pointblank:hi_red_zoom
+- **pointblank:hi_red**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:redstone×6, minecraft:copper_ingot×3 → 1×pointblank:hi_red
+- **pointblank:hamr**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:eaglescope**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×3, minecraft:redstone×8, minecraft:copper_ingot×5 → 1×pointblank:eaglescope
+- **pointblank:spear**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:spearblack**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×3, minecraft:redstone×8, minecraft:copper_ingot×5 → 1×pointblank:spearblack
+- **pointblank:hawk_scope**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×3, minecraft:redstone×8, minecraft:copper_ingot×5 → 1×pointblank:hawk_scope
+- **pointblank:wolf_scope**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×3, minecraft:redstone×8, minecraft:copper_ingot×5 → 1×pointblank:wolf_scope
+- **pointblank:drake_scope**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×3, minecraft:redstone×8, minecraft:copper_ingot×5 → 1×pointblank:drake_scope
+- **pointblank:precision_scope**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×3, minecraft:redstone×8, minecraft:copper_ingot×5 → 1×pointblank:precision_scope
+- **pointblank:cantedrail**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2 → 1×pointblank:cantedrail
+- **pointblank:ar_suppressor**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:iron_ingot → 1×pointblank:ar_suppressor
+- **pointblank:ar_suppressor_tan**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:iron_ingot → 1×pointblank:ar_suppressor_tan
+- **pointblank:xm7_suppressor**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:iron_ingot → 1×pointblank:xm7_suppressor
+- **pointblank:ak_suppressor**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:iron_ingot → 1×pointblank:ak_suppressor
+- **pointblank:scarl_iss**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×3, minecraft:iron_ingot×3 → 1×pointblank:scarl_iss
+- **pointblank:smg_suppressor**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:iron_ingot → 1×pointblank:smg_suppressor
+- **pointblank:rf_suppressor**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:hp_suppressor**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:sg_suppressor**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:smg_muzzlebrake**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:iron_ingot → 1×pointblank:smg_muzzlebrake
+- **pointblank:p30l_compensator**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:ar_muzzlebrake**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2, minecraft:iron_ingot → 1×pointblank:ar_muzzlebrake
+- **pointblank:foregrip**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2 → 1×pointblank:foregrip
+- **pointblank:foregrip_tan**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2 → 1×pointblank:foregrip_tan
+- **pointblank:shortgrip**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2 → 1×pointblank:shortgrip
+- **pointblank:stubbygriptan**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2 → 1×pointblank:stubbygriptan
+- **pointblank:stubbygrip**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:heragrip**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×2 → 1×pointblank:heragrip
+- **pointblank:ak_romgrip**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:m9_stock**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:glockstock**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:m203launcher**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×10, pointblank:guninternals×5 → 1×pointblank:m203launcher
+- **pointblank:gp25**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:fn40**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:m870modshotgun**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×8, pointblank:guninternals×5 → 1×pointblank:m870modshotgun
+- **pointblank:ulg99cannon**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×8, pointblank:guninternals×5, minecraft:redstone×10, minecraft:copper_ingot×6 → 1×pointblank:ulg99cannon
+- **pointblank:m16a3kit**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×7, pointblank:guninternals×2 → 1×pointblank:m16a3kit
+- **pointblank:star15mod3receiver**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×7, pointblank:guninternals×2 → 1×pointblank:star15mod3receiver
+- **pointblank:m4sopmodii_bartender**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:m4a1_asiimov**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:l96a1_hyperbeast**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:m1911a1**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×20, pointblank:guninternals×4, minecraft:iron_ingot×3 → 1×pointblank:m1911a1
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:tti_viper**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×20, pointblank:guninternals×4, minecraft:iron_ingot×4 → 1×pointblank:tti_viper
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:p30l**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×20, pointblank:guninternals×4, minecraft:iron_ingot×4 → 1×pointblank:p30l
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:mk23**
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:glock17**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×20, pointblank:guninternals×4, minecraft:iron_ingot×3 → 1×pointblank:glock17
+  - находка в сундуке pointblank:chests/village/village_arms_dealer_barn
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:glock18**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×20, pointblank:guninternals×5, minecraft:iron_ingot×3 → 1×pointblank:glock18
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:m9**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×20, pointblank:guninternals×4, minecraft:iron_ingot×3 → 1×pointblank:m9
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:deserteagle**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×22, pointblank:guninternals×4, minecraft:iron_ingot×10 → 1×pointblank:deserteagle
+- **pointblank:rhino**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×9, pointblank:guninternals×6, minecraft:iron_ingot×2 → 1×pointblank:rhino
+  - торговля: pointblank:arms_dealer, уровень 1
+- **pointblank:m4a1**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×8, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:m4a1
+- **pointblank:m4a1mod1**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×9, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:m4a1mod1
+- **pointblank:ar57**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×30, pointblank:guninternals×8, minecraft:iron_ingot×4, minecraft:lapis_lazuli×10, minecraft:gold_ingot×2 → 1×pointblank:ar57
+- **pointblank:ro635**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×7, minecraft:iron_ingot×4, minecraft:lapis_lazuli×20, minecraft:gold_ingot → 1×pointblank:ro635
+- **pointblank:star15**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×33, pointblank:guninternals×10, minecraft:iron_ingot×7, minecraft:gold_ingot×2 → 1×pointblank:star15
+- **pointblank:m4sopmodii**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×9, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:m4sopmodii
+- **pointblank:m16a1**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×8, minecraft:iron_ingot×8, minecraft:gold_ingot×2 → 1×pointblank:m16a1
+- **pointblank:hk416**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×9, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:hk416
+- **pointblank:scarl**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×33, pointblank:guninternals×9, minecraft:iron_ingot×7, minecraft:gold_ingot×2 → 1×pointblank:scarl
+- **pointblank:xm7**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×9, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:xm7
+- **pointblank:xm29**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:g36c**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×8, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:g36c
+- **pointblank:g36k**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×9, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:g36k
+- **pointblank:sl8**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×25, pointblank:guninternals×11, minecraft:iron_ingot×7, minecraft:gold_ingot×5 → 1×pointblank:sl8
+- **pointblank:mk14ebr**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×12, minecraft:iron_ingot×7, minecraft:gold_ingot×6 → 1×pointblank:mk14ebr
+- **pointblank:uar10**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×25, pointblank:guninternals×11, minecraft:iron_ingot×7, minecraft:gold_ingot×5 → 1×pointblank:uar10
+- **pointblank:ak47**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×29, pointblank:guninternals×8, minecraft:iron_ingot×9, minecraft:gold_ingot×2, minecraft:oak_planks×4(+15 вар.) → 1×pointblank:ak47
+- **pointblank:ak74**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×29, pointblank:guninternals×8, minecraft:iron_ingot×9, minecraft:gold_ingot×2, minecraft:oak_planks×4(+15 вар.) → 1×pointblank:ak74
+- **pointblank:ak12**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×29, pointblank:guninternals×8, minecraft:iron_ingot×9, minecraft:gold_ingot×2 → 1×pointblank:ak12
+- **pointblank:an94**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:aug**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×9, minecraft:iron_ingot×9, minecraft:gold_ingot×2 → 1×pointblank:aug
+- **pointblank:aughbar**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×29, pointblank:guninternals×9, minecraft:iron_ingot×10, minecraft:gold_ingot×3 → 1×pointblank:aughbar
+- **pointblank:mp5**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×7, minecraft:iron_ingot×4, minecraft:lapis_lazuli×20, minecraft:gold_ingot → 1×pointblank:mp5
+- **pointblank:mp7**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×7, minecraft:iron_ingot×4, minecraft:lapis_lazuli×20, minecraft:gold_ingot → 1×pointblank:mp7
+- **pointblank:ump45**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×8, minecraft:iron_ingot×4, minecraft:lapis_lazuli×20, minecraft:gold_ingot → 1×pointblank:ump45
+- **pointblank:vector**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×10, minecraft:iron_ingot×4, minecraft:lapis_lazuli×25, minecraft:gold_ingot → 1×pointblank:vector
+- **pointblank:p90**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×8, minecraft:iron_ingot×4, minecraft:lapis_lazuli×20, minecraft:gold_ingot → 1×pointblank:p90
+- **pointblank:tmp**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×25, pointblank:guninternals×6, minecraft:iron_ingot×4, minecraft:lapis_lazuli×20, minecraft:gold_ingot → 1×pointblank:tmp
+- **pointblank:m950**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×26, pointblank:guninternals×7, minecraft:iron_ingot×4, minecraft:lapis_lazuli×20, minecraft:gold_ingot → 1×pointblank:m950
+- **pointblank:g41**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×32, pointblank:guninternals×8, minecraft:iron_ingot×6, minecraft:gold_ingot×2 → 1×pointblank:g41
+- **pointblank:g3**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×13, minecraft:iron_ingot×9, minecraft:gold_ingot×5 → 1×pointblank:g3
+- **pointblank:wa2000**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×12, minecraft:iron_ingot×10, minecraft:diamond, minecraft:gold_ingot, minecraft:oak_planks×4(+15 вар.) → 1×pointblank:wa2000
+- **pointblank:xm3**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×12, minecraft:iron_ingot×10, minecraft:diamond → 1×pointblank:xm3
+- **pointblank:c14**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×12, minecraft:iron_ingot×10, minecraft:diamond → 1×pointblank:c14
+- **pointblank:l96a1**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×12, minecraft:iron_ingot×10, minecraft:diamond → 1×pointblank:l96a1
+- **pointblank:ballista**
+  - только творческий режим, вкладка itemGroup.pointblank.items или /give
+- **pointblank:gm6lynx**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×13, minecraft:iron_ingot×10, minecraft:diamond, minecraft:gold_ingot×2 → 1×pointblank:gm6lynx
+- **pointblank:m590**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×34, pointblank:guninternals×10, minecraft:iron_ingot×6, minecraft:gold_ingot×3, minecraft:lapis_lazuli×15 → 1×pointblank:m590
+- **pointblank:m870**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×36, pointblank:guninternals×10, minecraft:iron_ingot×6, minecraft:gold_ingot×3, minecraft:lapis_lazuli×18 → 1×pointblank:m870
+- **pointblank:spas12**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×36, pointblank:guninternals×10, minecraft:iron_ingot×6, minecraft:gold_ingot×3, minecraft:lapis_lazuli×18 → 1×pointblank:spas12
+- **pointblank:m1014**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×34, pointblank:guninternals×10, minecraft:iron_ingot×6, minecraft:gold_ingot×3, minecraft:lapis_lazuli×15 → 1×pointblank:m1014
+- **pointblank:aa12**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×34, pointblank:guninternals×10, minecraft:iron_ingot×6, minecraft:gold_ingot×3, minecraft:lapis_lazuli×15 → 1×pointblank:aa12
+- **pointblank:citoricxs**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×38, pointblank:guninternals×8, minecraft:iron_ingot×6, minecraft:gold_ingot×4, minecraft:lapis_lazuli×15, minecraft:oak_planks×4(+15 вар.) → 1×pointblank:citoricxs
+  - торговля: pointblank:arms_dealer, уровень 3
+- **pointblank:hs12**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×38, pointblank:guninternals×8, minecraft:iron_ingot×6, minecraft:gold_ingot×4, minecraft:lapis_lazuli×15 → 1×pointblank:hs12
+  - торговля: pointblank:arms_dealer, уровень 3
+- **pointblank:lamg**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×16, minecraft:iron_ingot×14, minecraft:diamond×3, minecraft:gold_ingot×6 → 1×pointblank:lamg
+- **pointblank:mk48**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×30, pointblank:guninternals×17, minecraft:iron_ingot×15, minecraft:diamond×4, minecraft:gold_ingot×6 → 1×pointblank:mk48
+- **pointblank:m249**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×16, minecraft:iron_ingot×14, minecraft:diamond×3, minecraft:gold_ingot×6 → 1×pointblank:m249
+- **pointblank:m32mgl**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×40, pointblank:guninternals×32, minecraft:diamond×4, minecraft:gold_ingot×10 → 1×pointblank:m32mgl
+- **pointblank:smaw**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×40, pointblank:guninternals×24, minecraft:diamond×4, minecraft:gold_ingot×10 → 1×pointblank:smaw
+- **pointblank:javelin**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×40, pointblank:guninternals×24, pointblank:processor, minecraft:redstone×33, minecraft:diamond×7, minecraft:gold_ingot×10 → 1×pointblank:javelin
+- **pointblank:at4**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×40, pointblank:guninternals×24, minecraft:diamond×4, minecraft:gold_ingot×10 → 1×pointblank:at4
+- **pointblank:m134minigun**
+  - крафт на «pointblank:printer»: 1 рец.; пример: pointblank:gunmetal_ingot×28, pointblank:guninternals×20, pointblank:motor, minecraft:iron_ingot×14, minecraft:diamond×4, minecraft:gold_ingot×10 → 1×pointblank:m134minigun
+
+### sophisticatedbackpacks
+
+- **sophisticatedbackpacks:backpack**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:string, minecraft:leather, minecraft:string, minecraft:string, minecraft:chest(+1 вар.), minecraft:string, minecraft:leather, minecraft:leather, … (9 слотов) → 1×sophisticatedbackpacks:backpack
+  - добыча из блока sophisticatedbackpacks:backpack: сломать любым способом (в т.ч. рукой)
+- **sophisticatedbackpacks:copper_backpack**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, sophisticatedbackpacks:backpack, minecraft:copper_ingot, minecraft:copper_ingot, minecraft:copper_ingot, … (9 слотов) → 1×sophisticatedbackpacks:copper_backpack
+  - добыча из блока sophisticatedbackpacks:copper_backpack: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/desert_pyramid
+- **sophisticatedbackpacks:iron_backpack**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, sophisticatedbackpacks:copper_backpack, minecraft:iron_ingot, minecraft:iron_ingot → 1×sophisticatedbackpacks:iron_backpack
+  - добыча из блока sophisticatedbackpacks:iron_backpack: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/nether_bridge
+  - находка в сундуке minecraft:chests/shipwreck_treasure
+  - находка в сундуке minecraft:chests/desert_pyramid
+  - находка в сундуке minecraft:chests/woodland_mansion
+- **sophisticatedbackpacks:gold_backpack**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, sophisticatedbackpacks:iron_backpack, minecraft:gold_ingot, minecraft:gold_ingot, minecraft:gold_ingot, … (9 слотов) → 1×sophisticatedbackpacks:gold_backpack
+  - добыча из блока sophisticatedbackpacks:gold_backpack: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/bastion_treasure
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+  - находка в сундуке minecraft:chests/shipwreck_treasure
+- **sophisticatedbackpacks:diamond_backpack**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:diamond, minecraft:diamond, minecraft:diamond, sophisticatedbackpacks:gold_backpack, minecraft:diamond, minecraft:diamond, minecraft:diamond, … (9 слотов) → 1×sophisticatedbackpacks:diamond_backpack
+  - добыча из блока sophisticatedbackpacks:diamond_backpack: сломать любым способом (в т.ч. рукой)
+  - находка в сундуке minecraft:chests/end_city_treasure
+- **sophisticatedbackpacks:netherite_backpack**
+  - крафт на «minecraft:smithing_table»: 1 рец.; пример: minecraft:netherite_upgrade_smithing_template, sophisticatedbackpacks:diamond_backpack, minecraft:netherite_ingot → 1×sophisticatedbackpacks:netherite_backpack
+  - добыча из блока sophisticatedbackpacks:netherite_backpack: сломать любым способом (в т.ч. рукой)
+- **sophisticatedbackpacks:pickup_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sticky_piston, minecraft:string, sophisticatedbackpacks:upgrade_base, minecraft:string, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:pickup_upgrade
+- **sophisticatedbackpacks:advanced_pickup_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:pickup_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_pickup_upgrade
+- **sophisticatedbackpacks:filter_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:string, minecraft:redstone, minecraft:string, sophisticatedbackpacks:upgrade_base, minecraft:string, minecraft:redstone, minecraft:string, … (9 слотов) → 1×sophisticatedbackpacks:filter_upgrade
+- **sophisticatedbackpacks:advanced_filter_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, sophisticatedbackpacks:filter_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_filter_upgrade
+- **sophisticatedbackpacks:magnet_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:ender_pearl, minecraft:iron_ingot, minecraft:ender_pearl, minecraft:iron_ingot, sophisticatedbackpacks:pickup_upgrade, minecraft:iron_ingot, minecraft:redstone, minecraft:lapis_lazuli → 1×sophisticatedbackpacks:magnet_upgrade
+  - находка в сундуке minecraft:chests/abandoned_mineshaft
+- **sophisticatedbackpacks:advanced_magnet_upgrade**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:ender_pearl, minecraft:iron_ingot, minecraft:ender_pearl, minecraft:iron_ingot, sophisticatedbackpacks:advanced_pickup_upgrade, minecraft:iron_ingot, minecraft:redstone, minecraft:lapis_lazuli → 1×sophisticatedbackpacks:advanced_magnet_upgrade
+  - находка в сундуке minecraft:chests/end_city_treasure
+- **sophisticatedbackpacks:feeding_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:golden_carrot, minecraft:golden_apple, sophisticatedbackpacks:upgrade_base, minecraft:glistering_melon_slice, minecraft:ender_pearl → 1×sophisticatedbackpacks:feeding_upgrade
+- **sophisticatedbackpacks:advanced_feeding_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:feeding_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_feeding_upgrade
+- **sophisticatedbackpacks:compacting_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:iron_ingot, minecraft:piston, minecraft:iron_ingot, minecraft:piston, sophisticatedbackpacks:upgrade_base, minecraft:piston, minecraft:redstone, minecraft:piston, … (9 слотов) → 1×sophisticatedbackpacks:compacting_upgrade
+- **sophisticatedbackpacks:advanced_compacting_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:compacting_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_compacting_upgrade
+- **sophisticatedbackpacks:void_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:ender_pearl, minecraft:obsidian, sophisticatedbackpacks:upgrade_base, minecraft:obsidian, minecraft:redstone, minecraft:obsidian, minecraft:redstone → 1×sophisticatedbackpacks:void_upgrade
+- **sophisticatedbackpacks:advanced_void_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:void_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_void_upgrade
+- **sophisticatedbackpacks:restock_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:sticky_piston, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:redstone, minecraft:chest(+1 вар.), minecraft:redstone → 1×sophisticatedbackpacks:restock_upgrade
+- **sophisticatedbackpacks:advanced_restock_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:restock_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_restock_upgrade
+- **sophisticatedbackpacks:deposit_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:piston, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:redstone, minecraft:chest(+1 вар.), minecraft:redstone → 1×sophisticatedbackpacks:deposit_upgrade
+- **sophisticatedbackpacks:advanced_deposit_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:deposit_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_deposit_upgrade
+- **sophisticatedbackpacks:refill_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:ender_pearl, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:redstone, minecraft:chest(+1 вар.), minecraft:redstone → 1×sophisticatedbackpacks:refill_upgrade
+- **sophisticatedbackpacks:advanced_refill_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:refill_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_refill_upgrade
+- **sophisticatedbackpacks:inception_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:ender_eye, minecraft:nether_star, minecraft:ender_eye, minecraft:diamond, sophisticatedbackpacks:upgrade_base, minecraft:diamond, minecraft:ender_eye, minecraft:diamond, … (9 слотов) → 1×sophisticatedbackpacks:inception_upgrade
+- **sophisticatedbackpacks:everlasting_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:end_crystal, minecraft:nether_star, minecraft:end_crystal, minecraft:nether_star, sophisticatedbackpacks:upgrade_base, minecraft:nether_star, minecraft:end_crystal, minecraft:nether_star, … (9 слотов) → 1×sophisticatedbackpacks:everlasting_upgrade
+- **sophisticatedbackpacks:smelting_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:redstone, minecraft:furnace, … (9 слотов) → 1×sophisticatedbackpacks:smelting_upgrade
+- **sophisticatedbackpacks:auto_smelting_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:hopper, minecraft:diamond, minecraft:redstone, sophisticatedbackpacks:smelting_upgrade, minecraft:hopper, minecraft:gold_ingot, minecraft:hopper, … (9 слотов) → 1×sophisticatedbackpacks:auto_smelting_upgrade
+- **sophisticatedbackpacks:smoking_upgrade**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:redstone, minecraft:iron_ingot, minecraft:redstone, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:redstone, minecraft:smoker, … (9 слотов) → 1×sophisticatedbackpacks:smoking_upgrade
+- **sophisticatedbackpacks:auto_smoking_upgrade**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:diamond, minecraft:hopper, minecraft:diamond, minecraft:redstone, sophisticatedbackpacks:smoking_upgrade, minecraft:hopper, minecraft:gold_ingot, minecraft:hopper, … (9 слотов) → 1×sophisticatedbackpacks:auto_smoking_upgrade
+- **sophisticatedbackpacks:blasting_upgrade**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot, sophisticatedbackpacks:smelting_upgrade, minecraft:iron_ingot, minecraft:smooth_stone, minecraft:smooth_stone, … (9 слотов) → 1×sophisticatedbackpacks:blasting_upgrade
+- **sophisticatedbackpacks:auto_blasting_upgrade**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:diamond, minecraft:hopper, minecraft:diamond, minecraft:redstone, sophisticatedbackpacks:blasting_upgrade, minecraft:hopper, minecraft:gold_ingot, minecraft:hopper, … (9 слотов) → 1×sophisticatedbackpacks:auto_blasting_upgrade
+- **sophisticatedbackpacks:crafting_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:crafting_table, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:chest(+2 вар.) → 1×sophisticatedbackpacks:crafting_upgrade
+- **sophisticatedbackpacks:stonecutter_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stonecutter, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:redstone → 1×sophisticatedbackpacks:stonecutter_upgrade
+- **sophisticatedbackpacks:stack_upgrade_starter_tier**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:copper_block, minecraft:copper_block, minecraft:copper_block, minecraft:copper_block, sophisticatedbackpacks:upgrade_base, minecraft:copper_block, minecraft:copper_block, minecraft:copper_block, … (9 слотов) → 1×sophisticatedbackpacks:stack_upgrade_starter_tier
+- **sophisticatedbackpacks:stack_upgrade_tier_1**
+  - крафт на «minecraft:crafting_table»: 2 рец.; пример: minecraft:iron_block, minecraft:iron_block, minecraft:iron_block, minecraft:iron_block, sophisticatedbackpacks:upgrade_base, minecraft:iron_block, minecraft:iron_block, minecraft:iron_block, … (9 слотов) → 1×sophisticatedbackpacks:stack_upgrade_tier_1
+- **sophisticatedbackpacks:stack_upgrade_tier_2**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_block, minecraft:gold_block, minecraft:gold_block, minecraft:gold_block, sophisticatedbackpacks:stack_upgrade_tier_1, minecraft:gold_block, minecraft:gold_block, minecraft:gold_block, … (9 слотов) → 1×sophisticatedbackpacks:stack_upgrade_tier_2
+- **sophisticatedbackpacks:stack_upgrade_tier_3**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond_block, minecraft:diamond_block, minecraft:diamond_block, minecraft:diamond_block, sophisticatedbackpacks:stack_upgrade_tier_2, minecraft:diamond_block, minecraft:diamond_block, minecraft:diamond_block, … (9 слотов) → 1×sophisticatedbackpacks:stack_upgrade_tier_3
+- **sophisticatedbackpacks:stack_upgrade_tier_4**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:netherite_block, minecraft:netherite_block, minecraft:netherite_block, minecraft:netherite_block, sophisticatedbackpacks:stack_upgrade_tier_3, minecraft:netherite_block, minecraft:netherite_block, minecraft:netherite_block, … (9 слотов) → 1×sophisticatedbackpacks:stack_upgrade_tier_4
+- **sophisticatedbackpacks:stack_downgrade_tier_1**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:flint, minecraft:stick, minecraft:stick, sophisticatedbackpacks:upgrade_base, minecraft:stick, minecraft:flint, minecraft:stick, … (9 слотов) → 1×sophisticatedbackpacks:stack_downgrade_tier_1
+- **sophisticatedbackpacks:stack_downgrade_tier_2**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:flint, minecraft:stick, minecraft:flint, minecraft:stick, sophisticatedbackpacks:upgrade_base, minecraft:stick, minecraft:flint, minecraft:stick, … (9 слотов) → 1×sophisticatedbackpacks:stack_downgrade_tier_2
+- **sophisticatedbackpacks:stack_downgrade_tier_3**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:stick, minecraft:flint, minecraft:stick, minecraft:flint, sophisticatedbackpacks:upgrade_base, minecraft:flint, minecraft:flint, minecraft:stick, … (9 слотов) → 1×sophisticatedbackpacks:stack_downgrade_tier_3
+- **sophisticatedbackpacks:stack_upgrade_omega_tier**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: sophisticatedbackpacks:stack_upgrade_tier_4, sophisticatedbackpacks:stack_upgrade_tier_4, sophisticatedbackpacks:stack_upgrade_tier_4, sophisticatedbackpacks:stack_upgrade_tier_4, sophisticatedbackpacks:stack_upgrade_tier_4, sophisticatedbackpacks:stack_upgrade_tier_4, sophisticatedbackpacks:stack_upgrade_tier_4, sophisticatedbackpacks:stack_upgrade_tier_4, … (9 слотов) → 1×sophisticatedbackpacks:stack_upgrade_omega_tier
+- **sophisticatedbackpacks:jukebox_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:jukebox, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:redstone → 1×sophisticatedbackpacks:jukebox_upgrade
+- **sophisticatedbackpacks:advanced_jukebox_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:jukebox_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_jukebox_upgrade
+- **sophisticatedbackpacks:tool_swapper_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:wooden_sword, minecraft:redstone, minecraft:wooden_pickaxe, sophisticatedbackpacks:upgrade_base, minecraft:wooden_axe, minecraft:iron_ingot, minecraft:wooden_shovel, … (9 слотов) → 1×sophisticatedbackpacks:tool_swapper_upgrade
+- **sophisticatedbackpacks:advanced_tool_swapper_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:tool_swapper_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, minecraft:redstone → 1×sophisticatedbackpacks:advanced_tool_swapper_upgrade
+- **sophisticatedbackpacks:tank_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), sophisticatedbackpacks:upgrade_base, minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), minecraft:glass(+15 вар.), … (9 слотов) → 1×sophisticatedbackpacks:tank_upgrade
+- **sophisticatedbackpacks:battery_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:gold_ingot, minecraft:redstone_block, minecraft:gold_ingot, minecraft:redstone_block, sophisticatedbackpacks:upgrade_base, minecraft:redstone_block, minecraft:gold_ingot, minecraft:redstone_block, … (9 слотов) → 1×sophisticatedbackpacks:battery_upgrade
+- **sophisticatedbackpacks:pump_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:glass(+15 вар.), minecraft:bucket, minecraft:glass(+15 вар.), minecraft:piston, sophisticatedbackpacks:upgrade_base, minecraft:sticky_piston, minecraft:glass(+15 вар.), minecraft:bucket, … (9 слотов) → 1×sophisticatedbackpacks:pump_upgrade
+- **sophisticatedbackpacks:advanced_pump_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:diamond, minecraft:dispenser, minecraft:diamond, minecraft:gold_ingot, sophisticatedbackpacks:pump_upgrade, minecraft:gold_ingot, minecraft:redstone, minecraft:redstone, … (9 слотов) → 1×sophisticatedbackpacks:advanced_pump_upgrade
+- **sophisticatedbackpacks:xp_pump_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:redstone, minecraft:ender_eye, minecraft:redstone, minecraft:experience_bottle, sophisticatedbackpacks:advanced_pump_upgrade, minecraft:experience_bottle, minecraft:redstone, minecraft:ender_eye, … (9 слотов) → 1×sophisticatedbackpacks:xp_pump_upgrade
+- **sophisticatedbackpacks:anvil_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:anvil, minecraft:diamond, minecraft:anvil, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:chest(+1 вар.) → 1×sophisticatedbackpacks:anvil_upgrade
+- **sophisticatedbackpacks:smithing_upgrade**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:smithing_table, minecraft:iron_ingot, sophisticatedbackpacks:upgrade_base, minecraft:iron_ingot, minecraft:chest(+1 вар.) → 1×sophisticatedbackpacks:smithing_upgrade
+- **sophisticatedbackpacks:infinity_upgrade**
+  - только творческий режим, вкладка itemGroup.sophisticatedbackpacks или /give
+- **sophisticatedbackpacks:survival_infinity_upgrade**
+  - только творческий режим, вкладка itemGroup.sophisticatedbackpacks или /give
+- **sophisticatedbackpacks:upgrade_base**
+  - крафт на «minecraft:crafting_table»: 1 рец.; пример: minecraft:string, minecraft:iron_ingot, minecraft:string, minecraft:iron_ingot, minecraft:leather, minecraft:iron_ingot, minecraft:string, minecraft:iron_ingot, … (9 слотов) → 1×sophisticatedbackpacks:upgrade_base

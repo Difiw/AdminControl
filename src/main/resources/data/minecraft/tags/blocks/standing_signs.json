@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"admin_control:lumira_willow_sign",
+		"admin_control:zarelist_sign",
+		"admin_control:twilight_cedar_sign",
+		"admin_control:star_birch_sign",
+		"admin_control:crimson_elm_sign",
+		"admin_control:moon_ash_sign",
+		"admin_control:malachite_sequoia_sign"
+	]
+}

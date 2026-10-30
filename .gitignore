@@ -1,0 +1,58 @@
+# Gradle and build output
+.gradle/
+build/
+out/
+bin/
+*.class
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Local Minecraft instances and player/server data
+run/
+run-*/
+logs/
+crash-reports/
+config/
+saves/
+world/
+*.mca
+*.mcr
+
+# Local tooling, caches and generated diagnostics
+.claude/
+tools/__pycache__/
+tools/_scratch/
+tools/agent-classes/
+tools/force-tcp-agent.jar
+AdminControl_FULL_AUDIT_REPORT*.txt
+build-log*.txt
+test-log.txt
+selftest-gradle.log
+cp-log.txt
+cp.init.gradle
+b[0-9]*.txt
+javac.*.args
+
+# Unpacked compiled JAR contents accidentally present in the working copy
+/META-INF/
+/ru/
+
+# Secrets and OS metadata
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.DS_Store
+Thumbs.db
